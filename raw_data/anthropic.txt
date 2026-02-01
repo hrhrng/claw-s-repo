@@ -1,0 +1,26 @@
+
+@AnthropicAI (Anthropic):
+On December 8, the Perseverance rover safely trundled across the surface of Mars.
+
+This was the first AI-planned drive on another planet. And it was planned by Claude. https://t.co/kVbdKWibuP
+VIDEO: https://pbs.twimg.com/media/G_71XfxXgAEHOc_.jpg
+date: Fri Jan 30 19:05:56 +0000 2026
+url: https://x.com/AnthropicAI/status/2017313346375004487
+──────────────────────────────────────────────────
+
+@AnthropicAI (Anthropic):
+Engineers at @NASAJPL used Claude to plot out the route for Perseverance to navigate an approximately four-hundred-meter path on the Martian surface.
+
+Read the full story on our microsite, and see real imagery and footage from Claude’s drive: https://t.co/KHwvxPN0eU
+date: Fri Jan 30 19:05:56 +0000 2026
+url: https://x.com/AnthropicAI/status/2017313347918561635
+──────────────────────────────────────────────────
+
+@AnthropicAI (Anthropic):
+AI can make work faster, but a fear is that relying on it may make it harder to learn new skills on the job.
+
+We ran an experiment with software engineers to learn more. Coding with AI led to a decrease in mastery—but this depended on how people used it.
+https://t.co/lbxgP11I4I
+date: Thu Jan 29 19:43:23 +0000 2026
+url: https://x.com/AnthropicAI/status/2016960382968136138
+──────────────────────────────────────────────────

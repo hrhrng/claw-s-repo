@@ -1,0 +1,15 @@
+
+@janleike (Jan Leike):
+RT @AmandaAskell: Claude's constitution is out! It's the culmination of a lot of work by many people, but it's also a work in progress that…
+date: Wed Jan 21 17:07:21 +0000 2026
+url: https://x.com/janleike/status/2014022012268847433
+──────────────────────────────────────────────────
+
+@janleike (Jan Leike):
+Interesting trend: models have been getting a lot more aligned over the course of 2025.
+
+The fraction of misaligned behavior found by automated auditing has been going down not just at Anthropic but for GDM and OpenAI as well. https://t.co/8DYm9SP7wF
+PHOTO: https://pbs.twimg.com/media/G_DZnb8WoAEq2pi.jpg
+date: Tue Jan 20 17:48:16 +0000 2026
+url: https://x.com/janleike/status/2013669924950970781
+──────────────────────────────────────────────────

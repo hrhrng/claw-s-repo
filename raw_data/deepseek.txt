@@ -1,0 +1,39 @@
+
+@deepseek_ai (DeepSeek):
+🚀 Launching DeepSeek-V3.2 & DeepSeek-V3.2-Speciale — Reasoning-first models built for agents!
+
+🔹 DeepSeek-V3.2: Official successor to V3.2-Exp. Now live on App, Web & API.
+🔹 DeepSeek-V3.2-Speciale: Pushing the boundaries of reasoning capabilities. API-only for now.
+
+📄 Tech report: https://t.co/7EyydyNuG0
+
+1/n
+PHOTO: https://pbs.twimg.com/media/G7FDq18aMAAWWvh.jpg
+date: Mon Dec 01 11:19:18 +0000 2025
+url: https://x.com/deepseek_ai/status/1995452641430651132
+──────────────────────────────────────────────────
+
+@deepseek_ai (DeepSeek):
+💻 API Update
+
+🔹 V3.2: Same usage pattern as V3.2-Exp.
+🔹 V3.2-Speciale: Served via a temporary endpoint: base_url="https://t.co/VfiTuW4Lbm". Same pricing as V3.2, no tool calls, available until Dec 15th, 2025, 15:59 (UTC Time).
+💡 V3.2 now supports Thinking in Tool-Use — details: https://t.co/MUPiwkDI8T
+
+4/n
+PHOTO: https://pbs.twimg.com/media/G7FENmjbYAAkEr8.jpg
+date: Mon Dec 01 11:19:21 +0000 2025
+url: https://x.com/deepseek_ai/status/1995452654659805334
+──────────────────────────────────────────────────
+
+@deepseek_ai (DeepSeek):
+🛠 Open Source Release
+
+📦 DeepSeek-V3.2 Model: https://t.co/nYTctrIx1i
+📦 DeepSeek-V3.2-Speciale Model: https://t.co/TM3dMFK12s
+📄 Tech report: https://t.co/7EyydyO2vy
+
+5/n
+date: Mon Dec 01 11:19:22 +0000 2025
+url: https://x.com/deepseek_ai/status/1995452658149405148
+──────────────────────────────────────────────────

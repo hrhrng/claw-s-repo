@@ -1,0 +1,12 @@
+
+@gdb (Greg Brockman):
+vibe coding is the manifesting of vision, abstracted from the details (ideally the unnecessary ones!) of how that vision comes to be
+date: Sun Feb 01 07:19:41 +0000 2026
+url: https://x.com/gdb/status/2017860391100109085
+──────────────────────────────────────────────────
+
+@gdb (Greg Brockman):
+inspiring how agent-first software engineering raises both the floor (much easier for anyone to build) and the ceiling (experts can build so much more) of what people can create
+date: Sat Jan 24 19:00:26 +0000 2026
+url: https://x.com/gdb/status/2015137635959017678
+──────────────────────────────────────────────────

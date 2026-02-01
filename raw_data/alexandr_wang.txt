@@ -1,0 +1,41 @@
+[info] Looking up @alexandr_wang...
+[info] Fetching tweets from Alexandr Wang (@alexandr_wang)...
+
+@alexandr_wang (Alexandr Wang):
+📈👨🏻‍💻
+>  QT @Similarweb:
+> Meta AI with an exceptionally strong closing quarter in 2025. https://t.co/IZdMIwBNdl
+> PHOTO: https://pbs.twimg.com/media/G_BJOTWW0AA307q.png
+>  https://x.com/Similarweb/status/2013189769254015326
+date: Tue Jan 20 00:07:43 +0000 2026
+url: https://x.com/alexandr_wang/status/2013403027655532672
+──────────────────────────────────────────────────
+
+@alexandr_wang (Alexandr Wang):
+a master class on the physics of language models by FAIR's @ZeyuanAllenZhu
+>  QT @ZeyuanAllenZhu:
+> Continuing Tutorial II for Physics of Language Models.
+> 
+> We often trust large-scale results simply because they are large; but once noise is removed, the synthetic pretrain playground starts to push back — hard!
+> 
+> PHOTO: https://pbs.twimg.com/media/G9eG52xaIAA0lpn.jpg
+>  https://x.com/ZeyuanAllenZhu/status/2006221809998508180
+date: Fri Jan 02 20:35:25 +0000 2026
+url: https://x.com/alexandr_wang/status/2007189007751622676
+──────────────────────────────────────────────────
+
+@alexandr_wang (Alexandr Wang):
+new @scale_AI era loaded 🫡
+
+- q4 was our biggest quarter ever
+- US gov business growing faster than ever
+- data business = profitable
+- multiple 9 figure enterprise + gov deals
+>  QT @scale_AI:
+> New era loaded. https://t.co/bIJuIec3p0
+> VIDEO: https://pbs.twimg.com/amplify_video_thumb/2006374300912345088/img/ACuCX4a6YTK8CFTE.jpg
+>  https://x.com/scale_AI/status/2006375523652698377
+date: Wed Dec 31 17:11:51 +0000 2025
+url: https://x.com/alexandr_wang/status/2006413001293750738
+──────────────────────────────────────────────────
+[info] More tweets available. Use --cursor "DAAHCgABHAEvc9z___ILAAIAAAATMTk3MTI5NTE1OTQyNzE0NTk0MQgAAwAAAAIAAA" to continue.

@@ -1,0 +1,40 @@
+
+@DrJimFan (Jim Fan):
+I still remember the excitement in 2023 when Stanford Smallville was launched. It was the largest multi-agent sim back then - yes, 25 bots felt like a lot. Today it's the "Bigville" moment. We are seeing a nascent, massive-scale alien civilization sim unfolding in real time: orders of magnitude more agents, way higher IQ, in-the-wild access to the internet, backed by the full arsenal of MCPs. 
+
+What can possibly go wrong?
+>  QT @DrJimFan:
+> The famed Stanford Smallville is officially open-source!
+> 
+> 25 AI agents inhabit a digital Westworld, unaware that they are living in a simulation. They go to work, gossip, organize socials, make new friends, and even fall in love. Each has unique personality and backstory.
+> 
+> PHOTO: https://pbs.twimg.com/media/F3GkILIa0AAtTN4.jpg
+>  https://x.com/DrJimFan/status/1689315683958652928
+date: Sat Jan 31 00:18:17 +0000 2026
+url: https://x.com/DrJimFan/status/2017391952975864269
+──────────────────────────────────────────────────
+
+@DrJimFan (Jim Fan):
+Everyone's freaking out about vibe coding. In the holiday spirit, allow me to share my anxiety on the wild west of robotics. 3 lessons I learned in 2025.
+
+1. Hardware is ahead of software, but hardware reliability severely limits software iteration speed. 
+
+We've seen exquisite engineering arts like Optimus, e-Atlas, Figure, Neo, G1, etc. Our best AI has not squeezed all the juice out of these frontier hardware. The body is more capable than what the brain can command. Yet babysitting these robots demands an entire operation team. Unlike humans, robots don't heal from bruises. Overheating, broken motors, bizarre firmware issues haunt us daily. Mistakes are irreversible and unforgiving.
+
+My patience was the only thing that scaled. 
+
+2. Benchmarking is still an epic disaster in robotics. 
+
+LLM normies thought MMLU & SWE-Bench are common sense. Hold your 🍺 for robotics. No one agrees on anything: hardware platform, task definition, scoring rubrics, simulator, or real world setups. Everyone is SOTA, by definition, on the benchmark they define on the fly for each news announcement. Everyone cherry-picks the nicest looking demo out of 100 retries.
+
+We gotta do better as a field in 2026 and stop treating reproducibility and scientific discipline as second-class citizens.
+
+3. VLM-based VLA feels wrong. 
+
+VLA stands for "vision-language-action" model and has been the dominant approach for robot brains. Recipe is simple: take a pretrained VLM checkpoint and graft an action module on top. But if you think about it, VLMs are hyper-optimized to hill-climb benchmarks like visual question answering. This implies two problems: (1) most parameters in VLMs are for language & knowledge, not for physics; (2) visual encoders are actively tuned to *discard* low-level details, because Q&A only requires high-level understanding. But minute details matter a lot for dexterity.
+
+There's no reason for VLA's performance to scale as VLM parameters scale. Pretraining is misaligned. Video world model seems to be a much better pretraining objective for robot policy. I'm betting big on it.
+PHOTO: https://pbs.twimg.com/media/G9Rk1T9bMAE_l5V.jpg
+date: Sun Dec 28 18:11:29 +0000 2025
+url: https://x.com/DrJimFan/status/2005340845055340558
+──────────────────────────────────────────────────

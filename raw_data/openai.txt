@@ -1,0 +1,29 @@
+
+@OpenAI (OpenAI):
+We’ve heard your feedback that GPT-5 Thinking can sometimes take longer than you’d like.  Now Plus, Pro, and Business users can set the pace to match the moment.
+
+Select GPT-5 with Thinking in ChatGPT on web to toggle thinking time in the message composer.
+
+- Plus, Pro, Business have Standard (new default, balancing speed and intelligence) & Extended (previous default for Plus)
+- Pro also has Light (snappiest) & Heavy (deeper)
+
+Your thinking time selection will remain in place for future chats on web until you change it.
+VIDEO: https://pbs.twimg.com/amplify_video_thumb/1968394975991025664/img/SvIOsAiTmQRWXoey.jpg
+date: Wed Sep 17 19:22:45 +0000 2025
+url: https://x.com/OpenAI/status/1968395215536042241
+──────────────────────────────────────────────────
+
+@OpenAI (OpenAI):
+Paid users can now adjust thinking level on iOS and Android, in addition to web.
+
+Just tap “Thinking” in the composer and pick your level: Light, Standard, Extended, or Heavy.
+date: Thu Jan 29 20:30:48 +0000 2026
+url: https://x.com/OpenAI/status/2016972315784061007
+──────────────────────────────────────────────────
+
+@OpenAI (OpenAI):
+https://t.co/fJxV8cVORd https://t.co/71q5YPcMKD
+PHOTO: https://pbs.twimg.com/media/G_2ts7vbIAAK_Rf.png
+date: Thu Jan 29 19:39:14 +0000 2026
+url: https://x.com/OpenAI/status/2016959338523611621
+──────────────────────────────────────────────────

@@ -1,0 +1,17 @@
+
+@SebastienBubeck (Sebastien Bubeck):
+RT @chijinML: Hard to believe it’s been 6+ years since we coauthored “Is Q-learning Provably Efficient?”—my first RL foundations paper, whi…
+date: Sat Jan 31 22:52:07 +0000 2026
+url: https://x.com/SebastienBubeck/status/2017732654259732752
+──────────────────────────────────────────────────
+
+@SebastienBubeck (Sebastien Bubeck):
+Wait, you don't say that AI found the solution to 10 Erdos problems 😱
+>  QT @AcerFur:
+> The wiki section titles have changed now, but to date, there have been 10 previously open Erdős problems fully autonomously solved by LLMs in full intent with an argument not previously published in the literature:
+> 
+> They are 205, 281, 401, 524, 543, 635, 652, 728, 729, and 1051.
+>  https://x.com/AcerFur/status/2017303947531194398
+date: Fri Jan 30 18:35:34 +0000 2026
+url: https://x.com/SebastienBubeck/status/2017305707243295120
+──────────────────────────────────────────────────

@@ -1,0 +1,29 @@
+[info] Looking up @sundarpichai...
+[info] Fetching tweets from Sundar Pichai (@sundarpichai)...
+
+@sundarpichai (Sundar Pichai):
+Now Google can help with your Googly:)
+>  QT @GeminiApp:
+> We partnered with @ICC to show how Gemini 3 Pro can analyze video content.
+> 
+> By uploading a segment of the Cricket World Cup, Gemini can seamlessly process visual and audio data to identify key players, explain techniques, and highlight crucial turning points. 🏏
+>  https://x.com/GeminiApp/status/2016330452320322042
+date: Fri Jan 30 04:25:50 +0000 2026
+url: https://x.com/sundarpichai/status/2017091863380185249
+──────────────────────────────────────────────────
+
+@sundarpichai (Sundar Pichai):
+Project Genie is a prototype web app powered by Genie 3, Nano Banana Pro + Gemini that lets you create your own interactive worlds. I’ve been playing around with it a bit and it’s…out of this world:)
+
+Rolling out now for US Ultra subscribers. https://t.co/rNDXn3VUF6
+VIDEO: https://pbs.twimg.com/amplify_video_thumb/2016978255379853313/img/5dCqL0LcQ2ov4PFe.jpg
+date: Thu Jan 29 20:59:16 +0000 2026
+url: https://x.com/sundarpichai/status/2016979481832067264
+──────────────────────────────────────────────────
+
+@sundarpichai (Sundar Pichai):
+Read more here: https://t.co/bIwHAtnumr
+date: Thu Jan 29 20:59:17 +0000 2026
+url: https://x.com/sundarpichai/status/2016979483270795418
+──────────────────────────────────────────────────
+[info] More tweets available. Use --cursor "DAAHCgABHAEvdEs__-8LAAIAAAATMjAxMDM4MjA1MDU3MDkzMjI5OQgAAwAAAAIAAA" to continue.

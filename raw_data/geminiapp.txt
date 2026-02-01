@@ -1,0 +1,20 @@
+
+@GeminiApp (Google Gemini):
+The first Gemini Drops of 2026 is here! 
+
+Here’s a look at everything we’ve shipped to kick off the new year ↓
+date: Fri Jan 30 17:02:53 +0000 2026
+url: https://x.com/GeminiApp/status/2017282381376581970
+──────────────────────────────────────────────────
+
+@GeminiApp (Google Gemini):
+8) Papercut fixed: Get answers quicker with “Answer Now”
+
+https://t.co/gxVswBYG1V
+>  QT @joshwoodward:
+> ✅ Papercut fixed: You can now tap "Answer now" to stop @GeminiApp from thinking and answer right away (using the 3 Flash model) https://t.co/OgVxBFKhDi
+> PHOTO: https://pbs.twimg.com/media/G_JkHCNWMAE_94k.png
+>  https://x.com/joshwoodward/status/2013782165679677583
+date: Fri Jan 30 17:06:56 +0000 2026
+url: https://x.com/GeminiApp/status/2017283400806420596
+──────────────────────────────────────────────────
