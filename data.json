@@ -1,0 +1,15 @@
+{
+  "fetch_time": "2026-02-01T18:01:58.445961",
+  "time_window": "2026-02-01T17:00:11.292911 to 2026-02-01T18:01:58.446090",
+  "total_tweets": 0,
+  "data": {
+    "tier1_labs": [],
+    "tier2_research": [],
+    "tier3_industry": [],
+    "tier4_china": [],
+    "tier5_investors": [],
+    "tier6_safety": [],
+    "tier7_indie": [],
+    "tier8_official": []
+  }
+}
