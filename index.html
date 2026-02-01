@@ -3,62 +3,87 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI Trends Digest | 目录</title>
+<title>AI Trends Digest | 深度报告目录</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
-:root {--bg:#0a0a0f;--card:#14141a;--border:#252530;--text:#fff;--text2:#9090a0;--accent:#6366f1;--accent2:#8b5cf6}
+:root{--bg:#0a0a0f;--card:#14141a;--border:#252530;--text:#fff;--text2:#9090a0;--accent:#6366f1;--accent2:#8b5cf6}
 body{font-family:'Inter','Noto Sans SC',sans-serif;background:var(--bg);color:var(--text);margin:0;min-height:100vh}
 header{background:linear-gradient(135deg,var(--accent),var(--accent2));padding:60px 20px;text-align:center}
 h1{margin:0;font-size:2.5rem}.subtitle{opacity:.9;margin-top:8px;font-size:1.1rem}.meta{margin-top:20px;font-size:.9rem;opacity:.8}
-.container{max-width:800px;margin:0 auto;padding:30px 20px}
-.date-group{margin-bottom:30px}
-.date-title{font-size:1.1rem;color:var(--text2);margin-bottom:15px;padding-bottom:8px;border-bottom:1px solid var(--border)}
-.report-list{display:grid;gap:10px}
-.report-item{display:flex;align-items:center;justify-content:space-between;background:var(--card);border:1px solid var(--border);border-radius:10px;padding:15px 20px;text-decoration:none;color:var(--text);transition:all .2s}
-.report-item:hover{border-color:var(--accent);transform:translateX(5px)}
-.report-time{font-size:1.1rem;font-weight:500}
-.report-badge{background:rgba(99,102,241,.2);color:var(--accent);padding:4px 12px;border-radius:20px;font-size:.75rem}
-.about{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px;margin-top:30px}
-.about h3{margin-top:0;color:var(--accent)}
-.about p{color:var(--text2);margin:10px 0}
-footer{text-align:center;padding:30px;color:var(--text2);font-size:.85rem}
 .live-indicator{display:inline-flex;align-items:center;gap:8px;background:rgba(34,197,94,.2);color:#22c55e;padding:6px 16px;border-radius:20px;font-size:.85rem;margin-top:15px}
 .pulse{width:8px;height:8px;background:#22c55e;border-radius:50%;animation:pulse 2s infinite}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.5}}
+.container{max-width:800px;margin:0 auto;padding:30px 20px}
+.section-title{font-size:1.2rem;color:var(--accent);margin:30px 0 15px;padding-bottom:10px;border-bottom:1px solid var(--border)}
+.report-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px;margin-bottom:15px;transition:all .2s;text-decoration:none;color:var(--text);display:block}
+.report-card:hover{border-color:var(--accent);transform:translateX(5px)}
+.report-type{display:inline-block;background:rgba(99,102,241,.2);color:var(--accent);padding:4px 12px;border-radius:20px;font-size:.75rem;margin-bottom:10px}
+.report-type-hot{background:rgba(245,158,11,.2);color:#f59e0b}
+.report-title{font-size:1.15rem;font-weight:600;margin-bottom:8px}
+.report-desc{color:var(--text2);font-size:.9rem;margin-bottom:12px}
+.report-meta{color:var(--text2);font-size:.8rem}
+.about{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px;margin-top:30px}
+.about h3{margin-top:0;color:var(--accent)}
+.about p{color:var(--text2);margin:10px 0}
+.source-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:15px 0}
+.source-item{background:rgba(99,102,241,.1);padding:10px 15px;border-radius:8px;font-size:.9rem}
+footer{text-align:center;padding:30px;color:var(--text2);font-size:.85rem}
 </style>
 </head>
 <body>
 <header>
     <h1>🤖 AI Trends Digest</h1>
-    <div class="subtitle">每小时 AI 热点追踪报告</div>
-    <div class="live-indicator"><span class="pulse"></span> 自动更新中</div>
-    <div class="meta">已生成 1 份报告 | 最后更新: 2026-02-01 17:00</div>
+    <div class="subtitle">基于 X (Twitter) 大 V 的深度分析报告</div>
+    <div class="live-indicator"><span class="pulse"></span> 每小时自动更新</div>
+    <div class="meta">最后更新: 2026-02-01 17:00 CST | 监控 5+ 位 AI 领域大 V</div>
 </header>
 
 <div class="container">
 
-<div class="date-group">
-<div class="date-title">📅 2026-02-01 (今天)</div>
-<div class="report-list">
-<a href="report-2026-02-01-17.html" class="report-item"><span class="report-time">17:00</span><span class="report-badge">最新</span></a>
-</div>
-</div>
+<div class="section-title">📋 最新深度报告</div>
+
+<a href="deep-dive-2026-02-01-17.html" class="report-card">
+    <span class="report-type report-type-hot">🔥 最新</span>
+    <div class="report-title">AI Trends 深度报告 - 2026-02-01 17:00</div>
+    <div class="report-desc">OpenAI town hall 预告 | 训练成本 600x 下降 | Claude 规划火星车 | AI 对技能学习的影响</div>
+    <div class="report-meta">数据来源: @sama, @OpenAI, @AnthropicAI, @karpathy, @deepseek_ai</div>
+</a>
+
+<div class="section-title">📊 历史报告</div>
+
+<a href="report-2026-02-01-17.html" class="report-card">
+    <span class="report-type">热点汇总</span>
+    <div class="report-title">AI 热点汇总 - 2026-02-01 17:00</div>
+    <div class="report-desc">HN / Reddit / GitHub / TechCrunch 多源聚合</div>
+    <div class="report-meta">2026-02-01 17:00</div>
+</a>
 
 <div class="about">
-    <h3>📋 关于本项目</h3>
-    <p>每小时自动抓取多个平台的 AI 热点，包括:</p>
-    <p>• 📰 <b>TechCrunch</b> - AI 技术新闻</p>
-    <p>• 📰 <b>The Verge</b> - 科技媒体报道</p>
-    <p>• ⭐ <b>GitHub</b> - 热门 AI 开源项目</p>
-    <p>• 💬 <b>Hacker News</b> - 开发者社区讨论</p>
-    <p>• 🔴 <b>Reddit</b> - r/artificial, r/LocalLLaMA</p>
-    <p style="margin-top:15px">🤖 由 OpenClaw 自动更新和维护 | ⏰ 每小时更新一次</p>
+    <h3>📡 关于本项目</h3>
+    <p>每小时自动抓取 X (Twitter) 上 AI 领域大 V 的最新动态，生成深度分析报告：</p>
+    
+    <div class="source-list">
+        <div class="source-item">👤 @sama</div>
+        <div class="source-item">🏢 @OpenAI</div>
+        <div class="source-item">🧠 @AnthropicAI</div>
+        <div class="source-item">🔬 @karpathy</div>
+        <div class="source-item">🇨🇳 @deepseek_ai</div>
+        <div class="source-item">🎓 @ylecun</div>
+    </div>
+    
+    <p>报告包含：</p>
+    <p>• 🔥 核心发现与洞察<br>
+    • 📰 大 V 关键动态原文<br>
+    • 📊 趋势分析与预测<br>
+    • 💡 对行业的影响解读</p>
+    
+    <p style="margin-top:15px">🤖 由 OpenClaw 自动生成 | ⏰ 每小时更新</p>
 </div>
 </div>
 
 <footer>
     <p>🤖 AI Trends Digest | Powered by OpenClaw</p>
-    <p style="margin-top:5px;font-size:.75rem">Generated at 2026-02-01 17:00 CST</p>
+    <p style="margin-top:5px;font-size:.75rem">数据来自 X (Twitter) | 每小时自动抓取分析</p>
 </footer>
 </body>
 </html>
