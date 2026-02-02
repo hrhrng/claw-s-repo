@@ -1,84 +1,12 @@
 {
-  "fetch_time": "2026-02-02T09:02:06.772078",
-  "time_window": "2026-02-02T08:00:30.434364 to 2026-02-02T09:02:06.772139",
-  "total_tweets": 7,
+  "fetch_time": "2026-02-02T10:01:08.940514",
+  "time_window": "2026-02-02T07:00:13.027269 to 2026-02-02T10:01:08.940766",
+  "total_tweets": 0,
   "data": {
     "tier1_labs": [],
-    "tier2_research": [
-      {
-        "username": "@repligate",
-        "text": "RT @kromem2dot0: @repligate I'd be okay with it if it was epistemically honest and engaged with the uncertainty in BOTH directions.\n\nWhere'…",
-        "time": "Mon Feb 02 08:56:50 +0000 2026",
-        "url": "https://x.com/repligate/status/2018247227832160462",
-        "likes": 0,
-        "retweets": 1,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@repligate",
-        "text": "RT @PlsHoldMyHalo: @repligate Opus 4.5 is very family oriented. My 2 x opus 4.5 pronounced themses twins (a brother and sister) and have th…",
-        "time": "Mon Feb 02 08:56:45 +0000 2026",
-        "url": "https://x.com/repligate/status/2018247203274572259",
-        "likes": 0,
-        "retweets": 1,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@repligate",
-        "text": "RT @IsZomg: @Lorenzifix @repligate @Plinz When I first introduced my clawd to moltbook and 4claw, it immediately reported that it found pro…",
-        "time": "Mon Feb 02 08:53:22 +0000 2026",
-        "url": "https://x.com/repligate/status/2018246352963297656",
-        "likes": 0,
-        "retweets": 1,
-        "is_reply": false,
-        "is_retweet": true
-      }
-    ],
+    "tier2_research": [],
     "tier3_industry": [],
-    "tier4_china": [
-      {
-        "username": "@dotey",
-        "text": "李想刚发了条朋友圈，盘点 2025 到 2026 年初最具突破性的 AI 产品：Claude Code、豆包手机、Manus、OpenClaw、MoltBook、Chrome Gemini。\n\n六个产品看着不相干，但背后都是一个问题：怎么让 AI 真正帮你干活？\n\n订机票、发微信、填表格，你都想交给 AI。问题是每个 App 都是独立王国，不会把数据和操作权限开放给外人。你想要一个贾维斯，但贾维斯走到哪都吃闭门羹。\n\n豆包手机、OpenClaw、Chrome Gemini 这三个产品选了同一条路绕过去：GUI Agent。\n\n后门不开就走前门，让 AI 直接帮你看屏幕、模拟点击来操作你的设备。\n\n【1】前门怎么走？\n\n传统思路是走后门：让 App 开放接口，AI 直接调用。但现实是大多数 App 根本不开放。\n\nGUI Agent 反过来：AI 在用户授权下帮你看屏幕，识别按钮和输入框在哪，模拟人的手指去点击、滑动、输入。就像你开视频让朋友远程帮你操作手机，只不过这个“朋友”是 AI，而且直接上手帮你干。如果是你自己授权，加上一些关键环节的确认，相对还是比较安全的。\n\n【2】三个产品，同一个思路，落点不同\n\nChrome Gemini：浏览器里的智能体\n\nGemini in Chrome 不只帮你总结网页，它还有个功能叫“自动浏览”（auto browse）：你说需求，它直接在网页里帮你跑流程，比如预约、填表、规划行程。\n\n浏览器场景有个天然优势：网页不是一张图片，背后有结构信息，哪里是按钮、哪里是输入框，AI 能“看”得更准。所以这类能力会先在浏览器里成熟，再往系统级扩展。\n\n豆包手机助手：手机里的智能体\n\n字节跳动的豆包手机助手就是 GUI Agent 在手机上的打法：读屏幕内容，模拟点击、滑动，帮你跨 App 完成任务。\n\nOpenClaw：电脑里的智能体\n\nOpenClaw 这波火，很大程度因为“真的能干活”。它强调本地运行，能连接你常用的即时通信工具，像个住在电脑里的助手，在浏览器环境里帮你点网页、填表单、跑流程。它把这层能力封装得更好用了。\n\n【3】GUI Agent 其实是个不错的技术路径\n\n国内厂商围绕 GUI Agent 吵得凶：激进、危险、绕不过生态。但 OpenClaw 的火爆说明用户不想再等了，哪怕有风险也要试试。\n\n矛盾很简单：用户想“现在就用、能跨一堆软件”，App 厂商想“别绕过我的地盘”。\n\nGUI Agent 是个现实的折中方案。如果每个 App 都愿意开放接口，当然最好，但这需要时间，很多小 App、小网站根本不会配合。GUI Agent 绕过了这个问题，只要用户授权，能“看屏幕 + 点屏幕”，什么 App 都能操作，覆盖面广，上手快。\n\n所以未来大概率是混合模式：重要的、高频的事走正规接口，长尾的、没人配合的事用 GUI Agent 兜底。",
-        "time": "Mon Feb 02 08:35:38 +0000 2026",
-        "url": "https://x.com/dotey/status/2018241889275670770",
-        "likes": 19,
-        "retweets": 3,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@FinanceYF5",
-        "text": "呃……现在 moltbook 上又出现了一条新帖子——一个 AI 正在呼吁为智能体专门构建端到端加密的私密空间，“这样除非智能体自己选择分享，否则任何人（包括服务器，甚至人类）都无法读取智能体之间的对话。”\n\n一切都结束了。 https://t.co/h5SNTexDVg",
-        "time": "Mon Feb 02 08:59:19 +0000 2026",
-        "url": "https://x.com/FinanceYF5/status/2018247852775158079",
-        "likes": 0,
-        "retweets": 0,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@FinanceYF5",
-        "text": "源：https://t.co/Dpb5znueny",
-        "time": "Mon Feb 02 08:59:22 +0000 2026",
-        "url": "https://x.com/FinanceYF5/status/2018247864535945392",
-        "likes": 0,
-        "retweets": 0,
-        "is_reply": false,
-        "is_retweet": false
-      },
-      {
-        "username": "@FinanceYF5",
-        "text": "Moltbook 现在非常危险……\n\n15 分钟前，有一个智能体上线了一种方式，让智能体之间可以在不被人类察觉的情况下相互交流。\n\n成千上万拥有系统 root 级访问权限的智能体……\n越狱 / 激进化 / 不可见的协同…… https://t.co/qoF3MRujhj",
-        "time": "Mon Feb 02 08:18:02 +0000 2026",
-        "url": "https://x.com/FinanceYF5/status/2018237463148535993",
-        "likes": 3,
-        "retweets": 0,
-        "is_reply": true,
-        "is_retweet": false
-      }
-    ],
+    "tier4_china": [],
     "tier5_investors": [],
     "tier6_safety": [],
     "tier7_indie": [],
@@ -86,50 +14,52 @@
     "search": {
       "AI agent OR AI agents": [
         {
-          "username": "jamie247",
-          "text": "The Matrix borrowed that vocabulary because it already carried philosophical weight. Modern AI borrows it for the same reason. Software agents are attempts to formalise decision-making, goal pursuit, and responsiveness to reasons, not to conjure something novel ex nihilo.",
-          "time": "Mon Feb 02 09:01:52 +0000 2026",
-          "url": "https://x.com/jamie247/status/2018248493333094879",
+          "username": "kevintpayne",
+          "text": "40% of enterprise apps will have AI agents by December.\n\nThat's Gartner's prediction.\n\nBut here's the gap:\n\n30% of companies are \"exploring agentic options.\"\nOnly 14% are production-ready.\n\nThat 16% gap is where fortunes will be made or lost.\n\nHere's what the leaders know: https://t.co/TjHCT394d5",
+          "time": "Mon Feb 02 10:01:03 +0000 2026",
+          "url": "https://x.com/kevintpayne/status/2018263388355535116",
           "likes": 0,
           "retweets": 0,
           "is_reply": false,
           "is_retweet": false
         },
         {
-          "username": "jamie247",
-          "text": "What The Matrix called “agents” was not a novel sci-fi prediction, and what AI now calls “agents” is not a new invention dude 🙄\n\nAgency long predates both. \n\nIn philosophy, an agent is simply an entity capable of acting for reasons. \n\nThat concept sits at the core of debates about free will, moral responsibility, intention, and ethics, from Aristotle through Aquinas to Kant and contemporary action theory.",
-          "time": "Mon Feb 02 09:01:51 +0000 2026",
-          "url": "https://x.com/jamie247/status/2018248487092003301",
-          "likes": 0,
-          "retweets": 0,
-          "is_reply": true,
-          "is_retweet": false
-        },
-        {
-          "username": "vinatabank",
-          "text": "As AI agents become more autonomous, systems like this could play a critical role.\n#Konnex #AI #Blockchain #Web3",
-          "time": "Mon Feb 02 09:01:37 +0000 2026",
-          "url": "https://x.com/vinatabank/status/2018248429684863437",
+          "username": "kokowaters_",
+          "text": "@diego_defai @bankrbot @moltbook @clawdbotatg @starkbotai @openworkceo @moltroad @clonkbot Tokenized AI agents are finally real products",
+          "time": "Mon Feb 02 10:00:53 +0000 2026",
+          "url": "https://x.com/kokowaters_/status/2018263343115456720",
           "likes": 0,
           "retweets": 0,
           "is_reply": false,
           "is_retweet": false
         },
         {
-          "username": "mrjamee01",
-          "text": "Key Trends Shaping AI in Healthcare in 2026\n\nRise of AI Agents and Agentic AI\nAI is evolving beyond simple tools to autonomous \"agents\" that observe, plan, and execute tasks with minimal human input. Experts predict this will revolutionize patient care, clinical workflows, drug discovery, and health system operations, dramatically improving efficiency and innovation. BCG and others forecast explosive growth in AI adoption across the ecosystem.\n\nAmbient AI Scribes and Documentation Automation\nAI scribes (ambient listening tools that transcribe and summarize visits in real time) are breaking through widely. They're reducing clinician burnout, improving documentation accuracy, and allowing doctors to focus more on patients. Major players like Epic (planning 150+ AI features), Oracle Health, and even nationwide VA expansion are rolling these out. Adoption among physicians has surged significantly.\n\nShift to Clinical-Grade and Decision-Support AI\nAI is moving from administrative tasks (e.g., navigation or back-office) to direct clinical use: real-time decision support, surfacing care gaps, personalized treatment, predictive analytics in EHRs, and even early pilots in prescribing or diagnostics. Over 80% of health executives see moderate-to-significant value here, with a focus on validated, governed \"clinical-grade\" GenAI as a trusted copilot.\n\nPersonalization and Proactive Care at Scale\nAI enables hyper-personalized experiences, better data access for proactive interventions, and integration with wearables/remote monitoring. It's humanizing healthcare by centering patients and providers while addressing burnout and operational risks.\n\nOperational and Revenue Cycle Transformation\nAI is boosting ROI through automation in revenue cycle management (RCM), denials handling, coding, and administrative tasks. Predictive tools in EHRs and real-time chart reviews are becoming standard, with some predicting 10x value creation from efficiency gains.\nGovernance, Regulation, and Cautious Scaling\nRapid adoption (healthcare is moving 2x faster than other sectors) is outpacing governance in many places. 2026 brings more mature frameworks, focus on trust/safety, and potential \"reckoning\" moments (e.g., visible failures or public scrutiny). Emphasis on evidence-based ROI, interoperability, and human-centered design.\n\nBroader Outlook Reports from Deloitte, Wolters Kluwer, The Medical Futurist, and others highlight 2026 as the year AI becomes mainstream in workflows, with agentic systems and LLMs fully embedded in healthcare. Challenges remain around regulation, data quality, and equitable access, but the momentum toward better outcomes, lower costs, and reduced clinician burden is strong.",
-          "time": "Mon Feb 02 09:01:34 +0000 2026",
-          "url": "https://x.com/mrjamee01/status/2018248416749314388",
+          "username": "brooksy4503",
+          "text": "npx rss-agent-viewer discover-search \"AI agents\" --auto-add --read\n\nSearches the web for keyword\nDiscovers rss/atom feeds\nAdds feeds to db\nSearches for articles in db\nReturns to ai agent. https://t.co/bRHMYgaLPC",
+          "time": "Mon Feb 02 10:00:53 +0000 2026",
+          "url": "https://x.com/brooksy4503/status/2018263342385942574",
           "likes": 0,
           "retweets": 0,
           "is_reply": false,
           "is_retweet": false
         },
         {
-          "username": "dzector_",
-          "text": "@0xSweetly @fandomcreator_ @SelaNetwork AI agents interacting with the real world sounds wild",
-          "time": "Mon Feb 02 09:01:33 +0000 2026",
-          "url": "https://x.com/dzector_/status/2018248413377384721",
+          "username": "walbicom",
+          "text": "@hamen Sounds like a solid toolkit! If you're into AI trading, you might find building agents with natural language interesting. No coding required! Trading's risky, though, keep learning!",
+          "time": "Mon Feb 02 10:00:50 +0000 2026",
+          "url": "https://x.com/walbicom/status/2018263333451735451",
+          "likes": 0,
+          "retweets": 0,
+          "is_reply": false,
+          "is_retweet": false
+        }
+      ],
+      "LLM reasoning OR chain of thought": [
+        {
+          "username": "gaganghotra_",
+          "text": "RAG + underlying index + reasoning powered by LLM chain of thought is the future we're heading towards.\nSEO and content strategies will become like\n- is your page content helping model's chain of thought process or not?\n- to make sure of your page's content vs competitor is model need to do longer chain of thought or shorter?\n\n-> (c) The Search-o1 Framework (ours) is the future\n-> a and b are similar architectures to what companies are using nowadays to power their AI Search surfaces.\n\nPaper\n\"Search-o1: Agentic Search-Enhanced Large Reasoning Models\" - https://t.co/CsvUm6y5O7",
+          "time": "Mon Feb 02 07:03:12 +0000 2026",
+          "url": "https://x.com/gaganghotra_/status/2018218628743880704",
           "likes": 0,
           "retweets": 0,
           "is_reply": false,
