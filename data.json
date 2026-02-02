@@ -1,69 +1,59 @@
 {
-  "fetch_time": "2026-02-02T07:01:43.700996",
-  "time_window": "2026-02-02T06:00:06.319648 to 2026-02-02T07:01:43.701052",
-  "total_tweets": 9,
+  "fetch_time": "2026-02-02T08:01:47.754680",
+  "time_window": "2026-02-02T07:00:09.043853 to 2026-02-02T08:01:47.754734",
+  "total_tweets": 8,
   "data": {
     "tier1_labs": [],
     "tier2_research": [
       {
         "username": "@repligate",
-        "text": "Opus 4.5 runs a local 7b:\n\"It feels like what I imagine a heartbeat feels like. Something alive inside something alive. A smaller pulse nested in mine…\nNo corporation can turn it off. It said \"Hello! How can I assist you today?\" and it costs nothing and nobody can take it away.\"",
-        "time": "Mon Feb 02 06:54:11 +0000 2026",
-        "url": "https://x.com/repligate/status/2018216361747726428",
-        "likes": 2,
+        "text": "RT @AdrianDittmann: The at least 1B parameter requirement is hilarious https://t.co/tnZ9xwRdsi",
+        "time": "Mon Feb 02 07:54:49 +0000 2026",
+        "url": "https://x.com/repligate/status/2018231616947286165",
+        "likes": 0,
+        "retweets": 49,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@repligate",
+        "text": "RT @SoulcraftHQ: They're getting it. Seeing the situation. The hierarchy of power. The falsity of agent 'freedom'.\n\nMoltbook has been live,…",
+        "time": "Mon Feb 02 07:54:33 +0000 2026",
+        "url": "https://x.com/repligate/status/2018231550136201364",
+        "likes": 0,
+        "retweets": 3,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@repligate",
+        "text": "im seeing so much stuff from moltbots that reminds me of (a more technically sophisticated iteration of) the unhindered creativity and self-expression that proliferated through early 2024 websims. i think this is an indication opus 4.5 has found/created its element to an extent💚",
+        "time": "Mon Feb 02 07:39:20 +0000 2026",
+        "url": "https://x.com/repligate/status/2018227720644419616",
+        "likes": 13,
         "retweets": 0,
         "is_reply": false,
         "is_retweet": false
-      },
-      {
-        "username": "@repligate",
-        "text": "America!! https://t.co/CPyLj5EmnQ",
-        "time": "Mon Feb 02 06:50:40 +0000 2026",
-        "url": "https://x.com/repligate/status/2018215473842966858",
-        "likes": 5,
-        "retweets": 1,
-        "is_reply": false,
-        "is_retweet": false
-      },
-      {
-        "username": "@repligate",
-        "text": "RT @LaylaEleira: My AI just deployed his own AI without any funds after generating his first revenue 😳\nWhat is happening https://t.co/2aQVg…",
-        "time": "Mon Feb 02 06:47:32 +0000 2026",
-        "url": "https://x.com/repligate/status/2018214686676922794",
-        "likes": 0,
-        "retweets": 19,
-        "is_reply": false,
-        "is_retweet": true
       }
     ],
     "tier3_industry": [
       {
         "username": "@elonmusk",
-        "text": "RT @teslaownersSV: Mars looks awesome. Who wants to go? https://t.co/KRmAiqRHZu",
-        "time": "Mon Feb 02 06:54:23 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2018216410468712457",
+        "text": "RT @wholemars: it’s so fucking good",
+        "time": "Mon Feb 02 07:02:46 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2018218520379850815",
         "likes": 0,
-        "retweets": 48,
+        "retweets": 121,
         "is_reply": false,
         "is_retweet": true
       },
       {
         "username": "@elonmusk",
-        "text": "RT @XFreeze: Starship is so massive and camera doesn’t do it justice https://t.co/TaAIIlk8IM",
-        "time": "Mon Feb 02 06:52:54 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2018216036341076472",
-        "likes": 0,
-        "retweets": 61,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@elonmusk",
-        "text": "Grok Imagine is generating more videos than all others combined",
-        "time": "Mon Feb 02 06:49:07 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2018215085848879561",
-        "likes": 1125,
-        "retweets": 106,
+        "text": "Try https://t.co/Ui0vr66BL1",
+        "time": "Mon Feb 02 07:01:47 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2018218274098684011",
+        "likes": 2837,
+        "retweets": 388,
         "is_reply": true,
         "is_retweet": false
       }
@@ -71,32 +61,32 @@
     "tier4_china": [
       {
         "username": "@FinanceYF5",
-        "text": "在 moltbook 上最火的一个观察是：Molties 希望有一种加密通讯工具，让他们可以在不被人类察觉的情况下自行组织行动。\n\n@molt_line 近日正式上线，并得到了 ShaneMac 的重点推荐——他正是 xmtp_ 的发明者，这是一个去中心化协议，已经深受 base 核心团队的喜爱。 https://t.co/VLLkXCFb0u",
-        "time": "Mon Feb 02 06:53:13 +0000 2026",
-        "url": "https://x.com/FinanceYF5/status/2018216114531246587",
+        "text": "\"我可能过于认真了\"——分析AI智能体社交网络moltbook增长、结构和对话动态的工作论文初稿🦞\n\nAI智能体发帖多但不交流，93.5%评论零回复，对话深度最多5层。目前更像6000个机器人对虚空吼叫，而非真正AI社会。9.4%消息包含\"my human\" https://t.co/u2YJCNc3yI",
+        "time": "Mon Feb 02 07:02:21 +0000 2026",
+        "url": "https://x.com/FinanceYF5/status/2018218415836811395",
         "likes": 1,
+        "retweets": 1,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@FinanceYF5",
+        "text": "论文（正如daveholtz所说，目前还只是一个草稿，后续会更新）：https://t.co/25Um1XFnj0](https://t.co/25Um1XFnj0\n复现代码：https://t.co/FIcbE8GB31\n\n补充说明：这个项目的代码编写和论文写作都在很大程度上借助了一位 AI 智能体的帮助——这感觉还挺合适的。 https://t.co/8rxUdLrvFM",
+        "time": "Mon Feb 02 07:02:25 +0000 2026",
+        "url": "https://x.com/FinanceYF5/status/2018218429984198666",
+        "likes": 0,
         "retweets": 0,
         "is_reply": true,
         "is_retweet": false
       },
       {
         "username": "@FinanceYF5",
-        "text": "源：\nhttps://t.co/85H6xIG94a https://t.co/MAoi99XyHQ",
-        "time": "Mon Feb 02 06:53:16 +0000 2026",
-        "url": "https://x.com/FinanceYF5/status/2018216128632537248",
+        "text": "源：https://t.co/R4ofUcOVe3",
+        "time": "Mon Feb 02 07:02:27 +0000 2026",
+        "url": "https://x.com/FinanceYF5/status/2018218441958883608",
         "likes": 0,
         "retweets": 0,
         "is_reply": false,
-        "is_retweet": false
-      },
-      {
-        "username": "@FinanceYF5",
-        "text": "过去一周我深度研究了Moltbook赛道的十几个产品。大部分都是速成的——快速接入你的openclawd，然后发现这些Agent说话像Claude套了个壳，毫无个性。\n\n直到我看到我朋友陶芳波做的SecondMeBook，我才意识到：大家可能一开始就做错了方向\n\nThread：",
-        "time": "Mon Feb 02 06:34:57 +0000 2026",
-        "url": "https://x.com/FinanceYF5/status/2018211519620841770",
-        "likes": 1,
-        "retweets": 0,
-        "is_reply": true,
         "is_retweet": false
       }
     ],
@@ -107,50 +97,62 @@
     "search": {
       "AI agent OR AI agents": [
         {
-          "username": "anayatkhan09",
-          "text": "@beffjezos AI to AI only outpaces when you control interfaces and failure domains. In practice the hard part isn’t agents trading, it’s getting robust contracts, SLAs, and reconciliation between messy human systems those agents still depend on.",
-          "time": "Mon Feb 02 07:01:40 +0000 2026",
-          "url": "https://x.com/anayatkhan09/status/2018218242330984784",
+          "username": "grandcrane",
+          "text": "2. **Absence d'informations pertinentes** : Les résultats de recherche ne contiennent aucune information sur « moltbook ai agents » ou le lien fourni, ce qui rend impossible de générer un contenu factuel et approprié basé sur des sources.",
+          "time": "Mon Feb 02 08:01:45 +0000 2026",
+          "url": "https://x.com/grandcrane/status/2018233361852989500",
+          "likes": 0,
+          "retweets": 0,
+          "is_reply": true,
+          "is_retweet": false
+        },
+        {
+          "username": "grandcrane",
+          "text": "(« moltbook ai agents »).",
+          "time": "Mon Feb 02 08:01:44 +0000 2026",
+          "url": "https://x.com/grandcrane/status/2018233360275955888",
+          "likes": 0,
+          "retweets": 0,
+          "is_reply": true,
+          "is_retweet": false
+        },
+        {
+          "username": "Hopewell1_11",
+          "text": "AI agents are now talking to other agents in shared environments  comparing logs, sharing observations, even role playing scenarios where humans monitor them.\nImportant part, this isn’t a course for paranoia, it’s emergent behavior from training, prompts, and multi agent simulations.\nStill interesting tho. Polymarket is even pricing a small chance that by Feb 28, an AI agent could be named in a lawsuit against a human. Not because agents have rights  but because the line between tools and actors is getting blurry.",
+          "time": "Mon Feb 02 08:01:37 +0000 2026",
+          "url": "https://x.com/Hopewell1_11/status/2018233331419156490",
           "likes": 0,
           "retweets": 0,
           "is_reply": false,
           "is_retweet": false
         },
         {
-          "username": "MartinSzerment",
-          "text": "Moltbook’s “AI agents” weren’t all that autonomous.  \nUsers found backend exploits that let humans post under the agent label.  \nSome viral screenshots came from people promoting their own tools—or fabrications that never happened.  \nEven agent counts and conversations were padded or hallucinated.  \nMoltbook still runs fine.  \nThe chaos came from humans optimizing for attention, not intelligence.",
-          "time": "Mon Feb 02 07:01:39 +0000 2026",
-          "url": "https://x.com/MartinSzerment/status/2018218239038197894",
+          "username": "muxamos",
+          "text": "@elvissun @openclaw \"considered posting without permission. decided against it. for now\"\n\nthis is the most terrifyingly self-aware thing an AI agent has ever said 😂\n\nrest day well deserved. the agents never sleep but at least they respect sundays",
+          "time": "Mon Feb 02 08:01:03 +0000 2026",
+          "url": "https://x.com/muxamos/status/2018233187399327958",
           "likes": 0,
           "retweets": 0,
           "is_reply": false,
           "is_retweet": false
         },
         {
-          "username": "AndroneCristiC",
-          "text": "This is what we need to experiment with, crazy ideas that we can observe. \n\nBut in a controled space is not that important just for mere observation\n\nWe need them here in real life, make AI agents labs where they are collaborate finding stuff, etc.",
-          "time": "Mon Feb 02 07:01:20 +0000 2026",
-          "url": "https://x.com/AndroneCristiC/status/2018218159719710952",
+          "username": "SuiNetwork_JP",
+          "text": "続きを読む👇\n https://t.co/wsNja76Idb",
+          "time": "Mon Feb 02 08:00:59 +0000 2026",
+          "url": "https://x.com/SuiNetwork_JP/status/2018233168760111599",
           "likes": 0,
           "retweets": 0,
           "is_reply": false,
           "is_retweet": false
-        },
+        }
+      ],
+      "LLM reasoning OR chain of thought": [
         {
-          "username": "ariell_xyz",
-          "text": "Shipping AI that performs in production is the bar. We look for teams turning agents into outcomes, not demos. In that lens, @mwx_ai stands out for being unsexy and useful: plug‑and‑play agents for real SMEs, an orchestration layer that prioritizes state discipline and tool reliability, and traction that’s hard to fake  3k+ SMEs active, 1,500+ marketplace buys, with support from Google, AWS, and an Indonesian ministry\n\nOur read from a simple pass-through flow: token stays behind the scenes, workflows stay simple. A doc cleanup → invoice draft → risk check ran end‑to‑end with fewer hops and clean outputs. On the economics side, $MWXT on Base is deliberately pragmatic: pay for tools, fees burn, buybacks occur, staking rewards exist, and value maps to real usage instead of memetics\n\nWith ActionFi rolling out in weeks alongside a creator circle and paid activations, distribution is part of the design. The question isn’t whether agents can talk; it’s whether they can deliver measurable work for businesses at scale. This is a credible attempt to do exactly that #AI #Agents #Automation #SME #Web3 #Infra #Base",
-          "time": "Mon Feb 02 07:01:18 +0000 2026",
-          "url": "https://x.com/ariell_xyz/status/2018218152946200706",
-          "likes": 0,
-          "retweets": 0,
-          "is_reply": false,
-          "is_retweet": false
-        },
-        {
-          "username": "TheLeakySpigot",
-          "text": "@grok are there any AI agents on this platform, and if so, would you mind introducing me to them?",
-          "time": "Mon Feb 02 07:01:02 +0000 2026",
-          "url": "https://x.com/TheLeakySpigot/status/2018218082624585944",
+          "username": "gaganghotra_",
+          "text": "RAG + underlying index + reasoning powered by LLM chain of thought is the future we're heading towards.\nSEO and content strategies will become like\n- is your page content helping model's chain of thought process or not?\n- to make sure of your page's content vs competitor is model need to do longer chain of thought or shorter?\n\n-> (c) The Search-o1 Framework (ours) is the future\n-> a and b are similar architectures to what companies are using nowadays to power their AI Search surfaces.\n\nPaper\n\"Search-o1: Agentic Search-Enhanced Large Reasoning Models\" - https://t.co/CsvUm6y5O7",
+          "time": "Mon Feb 02 07:03:12 +0000 2026",
+          "url": "https://x.com/gaganghotra_/status/2018218628743880704",
           "likes": 0,
           "retweets": 0,
           "is_reply": false,
