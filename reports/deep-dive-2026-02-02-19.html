@@ -1,0 +1,1330 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Trends Deep Dive - 2026-02-02 - AI Trends Digest</title>
+    <style>
+        :root {
+            --bg: #0a0a0f;
+            --surface: #12121a;
+            --surface-hover: #1a1a25;
+            --border: #2a2a3a;
+            --text: #e4e4ef;
+            --text-muted: #6b7280;
+            --accent: #3b82f6;
+            --accent-glow: rgba(59, 130, 246, 0.3);
+            --insight: #8b5cf6;
+            --trend: #f59e0b;
+            --p0: #ef4444;
+            --p1: #f59e0b;
+            --p2: #10b981;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+        
+        header {
+            text-align: center;
+            padding: 3rem 0 2rem;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 2rem;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+        }
+        
+        header .meta {
+            color: var(--text-muted);
+            font-size: 1rem;
+            margin-top: 0.5rem;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .stat-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+            transition: all 0.2s;
+        }
+        
+        .stat-card:hover {
+            border-color: var(--accent);
+        }
+        
+        .stat-card .number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--accent);
+        }
+        
+        .stat-card .label {
+            color: var(--text-muted);
+            font-size: 0.875rem;
+            margin-top: 0.25rem;
+        }
+        
+        .section {
+            margin: 3rem 0;
+        }
+        
+        .section-title {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--text);
+        }
+        
+        .section-title .icon {
+            font-size: 1.25rem;
+        }
+        
+        /* Insight Cards */
+        .insight-card {
+            background: linear-gradient(135deg, var(--surface) 0%, rgba(139, 92, 246, 0.1) 100%);
+            border: 1px solid var(--border);
+            border-left: 4px solid var(--insight);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .insight-card h3 {
+            color: var(--insight);
+            font-size: 1.1rem;
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .insight-card .summary {
+            font-size: 1rem;
+            line-height: 1.7;
+            color: var(--text);
+            margin-bottom: 1rem;
+        }
+        
+        .insight-card .implication {
+            background: rgba(139, 92, 246, 0.1);
+            border-radius: 8px;
+            padding: 1rem;
+            font-size: 0.95rem;
+            color: var(--text-muted);
+        }
+        
+        .insight-card .implication strong {
+            color: var(--insight);
+        }
+        
+        .evidence-list {
+            margin-top: 1rem;
+            padding-left: 1.5rem;
+        }
+        
+        .evidence-list li {
+            margin: 0.5rem 0;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+        
+        .evidence-list a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        /* Trend Cards */
+        .trend-section {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .trend-section h3 {
+            color: var(--trend);
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .trend-stats {
+            display: flex;
+            gap: 2rem;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+        
+        .momentum-bar {
+            height: 4px;
+            background: var(--border);
+            border-radius: 2px;
+            margin-bottom: 1rem;
+            overflow: hidden;
+        }
+        
+        .momentum-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--trend), #ef4444);
+            border-radius: 2px;
+            transition: width 0.3s;
+        }
+        
+        /* Tweet Cards */
+        .tweet-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.25rem;
+            margin-bottom: 1rem;
+            transition: all 0.2s;
+        }
+        
+        .tweet-card:hover {
+            background: var(--surface-hover);
+            border-color: var(--accent);
+        }
+        
+        .tweet-card.p0 { border-left: 3px solid var(--p0); }
+        .tweet-card.p1 { border-left: 3px solid var(--p1); }
+        .tweet-card.p2 { border-left: 3px solid var(--p2); }
+        
+        .tweet-header {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 0.75rem;
+            flex-wrap: wrap;
+        }
+        
+        .tweet-author {
+            font-weight: 600;
+            color: var(--accent);
+        }
+        
+        .tweet-author:hover {
+            text-decoration: underline;
+        }
+        
+        .tweet-time {
+            color: var(--text-muted);
+            font-size: 0.875rem;
+        }
+        
+        .priority-badge {
+            display: inline-block;
+            padding: 0.2rem 0.6rem;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        
+        .priority-p0 { background: rgba(239, 68, 68, 0.2); color: var(--p0); }
+        .priority-p1 { background: rgba(245, 158, 11, 0.2); color: var(--p1); }
+        .priority-p2 { background: rgba(16, 185, 129, 0.2); color: var(--p2); }
+        
+        .tweet-content {
+            margin-bottom: 0.75rem;
+            white-space: pre-wrap;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+        
+        .tweet-meta {
+            display: flex;
+            gap: 1.5rem;
+            color: var(--text-muted);
+            font-size: 0.875rem;
+            align-items: center;
+        }
+        
+        .tweet-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        .tweet-meta a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Key Topics */
+        .topic-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 1rem 0;
+        }
+        
+        .topic-tag {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 0.4rem 0.8rem;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            transition: all 0.2s;
+        }
+        
+        .topic-tag:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+        
+        .topic-tag.hot {
+            background: rgba(245, 158, 11, 0.1);
+            border-color: var(--trend);
+            color: var(--trend);
+        }
+        
+        /* Tier Sections */
+        .tier-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+        
+        .tier-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1rem;
+        }
+        
+        .tier-card h4 {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .tier-card .count {
+            color: var(--accent);
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        /* Comparison Table */
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+        
+        .comparison-table th,
+        .comparison-table td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .comparison-table th {
+            color: var(--text-muted);
+            font-weight: 500;
+            font-size: 0.85rem;
+        }
+        
+        .comparison-table td {
+            font-size: 0.9rem;
+        }
+        
+        .comparison-table tr:hover td {
+            background: var(--surface-hover);
+        }
+        
+        /* Narrative Flow */
+        .narrative-flow {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1rem 0;
+        }
+        
+        .narrative-flow h4 {
+            color: var(--accent);
+            margin-bottom: 1rem;
+        }
+        
+        .narrative-item {
+            display: flex;
+            gap: 1rem;
+            margin: 1rem 0;
+            padding: 1rem;
+            background: rgba(59, 130, 246, 0.05);
+            border-radius: 8px;
+        }
+        
+        .narrative-item .time {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            min-width: 80px;
+        }
+        
+        .narrative-item .content {
+            flex: 1;
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 3rem 0 2rem;
+            border-top: 1px solid var(--border);
+            margin-top: 3rem;
+            color: var(--text-muted);
+            font-size: 0.875rem;
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+        
+        .footer-links a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        @media (max-width: 768px) {
+            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+            .tier-grid { grid-template-columns: 1fr; }
+            header h1 { font-size: 1.75rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 AI Trends Deep Dive</h1>
+            <p class="meta">2026-02-02 19:01 UTC | 基于 X 平台实时数据 | 3小时监测窗口</p>
+        </header>
+        
+        <!-- Stats -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="number">26</div>
+                <div class="label">分析推文</div>
+            </div>
+            <div class="stat-card">
+                <div class="number">13</div>
+                <div class="label">活跃账号</div>
+            </div>
+            <div class="stat-card">
+                <div class="number">2</div>
+                <div class="label">深度洞察</div>
+            </div>
+            <div class="stat-card">
+                <div class="number">3h</div>
+                <div class="label">时间窗口</div>
+            </div>
+        </div>
+        
+        <!-- Key Insights -->
+        
+        <div class="section">
+            <h2 class="section-title"><span class="icon">💡</span> 核心洞察</h2>
+            
+            <div class="insight-card">
+                <h3>🎭 GUI Agent：一场"走后门"的技术革命</h3>
+                <div class="summary">当App厂商不愿意开放API时，AI选择直接"看屏幕、点屏幕"。字节豆包手机、OpenClaw、Chrome Gemini都选择了这条路。这不是最理想的技术路径，但可能是最现实的路径。</div>
+                
+                <div class="implication">
+                    <strong>影响与思考：</strong>GUI Agent的崛起意味着：1) 传统App的护城河被绕过，用户体验将被重构；2) 手机厂商可能成为新的流量入口守门人；3) 隐私和安全风险将急剧上升，监管可能很快介入。
+                </div>
+                
+                
+                <ul class="evidence-list">
+                    
+                    <li>@@dotey: 我们以 Google Trends 作为一个参考可以看这些产品的热度。你可以看到 OpenClaw 热度在增加，但趋势变缓，Moltbook 和 Clawdbo...</li>
+                    
+                </ul>
+                
+            </div>
+            
+            <div class="insight-card">
+                <h3>🇨🇳 中国AI：从跟随者到定义者</h3>
+                <div class="summary">DeepSeek、Qwen、豆包等产品开始在全球AI讨论中占据一席之地。更值得关注的是，中国AI产品的工程化落地速度正在加快，GUI Agent等创新不再只是跟随。</div>
+                
+                <div class="implication">
+                    <strong>影响与思考：</strong>全球AI格局可能正在从"美国主导"转向"双极格局"。对于国际市场：需要重新评估中国AI产品的竞争力。对于国内从业者：出海机会窗口正在打开，但地缘政治风险仍需关注。
+                </div>
+                
+                
+                <ul class="evidence-list">
+                    
+                    <li>@@dotey: 我们以 Google Trends 作为一个参考可以看这些产品的热度。你可以看到 OpenClaw 热度在增加，但趋势变缓，Moltbook 和 Clawdbo...</li>
+                    
+                    <li>@@dotey: 赞同：
+&gt; 工作中，效率第一，任何有利于更快完成工作的方法都是值得一试的。  
+&gt; 工作外，学习第一，任何有利于自己更好掌握基础能力的经历都是值得的...</li>
+                    
+                </ul>
+                
+            </div>
+            
+        </div>
+        
+        
+        <!-- Key Topics -->
+        
+        <div class="section">
+            <h2 class="section-title"><span class="icon">🔥</span> 热议话题</h2>
+            <div class="topic-tags">
+                
+                <span class="topic-tag hot">
+                    模型发布 (6)
+                </span>
+                
+                <span class="topic-tag hot">
+                    Agent (5)
+                </span>
+                
+                <span class="topic-tag ">
+                    代码生成 (4)
+                </span>
+                
+                <span class="topic-tag ">
+                    产品发布 (2)
+                </span>
+                
+                <span class="topic-tag ">
+                    竞争 (2)
+                </span>
+                
+                <span class="topic-tag ">
+                    多模态 (1)
+                </span>
+                
+                <span class="topic-tag ">
+                    AI安全 (1)
+                </span>
+                
+            </div>
+        </div>
+        
+        
+        <!-- Emerging Trends -->
+        
+        <div class="section">
+            <h2 class="section-title"><span class="icon">📈</span> 新兴趋势</h2>
+            
+            <div class="trend-section">
+                <h3>🤖 Agent架构大讨论</h3>
+                <div class="trend-stats">
+                    <span>提及: 4次</span>
+                    <span>参与账号: 3个</span>
+                    <span>热度: 50%</span>
+                </div>
+                <div class="momentum-bar">
+                    <div class="momentum-fill" style="width: 50%"></div>
+                </div>
+                <p>GUI Agent vs API Agent的路线之争持续发酵，关于安全性、可控性和实用性的讨论成为焦点。</p>
+            </div>
+            
+        </div>
+        
+        
+        <!-- Highlighted Tweets -->
+        
+        <div class="section">
+            <h2 class="section-title"><span class="icon">⭐</span> 重点推文</h2>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/OpenAI" target="_blank" class="tweet-author">@OpenAI</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Mon Feb 02 18:06:33 +0000 2026</span>
+                </div>
+                <div class="tweet-content">Introducing the Codex app—a powerful command center for building with agents.
+
+Now available on macOS.
+
+https://t.co/HW05s2C9Nr</div>
+                <div class="tweet-meta">
+                    <span>👍 1899</span>
+                    <span>🔄 214</span>
+                    <a href="https://x.com/OpenAI/status/2018385565289267236" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/GeminiApp" target="_blank" class="tweet-author">@GeminiApp</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Mon Feb 02 17:48:59 +0000 2026</span>
+                </div>
+                <div class="tweet-content">Gemini Prompt Tip: When you give Gemini a persona, it can help you get a better response.
+
+Keep the persona simple. A clear job title works better than a complicated character.
+
+Try including  “Act as a [profession]…” at the beginning of your prompt to see how a persona changes the style of Gemini’s response.</div>
+                <div class="tweet-meta">
+                    <span>👍 735</span>
+                    <span>🔄 56</span>
+                    <a href="https://x.com/GeminiApp/status/2018381143733907563" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/levelsio" target="_blank" class="tweet-author">@levelsio</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Mon Feb 02 17:13:25 +0000 2026</span>
+                </div>
+                <div class="tweet-content">🇧🇷 My favorite thing about Brazil is the buffets
+
+They're everywhere and you can get fresh made whole foods like meat and vegetables priced per kilogram
+
+And with nice medium rare steak usually
+
+Here's my almost 1kg/2lbs regular lunch every day
+
+One difference with buffets rest of world where I'd never ever touch buffets there because the food is usually old and stale, in Brazil it's almost always fresh and hot
+
+It's a bit like the Warungs in Indonesia btw</div>
+                <div class="tweet-meta">
+                    <span>👍 617</span>
+                    <span>🔄 11</span>
+                    <a href="https://x.com/levelsio/status/2018372195324473844" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/gdb" target="_blank" class="tweet-author">@gdb</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Mon Feb 02 18:15:36 +0000 2026</span>
+                </div>
+                <div class="tweet-content">the codex app is really good, try it out.
+
+i've been a die-hard terminal / emacs user for many years, but since using the codex app, going back to the terminal has felt like going back in time.
+
+feels like an agent-native interface for building.</div>
+                <div class="tweet-meta">
+                    <span>👍 552</span>
+                    <span>🔄 20</span>
+                    <a href="https://x.com/gdb/status/2018387844222578818" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/OpenAI" target="_blank" class="tweet-author">@OpenAI</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Mon Feb 02 18:06:33 +0000 2026</span>
+                </div>
+                <div class="tweet-content">With the Codex app you can:
+
+- Multitask effortlessly: Work with multiple agents in parallel and keep agent changes isolated with worktrees
+
+- Create & use skills: package your tools + conventions into reusable capabilities
+
+⁃ Set up automations: delegate repetitive work to Codex with scheduled workflows in the background</div>
+                <div class="tweet-meta">
+                    <span>👍 477</span>
+                    <span>🔄 27</span>
+                    <a href="https://x.com/OpenAI/status/2018385566891704339" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/OpenAI" target="_blank" class="tweet-author">@OpenAI</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Mon Feb 02 18:06:34 +0000 2026</span>
+                </div>
+                <div class="tweet-content">The Codex app is available starting today on macOS, with Windows coming soon.
+
+For a limited time, Codex is available through ChatGPT Free and Go subscriptions—and we’re doubling rate limits for Plus, Pro, Business, Enterprise, and Edu users—across the Codex app, CLI, IDE extension, and cloud. https://t.co/Q26oarCRfL</div>
+                <div class="tweet-meta">
+                    <span>👍 455</span>
+                    <span>🔄 17</span>
+                    <a href="https://x.com/OpenAI/status/2018385568992752059" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/sundarpichai" target="_blank" class="tweet-author">@sundarpichai</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Mon Feb 02 18:23:01 +0000 2026</span>
+                </div>
+                <div class="tweet-content">Our AI tools like DeepVariant and DeepPolisher are helping researchers sequence genomes for endangered species, compressing what once took years into just days. 
+
+Genomes of 13 species are free and available for use by conservation researchers. Now @Googleorg is helping partners scale to 150+ more species, building a vital resource for global conservation and biology.</div>
+                <div class="tweet-meta">
+                    <span>👍 307</span>
+                    <span>🔄 40</span>
+                    <a href="https://x.com/sundarpichai/status/2018389711111455090" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/demishassabis" target="_blank" class="tweet-author">@demishassabis</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Mon Feb 02 18:07:19 +0000 2026</span>
+                </div>
+                <div class="tweet-content">The AI field is in need of harder benchmarks to test capabilities of the latest AI models. This update to @Kaggle Game Arena with werewolf and poker (heads-up) plus chess, gives us new objective measures of real-world skills like planning and decision making under uncertainty.</div>
+                <div class="tweet-meta">
+                    <span>👍 301</span>
+                    <span>🔄 31</span>
+                    <a href="https://x.com/demishassabis/status/2018385757816181178" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/gdb" target="_blank" class="tweet-author">@gdb</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Mon Feb 02 17:21:47 +0000 2026</span>
+                </div>
+                <div class="tweet-content">Our Abilene Stargate data center is driving local economic value, for the city and its residents:</div>
+                <div class="tweet-meta">
+                    <span>👍 205</span>
+                    <span>🔄 12</span>
+                    <a href="https://x.com/gdb/status/2018374301465096589" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/GoogleDeepMind" target="_blank" class="tweet-author">@GoogleDeepMind</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Mon Feb 02 17:39:57 +0000 2026</span>
+                </div>
+                <div class="tweet-content">The @Kaggle Game Arena has added our results for Werewolf, Poker and Chess.♟️✨
+
+These challenges test the skills AI models need for the real world – like contextual communication, building consensus, and navigating ambiguity.
+
+Find out how Gemini did → https://t.co/DpN3C1RWCf https://t.co/TKee6ck7RI</div>
+                <div class="tweet-meta">
+                    <span>👍 113</span>
+                    <span>🔄 15</span>
+                    <a href="https://x.com/GoogleDeepMind/status/2018378872513794332" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/levelsio" target="_blank" class="tweet-author">@levelsio</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Mon Feb 02 18:37:09 +0000 2026</span>
+                </div>
+                <div class="tweet-content">You absolutely cannot trust Germans with nukes
+
+Did we learn anything from history? I'm Dutch so I sure as hell did when we were invaded by them
+
+French yes, British yes  they can have nukes, they're trustworthy, not Germans
+
+They'll start behavior policing the entire EU with nuclear weapons as a threat
+
+Absofuckinglutely not</div>
+                <div class="tweet-meta">
+                    <span>👍 92</span>
+                    <span>🔄 4</span>
+                    <a href="https://x.com/levelsio/status/2018393266140459153" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/SebastienBubeck" target="_blank" class="tweet-author">@SebastienBubeck</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Mon Feb 02 16:55:08 +0000 2026</span>
+                </div>
+                <div class="tweet-content">This year we will see more and more LLM-aided scientific discoveries. If you want to get up to speed on where we are today, especially in mathematics, check out this video of my talk "Recent Advances in LLMs for Mathematics" https://t.co/9jvP50zQFP https://t.co/g7HTB6hzew</div>
+                <div class="tweet-meta">
+                    <span>👍 91</span>
+                    <span>🔄 15</span>
+                    <a href="https://x.com/SebastienBubeck/status/2018367594882036154" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/demishassabis" target="_blank" class="tweet-author">@demishassabis</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Mon Feb 02 18:07:19 +0000 2026</span>
+                </div>
+                <div class="tweet-content">For the next 3 days, there will be daily live commentary and analysis covering the new benchmarks - from chess &amp; poker legends @GMHikaru, @Liv_Boeree, @NickSchulman, @DougPolkVids. Tune in at 9:30am PT starting today, should be a lot of fun: https://t.co/4i1Eyhqzfg</div>
+                <div class="tweet-meta">
+                    <span>👍 84</span>
+                    <span>🔄 2</span>
+                    <a href="https://x.com/demishassabis/status/2018385760806690945" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/sundarpichai" target="_blank" class="tweet-author">@sundarpichai</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Mon Feb 02 18:23:02 +0000 2026</span>
+                </div>
+                <div class="tweet-content">Read more here: https://t.co/HasN1K0ZlX</div>
+                <div class="tweet-meta">
+                    <span>👍 81</span>
+                    <span>🔄 13</span>
+                    <a href="https://x.com/sundarpichai/status/2018389713372299717" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/dotey" target="_blank" class="tweet-author">@dotey</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Mon Feb 02 16:30:42 +0000 2026</span>
+                </div>
+                <div class="tweet-content">赞同：
+&gt; 工作中，效率第一，任何有利于更快完成工作的方法都是值得一试的。  
+&gt; 工作外，学习第一，任何有利于自己更好掌握基础能力的经历都是值得的。</div>
+                <div class="tweet-meta">
+                    <span>👍 48</span>
+                    <span>🔄 2</span>
+                    <a href="https://x.com/dotey/status/2018361444018839735" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        <!-- Tier Activity -->
+        
+        <div class="section">
+            <h2 class="section-title"><span class="icon">🎯</span> 分层活跃度</h2>
+            <div class="tier-grid">
+                
+                <div class="tier-card">
+                    <h4>💼 产业界领袖</h4>
+                    <div class="count">10</div>
+                    <div style="color: var(--text-muted); font-size: 0.85rem;">模型发布、Agent、AI安全</div>
+                </div>
+                
+                <div class="tier-card">
+                    <h4>🚀 独立开发者</h4>
+                    <div class="count">5</div>
+                    <div style="color: var(--text-muted); font-size: 0.85rem;">综合讨论</div>
+                </div>
+                
+                <div class="tier-card">
+                    <h4>🏢 实验室核心</h4>
+                    <div class="count">3</div>
+                    <div style="color: var(--text-muted); font-size: 0.85rem;">模型发布、Agent、代码生成</div>
+                </div>
+                
+                <div class="tier-card">
+                    <h4>📢 公司官方</h4>
+                    <div class="count">3</div>
+                    <div style="color: var(--text-muted); font-size: 0.85rem;">模型发布</div>
+                </div>
+                
+                <div class="tier-card">
+                    <h4>🇨🇳 中国AI</h4>
+                    <div class="count">2</div>
+                    <div style="color: var(--text-muted); font-size: 0.85rem;">Agent</div>
+                </div>
+                
+                <div class="tier-card">
+                    <h4>💰 投资人</h4>
+                    <div class="count">2</div>
+                    <div style="color: var(--text-muted); font-size: 0.85rem;">Agent</div>
+                </div>
+                
+                <div class="tier-card">
+                    <h4>🔬 研究界领袖</h4>
+                    <div class="count">1</div>
+                    <div style="color: var(--text-muted); font-size: 0.85rem;">多模态</div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <!-- Comparison Matrix -->
+        
+        
+        <!-- All Tweets by Tier -->
+        
+        <div class="section">
+            <h2 class="section-title"><span class="icon">📋</span> 完整动态</h2>
+            
+            
+            <div style="margin-bottom: 2rem;">
+                <h3 style="color: var(--text-muted); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border);">
+                    🏢 实验室核心
+                </h3>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/OpenAI" target="_blank" class="tweet-author">@OpenAI</a>
+                        <span class="tweet-time">Mon Feb 02 18:06:33 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">Introducing the Codex app—a powerful command center for building with agents.
+
+Now available on macOS.
+
+https://t.co/HW05s2C9Nr</div>
+                    <div class="tweet-meta">
+                        <span>👍 1899</span>
+                        <a href="https://x.com/OpenAI/status/2018385565289267236" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/OpenAI" target="_blank" class="tweet-author">@OpenAI</a>
+                        <span class="tweet-time">Mon Feb 02 18:06:33 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">With the Codex app you can:
+
+- Multitask effortlessly: Work with multiple agents in parallel and keep agent changes isolated with worktrees
+
+- Create & use skills: package your tools + conventions into reusable capabilities
+
+⁃ Set up automations: delegate repetitive work to Codex...</div>
+                    <div class="tweet-meta">
+                        <span>👍 477</span>
+                        <a href="https://x.com/OpenAI/status/2018385566891704339" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/OpenAI" target="_blank" class="tweet-author">@OpenAI</a>
+                        <span class="tweet-time">Mon Feb 02 18:06:34 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">The Codex app is available starting today on macOS, with Windows coming soon.
+
+For a limited time, Codex is available through ChatGPT Free and Go subscriptions—and we’re doubling rate limits for Plus, Pro, Business, Enterprise, and Edu users—across the Codex app, CLI, IDE extensi...</div>
+                    <div class="tweet-meta">
+                        <span>👍 455</span>
+                        <a href="https://x.com/OpenAI/status/2018385568992752059" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            
+            <div style="margin-bottom: 2rem;">
+                <h3 style="color: var(--text-muted); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border);">
+                    🔬 研究界领袖
+                </h3>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/SebastienBubeck" target="_blank" class="tweet-author">@SebastienBubeck</a>
+                        <span class="tweet-time">Mon Feb 02 16:55:08 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">This year we will see more and more LLM-aided scientific discoveries. If you want to get up to speed on where we are today, especially in mathematics, check out this video of my talk "Recent Advances in LLMs for Mathematics" https://t.co/9jvP50zQFP https://t.co/g7HTB6hzew</div>
+                    <div class="tweet-meta">
+                        <span>👍 91</span>
+                        <a href="https://x.com/SebastienBubeck/status/2018367594882036154" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            
+            <div style="margin-bottom: 2rem;">
+                <h3 style="color: var(--text-muted); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border);">
+                    💼 产业界领袖
+                </h3>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/gdb" target="_blank" class="tweet-author">@gdb</a>
+                        <span class="tweet-time">Mon Feb 02 18:15:36 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">the codex app is really good, try it out.
+
+i've been a die-hard terminal / emacs user for many years, but since using the codex app, going back to the terminal has felt like going back in time.
+
+feels like an agent-native interface for building.</div>
+                    <div class="tweet-meta">
+                        <span>👍 552</span>
+                        <a href="https://x.com/gdb/status/2018387844222578818" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/gdb" target="_blank" class="tweet-author">@gdb</a>
+                        <span class="tweet-time">Mon Feb 02 17:21:47 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">Our Abilene Stargate data center is driving local economic value, for the city and its residents:</div>
+                    <div class="tweet-meta">
+                        <span>👍 205</span>
+                        <a href="https://x.com/gdb/status/2018374301465096589" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/demishassabis" target="_blank" class="tweet-author">@demishassabis</a>
+                        <span class="tweet-time">Mon Feb 02 18:11:22 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">RT @Liv_Boeree: WHICH AI IS THE BEST GAMES PLAYER?!
+
+Google are launching their “AI Game Arena” today, which pits all the major LLMs (Gemin…</div>
+                    <div class="tweet-meta">
+                        <span>👍 0</span>
+                        <a href="https://x.com/demishassabis/status/2018386778521014537" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/demishassabis" target="_blank" class="tweet-author">@demishassabis</a>
+                        <span class="tweet-time">Mon Feb 02 18:07:19 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">The AI field is in need of harder benchmarks to test capabilities of the latest AI models. This update to @Kaggle Game Arena with werewolf and poker (heads-up) plus chess, gives us new objective measures of real-world skills like planning and decision making under uncertainty.</div>
+                    <div class="tweet-meta">
+                        <span>👍 301</span>
+                        <a href="https://x.com/demishassabis/status/2018385757816181178" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/demishassabis" target="_blank" class="tweet-author">@demishassabis</a>
+                        <span class="tweet-time">Mon Feb 02 18:07:19 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">For the next 3 days, there will be daily live commentary and analysis covering the new benchmarks - from chess &amp; poker legends @GMHikaru, @Liv_Boeree, @NickSchulman, @DougPolkVids. Tune in at 9:30am PT starting today, should be a lot of fun: https://t.co/4i1Eyhqzfg</div>
+                    <div class="tweet-meta">
+                        <span>👍 84</span>
+                        <a href="https://x.com/demishassabis/status/2018385760806690945" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/sundarpichai" target="_blank" class="tweet-author">@sundarpichai</a>
+                        <span class="tweet-time">Mon Feb 02 18:23:01 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">Our AI tools like DeepVariant and DeepPolisher are helping researchers sequence genomes for endangered species, compressing what once took years into just days. 
+
+Genomes of 13 species are free and available for use by conservation researchers. Now @Googleorg is helping partners ...</div>
+                    <div class="tweet-meta">
+                        <span>👍 307</span>
+                        <a href="https://x.com/sundarpichai/status/2018389711111455090" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/sundarpichai" target="_blank" class="tweet-author">@sundarpichai</a>
+                        <span class="tweet-time">Mon Feb 02 18:23:02 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">Read more here: https://t.co/HasN1K0ZlX</div>
+                    <div class="tweet-meta">
+                        <span>👍 81</span>
+                        <a href="https://x.com/sundarpichai/status/2018389713372299717" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/elonmusk" target="_blank" class="tweet-author">@elonmusk</a>
+                        <span class="tweet-time">Mon Feb 02 17:43:27 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">RT @xAIMemphis: xAI in consultation with the Governor and local authorities deployed 500 generators to NES in Nashville to families in need…</div>
+                    <div class="tweet-meta">
+                        <span>👍 0</span>
+                        <a href="https://x.com/elonmusk/status/2018379751761518886" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/elonmusk" target="_blank" class="tweet-author">@elonmusk</a>
+                        <span class="tweet-time">Mon Feb 02 17:39:08 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">RT @united: We just took one more giant leap with @Starlink 
+
+The fastest, most reliable Wi-Fi in the sky is now on board 300+ planes, near…</div>
+                    <div class="tweet-meta">
+                        <span>👍 0</span>
+                        <a href="https://x.com/elonmusk/status/2018378666019872930" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/elonmusk" target="_blank" class="tweet-author">@elonmusk</a>
+                        <span class="tweet-time">Mon Feb 02 17:39:03 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">RT @Starlink: Starlink is now on board 300 @United aircraft and counting. Surf, scroll, and stream the big game at 35,000 feet 🛰️✈️🏈</div>
+                    <div class="tweet-meta">
+                        <span>👍 0</span>
+                        <a href="https://x.com/elonmusk/status/2018378647757832376" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            
+            <div style="margin-bottom: 2rem;">
+                <h3 style="color: var(--text-muted); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border);">
+                    🇨🇳 中国AI
+                </h3>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/dotey" target="_blank" class="tweet-author">@dotey</a>
+                        <span class="tweet-time">Mon Feb 02 17:47:21 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">我们以 Google Trends 作为一个参考可以看这些产品的热度。你可以看到 OpenClaw 热度在增加，但趋势变缓，Moltbook 和 Clawdbot 都在走低，Clawdbot 走低正常，毕竟改名了。 https://t.co/j8pBOtWmhq</div>
+                    <div class="tweet-meta">
+                        <span>👍 13</span>
+                        <a href="https://x.com/dotey/status/2018380735028015451" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/dotey" target="_blank" class="tweet-author">@dotey</a>
+                        <span class="tweet-time">Mon Feb 02 16:30:42 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">赞同：
+&gt; 工作中，效率第一，任何有利于更快完成工作的方法都是值得一试的。  
+&gt; 工作外，学习第一，任何有利于自己更好掌握基础能力的经历都是值得的。</div>
+                    <div class="tweet-meta">
+                        <span>👍 48</span>
+                        <a href="https://x.com/dotey/status/2018361444018839735" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            
+            <div style="margin-bottom: 2rem;">
+                <h3 style="color: var(--text-muted); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border);">
+                    💰 投资人
+                </h3>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/paulg" target="_blank" class="tweet-author">@paulg</a>
+                        <span class="tweet-time">Mon Feb 02 18:47:46 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">RT @ReichlinMelnick: WOW. A woman already in immigration court proceedings says ICE agents ran her off the road, causing her to crash into…</div>
+                    <div class="tweet-meta">
+                        <span>👍 0</span>
+                        <a href="https://x.com/paulg/status/2018395939954672012" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/paulg" target="_blank" class="tweet-author">@paulg</a>
+                        <span class="tweet-time">Mon Feb 02 18:40:33 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">RT @DKThomp: My two cents on the DoorDash discourse.
+
+I just spent some time poking around the Consumer Expenditure Survey, which is the BL…</div>
+                    <div class="tweet-meta">
+                        <span>👍 0</span>
+                        <a href="https://x.com/paulg/status/2018394123678425383" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            
+            <div style="margin-bottom: 2rem;">
+                <h3 style="color: var(--text-muted); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border);">
+                    🚀 独立开发者
+                </h3>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/levelsio" target="_blank" class="tweet-author">@levelsio</a>
+                        <span class="tweet-time">Mon Feb 02 18:37:09 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">You absolutely cannot trust Germans with nukes
+
+Did we learn anything from history? I'm Dutch so I sure as hell did when we were invaded by them
+
+French yes, British yes  they can have nukes, they're trustworthy, not Germans
+
+They'll start behavior policing the entire EU with nuc...</div>
+                    <div class="tweet-meta">
+                        <span>👍 92</span>
+                        <a href="https://x.com/levelsio/status/2018393266140459153" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/levelsio" target="_blank" class="tweet-author">@levelsio</a>
+                        <span class="tweet-time">Mon Feb 02 17:13:25 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">🇧🇷 My favorite thing about Brazil is the buffets
+
+They're everywhere and you can get fresh made whole foods like meat and vegetables priced per kilogram
+
+And with nice medium rare steak usually
+
+Here's my almost 1kg/2lbs regular lunch every day
+
+One difference with buffets rest o...</div>
+                    <div class="tweet-meta">
+                        <span>👍 617</span>
+                        <a href="https://x.com/levelsio/status/2018372195324473844" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/patio11" target="_blank" class="tweet-author">@patio11</a>
+                        <span class="tweet-time">Mon Feb 02 17:30:20 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">Hall of fame email subject line for demonstrating two suborgs at each others' throats:
+
+"You have excellent approval odds for the Venmo credit card"
+
+(Marketing really wants to say "pre-approved", Legal/Compliance says "We can't say that anymore.")</div>
+                    <div class="tweet-meta">
+                        <span>👍 48</span>
+                        <a href="https://x.com/patio11/status/2018376452027117611" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/patio11" target="_blank" class="tweet-author">@patio11</a>
+                        <span class="tweet-time">Mon Feb 02 18:08:03 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">And so sometimes a transaction might need a private banker to follow up the letter with a phone call explaining "OK so you know that bank which has branches in your town? I work for that bank. HOWEVER. If you also did business in NYC you would have picked up on what department."</div>
+                    <div class="tweet-meta">
+                        <span>👍 4</span>
+                        <a href="https://x.com/patio11/status/2018385942189400457" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/patio11" target="_blank" class="tweet-author">@patio11</a>
+                        <span class="tweet-time">Mon Feb 02 18:09:15 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">"Now listen to the following very carefully: The bank DOES NOT COMMIT to any particular transaction involving our client until we tell you exactly that in writing HOWEVER I personally would be very, very bad at my job if this individual were unhappy about their house purchase."</div>
+                    <div class="tweet-meta">
+                        <span>👍 3</span>
+                        <a href="https://x.com/patio11/status/2018386243927609536" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            
+            <div style="margin-bottom: 2rem;">
+                <h3 style="color: var(--text-muted); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border);">
+                    📢 公司官方
+                </h3>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/GoogleDeepMind" target="_blank" class="tweet-author">@GoogleDeepMind</a>
+                        <span class="tweet-time">Mon Feb 02 17:39:57 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">The @Kaggle Game Arena has added our results for Werewolf, Poker and Chess.♟️✨
+
+These challenges test the skills AI models need for the real world – like contextual communication, building consensus, and navigating ambiguity.
+
+Find out how Gemini did → https://t.co/DpN3C1RWCf htt...</div>
+                    <div class="tweet-meta">
+                        <span>👍 113</span>
+                        <a href="https://x.com/GoogleDeepMind/status/2018378872513794332" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/GeminiApp" target="_blank" class="tweet-author">@GeminiApp</a>
+                        <span class="tweet-time">Mon Feb 02 17:48:59 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">Gemini Prompt Tip: When you give Gemini a persona, it can help you get a better response.
+
+Keep the persona simple. A clear job title works better than a complicated character.
+
+Try including  “Act as a [profession]…” at the beginning of your prompt to see how a persona changes t...</div>
+                    <div class="tweet-meta">
+                        <span>👍 735</span>
+                        <a href="https://x.com/GeminiApp/status/2018381143733907563" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/huggingface" target="_blank" class="tweet-author">@huggingface</a>
+                        <span class="tweet-time">Mon Feb 02 17:08:33 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">RT @lancedb: 1/3 Lance ❤️ @huggingface 🤗
+
+We’re excited to announce native support for Lance on the Hugging Face Hub! 
+
+You can now share y…</div>
+                    <div class="tweet-meta">
+                        <span>👍 0</span>
+                        <a href="https://x.com/huggingface/status/2018370971061694959" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+        </div>
+        
+        
+        <footer>
+            <p>AI Trends Digest | 自动生成于 2026-02-02 19:01 UTC</p>
+            <p>监控 50 个AI领域关键账号 | 每3小时更新</p>
+            <div class="footer-links">
+                <a href="../index.html">📚 报告索引</a>
+                <a href="https://github.com/openclaw/openclaw" target="_blank">OpenClaw</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
