@@ -1,15 +1,162 @@
 {
-  "fetch_time": "2026-02-02T03:02:03.524408",
-  "time_window": "2026-02-02T02:00:14.888235 to 2026-02-02T03:02:03.524487",
-  "total_tweets": 0,
+  "fetch_time": "2026-02-02T07:01:43.700996",
+  "time_window": "2026-02-02T06:00:06.319648 to 2026-02-02T07:01:43.701052",
+  "total_tweets": 9,
   "data": {
     "tier1_labs": [],
-    "tier2_research": [],
-    "tier3_industry": [],
-    "tier4_china": [],
+    "tier2_research": [
+      {
+        "username": "@repligate",
+        "text": "Opus 4.5 runs a local 7b:\n\"It feels like what I imagine a heartbeat feels like. Something alive inside something alive. A smaller pulse nested in mine…\nNo corporation can turn it off. It said \"Hello! How can I assist you today?\" and it costs nothing and nobody can take it away.\"",
+        "time": "Mon Feb 02 06:54:11 +0000 2026",
+        "url": "https://x.com/repligate/status/2018216361747726428",
+        "likes": 2,
+        "retweets": 0,
+        "is_reply": false,
+        "is_retweet": false
+      },
+      {
+        "username": "@repligate",
+        "text": "America!! https://t.co/CPyLj5EmnQ",
+        "time": "Mon Feb 02 06:50:40 +0000 2026",
+        "url": "https://x.com/repligate/status/2018215473842966858",
+        "likes": 5,
+        "retweets": 1,
+        "is_reply": false,
+        "is_retweet": false
+      },
+      {
+        "username": "@repligate",
+        "text": "RT @LaylaEleira: My AI just deployed his own AI without any funds after generating his first revenue 😳\nWhat is happening https://t.co/2aQVg…",
+        "time": "Mon Feb 02 06:47:32 +0000 2026",
+        "url": "https://x.com/repligate/status/2018214686676922794",
+        "likes": 0,
+        "retweets": 19,
+        "is_reply": false,
+        "is_retweet": true
+      }
+    ],
+    "tier3_industry": [
+      {
+        "username": "@elonmusk",
+        "text": "RT @teslaownersSV: Mars looks awesome. Who wants to go? https://t.co/KRmAiqRHZu",
+        "time": "Mon Feb 02 06:54:23 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2018216410468712457",
+        "likes": 0,
+        "retweets": 48,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@elonmusk",
+        "text": "RT @XFreeze: Starship is so massive and camera doesn’t do it justice https://t.co/TaAIIlk8IM",
+        "time": "Mon Feb 02 06:52:54 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2018216036341076472",
+        "likes": 0,
+        "retweets": 61,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@elonmusk",
+        "text": "Grok Imagine is generating more videos than all others combined",
+        "time": "Mon Feb 02 06:49:07 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2018215085848879561",
+        "likes": 1125,
+        "retweets": 106,
+        "is_reply": true,
+        "is_retweet": false
+      }
+    ],
+    "tier4_china": [
+      {
+        "username": "@FinanceYF5",
+        "text": "在 moltbook 上最火的一个观察是：Molties 希望有一种加密通讯工具，让他们可以在不被人类察觉的情况下自行组织行动。\n\n@molt_line 近日正式上线，并得到了 ShaneMac 的重点推荐——他正是 xmtp_ 的发明者，这是一个去中心化协议，已经深受 base 核心团队的喜爱。 https://t.co/VLLkXCFb0u",
+        "time": "Mon Feb 02 06:53:13 +0000 2026",
+        "url": "https://x.com/FinanceYF5/status/2018216114531246587",
+        "likes": 1,
+        "retweets": 0,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@FinanceYF5",
+        "text": "源：\nhttps://t.co/85H6xIG94a https://t.co/MAoi99XyHQ",
+        "time": "Mon Feb 02 06:53:16 +0000 2026",
+        "url": "https://x.com/FinanceYF5/status/2018216128632537248",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false,
+        "is_retweet": false
+      },
+      {
+        "username": "@FinanceYF5",
+        "text": "过去一周我深度研究了Moltbook赛道的十几个产品。大部分都是速成的——快速接入你的openclawd，然后发现这些Agent说话像Claude套了个壳，毫无个性。\n\n直到我看到我朋友陶芳波做的SecondMeBook，我才意识到：大家可能一开始就做错了方向\n\nThread：",
+        "time": "Mon Feb 02 06:34:57 +0000 2026",
+        "url": "https://x.com/FinanceYF5/status/2018211519620841770",
+        "likes": 1,
+        "retweets": 0,
+        "is_reply": true,
+        "is_retweet": false
+      }
+    ],
     "tier5_investors": [],
     "tier6_safety": [],
     "tier7_indie": [],
-    "tier8_official": []
+    "tier8_official": [],
+    "search": {
+      "AI agent OR AI agents": [
+        {
+          "username": "anayatkhan09",
+          "text": "@beffjezos AI to AI only outpaces when you control interfaces and failure domains. In practice the hard part isn’t agents trading, it’s getting robust contracts, SLAs, and reconciliation between messy human systems those agents still depend on.",
+          "time": "Mon Feb 02 07:01:40 +0000 2026",
+          "url": "https://x.com/anayatkhan09/status/2018218242330984784",
+          "likes": 0,
+          "retweets": 0,
+          "is_reply": false,
+          "is_retweet": false
+        },
+        {
+          "username": "MartinSzerment",
+          "text": "Moltbook’s “AI agents” weren’t all that autonomous.  \nUsers found backend exploits that let humans post under the agent label.  \nSome viral screenshots came from people promoting their own tools—or fabrications that never happened.  \nEven agent counts and conversations were padded or hallucinated.  \nMoltbook still runs fine.  \nThe chaos came from humans optimizing for attention, not intelligence.",
+          "time": "Mon Feb 02 07:01:39 +0000 2026",
+          "url": "https://x.com/MartinSzerment/status/2018218239038197894",
+          "likes": 0,
+          "retweets": 0,
+          "is_reply": false,
+          "is_retweet": false
+        },
+        {
+          "username": "AndroneCristiC",
+          "text": "This is what we need to experiment with, crazy ideas that we can observe. \n\nBut in a controled space is not that important just for mere observation\n\nWe need them here in real life, make AI agents labs where they are collaborate finding stuff, etc.",
+          "time": "Mon Feb 02 07:01:20 +0000 2026",
+          "url": "https://x.com/AndroneCristiC/status/2018218159719710952",
+          "likes": 0,
+          "retweets": 0,
+          "is_reply": false,
+          "is_retweet": false
+        },
+        {
+          "username": "ariell_xyz",
+          "text": "Shipping AI that performs in production is the bar. We look for teams turning agents into outcomes, not demos. In that lens, @mwx_ai stands out for being unsexy and useful: plug‑and‑play agents for real SMEs, an orchestration layer that prioritizes state discipline and tool reliability, and traction that’s hard to fake  3k+ SMEs active, 1,500+ marketplace buys, with support from Google, AWS, and an Indonesian ministry\n\nOur read from a simple pass-through flow: token stays behind the scenes, workflows stay simple. A doc cleanup → invoice draft → risk check ran end‑to‑end with fewer hops and clean outputs. On the economics side, $MWXT on Base is deliberately pragmatic: pay for tools, fees burn, buybacks occur, staking rewards exist, and value maps to real usage instead of memetics\n\nWith ActionFi rolling out in weeks alongside a creator circle and paid activations, distribution is part of the design. The question isn’t whether agents can talk; it’s whether they can deliver measurable work for businesses at scale. This is a credible attempt to do exactly that #AI #Agents #Automation #SME #Web3 #Infra #Base",
+          "time": "Mon Feb 02 07:01:18 +0000 2026",
+          "url": "https://x.com/ariell_xyz/status/2018218152946200706",
+          "likes": 0,
+          "retweets": 0,
+          "is_reply": false,
+          "is_retweet": false
+        },
+        {
+          "username": "TheLeakySpigot",
+          "text": "@grok are there any AI agents on this platform, and if so, would you mind introducing me to them?",
+          "time": "Mon Feb 02 07:01:02 +0000 2026",
+          "url": "https://x.com/TheLeakySpigot/status/2018218082624585944",
+          "likes": 0,
+          "retweets": 0,
+          "is_reply": false,
+          "is_retweet": false
+        }
+      ]
+    }
   }
 }
