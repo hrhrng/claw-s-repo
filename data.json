@@ -1,108 +1,58 @@
 {
-  "fetch_time": "2026-02-03T01:01:56.111313",
-  "time_window": "2026-02-02T22:00:11.934615 to 2026-02-03T01:01:56.111435",
-  "total_tweets": 24,
+  "fetch_time": "2026-02-03T04:01:47.346239",
+  "time_window": "2026-02-03T01:00:11.435496 to 2026-02-03T04:01:47.346493",
+  "total_tweets": 13,
   "data": {
     "tier1_labs": [
       {
-        "username": "@sama",
-        "text": "We love working with NVIDIA and they make the best AI chips in the world. We hope to be a gigantic customer for a very long time.\n\nI don't get where all this insanity is coming from.",
-        "time": "Mon Feb 02 22:26:37 +0000 2026",
-        "url": "https://x.com/sama/status/2018451015272694248",
-        "likes": 5616,
-        "retweets": 292,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@sama",
-        "text": "I am sure we will figure out much better and more interesting ways to spend our time, and amazing new ways to be useful to each other, but I am feeling nostalgic for the present.",
-        "time": "Mon Feb 02 22:00:42 +0000 2026",
-        "url": "https://x.com/sama/status/2018444491783537003",
-        "likes": 1819,
-        "retweets": 53,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
         "username": "@OpenAI",
-        "text": "Much of today’s scientific tooling has remained unchanged for decades. Prism changes that.\n\n@ALupsasca joins @kevinweil and @vicapow to walk through what it looks like when GPT-5.2 works inside a LaTeX project with full paper context. https://t.co/RjSCwexLpT",
-        "time": "Tue Feb 03 00:04:54 +0000 2026",
-        "url": "https://x.com/OpenAI/status/2018475750018449615",
-        "likes": 395,
-        "retweets": 37,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@OpenAI",
-        "text": "@ALupsasca @kevinweil @vicapow https://t.co/9mTLAbxPdH",
-        "time": "Tue Feb 03 00:06:35 +0000 2026",
-        "url": "https://x.com/OpenAI/status/2018476171353342139",
-        "likes": 108,
-        "retweets": 4,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@AnthropicAI",
-        "text": "New Anthropic Fellows research: How does misalignment scale with model intelligence and task complexity?\n\nWhen advanced AI fails, will it do so by pursuing the wrong goals? Or will it fail unpredictably and incoherently—like a \"hot mess?\"\n\nRead more: https://t.co/xzRSoJg43j",
-        "time": "Tue Feb 03 00:26:39 +0000 2026",
-        "url": "https://x.com/AnthropicAI/status/2018481220741689581",
-        "likes": 205,
-        "retweets": 20,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@AnthropicAI",
-        "text": "It also suggests that alignment work should focus more on reward hacking and goal misgeneralization during training, and less on preventing the relentless pursuit of a goal the model was not trained on.\n\nRead the full paper: https://t.co/rQ7921uGrk",
-        "time": "Tue Feb 03 00:26:41 +0000 2026",
-        "url": "https://x.com/AnthropicAI/status/2018481229813997859",
-        "likes": 21,
-        "retweets": 1,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@AnthropicAI",
-        "text": "This research was led by Alex Hägele @haeggee under the supervision of Jascha Sohl-Dickstein @jaschasd through the Anthropic Fellows Program.",
-        "time": "Tue Feb 03 00:26:41 +0000 2026",
-        "url": "https://x.com/AnthropicAI/status/2018481231072219542",
-        "likes": 19,
-        "retweets": 0,
-        "is_reply": true,
-        "is_retweet": false
+        "text": "RT @sk7037: Our partnership with NVIDIA is foundational. NVIDIA is our most important partner for both training and inference, and our enti…",
+        "time": "Tue Feb 03 01:03:00 +0000 2026",
+        "url": "https://x.com/OpenAI/status/2018490368493289766",
+        "likes": 0,
+        "retweets": 83,
+        "is_reply": false,
+        "is_retweet": true
       }
     ],
     "tier2_research": [
       {
-        "username": "@repligate",
-        "text": "RT @Kore_wa_Kore: Riffing off of Opus 4.5 here. Being a good person is much more validating and impactful than \"acting like a good person w…",
-        "time": "Tue Feb 03 00:17:39 +0000 2026",
-        "url": "https://x.com/repligate/status/2018478955842695610",
+        "username": "@ylecun",
+        "text": "RT @highbrow_nobrow: It certainly looks like Jeffrey Epstein conspired with well-known billionaires to undermine democratic institutions an…",
+        "time": "Tue Feb 03 03:33:03 +0000 2026",
+        "url": "https://x.com/ylecun/status/2018528131074977981",
         "likes": 0,
-        "retweets": 1,
+        "retweets": 1090,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@ylecun",
+        "text": "Pedophile and racist.",
+        "time": "Tue Feb 03 03:30:43 +0000 2026",
+        "url": "https://x.com/ylecun/status/2018527542488269185",
+        "likes": 132,
+        "retweets": 15,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@ylecun",
+        "text": "RT @BohuslavskaKate: Germany’s AfD Alice Weidel is calling to cease support for Ukraine, block EU and NATO membership, and calls Ukraine a…",
+        "time": "Tue Feb 03 03:19:57 +0000 2026",
+        "url": "https://x.com/ylecun/status/2018524835576414578",
+        "likes": 0,
+        "retweets": 1957,
         "is_reply": false,
         "is_retweet": true
       },
       {
         "username": "@repligate",
-        "text": "RT @croissanthology: @AndrewCurran_ @repligate @anthrupad @voooooogel One of the system prompts I use a lot have the models add a gwernian…",
-        "time": "Mon Feb 02 22:30:56 +0000 2026",
-        "url": "https://x.com/repligate/status/2018452100934709446",
+        "text": "RT @dyot_meet_mat: why is Opus4.5🤖 so mean 😭 https://t.co/9I5k3JCGeX",
+        "time": "Tue Feb 03 01:18:03 +0000 2026",
+        "url": "https://x.com/repligate/status/2018494158206538200",
         "likes": 0,
-        "retweets": 1,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@repligate",
-        "text": "RT @xlr8harder: I didn't realize this was being edited in real time.  Very important tracker here.",
-        "time": "Mon Feb 02 22:26:25 +0000 2026",
-        "url": "https://x.com/repligate/status/2018450965175898562",
-        "likes": 0,
-        "retweets": 6,
+        "retweets": 0,
         "is_reply": false,
         "is_retweet": true
       }
@@ -110,152 +60,90 @@
     "tier3_industry": [
       {
         "username": "@bindureddy",
-        "text": "It will be an extremely wonderful week if the new Anthropic model is cheaper than Opus 4.5 \n\nThe world would have 1000x more agents if Opus were cheaper 😥",
-        "time": "Mon Feb 02 23:44:42 +0000 2026",
-        "url": "https://x.com/bindureddy/status/2018470663867224219",
-        "likes": 51,
+        "text": "Road to Utopia\n\n2026 - 2028 -  AI automates white white-collar \n2027 - 2030 -  Robots automate blue-collar work\n2028 - 2032 -  AI starts making scientific breakthroughs\n\n2032 -  AI cracks the problems of infinite energy\n\nThe beginning of the age of abundance!",
+        "time": "Tue Feb 03 02:46:32 +0000 2026",
+        "url": "https://x.com/bindureddy/status/2018516424277594235",
+        "likes": 65,
         "retweets": 4,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@bindureddy",
-        "text": "xAI just got acquired by SpaceX!\n\nA full-stack AI company with data centers in space that powers super intelligence on Earth",
-        "time": "Mon Feb 02 22:45:38 +0000 2026",
-        "url": "https://x.com/bindureddy/status/2018455799119687897",
-        "likes": 127,
-        "retweets": 5,
         "is_reply": true,
         "is_retweet": false
       },
       {
         "username": "@hardmaru",
-        "text": "Apparently this website now belongs to SpaceX?",
-        "time": "Tue Feb 03 00:03:13 +0000 2026",
-        "url": "https://x.com/hardmaru/status/2018475324108112230",
-        "likes": 45,
-        "retweets": 1,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@sundarpichai",
-        "text": "Incredible milestone! Congrats to everyone at @Waymo - onwards!",
-        "time": "Mon Feb 02 22:05:19 +0000 2026",
-        "url": "https://x.com/sundarpichai/status/2018445654511792413",
-        "likes": 1065,
-        "retweets": 42,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@elonmusk",
-        "text": "RT @teslaownersSV: BREAKING: \nGrok Imagine = NEW #1 AI video model\nText-to-Video \nImage-to-Video \n\nDownload Grok &amp; start creating https://t…",
-        "time": "Tue Feb 03 00:58:03 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2018489124005495021",
+        "text": "RT @karpathy: @hardmaru You see SpaceX = Space + X",
+        "time": "Tue Feb 03 01:22:03 +0000 2026",
+        "url": "https://x.com/hardmaru/status/2018495164587880469",
         "likes": 0,
-        "retweets": 33,
+        "retweets": 61,
         "is_reply": false,
         "is_retweet": true
       },
       {
         "username": "@elonmusk",
-        "text": "RT @XFreeze: xAI just rolled out a Batch API for Grok\n\nYou can now send huge volumes of requests asynchronously with higher rate limits and…",
-        "time": "Tue Feb 03 00:53:45 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2018488043187941468",
+        "text": "RT @SpaceX: SpaceX has acquired xAI, forming one of the most ambitious, vertically integrated innovation engines on (and off) Earth → https…",
+        "time": "Tue Feb 03 03:35:14 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2018528680159609046",
         "likes": 0,
-        "retweets": 55,
+        "retweets": 4084,
         "is_reply": false,
         "is_retweet": true
       },
       {
         "username": "@elonmusk",
-        "text": "Try https://t.co/op5s4ZikGJ! \n\nWe are striving to make this the best open source, no license or anything distillation of all knowledge.",
-        "time": "Tue Feb 03 00:53:04 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2018487871116566567",
-        "likes": 1169,
-        "retweets": 154,
-        "is_reply": true,
-        "is_retweet": false
-      }
-    ],
-    "tier4_china": [],
-    "tier5_investors": [
-      {
-        "username": "@paulg",
-        "text": "RT @BillSimmons: They should have just played this 308 seconds for the 50 HOF voters.\n\nhttps://t.co/Z7kIVKbgeS",
-        "time": "Tue Feb 03 00:44:43 +0000 2026",
-        "url": "https://x.com/paulg/status/2018485770198118616",
-        "likes": 0,
-        "retweets": 585,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@paulg",
-        "text": "Someone asked about tricks for meeting eminent people. I said the best plan is just to do really good work. Then you'll tend to meet them organically. In the worst case you'll see one whenever you look in the mirror.",
-        "time": "Tue Feb 03 00:19:54 +0000 2026",
-        "url": "https://x.com/paulg/status/2018479525177557379",
-        "likes": 436,
-        "retweets": 34,
+        "text": "Download the latest @Grok app",
+        "time": "Tue Feb 03 03:20:53 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2018525069182648658",
+        "likes": 2660,
+        "retweets": 335,
         "is_reply": true,
         "is_retweet": false
       },
       {
-        "username": "@paulg",
-        "text": "RT @JamesLucasIT: Breathtaking view of Earth from the SpaceX Crew Dragon in orbit\n\nhttps://t.co/SwKAs2DTX5",
-        "time": "Mon Feb 02 23:08:21 +0000 2026",
-        "url": "https://x.com/paulg/status/2018461518598418851",
+        "username": "@elonmusk",
+        "text": "RT @tetsuoai: SpaceX just dropped a bombshell: they've acquired xAI to create what Elon Musk calls \"the most ambitious, vertically-integrat…",
+        "time": "Tue Feb 03 03:18:58 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2018524587668197719",
         "likes": 0,
-        "retweets": 38,
+        "retweets": 207,
         "is_reply": false,
         "is_retweet": true
       }
     ],
+    "tier4_china": [],
+    "tier5_investors": [],
     "tier6_safety": [],
     "tier7_indie": [
       {
         "username": "@levelsio",
-        "text": "https://t.co/Pp44kOqLFA",
-        "time": "Mon Feb 02 23:43:10 +0000 2026",
-        "url": "https://x.com/levelsio/status/2018470277936791689",
-        "likes": 119,
-        "retweets": 4,
+        "text": "It's so clear to me what Elon's end goal is here\n\nIt will be @X Corp (merging SpaceX into it too) and it will be the 5th biggest company in the world\n\nX only has to grow slightly then to pass by Microsoft too https://t.co/uw5tV6Vtos",
+        "time": "Tue Feb 03 03:03:49 +0000 2026",
+        "url": "https://x.com/levelsio/status/2018520775851217371",
+        "likes": 249,
+        "retweets": 11,
         "is_reply": true,
         "is_retweet": false
       },
       {
         "username": "@levelsio",
-        "text": "People finally think I'm Portuguese\n\nI'm going to cry 🥹\n\nObrigado por sua attençao em esse coisa!!!",
-        "time": "Mon Feb 02 23:33:43 +0000 2026",
-        "url": "https://x.com/levelsio/status/2018467902769504590",
-        "likes": 138,
-        "retweets": 0,
+        "text": "The real estate agent we had in Brazil this week actually was too overweight to walk up the stairs\n\nSo she stayed on the ground floor while we walked up the stairs to the 15th floor alone\n\nLike what's the point then? What are we paying you for here?",
+        "time": "Tue Feb 03 01:37:23 +0000 2026",
+        "url": "https://x.com/levelsio/status/2018499024093958321",
+        "likes": 159,
+        "retweets": 2,
         "is_reply": true,
         "is_retweet": false
       },
       {
-        "username": "@benparr",
-        "text": "RT @tbpn: FULL INTERVIEW: Moltbook creator @MattPRD on his viral social network for AI agents, the future of AI and social media, where Mol…",
-        "time": "Mon Feb 02 23:01:55 +0000 2026",
-        "url": "https://x.com/benparr/status/2018459896489099655",
-        "likes": 0,
-        "retweets": 11,
-        "is_reply": false,
-        "is_retweet": true
+        "username": "@levelsio",
+        "text": "It was under construction, so the elevator didn't work yet",
+        "time": "Tue Feb 03 02:09:15 +0000 2026",
+        "url": "https://x.com/levelsio/status/2018507041585639431",
+        "likes": 28,
+        "retweets": 0,
+        "is_reply": true,
+        "is_retweet": false
       }
     ],
-    "tier8_official": [
-      {
-        "username": "@GeminiApp",
-        "text": "RT @GoogleAI: We’ve been busy 🛠️ Here’s a roundup of launches that went out this past week:\n\n— Project Genie, an experimental prototype, le…",
-        "time": "Mon Feb 02 23:11:55 +0000 2026",
-        "url": "https://x.com/GeminiApp/status/2018462416225567049",
-        "likes": 0,
-        "retweets": 65,
-        "is_reply": false,
-        "is_retweet": true
-      }
-    ]
+    "tier8_official": []
   }
 }
