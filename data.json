@@ -1,194 +1,213 @@
 {
-  "fetch_time": "2026-02-02T19:01:50.070507",
-  "time_window": "2026-02-02T16:00:14.071015 to 2026-02-02T19:01:50.070589",
-  "total_tweets": 26,
+  "fetch_time": "2026-02-03T01:01:56.111313",
+  "time_window": "2026-02-02T22:00:11.934615 to 2026-02-03T01:01:56.111435",
+  "total_tweets": 24,
   "data": {
     "tier1_labs": [
       {
-        "username": "@OpenAI",
-        "text": "Introducing the Codex app—a powerful command center for building with agents.\n\nNow available on macOS.\n\nhttps://t.co/HW05s2C9Nr",
-        "time": "Mon Feb 02 18:06:33 +0000 2026",
-        "url": "https://x.com/OpenAI/status/2018385565289267236",
-        "likes": 1899,
-        "retweets": 214,
+        "username": "@sama",
+        "text": "We love working with NVIDIA and they make the best AI chips in the world. We hope to be a gigantic customer for a very long time.\n\nI don't get where all this insanity is coming from.",
+        "time": "Mon Feb 02 22:26:37 +0000 2026",
+        "url": "https://x.com/sama/status/2018451015272694248",
+        "likes": 5616,
+        "retweets": 292,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@sama",
+        "text": "I am sure we will figure out much better and more interesting ways to spend our time, and amazing new ways to be useful to each other, but I am feeling nostalgic for the present.",
+        "time": "Mon Feb 02 22:00:42 +0000 2026",
+        "url": "https://x.com/sama/status/2018444491783537003",
+        "likes": 1819,
+        "retweets": 53,
         "is_reply": true,
         "is_retweet": false
       },
       {
         "username": "@OpenAI",
-        "text": "With the Codex app you can:\n\n- Multitask effortlessly: Work with multiple agents in parallel and keep agent changes isolated with worktrees\n\n- Create & use skills: package your tools + conventions into reusable capabilities\n\n⁃ Set up automations: delegate repetitive work to Codex with scheduled workflows in the background",
-        "time": "Mon Feb 02 18:06:33 +0000 2026",
-        "url": "https://x.com/OpenAI/status/2018385566891704339",
-        "likes": 477,
-        "retweets": 27,
+        "text": "Much of today’s scientific tooling has remained unchanged for decades. Prism changes that.\n\n@ALupsasca joins @kevinweil and @vicapow to walk through what it looks like when GPT-5.2 works inside a LaTeX project with full paper context. https://t.co/RjSCwexLpT",
+        "time": "Tue Feb 03 00:04:54 +0000 2026",
+        "url": "https://x.com/OpenAI/status/2018475750018449615",
+        "likes": 395,
+        "retweets": 37,
         "is_reply": true,
         "is_retweet": false
       },
       {
         "username": "@OpenAI",
-        "text": "The Codex app is available starting today on macOS, with Windows coming soon.\n\nFor a limited time, Codex is available through ChatGPT Free and Go subscriptions—and we’re doubling rate limits for Plus, Pro, Business, Enterprise, and Edu users—across the Codex app, CLI, IDE extension, and cloud. https://t.co/Q26oarCRfL",
-        "time": "Mon Feb 02 18:06:34 +0000 2026",
-        "url": "https://x.com/OpenAI/status/2018385568992752059",
-        "likes": 455,
-        "retweets": 17,
+        "text": "@ALupsasca @kevinweil @vicapow https://t.co/9mTLAbxPdH",
+        "time": "Tue Feb 03 00:06:35 +0000 2026",
+        "url": "https://x.com/OpenAI/status/2018476171353342139",
+        "likes": 108,
+        "retweets": 4,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@AnthropicAI",
+        "text": "New Anthropic Fellows research: How does misalignment scale with model intelligence and task complexity?\n\nWhen advanced AI fails, will it do so by pursuing the wrong goals? Or will it fail unpredictably and incoherently—like a \"hot mess?\"\n\nRead more: https://t.co/xzRSoJg43j",
+        "time": "Tue Feb 03 00:26:39 +0000 2026",
+        "url": "https://x.com/AnthropicAI/status/2018481220741689581",
+        "likes": 205,
+        "retweets": 20,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@AnthropicAI",
+        "text": "It also suggests that alignment work should focus more on reward hacking and goal misgeneralization during training, and less on preventing the relentless pursuit of a goal the model was not trained on.\n\nRead the full paper: https://t.co/rQ7921uGrk",
+        "time": "Tue Feb 03 00:26:41 +0000 2026",
+        "url": "https://x.com/AnthropicAI/status/2018481229813997859",
+        "likes": 21,
+        "retweets": 1,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@AnthropicAI",
+        "text": "This research was led by Alex Hägele @haeggee under the supervision of Jascha Sohl-Dickstein @jaschasd through the Anthropic Fellows Program.",
+        "time": "Tue Feb 03 00:26:41 +0000 2026",
+        "url": "https://x.com/AnthropicAI/status/2018481231072219542",
+        "likes": 19,
+        "retweets": 0,
         "is_reply": true,
         "is_retweet": false
       }
     ],
     "tier2_research": [
       {
-        "username": "@SebastienBubeck",
-        "text": "This year we will see more and more LLM-aided scientific discoveries. If you want to get up to speed on where we are today, especially in mathematics, check out this video of my talk \"Recent Advances in LLMs for Mathematics\" https://t.co/9jvP50zQFP https://t.co/g7HTB6hzew",
-        "time": "Mon Feb 02 16:55:08 +0000 2026",
-        "url": "https://x.com/SebastienBubeck/status/2018367594882036154",
-        "likes": 91,
-        "retweets": 15,
-        "is_reply": true,
-        "is_retweet": false
+        "username": "@repligate",
+        "text": "RT @Kore_wa_Kore: Riffing off of Opus 4.5 here. Being a good person is much more validating and impactful than \"acting like a good person w…",
+        "time": "Tue Feb 03 00:17:39 +0000 2026",
+        "url": "https://x.com/repligate/status/2018478955842695610",
+        "likes": 0,
+        "retweets": 1,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@repligate",
+        "text": "RT @croissanthology: @AndrewCurran_ @repligate @anthrupad @voooooogel One of the system prompts I use a lot have the models add a gwernian…",
+        "time": "Mon Feb 02 22:30:56 +0000 2026",
+        "url": "https://x.com/repligate/status/2018452100934709446",
+        "likes": 0,
+        "retweets": 1,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@repligate",
+        "text": "RT @xlr8harder: I didn't realize this was being edited in real time.  Very important tracker here.",
+        "time": "Mon Feb 02 22:26:25 +0000 2026",
+        "url": "https://x.com/repligate/status/2018450965175898562",
+        "likes": 0,
+        "retweets": 6,
+        "is_reply": false,
+        "is_retweet": true
       }
     ],
     "tier3_industry": [
       {
-        "username": "@gdb",
-        "text": "the codex app is really good, try it out.\n\ni've been a die-hard terminal / emacs user for many years, but since using the codex app, going back to the terminal has felt like going back in time.\n\nfeels like an agent-native interface for building.",
-        "time": "Mon Feb 02 18:15:36 +0000 2026",
-        "url": "https://x.com/gdb/status/2018387844222578818",
-        "likes": 552,
-        "retweets": 20,
+        "username": "@bindureddy",
+        "text": "It will be an extremely wonderful week if the new Anthropic model is cheaper than Opus 4.5 \n\nThe world would have 1000x more agents if Opus were cheaper 😥",
+        "time": "Mon Feb 02 23:44:42 +0000 2026",
+        "url": "https://x.com/bindureddy/status/2018470663867224219",
+        "likes": 51,
+        "retweets": 4,
         "is_reply": true,
         "is_retweet": false
       },
       {
-        "username": "@gdb",
-        "text": "Our Abilene Stargate data center is driving local economic value, for the city and its residents:",
-        "time": "Mon Feb 02 17:21:47 +0000 2026",
-        "url": "https://x.com/gdb/status/2018374301465096589",
-        "likes": 205,
-        "retweets": 12,
+        "username": "@bindureddy",
+        "text": "xAI just got acquired by SpaceX!\n\nA full-stack AI company with data centers in space that powers super intelligence on Earth",
+        "time": "Mon Feb 02 22:45:38 +0000 2026",
+        "url": "https://x.com/bindureddy/status/2018455799119687897",
+        "likes": 127,
+        "retweets": 5,
         "is_reply": true,
         "is_retweet": false
       },
       {
-        "username": "@demishassabis",
-        "text": "RT @Liv_Boeree: WHICH AI IS THE BEST GAMES PLAYER?!\n\nGoogle are launching their “AI Game Arena” today, which pits all the major LLMs (Gemin…",
-        "time": "Mon Feb 02 18:11:22 +0000 2026",
-        "url": "https://x.com/demishassabis/status/2018386778521014537",
-        "likes": 0,
-        "retweets": 13,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@demishassabis",
-        "text": "The AI field is in need of harder benchmarks to test capabilities of the latest AI models. This update to @Kaggle Game Arena with werewolf and poker (heads-up) plus chess, gives us new objective measures of real-world skills like planning and decision making under uncertainty.",
-        "time": "Mon Feb 02 18:07:19 +0000 2026",
-        "url": "https://x.com/demishassabis/status/2018385757816181178",
-        "likes": 301,
-        "retweets": 31,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@demishassabis",
-        "text": "For the next 3 days, there will be daily live commentary and analysis covering the new benchmarks - from chess &amp; poker legends @GMHikaru, @Liv_Boeree, @NickSchulman, @DougPolkVids. Tune in at 9:30am PT starting today, should be a lot of fun: https://t.co/4i1Eyhqzfg",
-        "time": "Mon Feb 02 18:07:19 +0000 2026",
-        "url": "https://x.com/demishassabis/status/2018385760806690945",
-        "likes": 84,
-        "retweets": 2,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@sundarpichai",
-        "text": "Our AI tools like DeepVariant and DeepPolisher are helping researchers sequence genomes for endangered species, compressing what once took years into just days. \n\nGenomes of 13 species are free and available for use by conservation researchers. Now @Googleorg is helping partners scale to 150+ more species, building a vital resource for global conservation and biology.",
-        "time": "Mon Feb 02 18:23:01 +0000 2026",
-        "url": "https://x.com/sundarpichai/status/2018389711111455090",
-        "likes": 307,
-        "retweets": 40,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@sundarpichai",
-        "text": "Read more here: https://t.co/HasN1K0ZlX",
-        "time": "Mon Feb 02 18:23:02 +0000 2026",
-        "url": "https://x.com/sundarpichai/status/2018389713372299717",
-        "likes": 81,
-        "retweets": 13,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@elonmusk",
-        "text": "RT @xAIMemphis: xAI in consultation with the Governor and local authorities deployed 500 generators to NES in Nashville to families in need…",
-        "time": "Mon Feb 02 17:43:27 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2018379751761518886",
-        "likes": 0,
-        "retweets": 406,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@elonmusk",
-        "text": "RT @united: We just took one more giant leap with @Starlink \n\nThe fastest, most reliable Wi-Fi in the sky is now on board 300+ planes, near…",
-        "time": "Mon Feb 02 17:39:08 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2018378666019872930",
-        "likes": 0,
-        "retweets": 281,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@elonmusk",
-        "text": "RT @Starlink: Starlink is now on board 300 @United aircraft and counting. Surf, scroll, and stream the big game at 35,000 feet 🛰️✈️🏈",
-        "time": "Mon Feb 02 17:39:03 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2018378647757832376",
-        "likes": 0,
-        "retweets": 319,
-        "is_reply": false,
-        "is_retweet": true
-      }
-    ],
-    "tier4_china": [
-      {
-        "username": "@dotey",
-        "text": "我们以 Google Trends 作为一个参考可以看这些产品的热度。你可以看到 OpenClaw 热度在增加，但趋势变缓，Moltbook 和 Clawdbot 都在走低，Clawdbot 走低正常，毕竟改名了。 https://t.co/j8pBOtWmhq",
-        "time": "Mon Feb 02 17:47:21 +0000 2026",
-        "url": "https://x.com/dotey/status/2018380735028015451",
-        "likes": 13,
+        "username": "@hardmaru",
+        "text": "Apparently this website now belongs to SpaceX?",
+        "time": "Tue Feb 03 00:03:13 +0000 2026",
+        "url": "https://x.com/hardmaru/status/2018475324108112230",
+        "likes": 45,
         "retweets": 1,
         "is_reply": true,
         "is_retweet": false
       },
       {
-        "username": "@dotey",
-        "text": "赞同：\n&gt; 工作中，效率第一，任何有利于更快完成工作的方法都是值得一试的。  \n&gt; 工作外，学习第一，任何有利于自己更好掌握基础能力的经历都是值得的。",
-        "time": "Mon Feb 02 16:30:42 +0000 2026",
-        "url": "https://x.com/dotey/status/2018361444018839735",
-        "likes": 48,
-        "retweets": 2,
+        "username": "@sundarpichai",
+        "text": "Incredible milestone! Congrats to everyone at @Waymo - onwards!",
+        "time": "Mon Feb 02 22:05:19 +0000 2026",
+        "url": "https://x.com/sundarpichai/status/2018445654511792413",
+        "likes": 1065,
+        "retweets": 42,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@elonmusk",
+        "text": "RT @teslaownersSV: BREAKING: \nGrok Imagine = NEW #1 AI video model\nText-to-Video \nImage-to-Video \n\nDownload Grok &amp; start creating https://t…",
+        "time": "Tue Feb 03 00:58:03 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2018489124005495021",
+        "likes": 0,
+        "retweets": 33,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@elonmusk",
+        "text": "RT @XFreeze: xAI just rolled out a Batch API for Grok\n\nYou can now send huge volumes of requests asynchronously with higher rate limits and…",
+        "time": "Tue Feb 03 00:53:45 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2018488043187941468",
+        "likes": 0,
+        "retweets": 55,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@elonmusk",
+        "text": "Try https://t.co/op5s4ZikGJ! \n\nWe are striving to make this the best open source, no license or anything distillation of all knowledge.",
+        "time": "Tue Feb 03 00:53:04 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2018487871116566567",
+        "likes": 1169,
+        "retweets": 154,
         "is_reply": true,
         "is_retweet": false
       }
     ],
+    "tier4_china": [],
     "tier5_investors": [
       {
         "username": "@paulg",
-        "text": "RT @ReichlinMelnick: WOW. A woman already in immigration court proceedings says ICE agents ran her off the road, causing her to crash into…",
-        "time": "Mon Feb 02 18:47:46 +0000 2026",
-        "url": "https://x.com/paulg/status/2018395939954672012",
+        "text": "RT @BillSimmons: They should have just played this 308 seconds for the 50 HOF voters.\n\nhttps://t.co/Z7kIVKbgeS",
+        "time": "Tue Feb 03 00:44:43 +0000 2026",
+        "url": "https://x.com/paulg/status/2018485770198118616",
         "likes": 0,
-        "retweets": 3156,
+        "retweets": 585,
         "is_reply": false,
         "is_retweet": true
       },
       {
         "username": "@paulg",
-        "text": "RT @DKThomp: My two cents on the DoorDash discourse.\n\nI just spent some time poking around the Consumer Expenditure Survey, which is the BL…",
-        "time": "Mon Feb 02 18:40:33 +0000 2026",
-        "url": "https://x.com/paulg/status/2018394123678425383",
+        "text": "Someone asked about tricks for meeting eminent people. I said the best plan is just to do really good work. Then you'll tend to meet them organically. In the worst case you'll see one whenever you look in the mirror.",
+        "time": "Tue Feb 03 00:19:54 +0000 2026",
+        "url": "https://x.com/paulg/status/2018479525177557379",
+        "likes": 436,
+        "retweets": 34,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@paulg",
+        "text": "RT @JamesLucasIT: Breathtaking view of Earth from the SpaceX Crew Dragon in orbit\n\nhttps://t.co/SwKAs2DTX5",
+        "time": "Mon Feb 02 23:08:21 +0000 2026",
+        "url": "https://x.com/paulg/status/2018461518598418851",
         "likes": 0,
-        "retweets": 23,
+        "retweets": 38,
         "is_reply": false,
         "is_retweet": true
       }
@@ -197,83 +216,43 @@
     "tier7_indie": [
       {
         "username": "@levelsio",
-        "text": "You absolutely cannot trust Germans with nukes\n\nDid we learn anything from history? I'm Dutch so I sure as hell did when we were invaded by them\n\nFrench yes, British yes  they can have nukes, they're trustworthy, not Germans\n\nThey'll start behavior policing the entire EU with nuclear weapons as a threat\n\nAbsofuckinglutely not",
-        "time": "Mon Feb 02 18:37:09 +0000 2026",
-        "url": "https://x.com/levelsio/status/2018393266140459153",
-        "likes": 92,
+        "text": "https://t.co/Pp44kOqLFA",
+        "time": "Mon Feb 02 23:43:10 +0000 2026",
+        "url": "https://x.com/levelsio/status/2018470277936791689",
+        "likes": 119,
         "retweets": 4,
         "is_reply": true,
         "is_retweet": false
       },
       {
         "username": "@levelsio",
-        "text": "🇧🇷 My favorite thing about Brazil is the buffets\n\nThey're everywhere and you can get fresh made whole foods like meat and vegetables priced per kilogram\n\nAnd with nice medium rare steak usually\n\nHere's my almost 1kg/2lbs regular lunch every day\n\nOne difference with buffets rest of world where I'd never ever touch buffets there because the food is usually old and stale, in Brazil it's almost always fresh and hot\n\nIt's a bit like the Warungs in Indonesia btw",
-        "time": "Mon Feb 02 17:13:25 +0000 2026",
-        "url": "https://x.com/levelsio/status/2018372195324473844",
-        "likes": 617,
+        "text": "People finally think I'm Portuguese\n\nI'm going to cry 🥹\n\nObrigado por sua attençao em esse coisa!!!",
+        "time": "Mon Feb 02 23:33:43 +0000 2026",
+        "url": "https://x.com/levelsio/status/2018467902769504590",
+        "likes": 138,
+        "retweets": 0,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@benparr",
+        "text": "RT @tbpn: FULL INTERVIEW: Moltbook creator @MattPRD on his viral social network for AI agents, the future of AI and social media, where Mol…",
+        "time": "Mon Feb 02 23:01:55 +0000 2026",
+        "url": "https://x.com/benparr/status/2018459896489099655",
+        "likes": 0,
         "retweets": 11,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@patio11",
-        "text": "Hall of fame email subject line for demonstrating two suborgs at each others' throats:\n\n\"You have excellent approval odds for the Venmo credit card\"\n\n(Marketing really wants to say \"pre-approved\", Legal/Compliance says \"We can't say that anymore.\")",
-        "time": "Mon Feb 02 17:30:20 +0000 2026",
-        "url": "https://x.com/patio11/status/2018376452027117611",
-        "likes": 48,
-        "retweets": 0,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@patio11",
-        "text": "And so sometimes a transaction might need a private banker to follow up the letter with a phone call explaining \"OK so you know that bank which has branches in your town? I work for that bank. HOWEVER. If you also did business in NYC you would have picked up on what department.\"",
-        "time": "Mon Feb 02 18:08:03 +0000 2026",
-        "url": "https://x.com/patio11/status/2018385942189400457",
-        "likes": 4,
-        "retweets": 0,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@patio11",
-        "text": "\"Now listen to the following very carefully: The bank DOES NOT COMMIT to any particular transaction involving our client until we tell you exactly that in writing HOWEVER I personally would be very, very bad at my job if this individual were unhappy about their house purchase.\"",
-        "time": "Mon Feb 02 18:09:15 +0000 2026",
-        "url": "https://x.com/patio11/status/2018386243927609536",
-        "likes": 3,
-        "retweets": 0,
         "is_reply": false,
-        "is_retweet": false
+        "is_retweet": true
       }
     ],
     "tier8_official": [
       {
-        "username": "@GoogleDeepMind",
-        "text": "The @Kaggle Game Arena has added our results for Werewolf, Poker and Chess.♟️✨\n\nThese challenges test the skills AI models need for the real world – like contextual communication, building consensus, and navigating ambiguity.\n\nFind out how Gemini did → https://t.co/DpN3C1RWCf https://t.co/TKee6ck7RI",
-        "time": "Mon Feb 02 17:39:57 +0000 2026",
-        "url": "https://x.com/GoogleDeepMind/status/2018378872513794332",
-        "likes": 113,
-        "retweets": 15,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
         "username": "@GeminiApp",
-        "text": "Gemini Prompt Tip: When you give Gemini a persona, it can help you get a better response.\n\nKeep the persona simple. A clear job title works better than a complicated character.\n\nTry including  “Act as a [profession]…” at the beginning of your prompt to see how a persona changes the style of Gemini’s response.",
-        "time": "Mon Feb 02 17:48:59 +0000 2026",
-        "url": "https://x.com/GeminiApp/status/2018381143733907563",
-        "likes": 735,
-        "retweets": 56,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@huggingface",
-        "text": "RT @lancedb: 1/3 Lance ❤️ @huggingface 🤗\n\nWe’re excited to announce native support for Lance on the Hugging Face Hub! \n\nYou can now share y…",
-        "time": "Mon Feb 02 17:08:33 +0000 2026",
-        "url": "https://x.com/huggingface/status/2018370971061694959",
+        "text": "RT @GoogleAI: We’ve been busy 🛠️ Here’s a roundup of launches that went out this past week:\n\n— Project Genie, an experimental prototype, le…",
+        "time": "Mon Feb 02 23:11:55 +0000 2026",
+        "url": "https://x.com/GeminiApp/status/2018462416225567049",
         "likes": 0,
-        "retweets": 9,
+        "retweets": 65,
         "is_reply": false,
         "is_retweet": true
       }
