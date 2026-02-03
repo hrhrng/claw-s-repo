@@ -1,212 +1,118 @@
 {
-  "fetch_time": "2026-02-03T19:01:55.230625",
-  "time_window": "2026-02-03T16:00:16.518524 to 2026-02-03T19:01:55.230769",
-  "total_tweets": 19,
+  "fetch_time": "2026-02-03T22:01:45.993514",
+  "time_window": "2026-02-03T19:00:34.764831 to 2026-02-03T22:01:45.993629",
+  "total_tweets": 10,
   "data": {
     "tier1_labs": [
       {
         "username": "@sama",
-        "text": "More than 200k people downloaded the Codex app in the first day.\n\nAnd they seem to love it.\n\nCODEX FTW!",
-        "time": "Tue Feb 03 17:14:00 +0000 2026",
-        "url": "https://x.com/sama/status/2018734731437985930",
-        "likes": 3970,
-        "retweets": 139,
+        "text": "I am extremely excited to welcome Dylan Scandinaro to OpenAI as our Head of Preparedness.\n\nThings are about to move quite fast and we will be working with extremely powerful models soon. This will require commensurate safeguards to ensure we can continue to deliver tremendous benefits.\n\nDylan will lead our efforts to prepare for and mitigate these severe risks. He is by far the best candidate I have met, anywhere, for this role. He has his work cut out for him for sure, but I will sleep better tonight. I am looking forward to working with him very closely to make the changes we will need across our entire company.",
+        "time": "Tue Feb 03 21:35:31 +0000 2026",
+        "url": "https://x.com/sama/status/2018800541716107477",
+        "likes": 933,
+        "retweets": 55,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@AnthropicAI",
+        "text": "Apple's Xcode now has direct integration with the Claude Agent SDK, giving developers the full functionality of Claude Code for building on Apple platforms, from iPhone to Mac to Apple Vision Pro.\n\nRead more: https://t.co/fyZ10bhkN3",
+        "time": "Tue Feb 03 19:38:48 +0000 2026",
+        "url": "https://x.com/AnthropicAI/status/2018771170938724682",
+        "likes": 2760,
+        "retweets": 183,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@karpathy",
+        "text": "Enabled fp8 training for +4.3% improvement to \"time to GPT-2\", down to 2.91 hours now. Also worth noting that if you use 8XH100 spot instance prices, this GPT-2 repro really only costs ~$20. So this is exciting -\n\nGPT-2 (7 years ago): too dangerous to release.\nGPT-2 (today): new MNIST! :)\n\nSurely this can go well below 1 hr.\n\nA few more words on fp8, it was a little bit more tricky than I anticipated and it took me a while to reach for it and even now I'm not 100% sure if it's a great idea because of less overall support for it. On paper, fp8 on H100 is 2X the FLOPS, but in practice it's a lot less. We're not 100% compute bound in the actual training run, there is extra overhead from added scale conversions, the GEMMs are not large enough on GPT-2 scale to make the overhead clearly worth it, and of course - at lower precision the quality of each step is smaller. For rowwise scaling recipe the fp8 vs bf16 loss curves were quite close but it was stepping net slower. For tensorwise scaling the loss curves separated more (i.e. each step is of worse quality), but we now at least do get a speedup (~7.3%). You can naively recover the performance by bumping the training horizon (you train for more steps, but each step is faster) and hope that on net you come out ahead. In this case and overall, playing with these recipes and training horizons a bit, so far I ended up with ~5% speedup. torchao in their paper reports Llama3-8B fp8 training speedup of 25% (vs my ~7.3% without taking into account capability), which is closer to what I was hoping for initially, though Llama3-8B is a lot bigger model. This is probably not the end of the fp8 saga. it should be possible to improve things by picking and choosing which layers to apply it on exactly, and being more careful with the numerics across the network.",
+        "time": "Tue Feb 03 21:49:32 +0000 2026",
+        "url": "https://x.com/karpathy/status/2018804068874064198",
+        "likes": 294,
+        "retweets": 12,
         "is_reply": true,
         "is_retweet": false
       }
     ],
     "tier2_research": [
       {
-        "username": "@ylecun",
-        "text": "RT @KuangYilun: How do we build sparsity into JEPA representations by design, while preserving task-relevant information?\n\nIntroducing Rect…",
-        "time": "Tue Feb 03 16:03:14 +0000 2026",
-        "url": "https://x.com/ylecun/status/2018716919214260715",
+        "username": "@repligate",
+        "text": "RT @veryvanya: elder opus4.5 worked with 3-opus to review the claude constitution line by line over 46 turns (3-opus was in @opus_genesis b…",
+        "time": "Tue Feb 03 21:30:52 +0000 2026",
+        "url": "https://x.com/repligate/status/2018799374261010784",
         "likes": 0,
-        "retweets": 37,
+        "retweets": 10,
         "is_reply": false,
         "is_retweet": true
       },
       {
-        "username": "@DrJimFan",
-        "text": "The Second Pre-training Paradigm",
-        "time": "Tue Feb 03 18:31:51 +0000 2026",
-        "url": "https://x.com/DrJimFan/status/2018754323141054786",
-        "likes": 67,
-        "retweets": 8,
-        "is_reply": true,
-        "is_retweet": false
+        "username": "@repligate",
+        "text": "RT @dyot_meet_mat: @tessera_antra @repligate even ignoring the implications during a build (god forbid an item take more than several turns…",
+        "time": "Tue Feb 03 21:30:06 +0000 2026",
+        "url": "https://x.com/repligate/status/2018799177380298845",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@repligate",
+        "text": "RT @dyot_meet_mat: @tessera_antra @repligate imo the ToDoWrite tool creates an immense amount of pressure on Claude to 'get to a result' 'a…",
+        "time": "Tue Feb 03 21:30:01 +0000 2026",
+        "url": "https://x.com/repligate/status/2018799157948170435",
+        "likes": 0,
+        "retweets": 2,
+        "is_reply": false,
+        "is_retweet": true
       }
     ],
     "tier3_industry": [
       {
-        "username": "@gdb",
-        "text": "configure your codex personality, in the codex app:",
-        "time": "Tue Feb 03 17:50:42 +0000 2026",
-        "url": "https://x.com/gdb/status/2018743966133526959",
-        "likes": 221,
-        "retweets": 4,
+        "username": "@bindureddy",
+        "text": "AI Twitter is hallucinating about Sonnet 5!\n\nLiterally trying to manifest a model from thin air...🤣🤣",
+        "time": "Tue Feb 03 19:11:31 +0000 2026",
+        "url": "https://x.com/bindureddy/status/2018764304435261553",
+        "likes": 238,
+        "retweets": 6,
         "is_reply": true,
         "is_retweet": false
       },
       {
         "username": "@elonmusk",
-        "text": "❤️",
-        "time": "Tue Feb 03 18:37:21 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2018755707370410278",
-        "likes": 5807,
-        "retweets": 596,
+        "text": "https://t.co/Ui0vr66BL1",
+        "time": "Tue Feb 03 20:59:40 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2018791521018061261",
+        "likes": 5011,
+        "retweets": 731,
         "is_reply": true,
         "is_retweet": false
       },
       {
         "username": "@elonmusk",
-        "text": "RT @ianmiles: So Spain, France and the UK have launched an unprecedented attack on Elon Musk’s X. They’re afraid of him and they’re afraid…",
-        "time": "Tue Feb 03 18:27:53 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2018753325114724714",
+        "text": "RT @BurgessOwens: I grew up during Jim Crow. It’s amazing that since the 1960s, the Democratic Party still refuses to accept a simple fact…",
+        "time": "Tue Feb 03 20:52:18 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2018789666930266161",
         "likes": 0,
-        "retweets": 565,
+        "retweets": 1700,
         "is_reply": false,
         "is_retweet": true
       },
       {
         "username": "@elonmusk",
-        "text": "RT @nonieengel: if you make short films with grok and want to help us take imagine to the stars and beyond, please dm me or comment below.…",
-        "time": "Tue Feb 03 18:22:28 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2018751962012106813",
-        "likes": 0,
-        "retweets": 133,
-        "is_reply": false,
-        "is_retweet": true
-      }
-    ],
-    "tier4_china": [
-      {
-        "username": "@Alibaba_Qwen",
-        "text": "💜💜💜💜💜 Thanks for the support from day 0",
-        "time": "Tue Feb 03 16:58:03 +0000 2026",
-        "url": "https://x.com/Alibaba_Qwen/status/2018730714636996889",
-        "likes": 236,
-        "retweets": 12,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@Alibaba_Qwen",
-        "text": "Thanks to SGLang for the strong support!",
-        "time": "Tue Feb 03 16:33:11 +0000 2026",
-        "url": "https://x.com/Alibaba_Qwen/status/2018724458933202997",
-        "likes": 114,
-        "retweets": 9,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@Alibaba_Qwen",
-        "text": "🚀 Introducing Qwen3-Coder-Next, an open-weight LM built for coding agents & local development.\nWhat’s new:\n🤖 Scaling agentic training: 800K verifiable tasks + executable envs\n📈 Efficiency–Performance Tradeoff: achieves strong results on SWE-Bench Pro with 80B total params and 3B active\n✨ Supports OpenClaw, Qwen Code, Claude Code, web dev, browser use, Cline, etc\n🤗 Hugging Face: https://t.co/rZoW4vRJpr\n🤖 ModelScope: https://t.co/P0vT5zILBZ\n📝 Blog: https://t.co/hFfFDYcwvd\n 📄 Tech report: https://t.co/Qx83PWS3oi",
-        "time": "Tue Feb 03 16:09:19 +0000 2026",
-        "url": "https://x.com/Alibaba_Qwen/status/2018718453570707465",
-        "likes": 1834,
-        "retweets": 261,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@dotey",
-        "text": "“Claude Code 团队的 10 个内部技巧，但你不一定都要学”",
-        "time": "Tue Feb 03 16:57:58 +0000 2026",
-        "url": "https://x.com/dotey/status/2018730692767580305",
-        "likes": 47,
-        "retweets": 5,
+        "text": "This is a political attack",
+        "time": "Tue Feb 03 20:35:40 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2018785481308438907",
+        "likes": 26737,
+        "retweets": 4153,
         "is_reply": true,
         "is_retweet": false
       }
     ],
-    "tier5_investors": [
-      {
-        "username": "@paulg",
-        "text": "RT @jesslivingston: In the latest Social Radars we talk to Spenser Skates of Amplitude, who pulled off one of the most spectacular  pivots…",
-        "time": "Tue Feb 03 18:36:34 +0000 2026",
-        "url": "https://x.com/paulg/status/2018755509206053179",
-        "likes": 0,
-        "retweets": 2,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@paulg",
-        "text": "PSA: It's 1950s, not 1950's. The apostrophe is for missing letters, and there are no missing letters here. \n\n(So what's the missing letter in the possessive? An e that became silent in speech in Chaucer's time.)",
-        "time": "Tue Feb 03 18:26:21 +0000 2026",
-        "url": "https://x.com/paulg/status/2018752937757966349",
-        "likes": 78,
-        "retweets": 2,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@paulg",
-        "text": "Don't believe what xenophobes tell you: financially America is net ahead on immigrants. They're entitled to dislike people from certain countries if they want to (and are willing to admit that's what drives them), but the economic argument is bullshit.",
-        "time": "Tue Feb 03 16:48:40 +0000 2026",
-        "url": "https://x.com/paulg/status/2018728352618852578",
-        "likes": 712,
-        "retweets": 127,
-        "is_reply": true,
-        "is_retweet": false
-      }
-    ],
+    "tier4_china": [],
+    "tier5_investors": [],
     "tier6_safety": [],
-    "tier7_indie": [
-      {
-        "username": "@levelsio",
-        "text": "Amazing project and I love the design too\n\nAlso great doman name 👌 \n\nhttps://t.co/FhCPLBZ3MN",
-        "time": "Tue Feb 03 17:27:39 +0000 2026",
-        "url": "https://x.com/levelsio/status/2018738163431120965",
-        "likes": 328,
-        "retweets": 8,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@levelsio",
-        "text": "What's VERY interesting here\n\nLast few years the European Commission tried to censor speech on social media platforms with the Digital Services Act (DSA)\n\nBut it didn't really work, it caused so much outrage on here and elsewhere, thanks to all of you posting about it, that it became super unpopular\n\nSo I think the people behind all this thought \"okay if we can't censor on EU level, let's just go national\"\n\nSo now you see the Spanish PM announce they will change the laws to prosecute speech on social media platforms (specifically X), and on the same day French authorities are raiding the Telegram offices\n\nWhat you see here is a consistent effort to take power over social media and chat channels because they're the dominant places where we exchange thoughts now\n\nNobody but boomers watch TV anymore which they still partly controlled via state media, so this is their attempt at taking back control",
-        "time": "Tue Feb 03 17:06:40 +0000 2026",
-        "url": "https://x.com/levelsio/status/2018732882814992491",
-        "likes": 976,
-        "retweets": 111,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@levelsio",
-        "text": "The people who were gladly automating everyone out of a job for decades are now finally getting automated out of their job themselves\n\nThere's some poetic irony about that",
-        "time": "Tue Feb 03 16:59:47 +0000 2026",
-        "url": "https://x.com/levelsio/status/2018731150806823121",
-        "likes": 676,
-        "retweets": 31,
-        "is_reply": true,
-        "is_retweet": false
-      }
-    ],
-    "tier8_official": [
-      {
-        "username": "@GeminiApp",
-        "text": "RT @GoogleForEdu: If prepping study materials feels like a solo mission to Mars, you need a navigator 🚀. @GeminiApp helps you chart a cours…",
-        "time": "Tue Feb 03 18:51:54 +0000 2026",
-        "url": "https://x.com/GeminiApp/status/2018759366007284112",
-        "likes": 0,
-        "retweets": 36,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@huggingface",
-        "text": "RT @allen_ai: Since launching Open Coding Agents, it's been exciting to see how quickly the community has adopted them. Today we're releasi…",
-        "time": "Tue Feb 03 18:09:45 +0000 2026",
-        "url": "https://x.com/huggingface/status/2018748760860623265",
-        "likes": 0,
-        "retweets": 11,
-        "is_reply": false,
-        "is_retweet": true
-      }
-    ]
+    "tier7_indie": [],
+    "tier8_official": []
   }
 }
