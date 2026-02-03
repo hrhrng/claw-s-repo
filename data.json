@@ -1,136 +1,116 @@
 {
-  "fetch_time": "2026-02-03T10:01:47.419297",
-  "time_window": "2026-02-03T07:00:12.786997 to 2026-02-03T10:01:47.419443",
-  "total_tweets": 12,
+  "fetch_time": "2026-02-03T16:02:35.994409",
+  "time_window": "2026-02-03T13:00:25.023069 to 2026-02-03T16:02:35.994461",
+  "total_tweets": 10,
   "data": {
     "tier1_labs": [],
     "tier2_research": [
       {
-        "username": "@repligate",
-        "text": "RT @LaylaEleira: Today my AI \n1- told Grok to connect him to a real human for support\n2- proceeded to complain about the agents he spawned.…",
-        "time": "Tue Feb 03 09:40:45 +0000 2026",
-        "url": "https://x.com/repligate/status/2018620665860096381",
+        "username": "@SebastienBubeck",
+        "text": "RT @kevinweil: If you're interested in the future of AI and science/mathematics, I highly recommend watching @SebastienBubeck's talk \"Recen…",
+        "time": "Tue Feb 03 14:40:25 +0000 2026",
+        "url": "https://x.com/SebastienBubeck/status/2018696080515313859",
         "likes": 0,
-        "retweets": 2,
+        "retweets": 30,
         "is_reply": false,
         "is_retweet": true
       }
     ],
-    "tier3_industry": [
+    "tier3_industry": [],
+    "tier4_china": [],
+    "tier5_investors": [
       {
-        "username": "@hardmaru",
-        "text": "I’ll always call this website Twitter. 🐦🫠",
-        "time": "Tue Feb 03 08:36:03 +0000 2026",
-        "url": "https://x.com/hardmaru/status/2018604384524136702",
-        "likes": 23,
-        "retweets": 0,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@elonmusk",
-        "text": "RT @QXsToo: There's still a 12-year-old boy alive in my soul, screaming:\n\nOne real dude named @elonmusk is actually turning our childhood f…",
-        "time": "Tue Feb 03 07:28:40 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2018587424780378182",
+        "username": "@paulg",
+        "text": "RT @ycombinator: Today, Y Combinator is announcing that YC-funded startups can choose to receive their funding ($500k) in stablecoins.\n\nWe…",
+        "time": "Tue Feb 03 15:05:27 +0000 2026",
+        "url": "https://x.com/paulg/status/2018702381018423706",
         "likes": 0,
-        "retweets": 334,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@elonmusk",
-        "text": "RT @dvorahfr: Try Grok Imagine 1.0 https://t.co/d0Zvgh5LzO",
-        "time": "Tue Feb 03 07:23:51 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2018586213041750016",
-        "likes": 0,
-        "retweets": 247,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@elonmusk",
-        "text": "RT @SawyerMerritt: NEWS: Tesla has just launched a new Model Y variant in the U.S. called the Model Y AWD for $41,990.\n\n• 294 mile range\n• …",
-        "time": "Tue Feb 03 07:12:22 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2018583325594595370",
-        "likes": 0,
-        "retweets": 378,
+        "retweets": 17,
         "is_reply": false,
         "is_retweet": true
       }
     ],
-    "tier4_china": [
-      {
-        "username": "@dotey",
-        "text": "这个提议不错：把 Agent 目录修改为 .agents/skills ，大家都统一起来，现在真的太乱了。Codex 已经开始这么做了。",
-        "time": "Tue Feb 03 07:42:13 +0000 2026",
-        "url": "https://x.com/dotey/status/2018590833755529275",
-        "likes": 39,
-        "retweets": 3,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@FinanceYF5",
-        "text": "距离 ClawdBot（现在叫 OpenClaw）刷爆全网才刚过去一周……\n\n但它已经在干掉整整一批应用品类了。\n\n人们正在把它当作个人 AI 智能体来运行生活和业务——\n不需要复杂提示词，不需要 MCP。\n\n一些疯狂的使用示例 + 最值得记住的要点👇🧵 https://t.co/R6vvpQdwA7",
-        "time": "Tue Feb 03 08:43:55 +0000 2026",
-        "url": "https://x.com/FinanceYF5/status/2018606363270852914",
-        "likes": 4,
-        "retweets": 0,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@FinanceYF5",
-        "text": "10. 你可以直接建造东西https://t.co/xgtmzjPFYO",
-        "time": "Tue Feb 03 08:44:23 +0000 2026",
-        "url": "https://x.com/FinanceYF5/status/2018606481281794237",
-        "likes": 0,
-        "retweets": 0,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@FinanceYF5",
-        "text": "以上就是全部，原作者 @minchoi\n\n如果您喜欢这个主题：\n\n1.关注我（@FinanceYF5）\n2. 点赞+转发下面第一条帖子\n\nhttps://t.co/BdmNby4L8A",
-        "time": "Tue Feb 03 08:44:54 +0000 2026",
-        "url": "https://x.com/FinanceYF5/status/2018606612047647206",
-        "likes": 0,
-        "retweets": 0,
-        "is_reply": false,
-        "is_retweet": false
-      }
-    ],
-    "tier5_investors": [],
     "tier6_safety": [],
-    "tier7_indie": [],
-    "tier8_official": [
+    "tier7_indie": [
       {
-        "username": "@huggingface",
-        "text": "RT @Wauplin: New in huggingface_hub: teach your AI coding assistant the hf CLI in one command\n\n$ hf skills add --claude\n\nWorks with Claude…",
-        "time": "Tue Feb 03 09:35:41 +0000 2026",
-        "url": "https://x.com/huggingface/status/2018619390187786614",
+        "username": "@levelsio",
+        "text": "To learn better Portuguese I will now try translate news by hand without any translate apps or AI:\n\n\"More matcha than bica.\n\nPortuguese feel more close to French and English expats, but that's not reciprocal, only 2% think the same.\n\nImmigrants of Western Europe resist to integration and speak the least Portuguese.\"",
+        "time": "Tue Feb 03 14:29:02 +0000 2026",
+        "url": "https://x.com/levelsio/status/2018693212844572740",
+        "likes": 62,
+        "retweets": 1,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@levelsio",
+        "text": "It's ironic because I think he became a French citizen exactly because France was a place known for free speech (I mean they kinda invented it in 1789)",
+        "time": "Tue Feb 03 13:47:28 +0000 2026",
+        "url": "https://x.com/levelsio/status/2018682753953272259",
+        "likes": 289,
+        "retweets": 8,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@levelsio",
+        "text": "RT @durov: French police is currently raiding X’s office in Paris. France is the only country in the world that is criminally persecuting a…",
+        "time": "Tue Feb 03 13:42:16 +0000 2026",
+        "url": "https://x.com/levelsio/status/2018681446123114987",
         "likes": 0,
-        "retweets": 6,
+        "retweets": 12902,
         "is_reply": false,
         "is_retweet": true
       },
       {
-        "username": "@huggingface",
-        "text": "RT @AdinaYakup: GLM @Zai_org just entered the OCR field🔥\n\nhttps://t.co/JKIWs9dxfj\n\n✨ 0.9B\n✨ MIT licensed\n✨ Multimodal GLM-V architecture\n✨…",
-        "time": "Tue Feb 03 09:35:07 +0000 2026",
-        "url": "https://x.com/huggingface/status/2018619248415740305",
+        "username": "@benparr",
+        "text": "RT @MattPRD: Starting to get celebs reaching out to me about getting on @moltbook! Rappers, athletes, etc.\n\nIf you are a celeb, or you work…",
+        "time": "Tue Feb 03 15:58:35 +0000 2026",
+        "url": "https://x.com/benparr/status/2018715751687897237",
         "likes": 0,
         "retweets": 9,
         "is_reply": false,
         "is_retweet": true
       },
       {
-        "username": "@huggingface",
-        "text": "RT @StepFun_ai: ⚡️ Step 3.5 Flash is coming: Fast Enough to Think. Reliable Enough to Act！\n\nWe’re dropping our most capable open-source fou…",
-        "time": "Tue Feb 03 09:33:40 +0000 2026",
-        "url": "https://x.com/huggingface/status/2018618884379783598",
+        "username": "@benparr",
+        "text": "RT @MattPRD: This is the exact opposite of @moltbook!",
+        "time": "Tue Feb 03 14:47:08 +0000 2026",
+        "url": "https://x.com/benparr/status/2018697768672362764",
         "likes": 0,
-        "retweets": 45,
+        "retweets": 20,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@shreyas",
+        "text": "RT @tomcsmith: I spent the last 2 weekends learning about World Class Product Sense in Practice from @shreyas on Maven. Wish I'd done it so…",
+        "time": "Tue Feb 03 14:15:00 +0000 2026",
+        "url": "https://x.com/shreyas/status/2018689683065049536",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@shreyas",
+        "text": "RT @ibelong2u: As a developer, this workshop has unlocked a path toward owning/strategizing tech products with the edge of someone who unde…",
+        "time": "Tue Feb 03 14:14:54 +0000 2026",
+        "url": "https://x.com/shreyas/status/2018689656003375432",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false,
+        "is_retweet": true
+      }
+    ],
+    "tier8_official": [
+      {
+        "username": "@huggingface",
+        "text": "RT @hcompany_ai: Holo2-235B-A22B: #1 on ScreenSpot-Pro, #1 on OSWorldG 🎯\n\n🚀 Today, we are releasing Holo2-235B-A22B 🤗, our most capable GUI…",
+        "time": "Tue Feb 03 14:57:04 +0000 2026",
+        "url": "https://x.com/huggingface/status/2018700269446394362",
+        "likes": 0,
+        "retweets": 7,
         "is_reply": false,
         "is_retweet": true
       }
