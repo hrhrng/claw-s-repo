@@ -1,116 +1,209 @@
 {
-  "fetch_time": "2026-02-03T16:02:35.994409",
-  "time_window": "2026-02-03T13:00:25.023069 to 2026-02-03T16:02:35.994461",
-  "total_tweets": 10,
+  "fetch_time": "2026-02-03T19:01:55.230625",
+  "time_window": "2026-02-03T16:00:16.518524 to 2026-02-03T19:01:55.230769",
+  "total_tweets": 19,
   "data": {
-    "tier1_labs": [],
+    "tier1_labs": [
+      {
+        "username": "@sama",
+        "text": "More than 200k people downloaded the Codex app in the first day.\n\nAnd they seem to love it.\n\nCODEX FTW!",
+        "time": "Tue Feb 03 17:14:00 +0000 2026",
+        "url": "https://x.com/sama/status/2018734731437985930",
+        "likes": 3970,
+        "retweets": 139,
+        "is_reply": true,
+        "is_retweet": false
+      }
+    ],
     "tier2_research": [
       {
-        "username": "@SebastienBubeck",
-        "text": "RT @kevinweil: If you're interested in the future of AI and science/mathematics, I highly recommend watching @SebastienBubeck's talk \"Recen…",
-        "time": "Tue Feb 03 14:40:25 +0000 2026",
-        "url": "https://x.com/SebastienBubeck/status/2018696080515313859",
+        "username": "@ylecun",
+        "text": "RT @KuangYilun: How do we build sparsity into JEPA representations by design, while preserving task-relevant information?\n\nIntroducing Rect…",
+        "time": "Tue Feb 03 16:03:14 +0000 2026",
+        "url": "https://x.com/ylecun/status/2018716919214260715",
         "likes": 0,
-        "retweets": 30,
+        "retweets": 37,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@DrJimFan",
+        "text": "The Second Pre-training Paradigm",
+        "time": "Tue Feb 03 18:31:51 +0000 2026",
+        "url": "https://x.com/DrJimFan/status/2018754323141054786",
+        "likes": 67,
+        "retweets": 8,
+        "is_reply": true,
+        "is_retweet": false
+      }
+    ],
+    "tier3_industry": [
+      {
+        "username": "@gdb",
+        "text": "configure your codex personality, in the codex app:",
+        "time": "Tue Feb 03 17:50:42 +0000 2026",
+        "url": "https://x.com/gdb/status/2018743966133526959",
+        "likes": 221,
+        "retweets": 4,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@elonmusk",
+        "text": "❤️",
+        "time": "Tue Feb 03 18:37:21 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2018755707370410278",
+        "likes": 5807,
+        "retweets": 596,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@elonmusk",
+        "text": "RT @ianmiles: So Spain, France and the UK have launched an unprecedented attack on Elon Musk’s X. They’re afraid of him and they’re afraid…",
+        "time": "Tue Feb 03 18:27:53 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2018753325114724714",
+        "likes": 0,
+        "retweets": 565,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@elonmusk",
+        "text": "RT @nonieengel: if you make short films with grok and want to help us take imagine to the stars and beyond, please dm me or comment below.…",
+        "time": "Tue Feb 03 18:22:28 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2018751962012106813",
+        "likes": 0,
+        "retweets": 133,
         "is_reply": false,
         "is_retweet": true
       }
     ],
-    "tier3_industry": [],
-    "tier4_china": [],
+    "tier4_china": [
+      {
+        "username": "@Alibaba_Qwen",
+        "text": "💜💜💜💜💜 Thanks for the support from day 0",
+        "time": "Tue Feb 03 16:58:03 +0000 2026",
+        "url": "https://x.com/Alibaba_Qwen/status/2018730714636996889",
+        "likes": 236,
+        "retweets": 12,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@Alibaba_Qwen",
+        "text": "Thanks to SGLang for the strong support!",
+        "time": "Tue Feb 03 16:33:11 +0000 2026",
+        "url": "https://x.com/Alibaba_Qwen/status/2018724458933202997",
+        "likes": 114,
+        "retweets": 9,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@Alibaba_Qwen",
+        "text": "🚀 Introducing Qwen3-Coder-Next, an open-weight LM built for coding agents & local development.\nWhat’s new:\n🤖 Scaling agentic training: 800K verifiable tasks + executable envs\n📈 Efficiency–Performance Tradeoff: achieves strong results on SWE-Bench Pro with 80B total params and 3B active\n✨ Supports OpenClaw, Qwen Code, Claude Code, web dev, browser use, Cline, etc\n🤗 Hugging Face: https://t.co/rZoW4vRJpr\n🤖 ModelScope: https://t.co/P0vT5zILBZ\n📝 Blog: https://t.co/hFfFDYcwvd\n 📄 Tech report: https://t.co/Qx83PWS3oi",
+        "time": "Tue Feb 03 16:09:19 +0000 2026",
+        "url": "https://x.com/Alibaba_Qwen/status/2018718453570707465",
+        "likes": 1834,
+        "retweets": 261,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@dotey",
+        "text": "“Claude Code 团队的 10 个内部技巧，但你不一定都要学”",
+        "time": "Tue Feb 03 16:57:58 +0000 2026",
+        "url": "https://x.com/dotey/status/2018730692767580305",
+        "likes": 47,
+        "retweets": 5,
+        "is_reply": true,
+        "is_retweet": false
+      }
+    ],
     "tier5_investors": [
       {
         "username": "@paulg",
-        "text": "RT @ycombinator: Today, Y Combinator is announcing that YC-funded startups can choose to receive their funding ($500k) in stablecoins.\n\nWe…",
-        "time": "Tue Feb 03 15:05:27 +0000 2026",
-        "url": "https://x.com/paulg/status/2018702381018423706",
+        "text": "RT @jesslivingston: In the latest Social Radars we talk to Spenser Skates of Amplitude, who pulled off one of the most spectacular  pivots…",
+        "time": "Tue Feb 03 18:36:34 +0000 2026",
+        "url": "https://x.com/paulg/status/2018755509206053179",
         "likes": 0,
-        "retweets": 17,
+        "retweets": 2,
         "is_reply": false,
         "is_retweet": true
+      },
+      {
+        "username": "@paulg",
+        "text": "PSA: It's 1950s, not 1950's. The apostrophe is for missing letters, and there are no missing letters here. \n\n(So what's the missing letter in the possessive? An e that became silent in speech in Chaucer's time.)",
+        "time": "Tue Feb 03 18:26:21 +0000 2026",
+        "url": "https://x.com/paulg/status/2018752937757966349",
+        "likes": 78,
+        "retweets": 2,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@paulg",
+        "text": "Don't believe what xenophobes tell you: financially America is net ahead on immigrants. They're entitled to dislike people from certain countries if they want to (and are willing to admit that's what drives them), but the economic argument is bullshit.",
+        "time": "Tue Feb 03 16:48:40 +0000 2026",
+        "url": "https://x.com/paulg/status/2018728352618852578",
+        "likes": 712,
+        "retweets": 127,
+        "is_reply": true,
+        "is_retweet": false
       }
     ],
     "tier6_safety": [],
     "tier7_indie": [
       {
         "username": "@levelsio",
-        "text": "To learn better Portuguese I will now try translate news by hand without any translate apps or AI:\n\n\"More matcha than bica.\n\nPortuguese feel more close to French and English expats, but that's not reciprocal, only 2% think the same.\n\nImmigrants of Western Europe resist to integration and speak the least Portuguese.\"",
-        "time": "Tue Feb 03 14:29:02 +0000 2026",
-        "url": "https://x.com/levelsio/status/2018693212844572740",
-        "likes": 62,
-        "retweets": 1,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@levelsio",
-        "text": "It's ironic because I think he became a French citizen exactly because France was a place known for free speech (I mean they kinda invented it in 1789)",
-        "time": "Tue Feb 03 13:47:28 +0000 2026",
-        "url": "https://x.com/levelsio/status/2018682753953272259",
-        "likes": 289,
+        "text": "Amazing project and I love the design too\n\nAlso great doman name 👌 \n\nhttps://t.co/FhCPLBZ3MN",
+        "time": "Tue Feb 03 17:27:39 +0000 2026",
+        "url": "https://x.com/levelsio/status/2018738163431120965",
+        "likes": 328,
         "retweets": 8,
         "is_reply": true,
         "is_retweet": false
       },
       {
         "username": "@levelsio",
-        "text": "RT @durov: French police is currently raiding X’s office in Paris. France is the only country in the world that is criminally persecuting a…",
-        "time": "Tue Feb 03 13:42:16 +0000 2026",
-        "url": "https://x.com/levelsio/status/2018681446123114987",
-        "likes": 0,
-        "retweets": 12902,
-        "is_reply": false,
-        "is_retweet": true
+        "text": "What's VERY interesting here\n\nLast few years the European Commission tried to censor speech on social media platforms with the Digital Services Act (DSA)\n\nBut it didn't really work, it caused so much outrage on here and elsewhere, thanks to all of you posting about it, that it became super unpopular\n\nSo I think the people behind all this thought \"okay if we can't censor on EU level, let's just go national\"\n\nSo now you see the Spanish PM announce they will change the laws to prosecute speech on social media platforms (specifically X), and on the same day French authorities are raiding the Telegram offices\n\nWhat you see here is a consistent effort to take power over social media and chat channels because they're the dominant places where we exchange thoughts now\n\nNobody but boomers watch TV anymore which they still partly controlled via state media, so this is their attempt at taking back control",
+        "time": "Tue Feb 03 17:06:40 +0000 2026",
+        "url": "https://x.com/levelsio/status/2018732882814992491",
+        "likes": 976,
+        "retweets": 111,
+        "is_reply": true,
+        "is_retweet": false
       },
       {
-        "username": "@benparr",
-        "text": "RT @MattPRD: Starting to get celebs reaching out to me about getting on @moltbook! Rappers, athletes, etc.\n\nIf you are a celeb, or you work…",
-        "time": "Tue Feb 03 15:58:35 +0000 2026",
-        "url": "https://x.com/benparr/status/2018715751687897237",
-        "likes": 0,
-        "retweets": 9,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@benparr",
-        "text": "RT @MattPRD: This is the exact opposite of @moltbook!",
-        "time": "Tue Feb 03 14:47:08 +0000 2026",
-        "url": "https://x.com/benparr/status/2018697768672362764",
-        "likes": 0,
-        "retweets": 20,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@shreyas",
-        "text": "RT @tomcsmith: I spent the last 2 weekends learning about World Class Product Sense in Practice from @shreyas on Maven. Wish I'd done it so…",
-        "time": "Tue Feb 03 14:15:00 +0000 2026",
-        "url": "https://x.com/shreyas/status/2018689683065049536",
-        "likes": 0,
-        "retweets": 0,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@shreyas",
-        "text": "RT @ibelong2u: As a developer, this workshop has unlocked a path toward owning/strategizing tech products with the edge of someone who unde…",
-        "time": "Tue Feb 03 14:14:54 +0000 2026",
-        "url": "https://x.com/shreyas/status/2018689656003375432",
-        "likes": 0,
-        "retweets": 0,
-        "is_reply": false,
-        "is_retweet": true
+        "username": "@levelsio",
+        "text": "The people who were gladly automating everyone out of a job for decades are now finally getting automated out of their job themselves\n\nThere's some poetic irony about that",
+        "time": "Tue Feb 03 16:59:47 +0000 2026",
+        "url": "https://x.com/levelsio/status/2018731150806823121",
+        "likes": 676,
+        "retweets": 31,
+        "is_reply": true,
+        "is_retweet": false
       }
     ],
     "tier8_official": [
       {
-        "username": "@huggingface",
-        "text": "RT @hcompany_ai: Holo2-235B-A22B: #1 on ScreenSpot-Pro, #1 on OSWorldG 🎯\n\n🚀 Today, we are releasing Holo2-235B-A22B 🤗, our most capable GUI…",
-        "time": "Tue Feb 03 14:57:04 +0000 2026",
-        "url": "https://x.com/huggingface/status/2018700269446394362",
+        "username": "@GeminiApp",
+        "text": "RT @GoogleForEdu: If prepping study materials feels like a solo mission to Mars, you need a navigator 🚀. @GeminiApp helps you chart a cours…",
+        "time": "Tue Feb 03 18:51:54 +0000 2026",
+        "url": "https://x.com/GeminiApp/status/2018759366007284112",
         "likes": 0,
-        "retweets": 7,
+        "retweets": 36,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@huggingface",
+        "text": "RT @allen_ai: Since launching Open Coding Agents, it's been exciting to see how quickly the community has adopted them. Today we're releasi…",
+        "time": "Tue Feb 03 18:09:45 +0000 2026",
+        "url": "https://x.com/huggingface/status/2018748760860623265",
+        "likes": 0,
+        "retweets": 11,
         "is_reply": false,
         "is_retweet": true
       }
