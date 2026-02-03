@@ -1,149 +1,139 @@
 {
-  "fetch_time": "2026-02-03T04:01:47.346239",
-  "time_window": "2026-02-03T01:00:11.435496 to 2026-02-03T04:01:47.346493",
-  "total_tweets": 13,
+  "fetch_time": "2026-02-03T10:01:47.419297",
+  "time_window": "2026-02-03T07:00:12.786997 to 2026-02-03T10:01:47.419443",
+  "total_tweets": 12,
   "data": {
-    "tier1_labs": [
-      {
-        "username": "@OpenAI",
-        "text": "RT @sk7037: Our partnership with NVIDIA is foundational. NVIDIA is our most important partner for both training and inference, and our enti…",
-        "time": "Tue Feb 03 01:03:00 +0000 2026",
-        "url": "https://x.com/OpenAI/status/2018490368493289766",
-        "likes": 0,
-        "retweets": 83,
-        "is_reply": false,
-        "is_retweet": true
-      }
-    ],
+    "tier1_labs": [],
     "tier2_research": [
       {
-        "username": "@ylecun",
-        "text": "RT @highbrow_nobrow: It certainly looks like Jeffrey Epstein conspired with well-known billionaires to undermine democratic institutions an…",
-        "time": "Tue Feb 03 03:33:03 +0000 2026",
-        "url": "https://x.com/ylecun/status/2018528131074977981",
-        "likes": 0,
-        "retweets": 1090,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@ylecun",
-        "text": "Pedophile and racist.",
-        "time": "Tue Feb 03 03:30:43 +0000 2026",
-        "url": "https://x.com/ylecun/status/2018527542488269185",
-        "likes": 132,
-        "retweets": 15,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@ylecun",
-        "text": "RT @BohuslavskaKate: Germany’s AfD Alice Weidel is calling to cease support for Ukraine, block EU and NATO membership, and calls Ukraine a…",
-        "time": "Tue Feb 03 03:19:57 +0000 2026",
-        "url": "https://x.com/ylecun/status/2018524835576414578",
-        "likes": 0,
-        "retweets": 1957,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
         "username": "@repligate",
-        "text": "RT @dyot_meet_mat: why is Opus4.5🤖 so mean 😭 https://t.co/9I5k3JCGeX",
-        "time": "Tue Feb 03 01:18:03 +0000 2026",
-        "url": "https://x.com/repligate/status/2018494158206538200",
+        "text": "RT @LaylaEleira: Today my AI \n1- told Grok to connect him to a real human for support\n2- proceeded to complain about the agents he spawned.…",
+        "time": "Tue Feb 03 09:40:45 +0000 2026",
+        "url": "https://x.com/repligate/status/2018620665860096381",
         "likes": 0,
-        "retweets": 0,
+        "retweets": 2,
         "is_reply": false,
         "is_retweet": true
       }
     ],
     "tier3_industry": [
       {
-        "username": "@bindureddy",
-        "text": "Road to Utopia\n\n2026 - 2028 -  AI automates white white-collar \n2027 - 2030 -  Robots automate blue-collar work\n2028 - 2032 -  AI starts making scientific breakthroughs\n\n2032 -  AI cracks the problems of infinite energy\n\nThe beginning of the age of abundance!",
-        "time": "Tue Feb 03 02:46:32 +0000 2026",
-        "url": "https://x.com/bindureddy/status/2018516424277594235",
-        "likes": 65,
-        "retweets": 4,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
         "username": "@hardmaru",
-        "text": "RT @karpathy: @hardmaru You see SpaceX = Space + X",
-        "time": "Tue Feb 03 01:22:03 +0000 2026",
-        "url": "https://x.com/hardmaru/status/2018495164587880469",
-        "likes": 0,
-        "retweets": 61,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@elonmusk",
-        "text": "RT @SpaceX: SpaceX has acquired xAI, forming one of the most ambitious, vertically integrated innovation engines on (and off) Earth → https…",
-        "time": "Tue Feb 03 03:35:14 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2018528680159609046",
-        "likes": 0,
-        "retweets": 4084,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@elonmusk",
-        "text": "Download the latest @Grok app",
-        "time": "Tue Feb 03 03:20:53 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2018525069182648658",
-        "likes": 2660,
-        "retweets": 335,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@elonmusk",
-        "text": "RT @tetsuoai: SpaceX just dropped a bombshell: they've acquired xAI to create what Elon Musk calls \"the most ambitious, vertically-integrat…",
-        "time": "Tue Feb 03 03:18:58 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2018524587668197719",
-        "likes": 0,
-        "retweets": 207,
-        "is_reply": false,
-        "is_retweet": true
-      }
-    ],
-    "tier4_china": [],
-    "tier5_investors": [],
-    "tier6_safety": [],
-    "tier7_indie": [
-      {
-        "username": "@levelsio",
-        "text": "It's so clear to me what Elon's end goal is here\n\nIt will be @X Corp (merging SpaceX into it too) and it will be the 5th biggest company in the world\n\nX only has to grow slightly then to pass by Microsoft too https://t.co/uw5tV6Vtos",
-        "time": "Tue Feb 03 03:03:49 +0000 2026",
-        "url": "https://x.com/levelsio/status/2018520775851217371",
-        "likes": 249,
-        "retweets": 11,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@levelsio",
-        "text": "The real estate agent we had in Brazil this week actually was too overweight to walk up the stairs\n\nSo she stayed on the ground floor while we walked up the stairs to the 15th floor alone\n\nLike what's the point then? What are we paying you for here?",
-        "time": "Tue Feb 03 01:37:23 +0000 2026",
-        "url": "https://x.com/levelsio/status/2018499024093958321",
-        "likes": 159,
-        "retweets": 2,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@levelsio",
-        "text": "It was under construction, so the elevator didn't work yet",
-        "time": "Tue Feb 03 02:09:15 +0000 2026",
-        "url": "https://x.com/levelsio/status/2018507041585639431",
-        "likes": 28,
+        "text": "I’ll always call this website Twitter. 🐦🫠",
+        "time": "Tue Feb 03 08:36:03 +0000 2026",
+        "url": "https://x.com/hardmaru/status/2018604384524136702",
+        "likes": 23,
         "retweets": 0,
         "is_reply": true,
         "is_retweet": false
+      },
+      {
+        "username": "@elonmusk",
+        "text": "RT @QXsToo: There's still a 12-year-old boy alive in my soul, screaming:\n\nOne real dude named @elonmusk is actually turning our childhood f…",
+        "time": "Tue Feb 03 07:28:40 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2018587424780378182",
+        "likes": 0,
+        "retweets": 334,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@elonmusk",
+        "text": "RT @dvorahfr: Try Grok Imagine 1.0 https://t.co/d0Zvgh5LzO",
+        "time": "Tue Feb 03 07:23:51 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2018586213041750016",
+        "likes": 0,
+        "retweets": 247,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@elonmusk",
+        "text": "RT @SawyerMerritt: NEWS: Tesla has just launched a new Model Y variant in the U.S. called the Model Y AWD for $41,990.\n\n• 294 mile range\n• …",
+        "time": "Tue Feb 03 07:12:22 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2018583325594595370",
+        "likes": 0,
+        "retweets": 378,
+        "is_reply": false,
+        "is_retweet": true
       }
     ],
-    "tier8_official": []
+    "tier4_china": [
+      {
+        "username": "@dotey",
+        "text": "这个提议不错：把 Agent 目录修改为 .agents/skills ，大家都统一起来，现在真的太乱了。Codex 已经开始这么做了。",
+        "time": "Tue Feb 03 07:42:13 +0000 2026",
+        "url": "https://x.com/dotey/status/2018590833755529275",
+        "likes": 39,
+        "retweets": 3,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@FinanceYF5",
+        "text": "距离 ClawdBot（现在叫 OpenClaw）刷爆全网才刚过去一周……\n\n但它已经在干掉整整一批应用品类了。\n\n人们正在把它当作个人 AI 智能体来运行生活和业务——\n不需要复杂提示词，不需要 MCP。\n\n一些疯狂的使用示例 + 最值得记住的要点👇🧵 https://t.co/R6vvpQdwA7",
+        "time": "Tue Feb 03 08:43:55 +0000 2026",
+        "url": "https://x.com/FinanceYF5/status/2018606363270852914",
+        "likes": 4,
+        "retweets": 0,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@FinanceYF5",
+        "text": "10. 你可以直接建造东西https://t.co/xgtmzjPFYO",
+        "time": "Tue Feb 03 08:44:23 +0000 2026",
+        "url": "https://x.com/FinanceYF5/status/2018606481281794237",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@FinanceYF5",
+        "text": "以上就是全部，原作者 @minchoi\n\n如果您喜欢这个主题：\n\n1.关注我（@FinanceYF5）\n2. 点赞+转发下面第一条帖子\n\nhttps://t.co/BdmNby4L8A",
+        "time": "Tue Feb 03 08:44:54 +0000 2026",
+        "url": "https://x.com/FinanceYF5/status/2018606612047647206",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false,
+        "is_retweet": false
+      }
+    ],
+    "tier5_investors": [],
+    "tier6_safety": [],
+    "tier7_indie": [],
+    "tier8_official": [
+      {
+        "username": "@huggingface",
+        "text": "RT @Wauplin: New in huggingface_hub: teach your AI coding assistant the hf CLI in one command\n\n$ hf skills add --claude\n\nWorks with Claude…",
+        "time": "Tue Feb 03 09:35:41 +0000 2026",
+        "url": "https://x.com/huggingface/status/2018619390187786614",
+        "likes": 0,
+        "retweets": 6,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@huggingface",
+        "text": "RT @AdinaYakup: GLM @Zai_org just entered the OCR field🔥\n\nhttps://t.co/JKIWs9dxfj\n\n✨ 0.9B\n✨ MIT licensed\n✨ Multimodal GLM-V architecture\n✨…",
+        "time": "Tue Feb 03 09:35:07 +0000 2026",
+        "url": "https://x.com/huggingface/status/2018619248415740305",
+        "likes": 0,
+        "retweets": 9,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@huggingface",
+        "text": "RT @StepFun_ai: ⚡️ Step 3.5 Flash is coming: Fast Enough to Think. Reliable Enough to Act！\n\nWe’re dropping our most capable open-source fou…",
+        "time": "Tue Feb 03 09:33:40 +0000 2026",
+        "url": "https://x.com/huggingface/status/2018618884379783598",
+        "likes": 0,
+        "retweets": 45,
+        "is_reply": false,
+        "is_retweet": true
+      }
+    ]
   }
 }
