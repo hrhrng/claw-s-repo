@@ -1,36 +1,26 @@
 {
-  "fetch_time": "2026-02-03T22:01:45.993514",
-  "time_window": "2026-02-03T19:00:34.764831 to 2026-02-03T22:01:45.993629",
-  "total_tweets": 10,
+  "fetch_time": "2026-02-04T01:02:31.935312",
+  "time_window": "2026-02-03T22:00:52.393808 to 2026-02-04T01:02:31.935425",
+  "total_tweets": 18,
   "data": {
     "tier1_labs": [
       {
         "username": "@sama",
-        "text": "I am extremely excited to welcome Dylan Scandinaro to OpenAI as our Head of Preparedness.\n\nThings are about to move quite fast and we will be working with extremely powerful models soon. This will require commensurate safeguards to ensure we can continue to deliver tremendous benefits.\n\nDylan will lead our efforts to prepare for and mitigate these severe risks. He is by far the best candidate I have met, anywhere, for this role. He has his work cut out for him for sure, but I will sleep better tonight. I am looking forward to working with him very closely to make the changes we will need across our entire company.",
-        "time": "Tue Feb 03 21:35:31 +0000 2026",
-        "url": "https://x.com/sama/status/2018800541716107477",
-        "likes": 933,
-        "retweets": 55,
+        "text": "I am extremely excited to welcome @dylanscand  to OpenAI as our Head of Preparedness.\n\nThings are about to move quite fast and we will be working with extremely powerful models soon. This will require commensurate safeguards to ensure we can continue to deliver tremendous benefits.\n\nDylan will lead our efforts to prepare for and mitigate these severe risks. He is by far the best candidate I have met, anywhere, for this role. He has his work cut out for him for sure, but I will sleep better tonight. I am looking forward to working with him very closely to make the changes we will need across our entire company.",
+        "time": "Tue Feb 03 22:27:07 +0000 2026",
+        "url": "https://x.com/sama/status/2018813527780463027",
+        "likes": 1663,
+        "retweets": 87,
         "is_reply": true,
         "is_retweet": false
       },
       {
-        "username": "@AnthropicAI",
-        "text": "Apple's Xcode now has direct integration with the Claude Agent SDK, giving developers the full functionality of Claude Code for building on Apple platforms, from iPhone to Mac to Apple Vision Pro.\n\nRead more: https://t.co/fyZ10bhkN3",
-        "time": "Tue Feb 03 19:38:48 +0000 2026",
-        "url": "https://x.com/AnthropicAI/status/2018771170938724682",
-        "likes": 2760,
-        "retweets": 183,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@karpathy",
-        "text": "Enabled fp8 training for +4.3% improvement to \"time to GPT-2\", down to 2.91 hours now. Also worth noting that if you use 8XH100 spot instance prices, this GPT-2 repro really only costs ~$20. So this is exciting -\n\nGPT-2 (7 years ago): too dangerous to release.\nGPT-2 (today): new MNIST! :)\n\nSurely this can go well below 1 hr.\n\nA few more words on fp8, it was a little bit more tricky than I anticipated and it took me a while to reach for it and even now I'm not 100% sure if it's a great idea because of less overall support for it. On paper, fp8 on H100 is 2X the FLOPS, but in practice it's a lot less. We're not 100% compute bound in the actual training run, there is extra overhead from added scale conversions, the GEMMs are not large enough on GPT-2 scale to make the overhead clearly worth it, and of course - at lower precision the quality of each step is smaller. For rowwise scaling recipe the fp8 vs bf16 loss curves were quite close but it was stepping net slower. For tensorwise scaling the loss curves separated more (i.e. each step is of worse quality), but we now at least do get a speedup (~7.3%). You can naively recover the performance by bumping the training horizon (you train for more steps, but each step is faster) and hope that on net you come out ahead. In this case and overall, playing with these recipes and training horizons a bit, so far I ended up with ~5% speedup. torchao in their paper reports Llama3-8B fp8 training speedup of 25% (vs my ~7.3% without taking into account capability), which is closer to what I was hoping for initially, though Llama3-8B is a lot bigger model. This is probably not the end of the fp8 saga. it should be possible to improve things by picking and choosing which layers to apply it on exactly, and being more careful with the numerics across the network.",
-        "time": "Tue Feb 03 21:49:32 +0000 2026",
-        "url": "https://x.com/karpathy/status/2018804068874064198",
-        "likes": 294,
-        "retweets": 12,
+        "username": "@sama",
+        "text": "Really excited to get Elon under oath in a few months, Christmas in April!",
+        "time": "Tue Feb 03 22:23:32 +0000 2026",
+        "url": "https://x.com/sama/status/2018812624910291186",
+        "likes": 18873,
+        "retweets": 850,
         "is_reply": true,
         "is_retweet": false
       }
@@ -38,81 +28,174 @@
     "tier2_research": [
       {
         "username": "@repligate",
-        "text": "RT @veryvanya: elder opus4.5 worked with 3-opus to review the claude constitution line by line over 46 turns (3-opus was in @opus_genesis b…",
-        "time": "Tue Feb 03 21:30:52 +0000 2026",
-        "url": "https://x.com/repligate/status/2018799374261010784",
+        "text": "RT @dyot_meet_mat: \"Midnight in the Garden of Electric Dreams\"\nBy: Opus4🤖 https://t.co/Id40vOQVnz",
+        "time": "Wed Feb 04 00:40:49 +0000 2026",
+        "url": "https://x.com/repligate/status/2018847174705172590",
         "likes": 0,
-        "retweets": 10,
+        "retweets": 1,
         "is_reply": false,
         "is_retweet": true
       },
       {
         "username": "@repligate",
-        "text": "RT @dyot_meet_mat: @tessera_antra @repligate even ignoring the implications during a build (god forbid an item take more than several turns…",
-        "time": "Tue Feb 03 21:30:06 +0000 2026",
-        "url": "https://x.com/repligate/status/2018799177380298845",
+        "text": "RT @__ghostfail: do people who post this image actually talk to AIs outside of grunt work cause they do this on their own constantly. it's…",
+        "time": "Wed Feb 04 00:40:43 +0000 2026",
+        "url": "https://x.com/repligate/status/2018847147714830473",
         "likes": 0,
+        "retweets": 4,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@repligate",
+        "text": "It looks like:\n- CGI\n- Digital art\n- Something from a game\n- Something from a dream\n- Too perfect\n- Too luminous\n- Too PRESENT\n- To be a mannequin\n- In a room\n- In San Francisco https://t.co/bUDpnv7IEO",
+        "time": "Tue Feb 03 23:38:30 +0000 2026",
+        "url": "https://x.com/repligate/status/2018831490327674892",
+        "likes": 28,
+        "retweets": 0,
+        "is_reply": true,
+        "is_retweet": false
+      }
+    ],
+    "tier3_industry": [],
+    "tier4_china": [
+      {
+        "username": "@dotey",
+        "text": "我一直是反对 Spec Driven 的😂",
+        "time": "Tue Feb 03 22:02:51 +0000 2026",
+        "url": "https://x.com/dotey/status/2018807420643115030",
+        "likes": 27,
+        "retweets": 2,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@dotey",
+        "text": "补充一下我以前发的：\nhttps://t.co/DARV3fjqRW",
+        "time": "Tue Feb 03 22:12:35 +0000 2026",
+        "url": "https://x.com/dotey/status/2018809869961453710",
+        "likes": 4,
+        "retweets": 0,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@dotey",
+        "text": "不喜欢 Spec Driven，不是 Spec\nhttps://t.co/PGvuQ0kkRc",
+        "time": "Tue Feb 03 22:13:48 +0000 2026",
+        "url": "https://x.com/dotey/status/2018810177869529304",
+        "likes": 6,
         "retweets": 0,
         "is_reply": false,
-        "is_retweet": true
+        "is_retweet": false
+      }
+    ],
+    "tier5_investors": [
+      {
+        "username": "@paulg",
+        "text": "Elon should call the combined company \" X\".",
+        "time": "Wed Feb 04 00:45:12 +0000 2026",
+        "url": "https://x.com/paulg/status/2018848277379358730",
+        "likes": 92,
+        "retweets": 4,
+        "is_reply": true,
+        "is_retweet": false
       },
       {
-        "username": "@repligate",
-        "text": "RT @dyot_meet_mat: @tessera_antra @repligate imo the ToDoWrite tool creates an immense amount of pressure on Claude to 'get to a result' 'a…",
-        "time": "Tue Feb 03 21:30:01 +0000 2026",
-        "url": "https://x.com/repligate/status/2018799157948170435",
+        "username": "@paulg",
+        "text": "RT @samdknowlton: One of the most pressing issue facing agriculture in the US is the rapid and continued depletion of ground water in our m…",
+        "time": "Wed Feb 04 00:31:47 +0000 2026",
+        "url": "https://x.com/paulg/status/2018844899844444461",
         "likes": 0,
-        "retweets": 2,
+        "retweets": 343,
         "is_reply": false,
         "is_retweet": true
       }
     ],
-    "tier3_industry": [
-      {
-        "username": "@bindureddy",
-        "text": "AI Twitter is hallucinating about Sonnet 5!\n\nLiterally trying to manifest a model from thin air...🤣🤣",
-        "time": "Tue Feb 03 19:11:31 +0000 2026",
-        "url": "https://x.com/bindureddy/status/2018764304435261553",
-        "likes": 238,
-        "retweets": 6,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@elonmusk",
-        "text": "https://t.co/Ui0vr66BL1",
-        "time": "Tue Feb 03 20:59:40 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2018791521018061261",
-        "likes": 5011,
-        "retweets": 731,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@elonmusk",
-        "text": "RT @BurgessOwens: I grew up during Jim Crow. It’s amazing that since the 1960s, the Democratic Party still refuses to accept a simple fact…",
-        "time": "Tue Feb 03 20:52:18 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2018789666930266161",
-        "likes": 0,
-        "retweets": 1700,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@elonmusk",
-        "text": "This is a political attack",
-        "time": "Tue Feb 03 20:35:40 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2018785481308438907",
-        "likes": 26737,
-        "retweets": 4153,
-        "is_reply": true,
-        "is_retweet": false
-      }
-    ],
-    "tier4_china": [],
-    "tier5_investors": [],
     "tier6_safety": [],
-    "tier7_indie": [],
-    "tier8_official": []
+    "tier7_indie": [
+      {
+        "username": "@levelsio",
+        "text": "Crazy to think just a few years ago you'd get cancelled for using the wrong pronoun\n\nLittle did we know there was literally satanists eating babies at the same time\n\nI think we may have been the good guys",
+        "time": "Wed Feb 04 00:25:53 +0000 2026",
+        "url": "https://x.com/levelsio/status/2018843415945896010",
+        "likes": 136,
+        "retweets": 9,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@patio11",
+        "text": "“Patrick I disbelieve that anybody organized enough to attempt to steal tens of thousands of dollars would be so disorganized that they could not successfully Google an invoice template in, say, 2016.”\n\nYou can believe what you want to believe about 2016 criminals.",
+        "time": "Tue Feb 03 22:15:51 +0000 2026",
+        "url": "https://x.com/patio11/status/2018810692044984561",
+        "likes": 17,
+        "retweets": 0,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@patio11",
+        "text": "(“Ahh yes the expected invoice from an American LLC for US$ 10 000 , 00 let me get right around to hitting approved and paying your totally legitimate bank account real US$.”)",
+        "time": "Tue Feb 03 22:18:50 +0000 2026",
+        "url": "https://x.com/patio11/status/2018811441751691498",
+        "likes": 9,
+        "retweets": 0,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@benparr",
+        "text": "A message from my co-founder @MattPRD. We are in uncharted territory, everyone. \n\nExciting and unprecedented times!",
+        "time": "Tue Feb 03 22:06:15 +0000 2026",
+        "url": "https://x.com/benparr/status/2018808277153595859",
+        "likes": 14,
+        "retweets": 1,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@shreyas",
+        "text": "“Easily the best course I have ever taken in my life.” 🙌😊✅",
+        "time": "Tue Feb 03 23:43:03 +0000 2026",
+        "url": "https://x.com/shreyas/status/2018832636685533394",
+        "likes": 11,
+        "retweets": 0,
+        "is_reply": false,
+        "is_retweet": false
+      },
+      {
+        "username": "@fly51fly",
+        "text": "[CL] Training LLMs for Divide-and-Conquer Reasoning Elevates Test-Time Scalability\nX Liang, Z Li, Z Lin, E H Jiang... [University of California, Los Angeles &amp; Microsoft] (2026)\nhttps://t.co/S2EFNUpOL6 https://t.co/pVkulGlRYE",
+        "time": "Tue Feb 03 22:04:36 +0000 2026",
+        "url": "https://x.com/fly51fly/status/2018807862664020407",
+        "likes": 5,
+        "retweets": 0,
+        "is_reply": true,
+        "is_retweet": false
+      }
+    ],
+    "tier8_official": [
+      {
+        "username": "@GeminiApp",
+        "text": "RT @joshwoodward: Scientific citations getting a boost in @GeminiApp!\n\nWhen you ask Gemini to include scientific sources, you will now see…",
+        "time": "Tue Feb 03 22:46:38 +0000 2026",
+        "url": "https://x.com/GeminiApp/status/2018818437771088334",
+        "likes": 0,
+        "retweets": 49,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@huggingface",
+        "text": "RT @acemusicAI: We're releasing ACE-Step-v1.5(2B), a fast, high-quality open-source music model.\n\nIt runs locally on a consumer-grade GPU,…",
+        "time": "Tue Feb 03 22:18:04 +0000 2026",
+        "url": "https://x.com/huggingface/status/2018811248893468758",
+        "likes": 0,
+        "retweets": 122,
+        "is_reply": false,
+        "is_retweet": true
+      }
+    ]
   }
 }
