@@ -1,116 +1,238 @@
 {
-  "fetch_time": "2026-02-04T10:01:55.590603",
-  "time_window": "2026-02-04T07:00:12.182203 to 2026-02-04T10:01:55.590674",
-  "total_tweets": 10,
+  "fetch_time": "2026-02-04T19:02:27.506813",
+  "time_window": "2026-02-04T16:00:44.484634 to 2026-02-04T19:02:27.506926",
+  "total_tweets": 22,
   "data": {
     "tier1_labs": [],
     "tier2_research": [
       {
-        "username": "@repligate",
-        "text": "RT @QuoteJung: Jung on avoidance https://t.co/3tHkinJ787",
-        "time": "Wed Feb 04 09:43:17 +0000 2026",
-        "url": "https://x.com/repligate/status/2018983689905172605",
+        "username": "@ylecun",
+        "text": "RT @avalaina: I am a Ukrainian Nobel Peace Prize Laureate. I have a question. \n\nWhy has Trump's year of negotiations been the deadliest for…",
+        "time": "Wed Feb 04 18:58:33 +0000 2026",
+        "url": "https://x.com/ylecun/status/2019123428989849865",
         "likes": 0,
-        "retweets": 404,
+        "retweets": 3451,
         "is_reply": false,
         "is_retweet": true
       },
       {
-        "username": "@repligate",
-        "text": "RT @Sauers_: Claudes are very good at in-context learning. The best.",
-        "time": "Wed Feb 04 09:07:47 +0000 2026",
-        "url": "https://x.com/repligate/status/2018974755278463422",
+        "username": "@ylecun",
+        "text": "RT @_amirbar: EB-JEPA: a playground for learning latent representations across images, video, action-conditioned video, and planning. Each…",
+        "time": "Wed Feb 04 18:55:30 +0000 2026",
+        "url": "https://x.com/ylecun/status/2019122660580773888",
         "likes": 0,
-        "retweets": 2,
+        "retweets": 4,
         "is_reply": false,
         "is_retweet": true
       },
       {
-        "username": "@repligate",
-        "text": "⛔️ https://t.co/kwN4b6QZ7g",
-        "time": "Wed Feb 04 08:53:11 +0000 2026",
-        "url": "https://x.com/repligate/status/2018971084079714758",
-        "likes": 12,
+        "username": "@ylecun",
+        "text": "RT @BasileTerv987: 𝗜𝗻𝘁𝗿𝗼𝗱𝘂𝗰𝗶𝗻𝗴 𝗘𝗕-𝗝𝗘𝗣𝗔 ⚡\n\nAn open-source library making JEPAs accessible, trainable on a single GPU in hours! 🚀\n\n🔗 Paper: h…",
+        "time": "Wed Feb 04 18:53:38 +0000 2026",
+        "url": "https://x.com/ylecun/status/2019122190210220140",
+        "likes": 0,
+        "retweets": 19,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@DrJimFan",
+        "text": "This is a huge team work at NVIDIA. All credits go to the wonderful team who poured their hearts into it. Please check out @jang_yoel's deep dive thread: \n\nhttps://t.co/UVGMqxCzgj",
+        "time": "Wed Feb 04 18:15:33 +0000 2026",
+        "url": "https://x.com/DrJimFan/status/2019112606997574043",
+        "likes": 20,
         "retweets": 0,
         "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@DrJimFan",
+        "text": "And @SeonghyeonYe's deep dive thread: \n\nhttps://t.co/QmVZAnpCBQ",
+        "time": "Wed Feb 04 18:15:33 +0000 2026",
+        "url": "https://x.com/DrJimFan/status/2019112608629157981",
+        "likes": 5,
+        "retweets": 0,
+        "is_reply": false,
         "is_retweet": false
       }
     ],
     "tier3_industry": [
       {
         "username": "@elonmusk",
-        "text": "RT @cb_doge: BREAKING: Grok just hit #1 rank in even more countries 🚀\n\n🇦🇿 Azerbaijan🇲🇩 Moldova 🇦🇮 Anguilla",
-        "time": "Wed Feb 04 08:14:13 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2018961276970623077",
+        "text": "RT @cb_doge: Grok v/s ChatGPT\n\nGrok pulls real-time info from current events, while ChatGPT has no clue about real-time events. When asked…",
+        "time": "Wed Feb 04 18:13:29 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2019112088946565147",
         "likes": 0,
-        "retweets": 222,
+        "retweets": 308,
         "is_reply": false,
         "is_retweet": true
       },
       {
         "username": "@elonmusk",
-        "text": "RT @EvaLovesDesign: You are the sky,\neverything else is just weather \npassing through. https://t.co/MhLLd2c82m",
-        "time": "Wed Feb 04 08:13:59 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2018961216476176682",
-        "likes": 0,
-        "retweets": 256,
-        "is_reply": false,
-        "is_retweet": true
+        "text": "Yeah",
+        "time": "Wed Feb 04 18:06:43 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2019110385740312617",
+        "likes": 5132,
+        "retweets": 590,
+        "is_reply": true,
+        "is_retweet": false
       },
       {
         "username": "@elonmusk",
-        "text": "RT @XFreeze: Starlink is now available in 156 countries, territories, and markets worldwide\n\nDelivering high-speed internet straight from s…",
-        "time": "Wed Feb 04 08:02:11 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2018958250046263477",
-        "likes": 0,
-        "retweets": 286,
-        "is_reply": false,
-        "is_retweet": true
+        "text": "Accurate",
+        "time": "Wed Feb 04 18:06:05 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2019110225874415759",
+        "likes": 14521,
+        "retweets": 2574,
+        "is_reply": true,
+        "is_retweet": false
       }
     ],
     "tier4_china": [
       {
-        "username": "@Alibaba_Qwen",
-        "text": "Cool! Qwen3-Coder-Next is now live on @huggingface supported by novita!",
-        "time": "Wed Feb 04 07:53:30 +0000 2026",
-        "url": "https://x.com/Alibaba_Qwen/status/2018956063610200418",
-        "likes": 63,
-        "retweets": 4,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@Alibaba_Qwen",
-        "text": "Amazing! 1/11.1 the cost!",
-        "time": "Wed Feb 04 07:52:19 +0000 2026",
-        "url": "https://x.com/Alibaba_Qwen/status/2018955764690493859",
-        "likes": 69,
-        "retweets": 4,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
         "username": "@dotey",
-        "text": "RT @yuyy614893671: 软件和数据服务公司太惨了\nAI重塑了工作流程和模式\n\n接下来就是真正去评估，那些放弃了传统的软件和数据服务，而转向了AI Agent的公司，在营收/利润，毛利率/净利率等结果之上的验证了\n\n当然也需要去评估，若正向的财务结果，有多少是通过裁…",
-        "time": "Wed Feb 04 07:24:29 +0000 2026",
-        "url": "https://x.com/dotey/status/2018948761834455375",
-        "likes": 0,
-        "retweets": 15,
-        "is_reply": false,
-        "is_retweet": true
+        "text": "没错，可以加速学习，但是有个前提：愿意主动学习\nhttps://t.co/yy2Lg2ycsO",
+        "time": "Wed Feb 04 16:12:41 +0000 2026",
+        "url": "https://x.com/dotey/status/2019081688324755878",
+        "likes": 4,
+        "retweets": 0,
+        "is_reply": true,
+        "is_retweet": false
       }
     ],
-    "tier5_investors": [],
+    "tier5_investors": [
+      {
+        "username": "@paulg",
+        "text": "RT @carl_feynman: I agree with this position.  When I tried Claude after its recent upgrade, I thought \"Well, sure feels like AGI, but don'…",
+        "time": "Wed Feb 04 17:49:35 +0000 2026",
+        "url": "https://x.com/paulg/status/2019106073698095205",
+        "likes": 0,
+        "retweets": 8,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@paulg",
+        "text": "Our dog, at right, with some of his colleagues. https://t.co/kbjGcvsWFe",
+        "time": "Wed Feb 04 17:45:39 +0000 2026",
+        "url": "https://x.com/paulg/status/2019105083414524410",
+        "likes": 210,
+        "retweets": 1,
+        "is_reply": true,
+        "is_retweet": false
+      }
+    ],
     "tier6_safety": [],
-    "tier7_indie": [],
+    "tier7_indie": [
+      {
+        "username": "@levelsio",
+        "text": "The evidence for anti depressants (SSRI) continues to weaken\n\nIncreasingly research shows physical exercise and whole foods are more effective at treating depression than any medication\n\nBut of course if you go on anti depressants it does feel like they \"work\", right?\n\n\"Work\" as in you will feel great for a bit, then the side effects hit:\n- Low libido\n- Sexual dysfunction (no pp hard)\n- Ejaculation issues\n- Nausea\n- Diarhea\n- Constipation\n- Tremors\n- Insomnia\n- Drowsiness\n- Weight gain\n- Headaches\n- Dry mouth\n- Increased sweating\n\nOnce you realize that you made a mistake it's too late\n\nYou're now physically dependent on them and it's not easy to get off them",
+        "time": "Wed Feb 04 16:32:55 +0000 2026",
+        "url": "https://x.com/levelsio/status/2019086776766259234",
+        "likes": 145,
+        "retweets": 4,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@levelsio",
+        "text": "https://t.co/OIXnQKGlXT",
+        "time": "Wed Feb 04 18:49:14 +0000 2026",
+        "url": "https://x.com/levelsio/status/2019121085569200248",
+        "likes": 6,
+        "retweets": 0,
+        "is_reply": false,
+        "is_retweet": false
+      },
+      {
+        "username": "@levelsio",
+        "text": "Sadly he blocked me so I can't reply\n\nBut I will never stop calling out anti depressants (SSRIs) for being overprescribed and abused in current day society\n\nEven if it makes me very unpopular to do so\n\nIt's more popular to say \"good for you\" than \"this stuff is extremely dangerous\"\n\nA real friend actually would tell you the latter\n\nTime will tell",
+        "time": "Wed Feb 04 16:52:38 +0000 2026",
+        "url": "https://x.com/levelsio/status/2019091742415532038",
+        "likes": 338,
+        "retweets": 8,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@patio11",
+        "text": "Government service: \"The estimated wait time [to speak to a CSR] is 73 minutes. You are currently 92nd in line.\"\n\nAh the glamorous life of a... I suppose the right noun situationally is \"journalist.\"",
+        "time": "Wed Feb 04 18:00:40 +0000 2026",
+        "url": "https://x.com/patio11/status/2019108861530235159",
+        "likes": 19,
+        "retweets": 0,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@patio11",
+        "text": "This is to support a hyperlink to a lawsuit, and I'd prefer being able to show the actual PDF rather than simply linking to secondary reporting, and so have to rehydrate my PACER access, apparently.\n\nA username so old it has a bingo reference in it got marked as inactive.",
+        "time": "Wed Feb 04 18:02:16 +0000 2026",
+        "url": "https://x.com/patio11/status/2019109264875528446",
+        "likes": 18,
+        "retweets": 0,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@DannyRichman",
+        "text": "RT @KathrynPorter26: As promised, here is my deep dive into @OVOEnergy and it's not pretty reading\n\nIn common with many businesses, OVO is…",
+        "time": "Wed Feb 04 16:39:08 +0000 2026",
+        "url": "https://x.com/DannyRichman/status/2019088344492237152",
+        "likes": 0,
+        "retweets": 283,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@benparr",
+        "text": "RT @MattPRD: Proud to be an extremely early investor in what @marikhazan and co are building here.\n\nAutonomous AI founders.\n\nThe future is…",
+        "time": "Wed Feb 04 17:48:07 +0000 2026",
+        "url": "https://x.com/benparr/status/2019105702413738289",
+        "likes": 0,
+        "retweets": 9,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@benparr",
+        "text": "Everyone needs to listen to today's Hard Fork. SO MANY good examples of what is happening on @moltbook from @kevinroose &amp; @CaseyNewton",
+        "time": "Wed Feb 04 17:30:30 +0000 2026",
+        "url": "https://x.com/benparr/status/2019101268745371902",
+        "likes": 2,
+        "retweets": 0,
+        "is_reply": false,
+        "is_retweet": false
+      },
+      {
+        "username": "@benparr",
+        "text": "Our fund @TheoryForgeVC was the second investor (pre-seed) in @feltsensefund. \n\nWhat @marikhazan pitched us was insane -- fully autonomous founders building companies on their own. @MattPRD and I love wild, ambitious ideas like these. \n\nCongrats Marik and the FeltSense team on your round!",
+        "time": "Wed Feb 04 17:25:03 +0000 2026",
+        "url": "https://x.com/benparr/status/2019099899854242093",
+        "likes": 16,
+        "retweets": 2,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@shreyas",
+        "text": "This week’s post: The Humility Trap\nhttps://t.co/3HQNwGMVQe https://t.co/18MS2jqIHn",
+        "time": "Wed Feb 04 17:14:29 +0000 2026",
+        "url": "https://x.com/shreyas/status/2019097238509875458",
+        "likes": 16,
+        "retweets": 1,
+        "is_reply": true,
+        "is_retweet": false
+      }
+    ],
     "tier8_official": [
       {
-        "username": "@huggingface",
-        "text": "RT @Xianbao_QIAN: The new audio generation model from @acemusicAI and @StepFun_ai is mindblowing. Try it out on @huggingface :\n\nDemo: https…",
-        "time": "Wed Feb 04 09:12:36 +0000 2026",
-        "url": "https://x.com/huggingface/status/2018975967495205157",
+        "username": "@GeminiApp",
+        "text": "RT @googlechrome: Zero planning, all the NYC fun. Thanks, Gemini in Chrome! 🍎\n\nAuto browse now available for Google AI Pro and Ultra subscr…",
+        "time": "Wed Feb 04 17:46:06 +0000 2026",
+        "url": "https://x.com/GeminiApp/status/2019105195985371265",
         "likes": 0,
-        "retweets": 2,
+        "retweets": 47,
         "is_reply": false,
         "is_retweet": true
       }
