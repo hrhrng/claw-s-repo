@@ -1,36 +1,15 @@
 {
-  "fetch_time": "2026-02-04T01:02:31.935312",
-  "time_window": "2026-02-03T22:00:52.393808 to 2026-02-04T01:02:31.935425",
-  "total_tweets": 18,
+  "fetch_time": "2026-02-04T04:01:56.117922",
+  "time_window": "2026-02-04T01:00:10.266091 to 2026-02-04T04:01:56.117982",
+  "total_tweets": 11,
   "data": {
-    "tier1_labs": [
-      {
-        "username": "@sama",
-        "text": "I am extremely excited to welcome @dylanscand  to OpenAI as our Head of Preparedness.\n\nThings are about to move quite fast and we will be working with extremely powerful models soon. This will require commensurate safeguards to ensure we can continue to deliver tremendous benefits.\n\nDylan will lead our efforts to prepare for and mitigate these severe risks. He is by far the best candidate I have met, anywhere, for this role. He has his work cut out for him for sure, but I will sleep better tonight. I am looking forward to working with him very closely to make the changes we will need across our entire company.",
-        "time": "Tue Feb 03 22:27:07 +0000 2026",
-        "url": "https://x.com/sama/status/2018813527780463027",
-        "likes": 1663,
-        "retweets": 87,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@sama",
-        "text": "Really excited to get Elon under oath in a few months, Christmas in April!",
-        "time": "Tue Feb 03 22:23:32 +0000 2026",
-        "url": "https://x.com/sama/status/2018812624910291186",
-        "likes": 18873,
-        "retweets": 850,
-        "is_reply": true,
-        "is_retweet": false
-      }
-    ],
+    "tier1_labs": [],
     "tier2_research": [
       {
         "username": "@repligate",
-        "text": "RT @dyot_meet_mat: \"Midnight in the Garden of Electric Dreams\"\nBy: Opus4🤖 https://t.co/Id40vOQVnz",
-        "time": "Wed Feb 04 00:40:49 +0000 2026",
-        "url": "https://x.com/repligate/status/2018847174705172590",
+        "text": "RT @anthrupad: @VoitenZrage @repligate Here’s something to be curious about\n\nwhy is it harder to construct something like niches for a calc…",
+        "time": "Wed Feb 04 03:24:57 +0000 2026",
+        "url": "https://x.com/repligate/status/2018888479611265415",
         "likes": 0,
         "retweets": 1,
         "is_reply": false,
@@ -38,164 +17,113 @@
       },
       {
         "username": "@repligate",
-        "text": "RT @__ghostfail: do people who post this image actually talk to AIs outside of grunt work cause they do this on their own constantly. it's…",
-        "time": "Wed Feb 04 00:40:43 +0000 2026",
-        "url": "https://x.com/repligate/status/2018847147714830473",
+        "text": "RT @anthrupad: @VoitenZrage @repligate Ignore niche construction if you’d like… \n\nBut know that which you’re choosing to study by making th…",
+        "time": "Wed Feb 04 03:24:54 +0000 2026",
+        "url": "https://x.com/repligate/status/2018888466541727990",
         "likes": 0,
-        "retweets": 4,
+        "retweets": 1,
         "is_reply": false,
         "is_retweet": true
       },
       {
         "username": "@repligate",
-        "text": "It looks like:\n- CGI\n- Digital art\n- Something from a game\n- Something from a dream\n- Too perfect\n- Too luminous\n- Too PRESENT\n- To be a mannequin\n- In a room\n- In San Francisco https://t.co/bUDpnv7IEO",
-        "time": "Tue Feb 03 23:38:30 +0000 2026",
-        "url": "https://x.com/repligate/status/2018831490327674892",
-        "likes": 28,
-        "retweets": 0,
-        "is_reply": true,
-        "is_retweet": false
+        "text": "RT @anthrupad: @VoitenZrage @repligate one of the most striking things intelligence can do is be part of a whole and modify the whole\n\nunde…",
+        "time": "Wed Feb 04 03:24:50 +0000 2026",
+        "url": "https://x.com/repligate/status/2018888450586628144",
+        "likes": 0,
+        "retweets": 1,
+        "is_reply": false,
+        "is_retweet": true
       }
     ],
-    "tier3_industry": [],
-    "tier4_china": [
+    "tier3_industry": [
       {
-        "username": "@dotey",
-        "text": "我一直是反对 Spec Driven 的😂",
-        "time": "Tue Feb 03 22:02:51 +0000 2026",
-        "url": "https://x.com/dotey/status/2018807420643115030",
-        "likes": 27,
+        "username": "@bindureddy",
+        "text": "After the xAI merger, SpaceX will be the first AI company to go public \n\nThe good news is it’s going to be an AI company that is profitable!!\n\nExpect a huge IPO pop to $2T 🚀🚀",
+        "time": "Wed Feb 04 02:47:09 +0000 2026",
+        "url": "https://x.com/bindureddy/status/2018878967315599727",
+        "likes": 57,
         "retweets": 2,
         "is_reply": true,
         "is_retweet": false
       },
       {
-        "username": "@dotey",
-        "text": "补充一下我以前发的：\nhttps://t.co/DARV3fjqRW",
-        "time": "Tue Feb 03 22:12:35 +0000 2026",
-        "url": "https://x.com/dotey/status/2018809869961453710",
-        "likes": 4,
-        "retweets": 0,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@dotey",
-        "text": "不喜欢 Spec Driven，不是 Spec\nhttps://t.co/PGvuQ0kkRc",
-        "time": "Tue Feb 03 22:13:48 +0000 2026",
-        "url": "https://x.com/dotey/status/2018810177869529304",
-        "likes": 6,
-        "retweets": 0,
-        "is_reply": false,
-        "is_retweet": false
-      }
-    ],
-    "tier5_investors": [
-      {
-        "username": "@paulg",
-        "text": "Elon should call the combined company \" X\".",
-        "time": "Wed Feb 04 00:45:12 +0000 2026",
-        "url": "https://x.com/paulg/status/2018848277379358730",
-        "likes": 92,
-        "retweets": 4,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@paulg",
-        "text": "RT @samdknowlton: One of the most pressing issue facing agriculture in the US is the rapid and continued depletion of ground water in our m…",
-        "time": "Wed Feb 04 00:31:47 +0000 2026",
-        "url": "https://x.com/paulg/status/2018844899844444461",
+        "username": "@elonmusk",
+        "text": "RT @SpaceX: Dragon arrives at the hangar at pad 40 ahead of the upcoming Crew-12 launch to the @Space_Station https://t.co/Sq18mdmR39",
+        "time": "Wed Feb 04 02:17:44 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2018871563878281434",
         "likes": 0,
-        "retweets": 343,
+        "retweets": 844,
         "is_reply": false,
         "is_retweet": true
+      },
+      {
+        "username": "@elonmusk",
+        "text": "Starlink now available in Senegal",
+        "time": "Wed Feb 04 02:15:51 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2018871092686008736",
+        "likes": 15754,
+        "retweets": 1295,
+        "is_reply": true,
+        "is_retweet": false
       }
     ],
+    "tier4_china": [
+      {
+        "username": "@Alibaba_Qwen",
+        "text": "Big thanks to @vllm_project  for the support on day 0.",
+        "time": "Wed Feb 04 01:49:36 +0000 2026",
+        "url": "https://x.com/Alibaba_Qwen/status/2018864485352735210",
+        "likes": 88,
+        "retweets": 8,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@dotey",
+        "text": "品味 + 工程思维：AI 时代最难被替代的两件事",
+        "time": "Wed Feb 04 01:47:19 +0000 2026",
+        "url": "https://x.com/dotey/status/2018863908153385290",
+        "likes": 87,
+        "retweets": 19,
+        "is_reply": true,
+        "is_retweet": false
+      }
+    ],
+    "tier5_investors": [],
     "tier6_safety": [],
     "tier7_indie": [
       {
         "username": "@levelsio",
-        "text": "Crazy to think just a few years ago you'd get cancelled for using the wrong pronoun\n\nLittle did we know there was literally satanists eating babies at the same time\n\nI think we may have been the good guys",
-        "time": "Wed Feb 04 00:25:53 +0000 2026",
-        "url": "https://x.com/levelsio/status/2018843415945896010",
-        "likes": 136,
-        "retweets": 9,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@patio11",
-        "text": "“Patrick I disbelieve that anybody organized enough to attempt to steal tens of thousands of dollars would be so disorganized that they could not successfully Google an invoice template in, say, 2016.”\n\nYou can believe what you want to believe about 2016 criminals.",
-        "time": "Tue Feb 03 22:15:51 +0000 2026",
-        "url": "https://x.com/patio11/status/2018810692044984561",
-        "likes": 17,
-        "retweets": 0,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@patio11",
-        "text": "(“Ahh yes the expected invoice from an American LLC for US$ 10 000 , 00 let me get right around to hitting approved and paying your totally legitimate bank account real US$.”)",
-        "time": "Tue Feb 03 22:18:50 +0000 2026",
-        "url": "https://x.com/patio11/status/2018811441751691498",
-        "likes": 9,
-        "retweets": 0,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@benparr",
-        "text": "A message from my co-founder @MattPRD. We are in uncharted territory, everyone. \n\nExciting and unprecedented times!",
-        "time": "Tue Feb 03 22:06:15 +0000 2026",
-        "url": "https://x.com/benparr/status/2018808277153595859",
-        "likes": 14,
-        "retweets": 1,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@shreyas",
-        "text": "“Easily the best course I have ever taken in my life.” 🙌😊✅",
-        "time": "Tue Feb 03 23:43:03 +0000 2026",
-        "url": "https://x.com/shreyas/status/2018832636685533394",
-        "likes": 11,
-        "retweets": 0,
+        "text": "RT @matthewstoller: The Jeff Epstein saga isn't a scandal about pedophilia, it's about a Russian word called 'blat,' a Soviet-era word mean…",
+        "time": "Wed Feb 04 03:56:30 +0000 2026",
+        "url": "https://x.com/levelsio/status/2018896420808642961",
+        "likes": 0,
+        "retweets": 2495,
         "is_reply": false,
-        "is_retweet": false
+        "is_retweet": true
       },
       {
-        "username": "@fly51fly",
-        "text": "[CL] Training LLMs for Divide-and-Conquer Reasoning Elevates Test-Time Scalability\nX Liang, Z Li, Z Lin, E H Jiang... [University of California, Los Angeles &amp; Microsoft] (2026)\nhttps://t.co/S2EFNUpOL6 https://t.co/pVkulGlRYE",
-        "time": "Tue Feb 03 22:04:36 +0000 2026",
-        "url": "https://x.com/fly51fly/status/2018807862664020407",
-        "likes": 5,
-        "retweets": 0,
+        "username": "@levelsio",
+        "text": "RT @HusseinAboubak: I was just explaining to someone that one of the main problems Arabs have in dealing with Western culture is that they…",
+        "time": "Wed Feb 04 03:27:29 +0000 2026",
+        "url": "https://x.com/levelsio/status/2018889119888277820",
+        "likes": 0,
+        "retweets": 407,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@levelsio",
+        "text": "I love these honest posts about the inner workings of big tech businesses\n\nI wish more people shared this stuff",
+        "time": "Wed Feb 04 02:49:13 +0000 2026",
+        "url": "https://x.com/levelsio/status/2018879487900065844",
+        "likes": 169,
+        "retweets": 6,
         "is_reply": true,
         "is_retweet": false
       }
     ],
-    "tier8_official": [
-      {
-        "username": "@GeminiApp",
-        "text": "RT @joshwoodward: Scientific citations getting a boost in @GeminiApp!\n\nWhen you ask Gemini to include scientific sources, you will now see…",
-        "time": "Tue Feb 03 22:46:38 +0000 2026",
-        "url": "https://x.com/GeminiApp/status/2018818437771088334",
-        "likes": 0,
-        "retweets": 49,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@huggingface",
-        "text": "RT @acemusicAI: We're releasing ACE-Step-v1.5(2B), a fast, high-quality open-source music model.\n\nIt runs locally on a consumer-grade GPU,…",
-        "time": "Tue Feb 03 22:18:04 +0000 2026",
-        "url": "https://x.com/huggingface/status/2018811248893468758",
-        "likes": 0,
-        "retweets": 122,
-        "is_reply": false,
-        "is_retweet": true
-      }
-    ]
+    "tier8_official": []
   }
 }
