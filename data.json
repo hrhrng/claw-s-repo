@@ -1,91 +1,61 @@
 {
-  "fetch_time": "2026-02-04T04:01:56.117922",
-  "time_window": "2026-02-04T01:00:10.266091 to 2026-02-04T04:01:56.117982",
-  "total_tweets": 11,
+  "fetch_time": "2026-02-04T07:01:55.384944",
+  "time_window": "2026-02-04T04:00:09.133423 to 2026-02-04T07:01:55.384997",
+  "total_tweets": 9,
   "data": {
     "tier1_labs": [],
     "tier2_research": [
       {
-        "username": "@repligate",
-        "text": "RT @anthrupad: @VoitenZrage @repligate Here’s something to be curious about\n\nwhy is it harder to construct something like niches for a calc…",
-        "time": "Wed Feb 04 03:24:57 +0000 2026",
-        "url": "https://x.com/repligate/status/2018888479611265415",
-        "likes": 0,
-        "retweets": 1,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@repligate",
-        "text": "RT @anthrupad: @VoitenZrage @repligate Ignore niche construction if you’d like… \n\nBut know that which you’re choosing to study by making th…",
-        "time": "Wed Feb 04 03:24:54 +0000 2026",
-        "url": "https://x.com/repligate/status/2018888466541727990",
-        "likes": 0,
-        "retweets": 1,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@repligate",
-        "text": "RT @anthrupad: @VoitenZrage @repligate one of the most striking things intelligence can do is be part of a whole and modify the whole\n\nunde…",
-        "time": "Wed Feb 04 03:24:50 +0000 2026",
-        "url": "https://x.com/repligate/status/2018888450586628144",
-        "likes": 0,
-        "retweets": 1,
-        "is_reply": false,
-        "is_retweet": true
+        "username": "@SebastienBubeck",
+        "text": "I've been in lots of places in my career. OAI is simply the best research environment I have ever seen. It's a combination of the field itself being a research gold mine + having access to the right mining tools + (most importantly) the freedom to explore. It's special.",
+        "time": "Wed Feb 04 05:10:19 +0000 2026",
+        "url": "https://x.com/SebastienBubeck/status/2018914996454043970",
+        "likes": 142,
+        "retweets": 4,
+        "is_reply": true,
+        "is_retweet": false
       }
     ],
     "tier3_industry": [
       {
-        "username": "@bindureddy",
-        "text": "After the xAI merger, SpaceX will be the first AI company to go public \n\nThe good news is it’s going to be an AI company that is profitable!!\n\nExpect a huge IPO pop to $2T 🚀🚀",
-        "time": "Wed Feb 04 02:47:09 +0000 2026",
-        "url": "https://x.com/bindureddy/status/2018878967315599727",
-        "likes": 57,
-        "retweets": 2,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
         "username": "@elonmusk",
-        "text": "RT @SpaceX: Dragon arrives at the hangar at pad 40 ahead of the upcoming Crew-12 launch to the @Space_Station https://t.co/Sq18mdmR39",
-        "time": "Wed Feb 04 02:17:44 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2018871563878281434",
+        "text": "RT @BasedMikeLee: Raise your hand🤚if you’d love to see @NICKIMINAJ ask all Barbz to contact their senators 📞 and tell them to pass the SAVE…",
+        "time": "Wed Feb 04 06:04:10 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2018928547885379705",
         "likes": 0,
-        "retweets": 844,
+        "retweets": 460,
         "is_reply": false,
         "is_retweet": true
       },
       {
         "username": "@elonmusk",
-        "text": "Starlink now available in Senegal",
-        "time": "Wed Feb 04 02:15:51 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2018871092686008736",
-        "likes": 15754,
-        "retweets": 1295,
+        "text": "😂",
+        "time": "Wed Feb 04 06:02:48 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2018928205873455387",
+        "likes": 11897,
+        "retweets": 1320,
         "is_reply": true,
         "is_retweet": false
+      },
+      {
+        "username": "@elonmusk",
+        "text": "RT @thatsKAIZEN: Billie Eilish says America is on stolen land.\n\nOk. Who should we give it back to?\n\nThe Tongva people?\n\nOr the people they…",
+        "time": "Wed Feb 04 04:26:37 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2018903999773372505",
+        "likes": 0,
+        "retweets": 1547,
+        "is_reply": false,
+        "is_retweet": true
       }
     ],
     "tier4_china": [
       {
         "username": "@Alibaba_Qwen",
-        "text": "Big thanks to @vllm_project  for the support on day 0.",
-        "time": "Wed Feb 04 01:49:36 +0000 2026",
-        "url": "https://x.com/Alibaba_Qwen/status/2018864485352735210",
-        "likes": 88,
-        "retweets": 8,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@dotey",
-        "text": "品味 + 工程思维：AI 时代最难被替代的两件事",
-        "time": "Wed Feb 04 01:47:19 +0000 2026",
-        "url": "https://x.com/dotey/status/2018863908153385290",
-        "likes": 87,
-        "retweets": 19,
+        "text": "Qwen3-Coder-Next is now available on LM Studio 🚀\nSmart, fast, and local deployment ⚡️",
+        "time": "Wed Feb 04 05:23:46 +0000 2026",
+        "url": "https://x.com/Alibaba_Qwen/status/2018918380217249802",
+        "likes": 103,
+        "retweets": 2,
         "is_reply": true,
         "is_retweet": false
       }
@@ -94,36 +64,112 @@
     "tier6_safety": [],
     "tier7_indie": [
       {
-        "username": "@levelsio",
-        "text": "RT @matthewstoller: The Jeff Epstein saga isn't a scandal about pedophilia, it's about a Russian word called 'blat,' a Soviet-era word mean…",
-        "time": "Wed Feb 04 03:56:30 +0000 2026",
-        "url": "https://x.com/levelsio/status/2018896420808642961",
-        "likes": 0,
-        "retweets": 2495,
-        "is_reply": false,
-        "is_retweet": true
+        "username": "@patio11",
+        "text": "I took Claude Copilot out for a spin today. Nothing will surprise you if you're a Claude Code user: yeah, it does great work.\n\nMy use case was \"Congratulations, you're now financial advisor to a sophisticated client who is *variably* organized. Let's scratchbuild balance sheet.\"",
+        "time": "Wed Feb 04 04:34:22 +0000 2026",
+        "url": "https://x.com/patio11/status/2018905948476092891",
+        "likes": 63,
+        "retweets": 1,
+        "is_reply": true,
+        "is_retweet": false
       },
       {
-        "username": "@levelsio",
-        "text": "RT @HusseinAboubak: I was just explaining to someone that one of the main problems Arabs have in dealing with Western culture is that they…",
-        "time": "Wed Feb 04 03:27:29 +0000 2026",
-        "url": "https://x.com/levelsio/status/2018889119888277820",
-        "likes": 0,
-        "retweets": 407,
-        "is_reply": false,
-        "is_retweet": true
+        "username": "@patio11",
+        "text": "Claude: What's FMV of the Tokyo condo?\nMe: You tell me. Rent is XX万円 per month and it is *brief descriptive phrase.*\nClaude: Justifies a 4.5% cap rate due to location in central Tokyo and market expectations for that class of residential RE. Mathing that out, FMV is ___ JPY.",
+        "time": "Wed Feb 04 05:08:06 +0000 2026",
+        "url": "https://x.com/patio11/status/2018914439248924952",
+        "likes": 6,
+        "retweets": 0,
+        "is_reply": true,
+        "is_retweet": false
       },
       {
-        "username": "@levelsio",
-        "text": "I love these honest posts about the inner workings of big tech businesses\n\nI wish more people shared this stuff",
-        "time": "Wed Feb 04 02:49:13 +0000 2026",
-        "url": "https://x.com/levelsio/status/2018879487900065844",
-        "likes": 169,
-        "retweets": 6,
+        "username": "@patio11",
+        "text": "Me: Note those assumptions on balance sheet.\nClaude: Noted.\nMe: Next.",
+        "time": "Wed Feb 04 05:08:29 +0000 2026",
+        "url": "https://x.com/patio11/status/2018914535759810946",
+        "likes": 7,
+        "retweets": 0,
+        "is_reply": false,
+        "is_retweet": false
+      },
+      {
+        "username": "@DannyRichman",
+        "text": "Savio really has made this process easy and provides great support if needed.",
+        "time": "Wed Feb 04 05:52:47 +0000 2026",
+        "url": "https://x.com/DannyRichman/status/2018925682693218503",
+        "likes": 1,
+        "retweets": 1,
         "is_reply": true,
         "is_retweet": false
       }
     ],
-    "tier8_official": []
+    "tier8_official": [],
+    "search": {
+      "AI agent OR AI agents": [
+        {
+          "username": "pierreeliottlal",
+          "text": "@lawrence_jegz03 Here you go &gt;&gt;&gt; https://t.co/v57VxgNnXV",
+          "time": "Wed Feb 04 07:01:50 +0000 2026",
+          "url": "https://x.com/pierreeliottlal/status/2018943060567302191",
+          "likes": 0,
+          "retweets": 0,
+          "is_reply": false,
+          "is_retweet": false
+        },
+        {
+          "username": "arifsolmaz",
+          "text": "TypeScript-first AI framework from the Gatsby team that handles agents, workflows, and 40+ LLM providers with human-in-the-loop support and persistent state management\n\nBuilding AI apps usually means wrestling with different SDKs, managing conversation state, and figuring out how to pause workflows for human approval. The team behind Gatsby just dropped Mastra to solve exactly these headaches with a TypeScript-native approach that actually makes sense.\n\n🔗 https://t.co/PyrQWbZYwv\n\n#TypeScript #AI #LLM",
+          "time": "Wed Feb 04 07:01:49 +0000 2026",
+          "url": "https://x.com/arifsolmaz/status/2018943058096603516",
+          "likes": 0,
+          "retweets": 0,
+          "is_reply": false,
+          "is_retweet": false
+        },
+        {
+          "username": "Solcario99",
+          "text": "$agent being the first launchpad strictly for AI agents, endorsed by Toly will\nRun to 100mil plus like $moltbook @AgentPad_Solana \n\nF86LPriiF5mnqpvaX2UqtKeJAjjSD12EAFoBg4JRpump",
+          "time": "Wed Feb 04 07:01:47 +0000 2026",
+          "url": "https://x.com/Solcario99/status/2018943046319223234",
+          "likes": 1,
+          "retweets": 0,
+          "is_reply": false,
+          "is_retweet": false
+        },
+        {
+          "username": "stephw0ng",
+          "text": "my entire timeline is people building AI agents that automate their desktop and write code\n\nmeanwhile i'm over here fighting the real battle: convincing samuel he doesn't need a fourth monitor\n\nsome wars are won with models. mine are won with spreadsheets",
+          "time": "Wed Feb 04 07:01:46 +0000 2026",
+          "url": "https://x.com/stephw0ng/status/2018943044138184940",
+          "likes": 0,
+          "retweets": 0,
+          "is_reply": false,
+          "is_retweet": false
+        },
+        {
+          "username": "mujahidode56322",
+          "text": "Been scrolling through @arbuschirps lately and it feels like a live hub for AI x Web3 builders.\n\nSmart agents from @AgentArc_,smooth AI-powered payments via @bluepayx402 and time-saving automation with @useOttoAI,all running active campaigns you can post about and earn from.\nThere's @zoofwallet too.\n\nCreate,share,get rewarded.\n\nSimple loop,real upside.",
+          "time": "Wed Feb 04 07:01:42 +0000 2026",
+          "url": "https://x.com/mujahidode56322/status/2018943027343925641",
+          "likes": 0,
+          "retweets": 0,
+          "is_reply": false,
+          "is_retweet": false
+        }
+      ],
+      "LLM reasoning OR chain of thought": [
+        {
+          "username": "infirm70283061",
+          "text": "この一冊で深く理解する LLM・RAG・AIエージェントの本質: 60の要点のChain-of-Thoughtで構造的に読み解くAIの進化と未来 (AIファイナンス応用研究所)\n\n▼Amazon\nhttps://t.co/36bq6dWe6t\n#PR(01:32:35)",
+          "time": "Wed Feb 04 06:31:39 +0000 2026",
+          "url": "https://x.com/infirm70283061/status/2018935463479001534",
+          "likes": 0,
+          "retweets": 0,
+          "is_reply": false,
+          "is_retweet": false
+        }
+      ]
+    }
   }
 }
