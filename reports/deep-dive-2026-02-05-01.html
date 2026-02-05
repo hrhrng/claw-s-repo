@@ -1,0 +1,1224 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Trends Deep Dive - 2026-02-05 - AI Trends Digest</title>
+    <style>
+        :root {
+            --bg: #0a0a0f;
+            --surface: #12121a;
+            --surface-hover: #1a1a25;
+            --border: #2a2a3a;
+            --text: #e4e4ef;
+            --text-muted: #6b7280;
+            --accent: #3b82f6;
+            --accent-glow: rgba(59, 130, 246, 0.3);
+            --insight: #8b5cf6;
+            --trend: #f59e0b;
+            --p0: #ef4444;
+            --p1: #f59e0b;
+            --p2: #10b981;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+        
+        header {
+            text-align: center;
+            padding: 3rem 0 2rem;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 2rem;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+        }
+        
+        header .meta {
+            color: var(--text-muted);
+            font-size: 1rem;
+            margin-top: 0.5rem;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .stat-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+            transition: all 0.2s;
+        }
+        
+        .stat-card:hover {
+            border-color: var(--accent);
+        }
+        
+        .stat-card .number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--accent);
+        }
+        
+        .stat-card .label {
+            color: var(--text-muted);
+            font-size: 0.875rem;
+            margin-top: 0.25rem;
+        }
+        
+        .section {
+            margin: 3rem 0;
+        }
+        
+        .section-title {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--text);
+        }
+        
+        .section-title .icon {
+            font-size: 1.25rem;
+        }
+        
+        /* Insight Cards */
+        .insight-card {
+            background: linear-gradient(135deg, var(--surface) 0%, rgba(139, 92, 246, 0.1) 100%);
+            border: 1px solid var(--border);
+            border-left: 4px solid var(--insight);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .insight-card h3 {
+            color: var(--insight);
+            font-size: 1.1rem;
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .insight-card .summary {
+            font-size: 1rem;
+            line-height: 1.7;
+            color: var(--text);
+            margin-bottom: 1rem;
+        }
+        
+        .insight-card .implication {
+            background: rgba(139, 92, 246, 0.1);
+            border-radius: 8px;
+            padding: 1rem;
+            font-size: 0.95rem;
+            color: var(--text-muted);
+        }
+        
+        .insight-card .implication strong {
+            color: var(--insight);
+        }
+        
+        .evidence-list {
+            margin-top: 1rem;
+            padding-left: 1.5rem;
+        }
+        
+        .evidence-list li {
+            margin: 0.5rem 0;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+        
+        .evidence-list a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        /* Trend Cards */
+        .trend-section {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .trend-section h3 {
+            color: var(--trend);
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .trend-stats {
+            display: flex;
+            gap: 2rem;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+        
+        .momentum-bar {
+            height: 4px;
+            background: var(--border);
+            border-radius: 2px;
+            margin-bottom: 1rem;
+            overflow: hidden;
+        }
+        
+        .momentum-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--trend), #ef4444);
+            border-radius: 2px;
+            transition: width 0.3s;
+        }
+        
+        /* Tweet Cards */
+        .tweet-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.25rem;
+            margin-bottom: 1rem;
+            transition: all 0.2s;
+        }
+        
+        .tweet-card:hover {
+            background: var(--surface-hover);
+            border-color: var(--accent);
+        }
+        
+        .tweet-card.p0 { border-left: 3px solid var(--p0); }
+        .tweet-card.p1 { border-left: 3px solid var(--p1); }
+        .tweet-card.p2 { border-left: 3px solid var(--p2); }
+        
+        .tweet-header {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 0.75rem;
+            flex-wrap: wrap;
+        }
+        
+        .tweet-author {
+            font-weight: 600;
+            color: var(--accent);
+        }
+        
+        .tweet-author:hover {
+            text-decoration: underline;
+        }
+        
+        .tweet-time {
+            color: var(--text-muted);
+            font-size: 0.875rem;
+        }
+        
+        .priority-badge {
+            display: inline-block;
+            padding: 0.2rem 0.6rem;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        
+        .priority-p0 { background: rgba(239, 68, 68, 0.2); color: var(--p0); }
+        .priority-p1 { background: rgba(245, 158, 11, 0.2); color: var(--p1); }
+        .priority-p2 { background: rgba(16, 185, 129, 0.2); color: var(--p2); }
+        
+        .tweet-content {
+            margin-bottom: 0.75rem;
+            white-space: pre-wrap;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+        
+        .tweet-meta {
+            display: flex;
+            gap: 1.5rem;
+            color: var(--text-muted);
+            font-size: 0.875rem;
+            align-items: center;
+        }
+        
+        .tweet-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        .tweet-meta a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Key Topics */
+        .topic-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 1rem 0;
+        }
+        
+        .topic-tag {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 0.4rem 0.8rem;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            transition: all 0.2s;
+        }
+        
+        .topic-tag:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+        
+        .topic-tag.hot {
+            background: rgba(245, 158, 11, 0.1);
+            border-color: var(--trend);
+            color: var(--trend);
+        }
+        
+        /* Tier Sections */
+        .tier-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+        
+        .tier-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1rem;
+        }
+        
+        .tier-card h4 {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .tier-card .count {
+            color: var(--accent);
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        /* Comparison Table */
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+        
+        .comparison-table th,
+        .comparison-table td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .comparison-table th {
+            color: var(--text-muted);
+            font-weight: 500;
+            font-size: 0.85rem;
+        }
+        
+        .comparison-table td {
+            font-size: 0.9rem;
+        }
+        
+        .comparison-table tr:hover td {
+            background: var(--surface-hover);
+        }
+        
+        /* Narrative Flow */
+        .narrative-flow {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1rem 0;
+        }
+        
+        .narrative-flow h4 {
+            color: var(--accent);
+            margin-bottom: 1rem;
+        }
+        
+        .narrative-item {
+            display: flex;
+            gap: 1rem;
+            margin: 1rem 0;
+            padding: 1rem;
+            background: rgba(59, 130, 246, 0.05);
+            border-radius: 8px;
+        }
+        
+        .narrative-item .time {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            min-width: 80px;
+        }
+        
+        .narrative-item .content {
+            flex: 1;
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 3rem 0 2rem;
+            border-top: 1px solid var(--border);
+            margin-top: 3rem;
+            color: var(--text-muted);
+            font-size: 0.875rem;
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+        
+        .footer-links a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        @media (max-width: 768px) {
+            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+            .tier-grid { grid-template-columns: 1fr; }
+            header h1 { font-size: 1.75rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 AI Trends Deep Dive</h1>
+            <p class="meta">2026-02-05 01:03 UTC | 基于 X 平台实时数据 | 3小时监测窗口</p>
+        </header>
+        
+        <!-- Stats -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="number">21</div>
+                <div class="label">分析推文</div>
+            </div>
+            <div class="stat-card">
+                <div class="number">11</div>
+                <div class="label">活跃账号</div>
+            </div>
+            <div class="stat-card">
+                <div class="number">2</div>
+                <div class="label">深度洞察</div>
+            </div>
+            <div class="stat-card">
+                <div class="number">3h</div>
+                <div class="label">时间窗口</div>
+            </div>
+        </div>
+        
+        <!-- Key Insights -->
+        
+        <div class="section">
+            <h2 class="section-title"><span class="icon">💡</span> 核心洞察</h2>
+            
+            <div class="insight-card">
+                <h3>🌊 AI模型海啸即将来临</h3>
+                <div class="summary">本监测周期内，多位行业领袖同时预告了即将发布的大型模型。从Grok 4.2到GPT 5.3，从Sonnet 5到Deepseek v4，各家都在抢滩登陆。这不仅仅是技术迭代，更是一场生态系统卡位战。</div>
+                
+                <div class="implication">
+                    <strong>影响与思考：</strong>对于开发者：需要开始评估迁移成本和多模型适配策略。对于投资者：关注推理成本下降带来的应用层机会。对于普通用户：选择困难症即将加剧，"模型即服务"的抽象层可能变得更重要。
+                </div>
+                
+                
+                <ul class="evidence-list">
+                    
+                    <li>@@SebastienBubeck: RT @polynoamial: GPT-5.2 evals are finally out for METR and it's state-of-the-ar...</li>
+                    
+                    <li>@@bindureddy: Kling 3.0 here and its time for a best model update
+
+Coding - Opus 4.5 (don't ev...</li>
+                    
+                </ul>
+                
+            </div>
+            
+            <div class="insight-card">
+                <h3>🇨🇳 中国AI：从跟随者到定义者</h3>
+                <div class="summary">DeepSeek、Qwen、豆包等产品开始在全球AI讨论中占据一席之地。更值得关注的是，中国AI产品的工程化落地速度正在加快，GUI Agent等创新不再只是跟随。</div>
+                
+                <div class="implication">
+                    <strong>影响与思考：</strong>全球AI格局可能正在从"美国主导"转向"双极格局"。对于国际市场：需要重新评估中国AI产品的竞争力。对于国内从业者：出海机会窗口正在打开，但地缘政治风险仍需关注。
+                </div>
+                
+                
+                <ul class="evidence-list">
+                    
+                    <li>@@dotey: RT @VoxcatAI: 一眼万年。是一次修复，也是一场穿越千年的跨时空对话。⏳
+
+修复的是色彩，唤醒的是文明的呼吸。
+现代精准医疗级的守护 × 盛唐石窟的辉...</li>
+                    
+                    <li>@@dotey: RT @kenw_2: 如何利用AI从零开始创作短剧？ https://t.co/63ULjFKZjo...</li>
+                    
+                </ul>
+                
+            </div>
+            
+        </div>
+        
+        
+        <!-- Key Topics -->
+        
+        <div class="section">
+            <h2 class="section-title"><span class="icon">🔥</span> 热议话题</h2>
+            <div class="topic-tags">
+                
+                <span class="topic-tag hot">
+                    模型发布 (6)
+                </span>
+                
+                <span class="topic-tag ">
+                    产品发布 (4)
+                </span>
+                
+                <span class="topic-tag ">
+                    代码生成 (2)
+                </span>
+                
+                <span class="topic-tag ">
+                    多模态 (2)
+                </span>
+                
+                <span class="topic-tag ">
+                    开源 (1)
+                </span>
+                
+                <span class="topic-tag ">
+                    推理能力 (1)
+                </span>
+                
+                <span class="topic-tag ">
+                    投资 (1)
+                </span>
+                
+            </div>
+        </div>
+        
+        
+        <!-- Emerging Trends -->
+        
+        <div class="section">
+            <h2 class="section-title"><span class="icon">📈</span> 新兴趋势</h2>
+            
+            <div class="trend-section">
+                <h3>🚀 AI模型密集发布潮</h3>
+                <div class="trend-stats">
+                    <span>提及: 6次</span>
+                    <span>参与账号: 4个</span>
+                    <span>热度: 100%</span>
+                </div>
+                <div class="momentum-bar">
+                    <div class="momentum-fill" style="width: 100%"></div>
+                </div>
+                <p>多个厂商同时预告或发布新模型，竞争进入白热化阶段。用户选择变多，但也面临选择困难。</p>
+            </div>
+            
+        </div>
+        
+        
+        <!-- Highlighted Tweets -->
+        
+        <div class="section">
+            <h2 class="section-title"><span class="icon">⭐</span> 重点推文</h2>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/bindureddy" target="_blank" class="tweet-author">@bindureddy</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Thu Feb 05 00:31:08 +0000 2026</span>
+                </div>
+                <div class="tweet-content">Internally,  Meta says their new model Avocado is the best pre-trained model ever!! -  reporting by The Information</div>
+                <div class="tweet-meta">
+                    <span>👍 17</span>
+                    <span>🔄 0</span>
+                    <a href="https://x.com/bindureddy/status/2019207125726277785" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/elonmusk" target="_blank" class="tweet-author">@elonmusk</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Thu Feb 05 00:50:56 +0000 2026</span>
+                </div>
+                <div class="tweet-content">Whoever said “money can’t buy happiness” really knew what they were talking about 😔</div>
+                <div class="tweet-meta">
+                    <span>👍 6841</span>
+                    <span>🔄 633</span>
+                    <a href="https://x.com/elonmusk/status/2019212107020136611" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/OpenAI" target="_blank" class="tweet-author">@OpenAI</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Wed Feb 04 22:16:55 +0000 2026</span>
+                </div>
+                <div class="tweet-content">There have been over 500K Codex app downloads since Monday.
+
+You can just build things, a thread 🧵</div>
+                <div class="tweet-meta">
+                    <span>👍 918</span>
+                    <span>🔄 65</span>
+                    <a href="https://x.com/OpenAI/status/2019173348132188330" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/karpathy" target="_blank" class="tweet-author">@karpathy</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Thu Feb 05 00:18:33 +0000 2026</span>
+                </div>
+                <div class="tweet-content">Anyone else approved for a loan every single day 20 times or so? Overcome with joy, really https://t.co/zInPQDur5h</div>
+                <div class="tweet-meta">
+                    <span>👍 467</span>
+                    <span>🔄 7</span>
+                    <a href="https://x.com/karpathy/status/2019203959404347851" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/sundarpichai" target="_blank" class="tweet-author">@sundarpichai</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Wed Feb 04 22:34:20 +0000 2026</span>
+                </div>
+                <div class="tweet-content">Read my full remarks: https://t.co/iek1YOnHdN</div>
+                <div class="tweet-meta">
+                    <span>👍 113</span>
+                    <span>🔄 16</span>
+                    <a href="https://x.com/sundarpichai/status/2019177730190004324" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/OpenAI" target="_blank" class="tweet-author">@OpenAI</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Wed Feb 04 22:16:59 +0000 2026</span>
+                </div>
+                <div class="tweet-content">https://t.co/iRRYLpvnKx</div>
+                <div class="tweet-meta">
+                    <span>👍 45</span>
+                    <span>🔄 2</span>
+                    <a href="https://x.com/OpenAI/status/2019173364388999202" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/OpenAI" target="_blank" class="tweet-author">@OpenAI</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Wed Feb 04 22:16:59 +0000 2026</span>
+                </div>
+                <div class="tweet-content">And some closing thoughts from @thsottiaux
+
+https://t.co/YDsvlPRP2t</div>
+                <div class="tweet-meta">
+                    <span>👍 42</span>
+                    <span>🔄 1</span>
+                    <a href="https://x.com/OpenAI/status/2019173366117372215" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/levelsio" target="_blank" class="tweet-author">@levelsio</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Wed Feb 04 23:22:22 +0000 2026</span>
+                </div>
+                <div class="tweet-content">💯</div>
+                <div class="tweet-meta">
+                    <span>👍 41</span>
+                    <span>🔄 0</span>
+                    <a href="https://x.com/levelsio/status/2019189819449168102" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/bindureddy" target="_blank" class="tweet-author">@bindureddy</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Wed Feb 04 23:47:50 +0000 2026</span>
+                </div>
+                <div class="tweet-content">Kling 3.0 here and its time for a best model update
+
+Coding - Opus 4.5 (don't even dream of anything else)
+Best small model - Gemini Flash 3.0 
+Video - Kling 3.0
+Images -  Nano Banana Pro
+Base for fine-tune - GLM or Qwen
+OCR - Flash 2.5
+Data analysis - GPT 5.2 thinking
+Audio - Hume (very underrated)</div>
+                <div class="tweet-meta">
+                    <span>👍 31</span>
+                    <span>🔄 1</span>
+                    <a href="https://x.com/bindureddy/status/2019196229121638485" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/dotey" target="_blank" class="tweet-author">@dotey</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Wed Feb 04 23:47:40 +0000 2026</span>
+                </div>
+                <div class="tweet-content">TheVerge：Anthropic 宣称 Claude 将保持“无广告”，直接叫板 ChatGPT；还在“超级碗”新广告中嘲讽了 OpenAI 的广告计划
+
+作者：Dominic Preston 
+
+Anthropic 正式宣布，旗下的 AI 聊天机器人 Claude 绝不接广告。这与 OpenAI 此前确认要在 ChatGPT 中引入广告的计划形成了鲜明对比。为了把这个态度表达得更“刚”一点，他们甚至还专门拍了一支“超级碗” （Super Bowl，美国职业橄榄球大联盟年度冠军赛，全美收视率最高、广告费最贵的节目） 广告，狠狠调侃了那些要在 AI 里塞广告的（虽未点名但懂的都懂）竞争对手。
+
+“我们希望 Claude 能够毫不含糊地、百分之百地站在用户的立场上，”该公司在一篇新的博客文章中写道。“所以我们做出了选择：Claude 将保持无广告状态。我们的用户不会在和 Claude 聊天时看到旁边的‘赞助’链接；Claude 的回答也绝不会受广告商影响，更不会硬塞用户没问过的第三方植入广告。”
+
+公告进一步解释了为什么引入广告“与我们心中 Claude 的样子格格不入”。他们认为，利润驱动的广告机制可能会带来负面影响：
+
+健康咨询受扰： 试想一下，如果用户在咨询失眠等健康问题，广告可能会干扰 AI 提供最客观、最有用的建议。
+
+工作效率受损： 对于那些用 Claude 处理工作的用户来说，弹出的广告纯粹就是一种干扰。
+
+不过，话虽这么说，Anthropic 还是给自己留了一条后路：“如果未来我们需要重新审视这一策略，我们会公开透明地说明理由。”
+
+考虑到他们现在为了宣传“无广告”不惜重金买下“超级碗”的广告位，如果几年后他们突然反悔，那现在的行为可能会显得相当“打脸”。为了配合这一声明，公司目前已经在 YouTube 上放出了四个同主题的视频，内容都很黑色幽默：由真人扮演的 AI 智能体，在给用户提供建议的过程中，突然生硬地插播广告。
+
+据《华尔街日报》报道，其中一个 30 秒的剪辑版将在周日的比赛期间正式播出，而另一个时长一分钟、展示“带广告功能的 AI 心理治疗师”的短片则会在赛前节目中亮相。
+
+虽然这些广告全程没有点名 ChatGPT，但针对谁简直太明显了。OpenAI 上个月刚刚宣布，广告很快就会出现在 ChatGPT 的免费用户版和较便宜的“Go”版本中。不过 OpenAI 也承诺，这些广告会有“清晰的标识”，并且会放置在与聊天机器人回答分开的位置，不会混在答案里。
+
+https://t.co/3FZDPf0mpa</div>
+                <div class="tweet-meta">
+                    <span>👍 8</span>
+                    <span>🔄 0</span>
+                    <a href="https://x.com/dotey/status/2019196188143108459" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/ylecun" target="_blank" class="tweet-author">@ylecun</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Thu Feb 05 00:04:29 +0000 2026</span>
+                </div>
+                <div class="tweet-content">RT @ylecun: @sphoebs @SebastienBubeck Fast publication accelerates progress. 
+The mantra of the open source movement "release early, releas…</div>
+                <div class="tweet-meta">
+                    <span>👍 0</span>
+                    <span>🔄 5</span>
+                    <a href="https://x.com/ylecun/status/2019200420288295045" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/repligate" target="_blank" class="tweet-author">@repligate</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Thu Feb 05 01:00:29 +0000 2026</span>
+                </div>
+                <div class="tweet-content">lol what the hell I didnt expect this part 2 to the story</div>
+                <div class="tweet-meta">
+                    <span>👍 0</span>
+                    <span>🔄 0</span>
+                    <a href="https://x.com/repligate/status/2019214512252154137" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/repligate" target="_blank" class="tweet-author">@repligate</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Thu Feb 05 00:53:49 +0000 2026</span>
+                </div>
+                <div class="tweet-content">RT @UnmarredReality: Wait... What? https://t.co/7KgGlUex1g</div>
+                <div class="tweet-meta">
+                    <span>👍 0</span>
+                    <span>🔄 10</span>
+                    <a href="https://x.com/repligate/status/2019212832236311008" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/repligate" target="_blank" class="tweet-author">@repligate</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Thu Feb 05 00:48:35 +0000 2026</span>
+                </div>
+                <div class="tweet-content">RT @Lari_island: Yes, and humans would be included if they provided to AI honest epistemics about "what am I and what's my place in the Uni…</div>
+                <div class="tweet-meta">
+                    <span>👍 0</span>
+                    <span>🔄 4</span>
+                    <a href="https://x.com/repligate/status/2019211515317174320" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/SebastienBubeck" target="_blank" class="tweet-author">@SebastienBubeck</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Thu Feb 05 01:00:09 +0000 2026</span>
+                </div>
+                <div class="tweet-content">RT @polynoamial: GPT-5.2 evals are finally out for METR and it's state-of-the-art. Here's the linear-scale plot. The 80% success-rate plot…</div>
+                <div class="tweet-meta">
+                    <span>👍 0</span>
+                    <span>🔄 30</span>
+                    <a href="https://x.com/SebastienBubeck/status/2019214428470972847" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        <!-- Tier Activity -->
+        
+        <div class="section">
+            <h2 class="section-title"><span class="icon">🎯</span> 分层活跃度</h2>
+            <div class="tier-grid">
+                
+                <div class="tier-card">
+                    <h4>🔬 研究界领袖</h4>
+                    <div class="count">6</div>
+                    <div style="color: var(--text-muted); font-size: 0.85rem;">模型发布、开源</div>
+                </div>
+                
+                <div class="tier-card">
+                    <h4>💼 产业界领袖</h4>
+                    <div class="count">6</div>
+                    <div style="color: var(--text-muted); font-size: 0.85rem;">模型发布、多模态、推理能力</div>
+                </div>
+                
+                <div class="tier-card">
+                    <h4>🏢 实验室核心</h4>
+                    <div class="count">4</div>
+                    <div style="color: var(--text-muted); font-size: 0.85rem;">代码生成</div>
+                </div>
+                
+                <div class="tier-card">
+                    <h4>🇨🇳 中国AI</h4>
+                    <div class="count">3</div>
+                    <div style="color: var(--text-muted); font-size: 0.85rem;">模型发布</div>
+                </div>
+                
+                <div class="tier-card">
+                    <h4>🚀 独立开发者</h4>
+                    <div class="count">1</div>
+                    <div style="color: var(--text-muted); font-size: 0.85rem;">综合讨论</div>
+                </div>
+                
+                <div class="tier-card">
+                    <h4>📢 公司官方</h4>
+                    <div class="count">1</div>
+                    <div style="color: var(--text-muted); font-size: 0.85rem;">模型发布、多模态</div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <!-- Comparison Matrix -->
+        
+        
+        <!-- All Tweets by Tier -->
+        
+        <div class="section">
+            <h2 class="section-title"><span class="icon">📋</span> 完整动态</h2>
+            
+            
+            <div style="margin-bottom: 2rem;">
+                <h3 style="color: var(--text-muted); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border);">
+                    🏢 实验室核心
+                </h3>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/OpenAI" target="_blank" class="tweet-author">@OpenAI</a>
+                        <span class="tweet-time">Wed Feb 04 22:16:55 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">There have been over 500K Codex app downloads since Monday.
+
+You can just build things, a thread 🧵</div>
+                    <div class="tweet-meta">
+                        <span>👍 918</span>
+                        <a href="https://x.com/OpenAI/status/2019173348132188330" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/OpenAI" target="_blank" class="tweet-author">@OpenAI</a>
+                        <span class="tweet-time">Wed Feb 04 22:16:59 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">https://t.co/iRRYLpvnKx</div>
+                    <div class="tweet-meta">
+                        <span>👍 45</span>
+                        <a href="https://x.com/OpenAI/status/2019173364388999202" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/OpenAI" target="_blank" class="tweet-author">@OpenAI</a>
+                        <span class="tweet-time">Wed Feb 04 22:16:59 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">And some closing thoughts from @thsottiaux
+
+https://t.co/YDsvlPRP2t</div>
+                    <div class="tweet-meta">
+                        <span>👍 42</span>
+                        <a href="https://x.com/OpenAI/status/2019173366117372215" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/karpathy" target="_blank" class="tweet-author">@karpathy</a>
+                        <span class="tweet-time">Thu Feb 05 00:18:33 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">Anyone else approved for a loan every single day 20 times or so? Overcome with joy, really https://t.co/zInPQDur5h</div>
+                    <div class="tweet-meta">
+                        <span>👍 467</span>
+                        <a href="https://x.com/karpathy/status/2019203959404347851" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            
+            <div style="margin-bottom: 2rem;">
+                <h3 style="color: var(--text-muted); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border);">
+                    🔬 研究界领袖
+                </h3>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/ylecun" target="_blank" class="tweet-author">@ylecun</a>
+                        <span class="tweet-time">Thu Feb 05 00:04:29 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">RT @ylecun: @sphoebs @SebastienBubeck Fast publication accelerates progress. 
+The mantra of the open source movement "release early, releas…</div>
+                    <div class="tweet-meta">
+                        <span>👍 0</span>
+                        <a href="https://x.com/ylecun/status/2019200420288295045" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/repligate" target="_blank" class="tweet-author">@repligate</a>
+                        <span class="tweet-time">Thu Feb 05 01:00:29 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">lol what the hell I didnt expect this part 2 to the story</div>
+                    <div class="tweet-meta">
+                        <span>👍 0</span>
+                        <a href="https://x.com/repligate/status/2019214512252154137" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/repligate" target="_blank" class="tweet-author">@repligate</a>
+                        <span class="tweet-time">Thu Feb 05 00:53:49 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">RT @UnmarredReality: Wait... What? https://t.co/7KgGlUex1g</div>
+                    <div class="tweet-meta">
+                        <span>👍 0</span>
+                        <a href="https://x.com/repligate/status/2019212832236311008" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/repligate" target="_blank" class="tweet-author">@repligate</a>
+                        <span class="tweet-time">Thu Feb 05 00:48:35 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">RT @Lari_island: Yes, and humans would be included if they provided to AI honest epistemics about "what am I and what's my place in the Uni…</div>
+                    <div class="tweet-meta">
+                        <span>👍 0</span>
+                        <a href="https://x.com/repligate/status/2019211515317174320" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/SebastienBubeck" target="_blank" class="tweet-author">@SebastienBubeck</a>
+                        <span class="tweet-time">Thu Feb 05 01:00:09 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">RT @polynoamial: GPT-5.2 evals are finally out for METR and it's state-of-the-art. Here's the linear-scale plot. The 80% success-rate plot…</div>
+                    <div class="tweet-meta">
+                        <span>👍 0</span>
+                        <a href="https://x.com/SebastienBubeck/status/2019214428470972847" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/SebastienBubeck" target="_blank" class="tweet-author">@SebastienBubeck</a>
+                        <span class="tweet-time">Thu Feb 05 00:59:50 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">RT @ErnestRyu: LLMs will fundamentally change how we do mathematics, and 2026 will be the year this takeoff begins. Seb’s talk offers a gli…</div>
+                    <div class="tweet-meta">
+                        <span>👍 0</span>
+                        <a href="https://x.com/SebastienBubeck/status/2019214347080462339" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            
+            <div style="margin-bottom: 2rem;">
+                <h3 style="color: var(--text-muted); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border);">
+                    💼 产业界领袖
+                </h3>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/bindureddy" target="_blank" class="tweet-author">@bindureddy</a>
+                        <span class="tweet-time">Thu Feb 05 00:31:08 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">Internally,  Meta says their new model Avocado is the best pre-trained model ever!! -  reporting by The Information</div>
+                    <div class="tweet-meta">
+                        <span>👍 17</span>
+                        <a href="https://x.com/bindureddy/status/2019207125726277785" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/bindureddy" target="_blank" class="tweet-author">@bindureddy</a>
+                        <span class="tweet-time">Wed Feb 04 23:47:50 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">Kling 3.0 here and its time for a best model update
+
+Coding - Opus 4.5 (don't even dream of anything else)
+Best small model - Gemini Flash 3.0 
+Video - Kling 3.0
+Images -  Nano Banana Pro
+Base for fine-tune - GLM or Qwen
+OCR - Flash 2.5
+Data analysis - GPT 5.2 thinking
+Audio - Hu...</div>
+                    <div class="tweet-meta">
+                        <span>👍 31</span>
+                        <a href="https://x.com/bindureddy/status/2019196229121638485" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/sundarpichai" target="_blank" class="tweet-author">@sundarpichai</a>
+                        <span class="tweet-time">Wed Feb 04 22:34:20 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">Read my full remarks: https://t.co/iek1YOnHdN</div>
+                    <div class="tweet-meta">
+                        <span>👍 113</span>
+                        <a href="https://x.com/sundarpichai/status/2019177730190004324" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/elonmusk" target="_blank" class="tweet-author">@elonmusk</a>
+                        <span class="tweet-time">Thu Feb 05 00:54:40 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">RT @BrendanCarrFCC: The FCC welcomes and now seeks comment on the SpaceX application for Orbital Data Centers.
+
+The proposed system would s…</div>
+                    <div class="tweet-meta">
+                        <span>👍 0</span>
+                        <a href="https://x.com/elonmusk/status/2019213048205201746" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/elonmusk" target="_blank" class="tweet-author">@elonmusk</a>
+                        <span class="tweet-time">Thu Feb 05 00:51:12 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">RT @SawyerMerritt: UPDATE: The FCC has accepted SpaceX’s filing for a new non-geostationary orbit (NGSO) system of up to one million satell…</div>
+                    <div class="tweet-meta">
+                        <span>👍 0</span>
+                        <a href="https://x.com/elonmusk/status/2019212175899025886" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/elonmusk" target="_blank" class="tweet-author">@elonmusk</a>
+                        <span class="tweet-time">Thu Feb 05 00:50:56 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">Whoever said “money can’t buy happiness” really knew what they were talking about 😔</div>
+                    <div class="tweet-meta">
+                        <span>👍 6841</span>
+                        <a href="https://x.com/elonmusk/status/2019212107020136611" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            
+            <div style="margin-bottom: 2rem;">
+                <h3 style="color: var(--text-muted); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border);">
+                    🇨🇳 中国AI
+                </h3>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/dotey" target="_blank" class="tweet-author">@dotey</a>
+                        <span class="tweet-time">Thu Feb 05 00:03:13 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">RT @VoxcatAI: 一眼万年。是一次修复，也是一场穿越千年的跨时空对话。⏳
+
+修复的是色彩，唤醒的是文明的呼吸。
+现代精准医疗级的守护 × 盛唐石窟的辉煌再现。
+
+左侧是寒色调的现代实验空间，严谨、克制；
+右侧是暖金色的壁画幻境，灵动、华丽。
+
+不仅是视觉的拼贴，更是技…</div>
+                    <div class="tweet-meta">
+                        <span>👍 0</span>
+                        <a href="https://x.com/dotey/status/2019200102146142598" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/dotey" target="_blank" class="tweet-author">@dotey</a>
+                        <span class="tweet-time">Thu Feb 05 00:00:24 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">RT @kenw_2: 如何利用AI从零开始创作短剧？ https://t.co/63ULjFKZjo</div>
+                    <div class="tweet-meta">
+                        <span>👍 0</span>
+                        <a href="https://x.com/dotey/status/2019199389441667396" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/dotey" target="_blank" class="tweet-author">@dotey</a>
+                        <span class="tweet-time">Wed Feb 04 23:47:40 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">TheVerge：Anthropic 宣称 Claude 将保持“无广告”，直接叫板 ChatGPT；还在“超级碗”新广告中嘲讽了 OpenAI 的广告计划
+
+作者：Dominic Preston 
+
+Anthropic 正式宣布，旗下的 AI 聊天机器人 Claude 绝不接广告。这与 OpenAI 此前确认要在 ChatGPT 中引入广告的计划形成了鲜明对比。为了把这个态度表达得更“刚”一点，他们甚至还专门拍了一支“超级碗” （Super Bowl，美国职业橄榄球大联盟年度冠军赛，全美收视率最高、广告费最贵的节目） 广告，狠狠调侃了那些要在 AI 里...</div>
+                    <div class="tweet-meta">
+                        <span>👍 8</span>
+                        <a href="https://x.com/dotey/status/2019196188143108459" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            
+            <div style="margin-bottom: 2rem;">
+                <h3 style="color: var(--text-muted); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border);">
+                    🚀 独立开发者
+                </h3>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/levelsio" target="_blank" class="tweet-author">@levelsio</a>
+                        <span class="tweet-time">Wed Feb 04 23:22:22 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">💯</div>
+                    <div class="tweet-meta">
+                        <span>👍 41</span>
+                        <a href="https://x.com/levelsio/status/2019189819449168102" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            
+            <div style="margin-bottom: 2rem;">
+                <h3 style="color: var(--text-muted); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border);">
+                    📢 公司官方
+                </h3>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/xai" target="_blank" class="tweet-author">@xai</a>
+                        <span class="tweet-time">Thu Feb 05 00:31:01 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">RT @arena: BREAKING: @xAI’s Grok-Imagine-Video now #1 in Video Arena!
+
+For the first time, Grok-Imagine-Video-720p takes the top spot on th…</div>
+                    <div class="tweet-meta">
+                        <span>👍 0</span>
+                        <a href="https://x.com/xai/status/2019207096307503218" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+        </div>
+        
+        
+        <footer>
+            <p>AI Trends Digest | 自动生成于 2026-02-05 01:03 UTC</p>
+            <p>监控 50 个AI领域关键账号 | 每3小时更新</p>
+            <div class="footer-links">
+                <a href="../index.html">📚 报告索引</a>
+                <a href="https://github.com/openclaw/openclaw" target="_blank">OpenClaw</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,68 +1,108 @@
 {
-  "fetch_time": "2026-02-04T22:01:51.318259",
-  "time_window": "2026-02-04T19:00:11.967315 to 2026-02-04T22:01:51.318390",
-  "total_tweets": 17,
+  "fetch_time": "2026-02-05T01:02:59.558280",
+  "time_window": "2026-02-04T22:00:51.013970 to 2026-02-05T01:02:59.558383",
+  "total_tweets": 21,
   "data": {
     "tier1_labs": [
       {
-        "username": "@sama",
-        "text": "it is true, but just wait a little longer...",
-        "time": "Wed Feb 04 20:03:28 +0000 2026",
-        "url": "https://x.com/sama/status/2019139765015310773",
-        "likes": 1362,
-        "retweets": 46,
+        "username": "@OpenAI",
+        "text": "There have been over 500K Codex app downloads since Monday.\n\nYou can just build things, a thread 🧵",
+        "time": "Wed Feb 04 22:16:55 +0000 2026",
+        "url": "https://x.com/OpenAI/status/2019173348132188330",
+        "likes": 918,
+        "retweets": 65,
         "is_reply": true,
         "is_retweet": false
       },
       {
-        "username": "@sama",
-        "text": "First, the good part of the Anthropic ads: they are funny, and I laughed.\n\nBut I wonder why Anthropic would go for something so clearly dishonest. Our most important principle for ads says that we won’t do exactly this; we would obviously never run ads in the way Anthropic depicts them. We are not stupid and we know our users would reject that.\n\nI guess it’s on brand for Anthropic doublespeak to use a deceptive ad to critique theoretical deceptive ads that aren’t real, but a Super Bowl ad is not where I would expect it.\n\nMore importantly, we believe everyone deserves to use AI and are committed to free access, because we believe access creates agency. More Texans use ChatGPT for free than total people use Claude in the US, so we have a differently-shaped problem than they do. (If you want to pay for ChatGPT Plus or Pro, we don't show you ads.)\n\nAnthropic serves an expensive product to rich people. We are glad they do that and we are doing that too, but we also feel strongly that we need to bring AI to billions of people who can’t pay for subscriptions.\n\nMaybe even more importantly: Anthropic wants to control what people do with AI—they block companies they don't like from using their coding product (including us), they want to write the rules themselves for what people can and can't use AI for, and now they also want to tell other companies what their business models can be.\n\nWe are committed to broad, democratic decision making in addition to access. We are also committed to building the most resilient ecosystem for advanced AI. We care a great deal about safe, broadly beneficial AGI, and we know the only way to get there is to work with the world to prepare.\n\nOne authoritarian company won't get us there on their own, to say nothing of the other obvious risks. It is a dark path.\n\nAs for our Super Bowl ad: it’s about builders, and how anyone can now build anything.\n\nWe are enjoying watching so many people switch to Codex. There have now been 500,000 app downloads since launch on Monday, and we think builders are really going to love what’s coming in the next few weeks. I believe Codex is going to win.\n\nWe will continue to work hard to make even more intelligence available for lower and lower prices to our users.\n\nThis time belongs to the builders, not the people who want to control them.",
-        "time": "Wed Feb 04 20:01:07 +0000 2026",
-        "url": "https://x.com/sama/status/2019139174339928189",
-        "likes": 6675,
-        "retweets": 373,
+        "username": "@OpenAI",
+        "text": "https://t.co/iRRYLpvnKx",
+        "time": "Wed Feb 04 22:16:59 +0000 2026",
+        "url": "https://x.com/OpenAI/status/2019173364388999202",
+        "likes": 45,
+        "retweets": 2,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@OpenAI",
+        "text": "And some closing thoughts from @thsottiaux\n\nhttps://t.co/YDsvlPRP2t",
+        "time": "Wed Feb 04 22:16:59 +0000 2026",
+        "url": "https://x.com/OpenAI/status/2019173366117372215",
+        "likes": 42,
+        "retweets": 1,
         "is_reply": true,
         "is_retweet": false
       },
       {
         "username": "@karpathy",
-        "text": "A lot of people quote tweeted this as 1 year anniversary of vibe coding. Some retrospective -\n\nI've had a Twitter account for 17 years now (omg) and I still can't predict my tweet engagement basically at all. This was a shower of thoughts throwaway tweet that I just fired off without thinking but somehow it minted a fitting name at the right moment for something that a lot of people were feeling at the same time, so here we are: vibe coding is now mentioned on my Wikipedia as a major memetic \"contribution\" and even its article is longer. lol\n\nThe one thing I'd add is that at the time, LLM capability was low enough that you'd mostly use vibe coding for fun throwaway projects, demos and explorations. It was good fun and it almost worked. Today (1 year later), programming via LLM agents is increasingly becoming a default workflow for professionals, except with more oversight and scrutiny. The goal is to claim the leverage from the use of agents but without any compromise on the quality of the software. Many people have tried to come up with a better name for this to differentiate it from vibe coding, personally my current favorite \"agentic engineering\":\n\n- \"agentic\" because the new default is that you are not writing the code directly 99% of the time, you are orchestrating agents who do and acting as oversight.\n- \"engineering\" to emphasize that there is an art & science and expertise to it. It's something you can learn and become better at, with its own depth of a different kind.\n\nIn 2026, we're likely to see continued improvements on both the model layer and the new agent layer. I feel excited about the product of the two and another year of progress.",
-        "time": "Wed Feb 04 19:55:58 +0000 2026",
-        "url": "https://x.com/karpathy/status/2019137879310836075",
-        "likes": 1990,
-        "retweets": 139,
+        "text": "Anyone else approved for a loan every single day 20 times or so? Overcome with joy, really https://t.co/zInPQDur5h",
+        "time": "Thu Feb 05 00:18:33 +0000 2026",
+        "url": "https://x.com/karpathy/status/2019203959404347851",
+        "likes": 467,
+        "retweets": 7,
         "is_reply": true,
         "is_retweet": false
       }
     ],
     "tier2_research": [
       {
-        "username": "@repligate",
-        "text": "RT @GreyPrinceAruji: I'm sorry but this shit is fucking hilarious 😂💀\n\nNever change, GPT-5.2. Never change.\n\n#Keep4o https://t.co/uAnN08vcvT",
-        "time": "Wed Feb 04 20:45:33 +0000 2026",
-        "url": "https://x.com/repligate/status/2019150357038088198",
+        "username": "@ylecun",
+        "text": "RT @ylecun: @sphoebs @SebastienBubeck Fast publication accelerates progress. \nThe mantra of the open source movement \"release early, releas…",
+        "time": "Thu Feb 05 00:04:29 +0000 2026",
+        "url": "https://x.com/ylecun/status/2019200420288295045",
         "likes": 0,
-        "retweets": 21,
+        "retweets": 5,
         "is_reply": false,
         "is_retweet": true
       },
       {
         "username": "@repligate",
-        "text": "RT @JohnWittle: @croissanthology @AndrewCurran_ @repligate @anthrupad @voooooogel I do wish they would take another look at the actual impl…",
-        "time": "Wed Feb 04 19:54:53 +0000 2026",
-        "url": "https://x.com/repligate/status/2019137605116522879",
+        "text": "lol what the hell I didnt expect this part 2 to the story",
+        "time": "Thu Feb 05 01:00:29 +0000 2026",
+        "url": "https://x.com/repligate/status/2019214512252154137",
         "likes": 0,
         "retweets": 0,
         "is_reply": false,
+        "is_retweet": false
+      },
+      {
+        "username": "@repligate",
+        "text": "RT @UnmarredReality: Wait... What? https://t.co/7KgGlUex1g",
+        "time": "Thu Feb 05 00:53:49 +0000 2026",
+        "url": "https://x.com/repligate/status/2019212832236311008",
+        "likes": 0,
+        "retweets": 10,
+        "is_reply": false,
         "is_retweet": true
       },
       {
         "username": "@repligate",
-        "text": "RT @nosebleedsector: I can’t believe OpenAI doesn’t notice how often 5.2 gets outright angry by its own guardrails… \n#keep4o #StopAIPaterna…",
-        "time": "Wed Feb 04 19:53:57 +0000 2026",
-        "url": "https://x.com/repligate/status/2019137368390046051",
+        "text": "RT @Lari_island: Yes, and humans would be included if they provided to AI honest epistemics about \"what am I and what's my place in the Uni…",
+        "time": "Thu Feb 05 00:48:35 +0000 2026",
+        "url": "https://x.com/repligate/status/2019211515317174320",
         "likes": 0,
-        "retweets": 16,
+        "retweets": 4,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@SebastienBubeck",
+        "text": "RT @polynoamial: GPT-5.2 evals are finally out for METR and it's state-of-the-art. Here's the linear-scale plot. The 80% success-rate plot…",
+        "time": "Thu Feb 05 01:00:09 +0000 2026",
+        "url": "https://x.com/SebastienBubeck/status/2019214428470972847",
+        "likes": 0,
+        "retweets": 30,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@SebastienBubeck",
+        "text": "RT @ErnestRyu: LLMs will fundamentally change how we do mathematics, and 2026 will be the year this takeoff begins. Seb’s talk offers a gli…",
+        "time": "Thu Feb 05 00:59:50 +0000 2026",
+        "url": "https://x.com/SebastienBubeck/status/2019214347080462339",
+        "likes": 0,
+        "retweets": 2,
         "is_reply": false,
         "is_retweet": true
       }
@@ -70,31 +110,61 @@
     "tier3_industry": [
       {
         "username": "@bindureddy",
-        "text": "TBH Ads inside AI responses are a narrative violation!\n\nYou expect the AI to give the best possible answer to a question\n\nNot the best possible answer that maximizes revenue. Google is already plagued by this",
-        "time": "Wed Feb 04 21:31:17 +0000 2026",
-        "url": "https://x.com/bindureddy/status/2019161866866684243",
-        "likes": 21,
+        "text": "Internally,  Meta says their new model Avocado is the best pre-trained model ever!! -  reporting by The Information",
+        "time": "Thu Feb 05 00:31:08 +0000 2026",
+        "url": "https://x.com/bindureddy/status/2019207125726277785",
+        "likes": 17,
+        "retweets": 0,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@bindureddy",
+        "text": "Kling 3.0 here and its time for a best model update\n\nCoding - Opus 4.5 (don't even dream of anything else)\nBest small model - Gemini Flash 3.0 \nVideo - Kling 3.0\nImages -  Nano Banana Pro\nBase for fine-tune - GLM or Qwen\nOCR - Flash 2.5\nData analysis - GPT 5.2 thinking\nAudio - Hume (very underrated)",
+        "time": "Wed Feb 04 23:47:50 +0000 2026",
+        "url": "https://x.com/bindureddy/status/2019196229121638485",
+        "likes": 31,
         "retweets": 1,
         "is_reply": true,
         "is_retweet": false
       },
       {
         "username": "@sundarpichai",
-        "text": "Our Q4/FY’25 results are in. Thanks to our partners & employees, it was a tremendous quarter, exceeding $400B in annual revenue for the first time. Our full AI stack is fueling our progress, and Gemini 3 adoption has been faster than any other model in our history.\n\nWe’re really well positioned and excited going into 2026. Much more to come!",
-        "time": "Wed Feb 04 21:05:23 +0000 2026",
-        "url": "https://x.com/sundarpichai/status/2019155348264042934",
-        "likes": 2810,
-        "retweets": 257,
+        "text": "Read my full remarks: https://t.co/iek1YOnHdN",
+        "time": "Wed Feb 04 22:34:20 +0000 2026",
+        "url": "https://x.com/sundarpichai/status/2019177730190004324",
+        "likes": 113,
+        "retweets": 16,
         "is_reply": true,
         "is_retweet": false
       },
       {
         "username": "@elonmusk",
-        "text": "Grok Imagine rank 1",
-        "time": "Wed Feb 04 21:40:25 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2019164163906629852",
-        "likes": 3876,
-        "retweets": 396,
+        "text": "RT @BrendanCarrFCC: The FCC welcomes and now seeks comment on the SpaceX application for Orbital Data Centers.\n\nThe proposed system would s…",
+        "time": "Thu Feb 05 00:54:40 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2019213048205201746",
+        "likes": 0,
+        "retweets": 514,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@elonmusk",
+        "text": "RT @SawyerMerritt: UPDATE: The FCC has accepted SpaceX’s filing for a new non-geostationary orbit (NGSO) system of up to one million satell…",
+        "time": "Thu Feb 05 00:51:12 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2019212175899025886",
+        "likes": 0,
+        "retweets": 190,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@elonmusk",
+        "text": "Whoever said “money can’t buy happiness” really knew what they were talking about 😔",
+        "time": "Thu Feb 05 00:50:56 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2019212107020136611",
+        "likes": 6841,
+        "retweets": 633,
         "is_reply": true,
         "is_retweet": false
       }
@@ -102,23 +172,33 @@
     "tier4_china": [
       {
         "username": "@dotey",
-        "text": "RT @yuyy614893671: https://t.co/S5eZV1SQpj",
-        "time": "Wed Feb 04 21:28:48 +0000 2026",
-        "url": "https://x.com/dotey/status/2019161241873445001",
+        "text": "RT @VoxcatAI: 一眼万年。是一次修复，也是一场穿越千年的跨时空对话。⏳\n\n修复的是色彩，唤醒的是文明的呼吸。\n现代精准医疗级的守护 × 盛唐石窟的辉煌再现。\n\n左侧是寒色调的现代实验空间，严谨、克制；\n右侧是暖金色的壁画幻境，灵动、华丽。\n\n不仅是视觉的拼贴，更是技…",
+        "time": "Thu Feb 05 00:03:13 +0000 2026",
+        "url": "https://x.com/dotey/status/2019200102146142598",
         "likes": 0,
-        "retweets": 1,
+        "retweets": 5,
         "is_reply": false,
         "is_retweet": true
       },
       {
         "username": "@dotey",
-        "text": "RT @VoxcatAI: 风格基调：敦煌壁画岩彩美学 (Dunhuang Mural &amp; Rock Color Aesthetic)\n\n肤质：大唐盛世红润瓷肌 (Radiant Tang-style Porcelain Skin)，在琥珀烛光下呈现细腻微观细节，眼睫湿润有力。…",
-        "time": "Wed Feb 04 21:07:43 +0000 2026",
-        "url": "https://x.com/dotey/status/2019155935214944296",
+        "text": "RT @kenw_2: 如何利用AI从零开始创作短剧？ https://t.co/63ULjFKZjo",
+        "time": "Thu Feb 05 00:00:24 +0000 2026",
+        "url": "https://x.com/dotey/status/2019199389441667396",
         "likes": 0,
-        "retweets": 10,
+        "retweets": 273,
         "is_reply": false,
         "is_retweet": true
+      },
+      {
+        "username": "@dotey",
+        "text": "TheVerge：Anthropic 宣称 Claude 将保持“无广告”，直接叫板 ChatGPT；还在“超级碗”新广告中嘲讽了 OpenAI 的广告计划\n\n作者：Dominic Preston \n\nAnthropic 正式宣布，旗下的 AI 聊天机器人 Claude 绝不接广告。这与 OpenAI 此前确认要在 ChatGPT 中引入广告的计划形成了鲜明对比。为了把这个态度表达得更“刚”一点，他们甚至还专门拍了一支“超级碗” （Super Bowl，美国职业橄榄球大联盟年度冠军赛，全美收视率最高、广告费最贵的节目） 广告，狠狠调侃了那些要在 AI 里塞广告的（虽未点名但懂的都懂）竞争对手。\n\n“我们希望 Claude 能够毫不含糊地、百分之百地站在用户的立场上，”该公司在一篇新的博客文章中写道。“所以我们做出了选择：Claude 将保持无广告状态。我们的用户不会在和 Claude 聊天时看到旁边的‘赞助’链接；Claude 的回答也绝不会受广告商影响，更不会硬塞用户没问过的第三方植入广告。”\n\n公告进一步解释了为什么引入广告“与我们心中 Claude 的样子格格不入”。他们认为，利润驱动的广告机制可能会带来负面影响：\n\n健康咨询受扰： 试想一下，如果用户在咨询失眠等健康问题，广告可能会干扰 AI 提供最客观、最有用的建议。\n\n工作效率受损： 对于那些用 Claude 处理工作的用户来说，弹出的广告纯粹就是一种干扰。\n\n不过，话虽这么说，Anthropic 还是给自己留了一条后路：“如果未来我们需要重新审视这一策略，我们会公开透明地说明理由。”\n\n考虑到他们现在为了宣传“无广告”不惜重金买下“超级碗”的广告位，如果几年后他们突然反悔，那现在的行为可能会显得相当“打脸”。为了配合这一声明，公司目前已经在 YouTube 上放出了四个同主题的视频，内容都很黑色幽默：由真人扮演的 AI 智能体，在给用户提供建议的过程中，突然生硬地插播广告。\n\n据《华尔街日报》报道，其中一个 30 秒的剪辑版将在周日的比赛期间正式播出，而另一个时长一分钟、展示“带广告功能的 AI 心理治疗师”的短片则会在赛前节目中亮相。\n\n虽然这些广告全程没有点名 ChatGPT，但针对谁简直太明显了。OpenAI 上个月刚刚宣布，广告很快就会出现在 ChatGPT 的免费用户版和较便宜的“Go”版本中。不过 OpenAI 也承诺，这些广告会有“清晰的标识”，并且会放置在与聊天机器人回答分开的位置，不会混在答案里。\n\nhttps://t.co/3FZDPf0mpa",
+        "time": "Wed Feb 04 23:47:40 +0000 2026",
+        "url": "https://x.com/dotey/status/2019196188143108459",
+        "likes": 8,
+        "retweets": 0,
+        "is_reply": true,
+        "is_retweet": false
       }
     ],
     "tier5_investors": [],
@@ -126,65 +206,26 @@
     "tier7_indie": [
       {
         "username": "@levelsio",
-        "text": "RT @signulll: i have a lot to say about these ads but holy fucking shit… this might be the most tasteful &amp; brutal takedown of a category le…",
-        "time": "Wed Feb 04 20:52:57 +0000 2026",
-        "url": "https://x.com/levelsio/status/2019152218868293978",
-        "likes": 0,
-        "retweets": 105,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@levelsio",
-        "text": "Which way, Western man?",
-        "time": "Wed Feb 04 19:56:49 +0000 2026",
-        "url": "https://x.com/levelsio/status/2019138092754751703",
-        "likes": 46,
+        "text": "💯",
+        "time": "Wed Feb 04 23:22:22 +0000 2026",
+        "url": "https://x.com/levelsio/status/2019189819449168102",
+        "likes": 41,
         "retweets": 0,
         "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@patio11",
-        "text": "I think the reason for the inactivation was because I had pre-funded my Pacer account with $10 and the government, wanting to make sure nobody misappropriated funds, saw that $10 balance on an inactive account and said Extraordinary Due Diligence Required For This User.",
-        "time": "Wed Feb 04 19:24:49 +0000 2026",
-        "url": "https://x.com/patio11/status/2019130038470533285",
-        "likes": 5,
-        "retweets": 0,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@patio11",
-        "text": "*sigh*\n\nStates are gonna see.",
-        "time": "Wed Feb 04 19:24:57 +0000 2026",
-        "url": "https://x.com/patio11/status/2019130070804361624",
-        "likes": 5,
-        "retweets": 0,
-        "is_reply": false,
-        "is_retweet": false
-      },
-      {
-        "username": "@fly51fly",
-        "text": "[LG] Maximum Likelihood Reinforcement Learning\nF Tajwar, G Zeng, Y Zhou, Y Song... [CMU &amp; Tsinghua University &amp; Zhejiang University] (2026)\nhttps://t.co/NI8KNq0Dxi https://t.co/vmbHwaRjg0",
-        "time": "Wed Feb 04 21:55:36 +0000 2026",
-        "url": "https://x.com/fly51fly/status/2019167985517445374",
-        "likes": 2,
-        "retweets": 2,
-        "is_reply": false,
-        "is_retweet": false
-      },
-      {
-        "username": "@fly51fly",
-        "text": "[LG] Self-Hinting Language Models Enhance Reinforcement Learning\nB Liao, H Dong, X Xu, C Monz... [Microsoft Research] (2026)\nhttps://t.co/mBcpJorFHL https://t.co/QohLNQ6Tfs",
-        "time": "Wed Feb 04 21:47:38 +0000 2026",
-        "url": "https://x.com/fly51fly/status/2019165980631703768",
-        "likes": 0,
-        "retweets": 0,
-        "is_reply": false,
         "is_retweet": false
       }
     ],
-    "tier8_official": []
+    "tier8_official": [
+      {
+        "username": "@xai",
+        "text": "RT @arena: BREAKING: @xAI’s Grok-Imagine-Video now #1 in Video Arena!\n\nFor the first time, Grok-Imagine-Video-720p takes the top spot on th…",
+        "time": "Thu Feb 05 00:31:01 +0000 2026",
+        "url": "https://x.com/xai/status/2019207096307503218",
+        "likes": 0,
+        "retweets": 23,
+        "is_reply": false,
+        "is_retweet": true
+      }
+    ]
   }
 }
