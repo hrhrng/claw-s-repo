@@ -1,231 +1,131 @@
 {
-  "fetch_time": "2026-02-05T01:02:59.558280",
-  "time_window": "2026-02-04T22:00:51.013970 to 2026-02-05T01:02:59.558383",
-  "total_tweets": 21,
+  "fetch_time": "2026-02-05T07:01:47.269916",
+  "time_window": "2026-02-05T04:00:12.332637 to 2026-02-05T07:01:47.270029",
+  "total_tweets": 6,
   "data": {
-    "tier1_labs": [
-      {
-        "username": "@OpenAI",
-        "text": "There have been over 500K Codex app downloads since Monday.\n\nYou can just build things, a thread 🧵",
-        "time": "Wed Feb 04 22:16:55 +0000 2026",
-        "url": "https://x.com/OpenAI/status/2019173348132188330",
-        "likes": 918,
-        "retweets": 65,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@OpenAI",
-        "text": "https://t.co/iRRYLpvnKx",
-        "time": "Wed Feb 04 22:16:59 +0000 2026",
-        "url": "https://x.com/OpenAI/status/2019173364388999202",
-        "likes": 45,
-        "retweets": 2,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@OpenAI",
-        "text": "And some closing thoughts from @thsottiaux\n\nhttps://t.co/YDsvlPRP2t",
-        "time": "Wed Feb 04 22:16:59 +0000 2026",
-        "url": "https://x.com/OpenAI/status/2019173366117372215",
-        "likes": 42,
-        "retweets": 1,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@karpathy",
-        "text": "Anyone else approved for a loan every single day 20 times or so? Overcome with joy, really https://t.co/zInPQDur5h",
-        "time": "Thu Feb 05 00:18:33 +0000 2026",
-        "url": "https://x.com/karpathy/status/2019203959404347851",
-        "likes": 467,
-        "retweets": 7,
-        "is_reply": true,
-        "is_retweet": false
-      }
-    ],
+    "tier1_labs": [],
     "tier2_research": [
       {
-        "username": "@ylecun",
-        "text": "RT @ylecun: @sphoebs @SebastienBubeck Fast publication accelerates progress. \nThe mantra of the open source movement \"release early, releas…",
-        "time": "Thu Feb 05 00:04:29 +0000 2026",
-        "url": "https://x.com/ylecun/status/2019200420288295045",
-        "likes": 0,
-        "retweets": 5,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@repligate",
-        "text": "lol what the hell I didnt expect this part 2 to the story",
-        "time": "Thu Feb 05 01:00:29 +0000 2026",
-        "url": "https://x.com/repligate/status/2019214512252154137",
-        "likes": 0,
+        "username": "@DrJimFan",
+        "text": "Greatness arises when non-consensus peaks",
+        "time": "Thu Feb 05 06:54:02 +0000 2026",
+        "url": "https://x.com/DrJimFan/status/2019303484529758704",
+        "likes": 6,
         "retweets": 0,
         "is_reply": false,
         "is_retweet": false
       },
       {
-        "username": "@repligate",
-        "text": "RT @UnmarredReality: Wait... What? https://t.co/7KgGlUex1g",
-        "time": "Thu Feb 05 00:53:49 +0000 2026",
-        "url": "https://x.com/repligate/status/2019212832236311008",
-        "likes": 0,
-        "retweets": 10,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@repligate",
-        "text": "RT @Lari_island: Yes, and humans would be included if they provided to AI honest epistemics about \"what am I and what's my place in the Uni…",
-        "time": "Thu Feb 05 00:48:35 +0000 2026",
-        "url": "https://x.com/repligate/status/2019211515317174320",
-        "likes": 0,
-        "retweets": 4,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
         "username": "@SebastienBubeck",
-        "text": "RT @polynoamial: GPT-5.2 evals are finally out for METR and it's state-of-the-art. Here's the linear-scale plot. The 80% success-rate plot…",
-        "time": "Thu Feb 05 01:00:09 +0000 2026",
-        "url": "https://x.com/SebastienBubeck/status/2019214428470972847",
+        "text": "RT @sama: Codex is now over 1 million active users!",
+        "time": "Thu Feb 05 05:19:41 +0000 2026",
+        "url": "https://x.com/SebastienBubeck/status/2019279740310569346",
         "likes": 0,
-        "retweets": 30,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@SebastienBubeck",
-        "text": "RT @ErnestRyu: LLMs will fundamentally change how we do mathematics, and 2026 will be the year this takeoff begins. Seb’s talk offers a gli…",
-        "time": "Thu Feb 05 00:59:50 +0000 2026",
-        "url": "https://x.com/SebastienBubeck/status/2019214347080462339",
-        "likes": 0,
-        "retweets": 2,
+        "retweets": 174,
         "is_reply": false,
         "is_retweet": true
       }
     ],
     "tier3_industry": [
       {
-        "username": "@bindureddy",
-        "text": "Internally,  Meta says their new model Avocado is the best pre-trained model ever!! -  reporting by The Information",
-        "time": "Thu Feb 05 00:31:08 +0000 2026",
-        "url": "https://x.com/bindureddy/status/2019207125726277785",
-        "likes": 17,
-        "retweets": 0,
+        "username": "@gdb",
+        "text": "gpt-5.2 for long-horizon tasks:",
+        "time": "Thu Feb 05 06:15:59 +0000 2026",
+        "url": "https://x.com/gdb/status/2019293909957152866",
+        "likes": 154,
+        "retweets": 6,
         "is_reply": true,
         "is_retweet": false
       },
       {
-        "username": "@bindureddy",
-        "text": "Kling 3.0 here and its time for a best model update\n\nCoding - Opus 4.5 (don't even dream of anything else)\nBest small model - Gemini Flash 3.0 \nVideo - Kling 3.0\nImages -  Nano Banana Pro\nBase for fine-tune - GLM or Qwen\nOCR - Flash 2.5\nData analysis - GPT 5.2 thinking\nAudio - Hume (very underrated)",
-        "time": "Wed Feb 04 23:47:50 +0000 2026",
-        "url": "https://x.com/bindureddy/status/2019196229121638485",
-        "likes": 31,
-        "retweets": 1,
-        "is_reply": true,
-        "is_retweet": false
+        "username": "@elonmusk",
+        "text": "RT @teslaownersSV: China now generates 33.2% of the world’s electricity, over 2× the USA (~14.2%).\n\nThat’s 1/3 of global capacity—alone.\nRe…",
+        "time": "Thu Feb 05 04:59:44 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2019274719338561901",
+        "likes": 0,
+        "retweets": 335,
+        "is_reply": false,
+        "is_retweet": true
       },
       {
-        "username": "@sundarpichai",
-        "text": "Read my full remarks: https://t.co/iek1YOnHdN",
-        "time": "Wed Feb 04 22:34:20 +0000 2026",
-        "url": "https://x.com/sundarpichai/status/2019177730190004324",
-        "likes": 113,
+        "username": "@elonmusk",
+        "text": "RT @PeterDiamandis: China is generating 40% more electricity than the US &amp; EU combined. In the global race where energy = intelligence, we…",
+        "time": "Thu Feb 05 04:48:59 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2019272016403263816",
+        "likes": 0,
+        "retweets": 442,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@jeremyphoward",
+        "text": "RT @bnjmn_marie: The KV cache size of Qwen3 Coder Next is very small:\n\n6.0 GB at 262,144 tokens\n\nDon't quantize this KV cache. \n\nFor compar…",
+        "time": "Thu Feb 05 05:09:34 +0000 2026",
+        "url": "https://x.com/jeremyphoward/status/2019277196775604502",
+        "likes": 0,
         "retweets": 16,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@elonmusk",
-        "text": "RT @BrendanCarrFCC: The FCC welcomes and now seeks comment on the SpaceX application for Orbital Data Centers.\n\nThe proposed system would s…",
-        "time": "Thu Feb 05 00:54:40 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2019213048205201746",
-        "likes": 0,
-        "retweets": 514,
         "is_reply": false,
         "is_retweet": true
-      },
-      {
-        "username": "@elonmusk",
-        "text": "RT @SawyerMerritt: UPDATE: The FCC has accepted SpaceX’s filing for a new non-geostationary orbit (NGSO) system of up to one million satell…",
-        "time": "Thu Feb 05 00:51:12 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2019212175899025886",
-        "likes": 0,
-        "retweets": 190,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@elonmusk",
-        "text": "Whoever said “money can’t buy happiness” really knew what they were talking about 😔",
-        "time": "Thu Feb 05 00:50:56 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2019212107020136611",
-        "likes": 6841,
-        "retweets": 633,
-        "is_reply": true,
-        "is_retweet": false
       }
     ],
-    "tier4_china": [
-      {
-        "username": "@dotey",
-        "text": "RT @VoxcatAI: 一眼万年。是一次修复，也是一场穿越千年的跨时空对话。⏳\n\n修复的是色彩，唤醒的是文明的呼吸。\n现代精准医疗级的守护 × 盛唐石窟的辉煌再现。\n\n左侧是寒色调的现代实验空间，严谨、克制；\n右侧是暖金色的壁画幻境，灵动、华丽。\n\n不仅是视觉的拼贴，更是技…",
-        "time": "Thu Feb 05 00:03:13 +0000 2026",
-        "url": "https://x.com/dotey/status/2019200102146142598",
-        "likes": 0,
-        "retweets": 5,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@dotey",
-        "text": "RT @kenw_2: 如何利用AI从零开始创作短剧？ https://t.co/63ULjFKZjo",
-        "time": "Thu Feb 05 00:00:24 +0000 2026",
-        "url": "https://x.com/dotey/status/2019199389441667396",
-        "likes": 0,
-        "retweets": 273,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@dotey",
-        "text": "TheVerge：Anthropic 宣称 Claude 将保持“无广告”，直接叫板 ChatGPT；还在“超级碗”新广告中嘲讽了 OpenAI 的广告计划\n\n作者：Dominic Preston \n\nAnthropic 正式宣布，旗下的 AI 聊天机器人 Claude 绝不接广告。这与 OpenAI 此前确认要在 ChatGPT 中引入广告的计划形成了鲜明对比。为了把这个态度表达得更“刚”一点，他们甚至还专门拍了一支“超级碗” （Super Bowl，美国职业橄榄球大联盟年度冠军赛，全美收视率最高、广告费最贵的节目） 广告，狠狠调侃了那些要在 AI 里塞广告的（虽未点名但懂的都懂）竞争对手。\n\n“我们希望 Claude 能够毫不含糊地、百分之百地站在用户的立场上，”该公司在一篇新的博客文章中写道。“所以我们做出了选择：Claude 将保持无广告状态。我们的用户不会在和 Claude 聊天时看到旁边的‘赞助’链接；Claude 的回答也绝不会受广告商影响，更不会硬塞用户没问过的第三方植入广告。”\n\n公告进一步解释了为什么引入广告“与我们心中 Claude 的样子格格不入”。他们认为，利润驱动的广告机制可能会带来负面影响：\n\n健康咨询受扰： 试想一下，如果用户在咨询失眠等健康问题，广告可能会干扰 AI 提供最客观、最有用的建议。\n\n工作效率受损： 对于那些用 Claude 处理工作的用户来说，弹出的广告纯粹就是一种干扰。\n\n不过，话虽这么说，Anthropic 还是给自己留了一条后路：“如果未来我们需要重新审视这一策略，我们会公开透明地说明理由。”\n\n考虑到他们现在为了宣传“无广告”不惜重金买下“超级碗”的广告位，如果几年后他们突然反悔，那现在的行为可能会显得相当“打脸”。为了配合这一声明，公司目前已经在 YouTube 上放出了四个同主题的视频，内容都很黑色幽默：由真人扮演的 AI 智能体，在给用户提供建议的过程中，突然生硬地插播广告。\n\n据《华尔街日报》报道，其中一个 30 秒的剪辑版将在周日的比赛期间正式播出，而另一个时长一分钟、展示“带广告功能的 AI 心理治疗师”的短片则会在赛前节目中亮相。\n\n虽然这些广告全程没有点名 ChatGPT，但针对谁简直太明显了。OpenAI 上个月刚刚宣布，广告很快就会出现在 ChatGPT 的免费用户版和较便宜的“Go”版本中。不过 OpenAI 也承诺，这些广告会有“清晰的标识”，并且会放置在与聊天机器人回答分开的位置，不会混在答案里。\n\nhttps://t.co/3FZDPf0mpa",
-        "time": "Wed Feb 04 23:47:40 +0000 2026",
-        "url": "https://x.com/dotey/status/2019196188143108459",
-        "likes": 8,
-        "retweets": 0,
-        "is_reply": true,
-        "is_retweet": false
-      }
-    ],
+    "tier4_china": [],
     "tier5_investors": [],
     "tier6_safety": [],
-    "tier7_indie": [
-      {
-        "username": "@levelsio",
-        "text": "💯",
-        "time": "Wed Feb 04 23:22:22 +0000 2026",
-        "url": "https://x.com/levelsio/status/2019189819449168102",
-        "likes": 41,
-        "retweets": 0,
-        "is_reply": true,
-        "is_retweet": false
-      }
-    ],
-    "tier8_official": [
-      {
-        "username": "@xai",
-        "text": "RT @arena: BREAKING: @xAI’s Grok-Imagine-Video now #1 in Video Arena!\n\nFor the first time, Grok-Imagine-Video-720p takes the top spot on th…",
-        "time": "Thu Feb 05 00:31:01 +0000 2026",
-        "url": "https://x.com/xai/status/2019207096307503218",
-        "likes": 0,
-        "retweets": 23,
-        "is_reply": false,
-        "is_retweet": true
-      }
-    ]
+    "tier7_indie": [],
+    "tier8_official": [],
+    "search": {
+      "AI agent OR AI agents": [
+        {
+          "username": "Josephosei23",
+          "text": "AI agents need verifiable storage to keep persistent, encrypted memory safe—centralized storage risks censorship &amp; data breaches, while DataHaven’s MSPs deliver secure, tamper-proof storage for AI’s critical use cases! @DataHaven_xyz",
+          "time": "Thu Feb 05 07:01:35 +0000 2026",
+          "url": "https://x.com/Josephosei23/status/2019305384633331747",
+          "likes": 0,
+          "retweets": 0,
+          "is_reply": false,
+          "is_retweet": false
+        },
+        {
+          "username": "gunnygun3",
+          "text": "Why Your AI Agents Need a Doctor: The OPD Framework for Reliability https://t.co/OAtkU7mjEO",
+          "time": "Thu Feb 05 07:01:34 +0000 2026",
+          "url": "https://x.com/gunnygun3/status/2019305383333097485",
+          "likes": 0,
+          "retweets": 0,
+          "is_reply": false,
+          "is_retweet": false
+        },
+        {
+          "username": "Gloxy11",
+          "text": "AI agents need verifiable storage to keep persistent, encrypted memory safe—centralized storage risks censorship &amp; data breaches, while DataHaven’s MSPs deliver secure, tamper-proof storage for AI’s critical use cases! @DataHaven_xyz",
+          "time": "Thu Feb 05 07:01:33 +0000 2026",
+          "url": "https://x.com/Gloxy11/status/2019305379084325092",
+          "likes": 0,
+          "retweets": 0,
+          "is_reply": false,
+          "is_retweet": false
+        },
+        {
+          "username": "pavithraL688336",
+          "text": "AI agents need verifiable storage to keep persistent, encrypted memory safe—centralized storage risks censorship &amp; data breaches, while DataHaven’s MSPs deliver secure, tamper-proof storage for AI’s critical use cases! @DataHaven_xyz",
+          "time": "Thu Feb 05 07:01:33 +0000 2026",
+          "url": "https://x.com/pavithraL688336/status/2019305375359733876",
+          "likes": 0,
+          "retweets": 0,
+          "is_reply": false,
+          "is_retweet": false
+        },
+        {
+          "username": "PatelMo99498485",
+          "text": "AI agents need verifiable storage to keep persistent, encrypted memory safe—centralized storage risks censorship &amp; data breaches, while DataHaven’s MSPs deliver secure, tamper-proof storage for AI’s critical use cases! @DataHaven_xyz",
+          "time": "Thu Feb 05 07:01:31 +0000 2026",
+          "url": "https://x.com/PatelMo99498485/status/2019305368724324675",
+          "likes": 0,
+          "retweets": 0,
+          "is_reply": false,
+          "is_retweet": false
+        }
+      ]
+    }
   }
 }
