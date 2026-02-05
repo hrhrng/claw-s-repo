@@ -1,0 +1,1326 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Trends Deep Dive - 2026-02-05 - AI Trends Digest</title>
+    <style>
+        :root {
+            --bg: #0a0a0f;
+            --surface: #12121a;
+            --surface-hover: #1a1a25;
+            --border: #2a2a3a;
+            --text: #e4e4ef;
+            --text-muted: #6b7280;
+            --accent: #3b82f6;
+            --accent-glow: rgba(59, 130, 246, 0.3);
+            --insight: #8b5cf6;
+            --trend: #f59e0b;
+            --p0: #ef4444;
+            --p1: #f59e0b;
+            --p2: #10b981;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+        
+        header {
+            text-align: center;
+            padding: 3rem 0 2rem;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 2rem;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+        }
+        
+        header .meta {
+            color: var(--text-muted);
+            font-size: 1rem;
+            margin-top: 0.5rem;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .stat-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+            transition: all 0.2s;
+        }
+        
+        .stat-card:hover {
+            border-color: var(--accent);
+        }
+        
+        .stat-card .number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--accent);
+        }
+        
+        .stat-card .label {
+            color: var(--text-muted);
+            font-size: 0.875rem;
+            margin-top: 0.25rem;
+        }
+        
+        .section {
+            margin: 3rem 0;
+        }
+        
+        .section-title {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--text);
+        }
+        
+        .section-title .icon {
+            font-size: 1.25rem;
+        }
+        
+        /* Insight Cards */
+        .insight-card {
+            background: linear-gradient(135deg, var(--surface) 0%, rgba(139, 92, 246, 0.1) 100%);
+            border: 1px solid var(--border);
+            border-left: 4px solid var(--insight);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .insight-card h3 {
+            color: var(--insight);
+            font-size: 1.1rem;
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .insight-card .summary {
+            font-size: 1rem;
+            line-height: 1.7;
+            color: var(--text);
+            margin-bottom: 1rem;
+        }
+        
+        .insight-card .implication {
+            background: rgba(139, 92, 246, 0.1);
+            border-radius: 8px;
+            padding: 1rem;
+            font-size: 0.95rem;
+            color: var(--text-muted);
+        }
+        
+        .insight-card .implication strong {
+            color: var(--insight);
+        }
+        
+        .evidence-list {
+            margin-top: 1rem;
+            padding-left: 1.5rem;
+        }
+        
+        .evidence-list li {
+            margin: 0.5rem 0;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+        
+        .evidence-list a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        /* Trend Cards */
+        .trend-section {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .trend-section h3 {
+            color: var(--trend);
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .trend-stats {
+            display: flex;
+            gap: 2rem;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+        
+        .momentum-bar {
+            height: 4px;
+            background: var(--border);
+            border-radius: 2px;
+            margin-bottom: 1rem;
+            overflow: hidden;
+        }
+        
+        .momentum-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--trend), #ef4444);
+            border-radius: 2px;
+            transition: width 0.3s;
+        }
+        
+        /* Tweet Cards */
+        .tweet-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.25rem;
+            margin-bottom: 1rem;
+            transition: all 0.2s;
+        }
+        
+        .tweet-card:hover {
+            background: var(--surface-hover);
+            border-color: var(--accent);
+        }
+        
+        .tweet-card.p0 { border-left: 3px solid var(--p0); }
+        .tweet-card.p1 { border-left: 3px solid var(--p1); }
+        .tweet-card.p2 { border-left: 3px solid var(--p2); }
+        
+        .tweet-header {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 0.75rem;
+            flex-wrap: wrap;
+        }
+        
+        .tweet-author {
+            font-weight: 600;
+            color: var(--accent);
+        }
+        
+        .tweet-author:hover {
+            text-decoration: underline;
+        }
+        
+        .tweet-time {
+            color: var(--text-muted);
+            font-size: 0.875rem;
+        }
+        
+        .priority-badge {
+            display: inline-block;
+            padding: 0.2rem 0.6rem;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        
+        .priority-p0 { background: rgba(239, 68, 68, 0.2); color: var(--p0); }
+        .priority-p1 { background: rgba(245, 158, 11, 0.2); color: var(--p1); }
+        .priority-p2 { background: rgba(16, 185, 129, 0.2); color: var(--p2); }
+        
+        .tweet-content {
+            margin-bottom: 0.75rem;
+            white-space: pre-wrap;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+        
+        .tweet-meta {
+            display: flex;
+            gap: 1.5rem;
+            color: var(--text-muted);
+            font-size: 0.875rem;
+            align-items: center;
+        }
+        
+        .tweet-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        .tweet-meta a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Key Topics */
+        .topic-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 1rem 0;
+        }
+        
+        .topic-tag {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 0.4rem 0.8rem;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            transition: all 0.2s;
+        }
+        
+        .topic-tag:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+        
+        .topic-tag.hot {
+            background: rgba(245, 158, 11, 0.1);
+            border-color: var(--trend);
+            color: var(--trend);
+        }
+        
+        /* Tier Sections */
+        .tier-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+        
+        .tier-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1rem;
+        }
+        
+        .tier-card h4 {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .tier-card .count {
+            color: var(--accent);
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        /* Comparison Table */
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+        
+        .comparison-table th,
+        .comparison-table td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .comparison-table th {
+            color: var(--text-muted);
+            font-weight: 500;
+            font-size: 0.85rem;
+        }
+        
+        .comparison-table td {
+            font-size: 0.9rem;
+        }
+        
+        .comparison-table tr:hover td {
+            background: var(--surface-hover);
+        }
+        
+        /* Narrative Flow */
+        .narrative-flow {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1rem 0;
+        }
+        
+        .narrative-flow h4 {
+            color: var(--accent);
+            margin-bottom: 1rem;
+        }
+        
+        .narrative-item {
+            display: flex;
+            gap: 1rem;
+            margin: 1rem 0;
+            padding: 1rem;
+            background: rgba(59, 130, 246, 0.05);
+            border-radius: 8px;
+        }
+        
+        .narrative-item .time {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            min-width: 80px;
+        }
+        
+        .narrative-item .content {
+            flex: 1;
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 3rem 0 2rem;
+            border-top: 1px solid var(--border);
+            margin-top: 3rem;
+            color: var(--text-muted);
+            font-size: 0.875rem;
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+        
+        .footer-links a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        @media (max-width: 768px) {
+            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+            .tier-grid { grid-template-columns: 1fr; }
+            header h1 { font-size: 1.75rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 AI Trends Deep Dive</h1>
+            <p class="meta">2026-02-05 19:02 UTC | 基于 X 平台实时数据 | 3小时监测窗口</p>
+        </header>
+        
+        <!-- Stats -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="number">24</div>
+                <div class="label">分析推文</div>
+            </div>
+            <div class="stat-card">
+                <div class="number">13</div>
+                <div class="label">活跃账号</div>
+            </div>
+            <div class="stat-card">
+                <div class="number">3</div>
+                <div class="label">深度洞察</div>
+            </div>
+            <div class="stat-card">
+                <div class="number">3h</div>
+                <div class="label">时间窗口</div>
+            </div>
+        </div>
+        
+        <!-- Key Insights -->
+        
+        <div class="section">
+            <h2 class="section-title"><span class="icon">💡</span> 核心洞察</h2>
+            
+            <div class="insight-card">
+                <h3>🌊 AI模型海啸即将来临</h3>
+                <div class="summary">本监测周期内，多位行业领袖同时预告了即将发布的大型模型。从Grok 4.2到GPT 5.3，从Sonnet 5到Deepseek v4，各家都在抢滩登陆。这不仅仅是技术迭代，更是一场生态系统卡位战。</div>
+                
+                <div class="implication">
+                    <strong>影响与思考：</strong>对于开发者：需要开始评估迁移成本和多模型适配策略。对于投资者：关注推理成本下降带来的应用层机会。对于普通用户：选择困难症即将加剧，"模型即服务"的抽象层可能变得更重要。
+                </div>
+                
+                
+                <ul class="evidence-list">
+                    
+                    <li>@@OpenAI: GPT-5.3-Codex is now available in Codex.
+
+You can just build things.
+https://t.c...</li>
+                    
+                    <li>@@bindureddy: GPT 5.3 Codex is out and MAY have topped the leadeboard....
+
+We don't have the A...</li>
+                    
+                    <li>@@gdb: gpt-5.3-codex — smarter, faster, and very capable at tasks like making presentat...</li>
+                    
+                </ul>
+                
+            </div>
+            
+            <div class="insight-card">
+                <h3>🎭 GUI Agent：一场"走后门"的技术革命</h3>
+                <div class="summary">当App厂商不愿意开放API时，AI选择直接"看屏幕、点屏幕"。字节豆包手机、OpenClaw、Chrome Gemini都选择了这条路。这不是最理想的技术路径，但可能是最现实的路径。</div>
+                
+                <div class="implication">
+                    <strong>影响与思考：</strong>GUI Agent的崛起意味着：1) 传统App的护城河被绕过，用户体验将被重构；2) 手机厂商可能成为新的流量入口守门人；3) 隐私和安全风险将急剧上升，监管可能很快介入。
+                </div>
+                
+                
+                <ul class="evidence-list">
+                    
+                    <li>@@dotey: nanobot 是香港大学数据科学实验室（HKUDS）开源的一个超轻量级个人 AI 助手，灵感来自 Clawdbot（OpenClaw 项目），但代码量只有约 ...</li>
+                    
+                </ul>
+                
+            </div>
+            
+            <div class="insight-card">
+                <h3>🇨🇳 中国AI：从跟随者到定义者</h3>
+                <div class="summary">DeepSeek、Qwen、豆包等产品开始在全球AI讨论中占据一席之地。更值得关注的是，中国AI产品的工程化落地速度正在加快，GUI Agent等创新不再只是跟随。</div>
+                
+                <div class="implication">
+                    <strong>影响与思考：</strong>全球AI格局可能正在从"美国主导"转向"双极格局"。对于国际市场：需要重新评估中国AI产品的竞争力。对于国内从业者：出海机会窗口正在打开，但地缘政治风险仍需关注。
+                </div>
+                
+                
+                <ul class="evidence-list">
+                    
+                    <li>@@dotey: nanobot 是香港大学数据科学实验室（HKUDS）开源的一个超轻量级个人 AI 助手，灵感来自 Clawdbot（OpenClaw 项目），但代码量只有约 ...</li>
+                    
+                </ul>
+                
+            </div>
+            
+        </div>
+        
+        
+        <!-- Key Topics -->
+        
+        <div class="section">
+            <h2 class="section-title"><span class="icon">🔥</span> 热议话题</h2>
+            <div class="topic-tags">
+                
+                <span class="topic-tag hot">
+                    模型发布 (11)
+                </span>
+                
+                <span class="topic-tag ">
+                    代码生成 (4)
+                </span>
+                
+                <span class="topic-tag ">
+                    Agent (3)
+                </span>
+                
+                <span class="topic-tag ">
+                    产品发布 (3)
+                </span>
+                
+                <span class="topic-tag ">
+                    竞争 (2)
+                </span>
+                
+                <span class="topic-tag ">
+                    多模态 (2)
+                </span>
+                
+                <span class="topic-tag ">
+                    投资 (1)
+                </span>
+                
+                <span class="topic-tag ">
+                    AI安全 (1)
+                </span>
+                
+            </div>
+        </div>
+        
+        
+        <!-- Emerging Trends -->
+        
+        <div class="section">
+            <h2 class="section-title"><span class="icon">📈</span> 新兴趋势</h2>
+            
+            <div class="trend-section">
+                <h3>🚀 AI模型密集发布潮</h3>
+                <div class="trend-stats">
+                    <span>提及: 6次</span>
+                    <span>参与账号: 7个</span>
+                    <span>热度: 100%</span>
+                </div>
+                <div class="momentum-bar">
+                    <div class="momentum-fill" style="width: 100%"></div>
+                </div>
+                <p>多个厂商同时预告或发布新模型，竞争进入白热化阶段。用户选择变多，但也面临选择困难。</p>
+            </div>
+            
+            <div class="trend-section">
+                <h3>🤖 Agent架构大讨论</h3>
+                <div class="trend-stats">
+                    <span>提及: 3次</span>
+                    <span>参与账号: 3个</span>
+                    <span>热度: 38%</span>
+                </div>
+                <div class="momentum-bar">
+                    <div class="momentum-fill" style="width: 38%"></div>
+                </div>
+                <p>GUI Agent vs API Agent的路线之争持续发酵，关于安全性、可控性和实用性的讨论成为焦点。</p>
+            </div>
+            
+        </div>
+        
+        
+        <!-- Highlighted Tweets -->
+        
+        <div class="section">
+            <h2 class="section-title"><span class="icon">⭐</span> 重点推文</h2>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/OpenAI" target="_blank" class="tweet-author">@OpenAI</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Thu Feb 05 18:12:12 +0000 2026</span>
+                </div>
+                <div class="tweet-content">GPT-5.3-Codex is now available in Codex.
+
+You can just build things.
+https://t.co/dyBiIQXGx1</div>
+                <div class="tweet-meta">
+                    <span>👍 3119</span>
+                    <span>🔄 427</span>
+                    <a href="https://x.com/OpenAI/status/2019474152743223477" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/gdb" target="_blank" class="tweet-author">@gdb</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Thu Feb 05 18:29:53 +0000 2026</span>
+                </div>
+                <div class="tweet-content">gpt-5.3-codex — smarter, faster, and very capable at tasks like making presentations, spreadsheets, and other work products.
+
+Codex becoming an agent that can do nearly anything developers and professionals can do on a computer. https://t.co/EXxkMfE0GU</div>
+                <div class="tweet-meta">
+                    <span>👍 412</span>
+                    <span>🔄 20</span>
+                    <a href="https://x.com/gdb/status/2019478603034161609" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/elonmusk" target="_blank" class="tweet-author">@elonmusk</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Thu Feb 05 17:52:31 +0000 2026</span>
+                </div>
+                <div class="tweet-content">Guinness with John &amp; Dwarkesh 🍺</div>
+                <div class="tweet-meta">
+                    <span>👍 9136</span>
+                    <span>🔄 1126</span>
+                    <a href="https://x.com/elonmusk/status/2019469198393766235" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/sama" target="_blank" class="tweet-author">@sama</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Thu Feb 05 18:17:46 +0000 2026</span>
+                </div>
+                <div class="tweet-content">I love building with this model; it feels like more of a step forward than the benchmarks suggest.
+
+Also you can choose "pragmatic" or "friendly" for its personality; people have strong preferences one way or the other!</div>
+                <div class="tweet-meta">
+                    <span>👍 1199</span>
+                    <span>🔄 53</span>
+                    <a href="https://x.com/sama/status/2019475551719977453" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/sama" target="_blank" class="tweet-author">@sama</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Thu Feb 05 18:18:46 +0000 2026</span>
+                </div>
+                <div class="tweet-content">It was amazing to watch how much faster we were able to ship 5.3-Codex by using 5.3-Codex, and fore sure this is a sign of things to come.</div>
+                <div class="tweet-meta">
+                    <span>👍 667</span>
+                    <span>🔄 24</span>
+                    <a href="https://x.com/sama/status/2019475805726744808" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/levelsio" target="_blank" class="tweet-author">@levelsio</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Thu Feb 05 18:29:10 +0000 2026</span>
+                </div>
+                <div class="tweet-content">What a day! https://t.co/86T0MkIpQN</div>
+                <div class="tweet-meta">
+                    <span>👍 627</span>
+                    <span>🔄 18</span>
+                    <a href="https://x.com/levelsio/status/2019478419738652884" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/sama" target="_blank" class="tweet-author">@sama</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Thu Feb 05 18:20:22 +0000 2026</span>
+                </div>
+                <div class="tweet-content">This is our first model that hits "high" for cybersecurity on our preparedness framework.
+
+We are piloting a Trusted Access framework, and committing $10 million in API credits to accelerate cyber defense.
+
+https://t.co/vN8KpIuzjt</div>
+                <div class="tweet-meta">
+                    <span>👍 531</span>
+                    <span>🔄 27</span>
+                    <a href="https://x.com/sama/status/2019476207532933132" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/paulg" target="_blank" class="tweet-author">@paulg</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Thu Feb 05 18:30:21 +0000 2026</span>
+                </div>
+                <div class="tweet-content">Why kids at British schools are usually called by their last name: 17 yo was in a five-a-side football match, and all five boys on the team had the same first name.</div>
+                <div class="tweet-meta">
+                    <span>👍 156</span>
+                    <span>🔄 2</span>
+                    <a href="https://x.com/paulg/status/2019478720352833723" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/bindureddy" target="_blank" class="tweet-author">@bindureddy</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Thu Feb 05 16:42:36 +0000 2026</span>
+                </div>
+                <div class="tweet-content">Anthropic is totally running away with it.... their usage is going up like a straight line
+
+Google or OpenAI need to drop insanely performant foundation models in the next couple of weeks or will have a very hard time catching up...🤷</div>
+                <div class="tweet-meta">
+                    <span>👍 101</span>
+                    <span>🔄 6</span>
+                    <a href="https://x.com/bindureddy/status/2019451601354703089" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/GeminiApp" target="_blank" class="tweet-author">@GeminiApp</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Thu Feb 05 18:17:22 +0000 2026</span>
+                </div>
+                <div class="tweet-content">Level up your snack menu for the big game with Nano Banana Pro.
+
+Upload a photo of your snacks to Gemini and use the prompt formula in the next post to give it the MVP treatment. 👇</div>
+                <div class="tweet-meta">
+                    <span>👍 77</span>
+                    <span>🔄 7</span>
+                    <a href="https://x.com/GeminiApp/status/2019475450276553014" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/dotey" target="_blank" class="tweet-author">@dotey</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Thu Feb 05 17:48:01 +0000 2026</span>
+                </div>
+                <div class="tweet-content">nanobot 是香港大学数据科学实验室（HKUDS）开源的一个超轻量级个人 AI 助手，灵感来自 Clawdbot（OpenClaw 项目），但代码量只有约 4000 行，比 Clawdbot 的 43 万行精简了 99%。
+
+核心卖点：
+极简但功能完整——支持多 LLM 提供商（OpenRouter、Anthropic、OpenAI、DeepSeek、Gemini、Groq 等）、本地模型（vLLM）、多渠道接入（Telegram、WhatsApp、飞书）、网页搜索、定时任务、持久记忆和 Skills 扩展，全部用很少的代码实现。
+
+典型使用场景包括： 实时市场分析、全栈开发辅助、日程管理、个人知识库问答。
+
+部署方式很简单： pip install nanobot-ai 安装后，配置一个 JSON 文件填入 API Key，就能通过命令行聊天或挂载到 Telegram 等渠道 24/7 运行。也支持 Docker 部署。
+
+这是一个面向研究和学习的项目，代码干净可读，适合想理解 AI Agent 架构的开发者拿来学习和二次开发。项目刚发布几天（2026 年 2 月 2 日上线），还在快速迭代中。
+
+https://t.co/xTVdMHuuMi</div>
+                <div class="tweet-meta">
+                    <span>👍 60</span>
+                    <span>🔄 14</span>
+                    <a href="https://x.com/dotey/status/2019468065310740597" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/bindureddy" target="_blank" class="tweet-author">@bindureddy</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Thu Feb 05 18:10:22 +0000 2026</span>
+                </div>
+                <div class="tweet-content">Opus 4.6 WILL TOP ALL THE LEADERBOARDS
+
+We will publish it on LiveBench and ChatLLM shortly
+
+That said, the early version we had access to was already ON TOP!
+
+Claude is on FIRE 🔥🔥</div>
+                <div class="tweet-meta">
+                    <span>👍 55</span>
+                    <span>🔄 4</span>
+                    <a href="https://x.com/bindureddy/status/2019473690254004575" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/vercel" target="_blank" class="tweet-author">@vercel</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Thu Feb 05 18:38:55 +0000 2026</span>
+                </div>
+                <div class="tweet-content">The Vercel AI Accelerator is so back.
+
+Join 40 teams for 6 weeks of learning, building, and shipping with over $6M in credits from Vercel, v0, AWS, and other leading AI platforms.
+
+Applications open now until February 16th.
+https://t.co/f0u7AdoKAe</div>
+                <div class="tweet-meta">
+                    <span>👍 47</span>
+                    <span>🔄 4</span>
+                    <a href="https://x.com/vercel/status/2019480874870534470" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/eladgil" target="_blank" class="tweet-author">@eladgil</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Thu Feb 05 17:14:16 +0000 2026</span>
+                </div>
+                <div class="tweet-content">Going to be in Austin for a day
+
+Anything I should do in a few hours off in evening? https://t.co/YL4sH3j9sO</div>
+                <div class="tweet-meta">
+                    <span>👍 46</span>
+                    <span>🔄 0</span>
+                    <a href="https://x.com/eladgil/status/2019459573057532414" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+            <div class="tweet-card p2">
+                <div class="tweet-header">
+                    <a href="https://x.com/GeminiApp" target="_blank" class="tweet-author">@GeminiApp</a>
+                    <span class="priority-badge priority-p2">P2</span>
+                    <span class="tweet-time">Thu Feb 05 18:17:42 +0000 2026</span>
+                </div>
+                <div class="tweet-content">Step 1: Ask me my name.
+Step 2: Prompt me to upload a photo.
+Step 3: Run the following prompt in Nano Banana:
+
+1:1 aspect ratio. In the style of a cool modern tv sports network broadcast tv graphic showing the player line up for a team, but all the players are ***THESE EXACT SNACKS*** REPLACE EACH DISH WITH A PRO FOOD PHOTOGRAPHY VERSION OF THE SAME DISH (each individual dish shown here in the image provided - IF THERE IS ONLY ONE DISH, SHOW IT AS A SINGLE PLAYER SPOTLIGHT, IF THERE ARE MULTIPLE DISHES SHOW EACH DISH separately): TITLE AT THE TOP" (MY NAME'S OFFICIAL 2026 SNACK LINEUP"-swap "MY NAME" with the first name i provided you **THE TITLE TEXT LOCK UP IS COOL detailed 3D realistic electrified METAL TEXT** The food in the player line up is all clearly labeled, **include funny details about each dish on screen** (make sure all text is spelled correctly) - make the graphic visuals look like modern tech FOOTBALL vibes with metallic elements, lens flares, confetti floating through the air, football stadium visuals in the background, celebratory vibes, should feel like a moment from the BIG GAME (NO LOGOS)</div>
+                <div class="tweet-meta">
+                    <span>👍 25</span>
+                    <span>🔄 1</span>
+                    <a href="https://x.com/GeminiApp/status/2019475536402346468" target="_blank">查看原文 →</a>
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        <!-- Tier Activity -->
+        
+        <div class="section">
+            <h2 class="section-title"><span class="icon">🎯</span> 分层活跃度</h2>
+            <div class="tier-grid">
+                
+                <div class="tier-card">
+                    <h4>💼 产业界领袖</h4>
+                    <div class="count">7</div>
+                    <div style="color: var(--text-muted); font-size: 0.85rem;">模型发布、Agent、AI安全</div>
+                </div>
+                
+                <div class="tier-card">
+                    <h4>🏢 实验室核心</h4>
+                    <div class="count">5</div>
+                    <div style="color: var(--text-muted); font-size: 0.85rem;">模型发布、Agent、代码生成</div>
+                </div>
+                
+                <div class="tier-card">
+                    <h4>💰 投资人</h4>
+                    <div class="count">5</div>
+                    <div style="color: var(--text-muted); font-size: 0.85rem;">多模态</div>
+                </div>
+                
+                <div class="tier-card">
+                    <h4>🚀 独立开发者</h4>
+                    <div class="count">3</div>
+                    <div style="color: var(--text-muted); font-size: 0.85rem;">产品发布</div>
+                </div>
+                
+                <div class="tier-card">
+                    <h4>📢 公司官方</h4>
+                    <div class="count">3</div>
+                    <div style="color: var(--text-muted); font-size: 0.85rem;">模型发布、多模态、产品发布</div>
+                </div>
+                
+                <div class="tier-card">
+                    <h4>🇨🇳 中国AI</h4>
+                    <div class="count">1</div>
+                    <div style="color: var(--text-muted); font-size: 0.85rem;">模型发布、Agent</div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <!-- Comparison Matrix -->
+        
+        
+        <!-- All Tweets by Tier -->
+        
+        <div class="section">
+            <h2 class="section-title"><span class="icon">📋</span> 完整动态</h2>
+            
+            
+            <div style="margin-bottom: 2rem;">
+                <h3 style="color: var(--text-muted); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border);">
+                    🏢 实验室核心
+                </h3>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/sama" target="_blank" class="tweet-author">@sama</a>
+                        <span class="tweet-time">Thu Feb 05 18:17:46 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">I love building with this model; it feels like more of a step forward than the benchmarks suggest.
+
+Also you can choose "pragmatic" or "friendly" for its personality; people have strong preferences one way or the other!</div>
+                    <div class="tweet-meta">
+                        <span>👍 1199</span>
+                        <a href="https://x.com/sama/status/2019475551719977453" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/sama" target="_blank" class="tweet-author">@sama</a>
+                        <span class="tweet-time">Thu Feb 05 18:18:46 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">It was amazing to watch how much faster we were able to ship 5.3-Codex by using 5.3-Codex, and fore sure this is a sign of things to come.</div>
+                    <div class="tweet-meta">
+                        <span>👍 667</span>
+                        <a href="https://x.com/sama/status/2019475805726744808" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/sama" target="_blank" class="tweet-author">@sama</a>
+                        <span class="tweet-time">Thu Feb 05 18:20:22 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">This is our first model that hits "high" for cybersecurity on our preparedness framework.
+
+We are piloting a Trusted Access framework, and committing $10 million in API credits to accelerate cyber defense.
+
+https://t.co/vN8KpIuzjt</div>
+                    <div class="tweet-meta">
+                        <span>👍 531</span>
+                        <a href="https://x.com/sama/status/2019476207532933132" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/OpenAI" target="_blank" class="tweet-author">@OpenAI</a>
+                        <span class="tweet-time">Thu Feb 05 18:12:12 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">GPT-5.3-Codex is now available in Codex.
+
+You can just build things.
+https://t.co/dyBiIQXGx1</div>
+                    <div class="tweet-meta">
+                        <span>👍 3119</span>
+                        <a href="https://x.com/OpenAI/status/2019474152743223477" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/AnthropicAI" target="_blank" class="tweet-author">@AnthropicAI</a>
+                        <span class="tweet-time">Thu Feb 05 17:45:51 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">RT @claudeai: Introducing Claude Opus 4.6. Our smartest model got an upgrade. 
+
+Opus 4.6 plans more carefully, sustains agentic tasks for l…</div>
+                    <div class="tweet-meta">
+                        <span>👍 0</span>
+                        <a href="https://x.com/AnthropicAI/status/2019467520017580525" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            
+            <div style="margin-bottom: 2rem;">
+                <h3 style="color: var(--text-muted); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border);">
+                    💼 产业界领袖
+                </h3>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/bindureddy" target="_blank" class="tweet-author">@bindureddy</a>
+                        <span class="tweet-time">Thu Feb 05 18:50:40 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">GPT 5.3 Codex is out and MAY have topped the leadeboard....
+
+We don't have the API though 😢</div>
+                    <div class="tweet-meta">
+                        <span>👍 9</span>
+                        <a href="https://x.com/bindureddy/status/2019483832152367272" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/bindureddy" target="_blank" class="tweet-author">@bindureddy</a>
+                        <span class="tweet-time">Thu Feb 05 18:10:22 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">Opus 4.6 WILL TOP ALL THE LEADERBOARDS
+
+We will publish it on LiveBench and ChatLLM shortly
+
+That said, the early version we had access to was already ON TOP!
+
+Claude is on FIRE 🔥🔥</div>
+                    <div class="tweet-meta">
+                        <span>👍 55</span>
+                        <a href="https://x.com/bindureddy/status/2019473690254004575" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/bindureddy" target="_blank" class="tweet-author">@bindureddy</a>
+                        <span class="tweet-time">Thu Feb 05 16:42:36 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">Anthropic is totally running away with it.... their usage is going up like a straight line
+
+Google or OpenAI need to drop insanely performant foundation models in the next couple of weeks or will have a very hard time catching up...🤷</div>
+                    <div class="tweet-meta">
+                        <span>👍 101</span>
+                        <a href="https://x.com/bindureddy/status/2019451601354703089" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/gdb" target="_blank" class="tweet-author">@gdb</a>
+                        <span class="tweet-time">Thu Feb 05 18:29:53 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">gpt-5.3-codex — smarter, faster, and very capable at tasks like making presentations, spreadsheets, and other work products.
+
+Codex becoming an agent that can do nearly anything developers and professionals can do on a computer. https://t.co/EXxkMfE0GU</div>
+                    <div class="tweet-meta">
+                        <span>👍 412</span>
+                        <a href="https://x.com/gdb/status/2019478603034161609" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/elonmusk" target="_blank" class="tweet-author">@elonmusk</a>
+                        <span class="tweet-time">Thu Feb 05 17:52:50 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">RT @dwarkesh_sp: .@collision and I interviewed @elonmusk.
+
+0:00:00 - Orbital data centers
+0:36:46 - Grok and alignment
+0:59:56 - xAI’s busi…</div>
+                    <div class="tweet-meta">
+                        <span>👍 0</span>
+                        <a href="https://x.com/elonmusk/status/2019469278618255831" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/elonmusk" target="_blank" class="tweet-author">@elonmusk</a>
+                        <span class="tweet-time">Thu Feb 05 17:52:31 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">Guinness with John &amp; Dwarkesh 🍺</div>
+                    <div class="tweet-meta">
+                        <span>👍 9136</span>
+                        <a href="https://x.com/elonmusk/status/2019469198393766235" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/elonmusk" target="_blank" class="tweet-author">@elonmusk</a>
+                        <span class="tweet-time">Thu Feb 05 16:44:27 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">RT @JudiciaryGOP: It turns out interfering with elections is standard fare for the European Commission.
+
+Ahead of at least EIGHT elections…</div>
+                    <div class="tweet-meta">
+                        <span>👍 0</span>
+                        <a href="https://x.com/elonmusk/status/2019452067987988747" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            
+            <div style="margin-bottom: 2rem;">
+                <h3 style="color: var(--text-muted); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border);">
+                    🇨🇳 中国AI
+                </h3>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/dotey" target="_blank" class="tweet-author">@dotey</a>
+                        <span class="tweet-time">Thu Feb 05 17:48:01 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">nanobot 是香港大学数据科学实验室（HKUDS）开源的一个超轻量级个人 AI 助手，灵感来自 Clawdbot（OpenClaw 项目），但代码量只有约 4000 行，比 Clawdbot 的 43 万行精简了 99%。
+
+核心卖点：
+极简但功能完整——支持多 LLM 提供商（OpenRouter、Anthropic、OpenAI、DeepSeek、Gemini、Groq 等）、本地模型（vLLM）、多渠道接入（Telegram、WhatsApp、飞书）、网页搜索、定时任务、持久记忆和 Skills 扩展，全部用很少的代码实现。
+
+典型使用场景包括...</div>
+                    <div class="tweet-meta">
+                        <span>👍 60</span>
+                        <a href="https://x.com/dotey/status/2019468065310740597" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            
+            <div style="margin-bottom: 2rem;">
+                <h3 style="color: var(--text-muted); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border);">
+                    💰 投资人
+                </h3>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/eladgil" target="_blank" class="tweet-author">@eladgil</a>
+                        <span class="tweet-time">Thu Feb 05 18:17:44 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">Full video w @DavidBaszucki CEO @Roblox
+
+Wide range around AI content, NPCs in the future, metaverse, gaming etc https://t.co/TwjdjnO3MH</div>
+                    <div class="tweet-meta">
+                        <span>👍 21</span>
+                        <a href="https://x.com/eladgil/status/2019475543561809979" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/eladgil" target="_blank" class="tweet-author">@eladgil</a>
+                        <span class="tweet-time">Thu Feb 05 17:23:24 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">Enjoyed speaking w @DavidBaszucki CEO @Roblox 
+
+Topics
+Gaming, metaverse, AI content, &amp; the future https://t.co/vyPWkHVW0h</div>
+                    <div class="tweet-meta">
+                        <span>👍 16</span>
+                        <a href="https://x.com/eladgil/status/2019461869229207983" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/eladgil" target="_blank" class="tweet-author">@eladgil</a>
+                        <span class="tweet-time">Thu Feb 05 17:14:16 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">Going to be in Austin for a day
+
+Anything I should do in a few hours off in evening? https://t.co/YL4sH3j9sO</div>
+                    <div class="tweet-meta">
+                        <span>👍 46</span>
+                        <a href="https://x.com/eladgil/status/2019459573057532414" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/paulg" target="_blank" class="tweet-author">@paulg</a>
+                        <span class="tweet-time">Thu Feb 05 18:31:35 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">RT @CarinaLHong: After AxiomProver got Putnam perfect score, we felt like it’s the right time to move forward from math Olympiads to “adult…</div>
+                    <div class="tweet-meta">
+                        <span>👍 0</span>
+                        <a href="https://x.com/paulg/status/2019479028965470491" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/paulg" target="_blank" class="tweet-author">@paulg</a>
+                        <span class="tweet-time">Thu Feb 05 18:30:21 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">Why kids at British schools are usually called by their last name: 17 yo was in a five-a-side football match, and all five boys on the team had the same first name.</div>
+                    <div class="tweet-meta">
+                        <span>👍 156</span>
+                        <a href="https://x.com/paulg/status/2019478720352833723" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            
+            <div style="margin-bottom: 2rem;">
+                <h3 style="color: var(--text-muted); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border);">
+                    🚀 独立开发者
+                </h3>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/levelsio" target="_blank" class="tweet-author">@levelsio</a>
+                        <span class="tweet-time">Thu Feb 05 18:29:10 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">What a day! https://t.co/86T0MkIpQN</div>
+                    <div class="tweet-meta">
+                        <span>👍 627</span>
+                        <a href="https://x.com/levelsio/status/2019478419738652884" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/levelsio" target="_blank" class="tweet-author">@levelsio</a>
+                        <span class="tweet-time">Thu Feb 05 17:56:00 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">RT @collision: Please enjoy this Cheeky Pint / @dwarkesh_sp crossover with @elonmusk.
+
+Dwarkesh was most interested in how Elon is going to…</div>
+                    <div class="tweet-meta">
+                        <span>👍 0</span>
+                        <a href="https://x.com/levelsio/status/2019470076638834754" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/shreyas" target="_blank" class="tweet-author">@shreyas</a>
+                        <span class="tweet-time">Thu Feb 05 16:49:17 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">Brand new Product Sense homepage. The team at @MavenHQ deserves all the credit for shipping an intuitive, intentional, metrics-informed page editor. It is easy to get impressed by flashy new products these days, but getting such basics right remains vital:
+https://t.co/RQp16nTqYq</div>
+                    <div class="tweet-meta">
+                        <span>👍 16</span>
+                        <a href="https://x.com/shreyas/status/2019453283748712518" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            
+            <div style="margin-bottom: 2rem;">
+                <h3 style="color: var(--text-muted); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border);">
+                    📢 公司官方
+                </h3>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/GeminiApp" target="_blank" class="tweet-author">@GeminiApp</a>
+                        <span class="tweet-time">Thu Feb 05 18:17:22 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">Level up your snack menu for the big game with Nano Banana Pro.
+
+Upload a photo of your snacks to Gemini and use the prompt formula in the next post to give it the MVP treatment. 👇</div>
+                    <div class="tweet-meta">
+                        <span>👍 77</span>
+                        <a href="https://x.com/GeminiApp/status/2019475450276553014" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/GeminiApp" target="_blank" class="tweet-author">@GeminiApp</a>
+                        <span class="tweet-time">Thu Feb 05 18:17:42 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">Step 1: Ask me my name.
+Step 2: Prompt me to upload a photo.
+Step 3: Run the following prompt in Nano Banana:
+
+1:1 aspect ratio. In the style of a cool modern tv sports network broadcast tv graphic showing the player line up for a team, but all the players are ***THESE EXACT SNAC...</div>
+                    <div class="tweet-meta">
+                        <span>👍 25</span>
+                        <a href="https://x.com/GeminiApp/status/2019475536402346468" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="tweet-card p2">
+                    <div class="tweet-header">
+                        <a href="https://x.com/vercel" target="_blank" class="tweet-author">@vercel</a>
+                        <span class="tweet-time">Thu Feb 05 18:38:55 +0000 2026</span>
+                    </div>
+                    <div class="tweet-content">The Vercel AI Accelerator is so back.
+
+Join 40 teams for 6 weeks of learning, building, and shipping with over $6M in credits from Vercel, v0, AWS, and other leading AI platforms.
+
+Applications open now until February 16th.
+https://t.co/f0u7AdoKAe</div>
+                    <div class="tweet-meta">
+                        <span>👍 47</span>
+                        <a href="https://x.com/vercel/status/2019480874870534470" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+        </div>
+        
+        
+        <footer>
+            <p>AI Trends Digest | 自动生成于 2026-02-05 19:02 UTC</p>
+            <p>监控 50 个AI领域关键账号 | 每3小时更新</p>
+            <div class="footer-links">
+                <a href="../index.html">📚 报告索引</a>
+                <a href="https://github.com/openclaw/openclaw" target="_blank">OpenClaw</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

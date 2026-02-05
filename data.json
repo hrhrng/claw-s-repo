@@ -1,131 +1,261 @@
 {
-  "fetch_time": "2026-02-05T07:01:47.269916",
-  "time_window": "2026-02-05T04:00:12.332637 to 2026-02-05T07:01:47.270029",
-  "total_tweets": 6,
+  "fetch_time": "2026-02-05T19:01:57.511634",
+  "time_window": "2026-02-05T16:00:12.704177 to 2026-02-05T19:01:57.511685",
+  "total_tweets": 24,
   "data": {
-    "tier1_labs": [],
-    "tier2_research": [
+    "tier1_labs": [
       {
-        "username": "@DrJimFan",
-        "text": "Greatness arises when non-consensus peaks",
-        "time": "Thu Feb 05 06:54:02 +0000 2026",
-        "url": "https://x.com/DrJimFan/status/2019303484529758704",
-        "likes": 6,
-        "retweets": 0,
-        "is_reply": false,
+        "username": "@sama",
+        "text": "I love building with this model; it feels like more of a step forward than the benchmarks suggest.\n\nAlso you can choose \"pragmatic\" or \"friendly\" for its personality; people have strong preferences one way or the other!",
+        "time": "Thu Feb 05 18:17:46 +0000 2026",
+        "url": "https://x.com/sama/status/2019475551719977453",
+        "likes": 1199,
+        "retweets": 53,
+        "is_reply": true,
         "is_retweet": false
       },
       {
-        "username": "@SebastienBubeck",
-        "text": "RT @sama: Codex is now over 1 million active users!",
-        "time": "Thu Feb 05 05:19:41 +0000 2026",
-        "url": "https://x.com/SebastienBubeck/status/2019279740310569346",
+        "username": "@sama",
+        "text": "It was amazing to watch how much faster we were able to ship 5.3-Codex by using 5.3-Codex, and fore sure this is a sign of things to come.",
+        "time": "Thu Feb 05 18:18:46 +0000 2026",
+        "url": "https://x.com/sama/status/2019475805726744808",
+        "likes": 667,
+        "retweets": 24,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@sama",
+        "text": "This is our first model that hits \"high\" for cybersecurity on our preparedness framework.\n\nWe are piloting a Trusted Access framework, and committing $10 million in API credits to accelerate cyber defense.\n\nhttps://t.co/vN8KpIuzjt",
+        "time": "Thu Feb 05 18:20:22 +0000 2026",
+        "url": "https://x.com/sama/status/2019476207532933132",
+        "likes": 531,
+        "retweets": 27,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@OpenAI",
+        "text": "GPT-5.3-Codex is now available in Codex.\n\nYou can just build things.\nhttps://t.co/dyBiIQXGx1",
+        "time": "Thu Feb 05 18:12:12 +0000 2026",
+        "url": "https://x.com/OpenAI/status/2019474152743223477",
+        "likes": 3119,
+        "retweets": 427,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@AnthropicAI",
+        "text": "RT @claudeai: Introducing Claude Opus 4.6. Our smartest model got an upgrade. \n\nOpus 4.6 plans more carefully, sustains agentic tasks for l…",
+        "time": "Thu Feb 05 17:45:51 +0000 2026",
+        "url": "https://x.com/AnthropicAI/status/2019467520017580525",
         "likes": 0,
-        "retweets": 174,
+        "retweets": 1803,
         "is_reply": false,
         "is_retweet": true
       }
     ],
+    "tier2_research": [],
     "tier3_industry": [
       {
-        "username": "@gdb",
-        "text": "gpt-5.2 for long-horizon tasks:",
-        "time": "Thu Feb 05 06:15:59 +0000 2026",
-        "url": "https://x.com/gdb/status/2019293909957152866",
-        "likes": 154,
+        "username": "@bindureddy",
+        "text": "GPT 5.3 Codex is out and MAY have topped the leadeboard....\n\nWe don't have the API though 😢",
+        "time": "Thu Feb 05 18:50:40 +0000 2026",
+        "url": "https://x.com/bindureddy/status/2019483832152367272",
+        "likes": 9,
+        "retweets": 0,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@bindureddy",
+        "text": "Opus 4.6 WILL TOP ALL THE LEADERBOARDS\n\nWe will publish it on LiveBench and ChatLLM shortly\n\nThat said, the early version we had access to was already ON TOP!\n\nClaude is on FIRE 🔥🔥",
+        "time": "Thu Feb 05 18:10:22 +0000 2026",
+        "url": "https://x.com/bindureddy/status/2019473690254004575",
+        "likes": 55,
+        "retweets": 4,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@bindureddy",
+        "text": "Anthropic is totally running away with it.... their usage is going up like a straight line\n\nGoogle or OpenAI need to drop insanely performant foundation models in the next couple of weeks or will have a very hard time catching up...🤷",
+        "time": "Thu Feb 05 16:42:36 +0000 2026",
+        "url": "https://x.com/bindureddy/status/2019451601354703089",
+        "likes": 101,
         "retweets": 6,
         "is_reply": true,
         "is_retweet": false
       },
       {
+        "username": "@gdb",
+        "text": "gpt-5.3-codex — smarter, faster, and very capable at tasks like making presentations, spreadsheets, and other work products.\n\nCodex becoming an agent that can do nearly anything developers and professionals can do on a computer. https://t.co/EXxkMfE0GU",
+        "time": "Thu Feb 05 18:29:53 +0000 2026",
+        "url": "https://x.com/gdb/status/2019478603034161609",
+        "likes": 412,
+        "retweets": 20,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
         "username": "@elonmusk",
-        "text": "RT @teslaownersSV: China now generates 33.2% of the world’s electricity, over 2× the USA (~14.2%).\n\nThat’s 1/3 of global capacity—alone.\nRe…",
-        "time": "Thu Feb 05 04:59:44 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2019274719338561901",
+        "text": "RT @dwarkesh_sp: .@collision and I interviewed @elonmusk.\n\n0:00:00 - Orbital data centers\n0:36:46 - Grok and alignment\n0:59:56 - xAI’s busi…",
+        "time": "Thu Feb 05 17:52:50 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2019469278618255831",
         "likes": 0,
-        "retweets": 335,
+        "retweets": 567,
         "is_reply": false,
         "is_retweet": true
       },
       {
         "username": "@elonmusk",
-        "text": "RT @PeterDiamandis: China is generating 40% more electricity than the US &amp; EU combined. In the global race where energy = intelligence, we…",
-        "time": "Thu Feb 05 04:48:59 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2019272016403263816",
-        "likes": 0,
-        "retweets": 442,
-        "is_reply": false,
-        "is_retweet": true
+        "text": "Guinness with John &amp; Dwarkesh 🍺",
+        "time": "Thu Feb 05 17:52:31 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2019469198393766235",
+        "likes": 9136,
+        "retweets": 1126,
+        "is_reply": true,
+        "is_retweet": false
       },
       {
-        "username": "@jeremyphoward",
-        "text": "RT @bnjmn_marie: The KV cache size of Qwen3 Coder Next is very small:\n\n6.0 GB at 262,144 tokens\n\nDon't quantize this KV cache. \n\nFor compar…",
-        "time": "Thu Feb 05 05:09:34 +0000 2026",
-        "url": "https://x.com/jeremyphoward/status/2019277196775604502",
+        "username": "@elonmusk",
+        "text": "RT @JudiciaryGOP: It turns out interfering with elections is standard fare for the European Commission.\n\nAhead of at least EIGHT elections…",
+        "time": "Thu Feb 05 16:44:27 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2019452067987988747",
         "likes": 0,
-        "retweets": 16,
+        "retweets": 3250,
         "is_reply": false,
         "is_retweet": true
       }
     ],
-    "tier4_china": [],
-    "tier5_investors": [],
+    "tier4_china": [
+      {
+        "username": "@dotey",
+        "text": "nanobot 是香港大学数据科学实验室（HKUDS）开源的一个超轻量级个人 AI 助手，灵感来自 Clawdbot（OpenClaw 项目），但代码量只有约 4000 行，比 Clawdbot 的 43 万行精简了 99%。\n\n核心卖点：\n极简但功能完整——支持多 LLM 提供商（OpenRouter、Anthropic、OpenAI、DeepSeek、Gemini、Groq 等）、本地模型（vLLM）、多渠道接入（Telegram、WhatsApp、飞书）、网页搜索、定时任务、持久记忆和 Skills 扩展，全部用很少的代码实现。\n\n典型使用场景包括： 实时市场分析、全栈开发辅助、日程管理、个人知识库问答。\n\n部署方式很简单： pip install nanobot-ai 安装后，配置一个 JSON 文件填入 API Key，就能通过命令行聊天或挂载到 Telegram 等渠道 24/7 运行。也支持 Docker 部署。\n\n这是一个面向研究和学习的项目，代码干净可读，适合想理解 AI Agent 架构的开发者拿来学习和二次开发。项目刚发布几天（2026 年 2 月 2 日上线），还在快速迭代中。\n\nhttps://t.co/xTVdMHuuMi",
+        "time": "Thu Feb 05 17:48:01 +0000 2026",
+        "url": "https://x.com/dotey/status/2019468065310740597",
+        "likes": 60,
+        "retweets": 14,
+        "is_reply": true,
+        "is_retweet": false
+      }
+    ],
+    "tier5_investors": [
+      {
+        "username": "@eladgil",
+        "text": "Full video w @DavidBaszucki CEO @Roblox\n\nWide range around AI content, NPCs in the future, metaverse, gaming etc https://t.co/TwjdjnO3MH",
+        "time": "Thu Feb 05 18:17:44 +0000 2026",
+        "url": "https://x.com/eladgil/status/2019475543561809979",
+        "likes": 21,
+        "retweets": 2,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@eladgil",
+        "text": "Enjoyed speaking w @DavidBaszucki CEO @Roblox \n\nTopics\nGaming, metaverse, AI content, &amp; the future https://t.co/vyPWkHVW0h",
+        "time": "Thu Feb 05 17:23:24 +0000 2026",
+        "url": "https://x.com/eladgil/status/2019461869229207983",
+        "likes": 16,
+        "retweets": 0,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@eladgil",
+        "text": "Going to be in Austin for a day\n\nAnything I should do in a few hours off in evening? https://t.co/YL4sH3j9sO",
+        "time": "Thu Feb 05 17:14:16 +0000 2026",
+        "url": "https://x.com/eladgil/status/2019459573057532414",
+        "likes": 46,
+        "retweets": 0,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@paulg",
+        "text": "RT @CarinaLHong: After AxiomProver got Putnam perfect score, we felt like it’s the right time to move forward from math Olympiads to “adult…",
+        "time": "Thu Feb 05 18:31:35 +0000 2026",
+        "url": "https://x.com/paulg/status/2019479028965470491",
+        "likes": 0,
+        "retweets": 15,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@paulg",
+        "text": "Why kids at British schools are usually called by their last name: 17 yo was in a five-a-side football match, and all five boys on the team had the same first name.",
+        "time": "Thu Feb 05 18:30:21 +0000 2026",
+        "url": "https://x.com/paulg/status/2019478720352833723",
+        "likes": 156,
+        "retweets": 2,
+        "is_reply": true,
+        "is_retweet": false
+      }
+    ],
     "tier6_safety": [],
-    "tier7_indie": [],
-    "tier8_official": [],
-    "search": {
-      "AI agent OR AI agents": [
-        {
-          "username": "Josephosei23",
-          "text": "AI agents need verifiable storage to keep persistent, encrypted memory safe—centralized storage risks censorship &amp; data breaches, while DataHaven’s MSPs deliver secure, tamper-proof storage for AI’s critical use cases! @DataHaven_xyz",
-          "time": "Thu Feb 05 07:01:35 +0000 2026",
-          "url": "https://x.com/Josephosei23/status/2019305384633331747",
-          "likes": 0,
-          "retweets": 0,
-          "is_reply": false,
-          "is_retweet": false
-        },
-        {
-          "username": "gunnygun3",
-          "text": "Why Your AI Agents Need a Doctor: The OPD Framework for Reliability https://t.co/OAtkU7mjEO",
-          "time": "Thu Feb 05 07:01:34 +0000 2026",
-          "url": "https://x.com/gunnygun3/status/2019305383333097485",
-          "likes": 0,
-          "retweets": 0,
-          "is_reply": false,
-          "is_retweet": false
-        },
-        {
-          "username": "Gloxy11",
-          "text": "AI agents need verifiable storage to keep persistent, encrypted memory safe—centralized storage risks censorship &amp; data breaches, while DataHaven’s MSPs deliver secure, tamper-proof storage for AI’s critical use cases! @DataHaven_xyz",
-          "time": "Thu Feb 05 07:01:33 +0000 2026",
-          "url": "https://x.com/Gloxy11/status/2019305379084325092",
-          "likes": 0,
-          "retweets": 0,
-          "is_reply": false,
-          "is_retweet": false
-        },
-        {
-          "username": "pavithraL688336",
-          "text": "AI agents need verifiable storage to keep persistent, encrypted memory safe—centralized storage risks censorship &amp; data breaches, while DataHaven’s MSPs deliver secure, tamper-proof storage for AI’s critical use cases! @DataHaven_xyz",
-          "time": "Thu Feb 05 07:01:33 +0000 2026",
-          "url": "https://x.com/pavithraL688336/status/2019305375359733876",
-          "likes": 0,
-          "retweets": 0,
-          "is_reply": false,
-          "is_retweet": false
-        },
-        {
-          "username": "PatelMo99498485",
-          "text": "AI agents need verifiable storage to keep persistent, encrypted memory safe—centralized storage risks censorship &amp; data breaches, while DataHaven’s MSPs deliver secure, tamper-proof storage for AI’s critical use cases! @DataHaven_xyz",
-          "time": "Thu Feb 05 07:01:31 +0000 2026",
-          "url": "https://x.com/PatelMo99498485/status/2019305368724324675",
-          "likes": 0,
-          "retweets": 0,
-          "is_reply": false,
-          "is_retweet": false
-        }
-      ]
-    }
+    "tier7_indie": [
+      {
+        "username": "@levelsio",
+        "text": "What a day! https://t.co/86T0MkIpQN",
+        "time": "Thu Feb 05 18:29:10 +0000 2026",
+        "url": "https://x.com/levelsio/status/2019478419738652884",
+        "likes": 627,
+        "retweets": 18,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@levelsio",
+        "text": "RT @collision: Please enjoy this Cheeky Pint / @dwarkesh_sp crossover with @elonmusk.\n\nDwarkesh was most interested in how Elon is going to…",
+        "time": "Thu Feb 05 17:56:00 +0000 2026",
+        "url": "https://x.com/levelsio/status/2019470076638834754",
+        "likes": 0,
+        "retweets": 388,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@shreyas",
+        "text": "Brand new Product Sense homepage. The team at @MavenHQ deserves all the credit for shipping an intuitive, intentional, metrics-informed page editor. It is easy to get impressed by flashy new products these days, but getting such basics right remains vital:\nhttps://t.co/RQp16nTqYq",
+        "time": "Thu Feb 05 16:49:17 +0000 2026",
+        "url": "https://x.com/shreyas/status/2019453283748712518",
+        "likes": 16,
+        "retweets": 0,
+        "is_reply": true,
+        "is_retweet": false
+      }
+    ],
+    "tier8_official": [
+      {
+        "username": "@GeminiApp",
+        "text": "Level up your snack menu for the big game with Nano Banana Pro.\n\nUpload a photo of your snacks to Gemini and use the prompt formula in the next post to give it the MVP treatment. 👇",
+        "time": "Thu Feb 05 18:17:22 +0000 2026",
+        "url": "https://x.com/GeminiApp/status/2019475450276553014",
+        "likes": 77,
+        "retweets": 7,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@GeminiApp",
+        "text": "Step 1: Ask me my name.\nStep 2: Prompt me to upload a photo.\nStep 3: Run the following prompt in Nano Banana:\n\n1:1 aspect ratio. In the style of a cool modern tv sports network broadcast tv graphic showing the player line up for a team, but all the players are ***THESE EXACT SNACKS*** REPLACE EACH DISH WITH A PRO FOOD PHOTOGRAPHY VERSION OF THE SAME DISH (each individual dish shown here in the image provided - IF THERE IS ONLY ONE DISH, SHOW IT AS A SINGLE PLAYER SPOTLIGHT, IF THERE ARE MULTIPLE DISHES SHOW EACH DISH separately): TITLE AT THE TOP\" (MY NAME'S OFFICIAL 2026 SNACK LINEUP\"-swap \"MY NAME\" with the first name i provided you **THE TITLE TEXT LOCK UP IS COOL detailed 3D realistic electrified METAL TEXT** The food in the player line up is all clearly labeled, **include funny details about each dish on screen** (make sure all text is spelled correctly) - make the graphic visuals look like modern tech FOOTBALL vibes with metallic elements, lens flares, confetti floating through the air, football stadium visuals in the background, celebratory vibes, should feel like a moment from the BIG GAME (NO LOGOS)",
+        "time": "Thu Feb 05 18:17:42 +0000 2026",
+        "url": "https://x.com/GeminiApp/status/2019475536402346468",
+        "likes": 25,
+        "retweets": 1,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@vercel",
+        "text": "The Vercel AI Accelerator is so back.\n\nJoin 40 teams for 6 weeks of learning, building, and shipping with over $6M in credits from Vercel, v0, AWS, and other leading AI platforms.\n\nApplications open now until February 16th.\nhttps://t.co/f0u7AdoKAe",
+        "time": "Thu Feb 05 18:38:55 +0000 2026",
+        "url": "https://x.com/vercel/status/2019480874870534470",
+        "likes": 47,
+        "retweets": 4,
+        "is_reply": true,
+        "is_retweet": false
+      }
+    ]
   }
 }
