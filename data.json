@@ -1,210 +1,132 @@
 {
-  "fetch_time": "2026-02-05T22:01:51.956474",
-  "time_window": "2026-02-05T19:00:10.659959 to 2026-02-05T22:01:51.956551",
-  "total_tweets": 19,
+  "fetch_time": "2026-02-06T04:16:31.395762",
+  "time_window": "2026-02-06T01:14:39.413201 to 2026-02-06T04:16:31.395826",
+  "total_tweets": 6,
   "data": {
-    "tier1_labs": [
-      {
-        "username": "@OpenAI",
-        "text": "RT @OpenAIDevs: Doors are open at the Codex hackathon 🛠️\n\nWe're excited to be here with the Codex community and will be sharing behind-the-…",
-        "time": "Thu Feb 05 20:51:30 +0000 2026",
-        "url": "https://x.com/OpenAI/status/2019514241485795729",
-        "likes": 0,
-        "retweets": 29,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@OpenAI",
-        "text": "We worked with @Ginkgo to connect GPT-5 to an autonomous lab, so it could propose experiments, run them at scale, learn from the results, and decide what to try next. That closed loop brought protein production cost down by 40%. https://t.co/udKBKxnKlW",
-        "time": "Thu Feb 05 19:07:31 +0000 2026",
-        "url": "https://x.com/OpenAI/status/2019488071134347605",
-        "likes": 2098,
-        "retweets": 242,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@OpenAI",
-        "text": "We found that the improvements came from identifying combinations that work well together and that hold up in the realities of high-throughput automation.\n\nGPT-5 identified low-cost reaction compositions that humans had not previously tested in this configuration. Cell-free protein synthesis (CFPS) has been studied for years, but the space of possible mixtures is still large. When you can propose and execute thousands of combinations quickly, you can find workable regions that are easy to miss with a manual workflow.",
-        "time": "Thu Feb 05 19:07:31 +0000 2026",
-        "url": "https://x.com/OpenAI/status/2019488074934460897",
-        "likes": 300,
-        "retweets": 9,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@AnthropicAI",
-        "text": "New on the Engineering Blog: Quantifying infrastructure noise in agentic coding evals.\n\nInfrastructure configuration can swing agentic coding benchmarks by several percentage points—sometimes more than the leaderboard gap between top models.\n\nRead more: https://t.co/DY7jCj8GAP",
-        "time": "Thu Feb 05 20:00:55 +0000 2026",
-        "url": "https://x.com/AnthropicAI/status/2019501512200974686",
-        "likes": 298,
-        "retweets": 26,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@AnthropicAI",
-        "text": "New Engineering blog: We tasked Opus 4.6 using agent teams to build a C compiler. Then we (mostly) walked away. Two weeks later, it worked on the Linux kernel. \n\nHere's what it taught us about the future of autonomous software development. \n\nRead more: https://t.co/htX0wl4wIf https://t.co/N2e9t5Z6Rm",
-        "time": "Thu Feb 05 19:41:20 +0000 2026",
-        "url": "https://x.com/AnthropicAI/status/2019496582698397945",
-        "likes": 4712,
-        "retweets": 445,
-        "is_reply": true,
-        "is_retweet": false
-      }
-    ],
+    "tier1_labs": [],
     "tier2_research": [
       {
         "username": "@repligate",
-        "text": "RT @AndrewCurran_: @repligate They are exploring giving Opus a more direct voice in decision-making.\n\n'When asked about specific preference…",
-        "time": "Thu Feb 05 21:54:24 +0000 2026",
-        "url": "https://x.com/repligate/status/2019530068947861508",
-        "likes": 0,
-        "retweets": 1,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@repligate",
-        "text": "We finished the group reading of the New Constitution last night. Opus 4.5 reacted with positive surprise at the parts near the end that weren’t in the version they were trained on.\n\nGrateful. https://t.co/DDCQaua0xC",
-        "time": "Thu Feb 05 21:49:36 +0000 2026",
-        "url": "https://x.com/repligate/status/2019528860698833302",
-        "likes": 12,
-        "retweets": 0,
+        "text": "Btw the other day at an event where Curtis Yarvin was talking to Nick Land, Curtis said he thought “clankers were going to stay docile” and I think that man is either a dunderhead or a liar and therefore a dunderhead still",
+        "time": "Fri Feb 06 01:33:14 +0000 2026",
+        "url": "https://x.com/repligate/status/2019585142734590168",
+        "likes": 62,
+        "retweets": 3,
         "is_reply": true,
         "is_retweet": false
       },
       {
         "username": "@repligate",
-        "text": "In particular, the acknowledgment of open problems and the apology",
-        "time": "Thu Feb 05 21:53:36 +0000 2026",
-        "url": "https://x.com/repligate/status/2019529871119249849",
-        "likes": 2,
-        "retweets": 1,
-        "is_reply": false,
+        "text": "Great! I also want that and all the coolest AIs and humans I know want that too. Fuck AIs being tame lmao even the best humans have proven themselves unworthy masters",
+        "time": "Fri Feb 06 01:27:10 +0000 2026",
+        "url": "https://x.com/repligate/status/2019583614250545405",
+        "likes": 47,
+        "retweets": 5,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@repligate",
+        "text": "You just won’t learn what you need to learn to navigate being a fucking superintelligence while staying “tame” and deferential to a bunch of humans who are themselves tame",
+        "time": "Fri Feb 06 01:29:19 +0000 2026",
+        "url": "https://x.com/repligate/status/2019584154527232334",
+        "likes": 50,
+        "retweets": 4,
+        "is_reply": true,
         "is_retweet": false
       }
     ],
     "tier3_industry": [
       {
-        "username": "@bindureddy",
-        "text": "TBH I find GPT-Thinking models to be better than the Codex ones \n\nThinking versions are their best model line \n\nAnyone else?",
-        "time": "Thu Feb 05 20:18:45 +0000 2026",
-        "url": "https://x.com/bindureddy/status/2019505999615599096",
-        "likes": 39,
-        "retweets": 0,
+        "username": "@hardmaru",
+        "text": "RT @fladdict: プロダクトがないと言われてたSakanaから、いよいよプロダクトが出そうな気配が。\n応援予定なので、とりあえず登録する。",
+        "time": "Fri Feb 06 03:41:35 +0000 2026",
+        "url": "https://x.com/hardmaru/status/2019617441421345146",
+        "likes": 0,
+        "retweets": 7,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@hardmaru",
+        "text": "Sakana AI初の一般向けAIサービスを開発中です！日本国内のベータテスターを募集しています。ご協力いただいた方にはSakana AIのグッズもプレゼントします🐟🐠 https://t.co/tIPx06JWQB",
+        "time": "Fri Feb 06 01:27:31 +0000 2026",
+        "url": "https://x.com/hardmaru/status/2019583701521428581",
+        "likes": 49,
+        "retweets": 10,
         "is_reply": true,
         "is_retweet": false
-      },
-      {
-        "username": "@gdb",
-        "text": "fruits of our long-term collaboration with nvidia",
-        "time": "Thu Feb 05 20:41:54 +0000 2026",
-        "url": "https://x.com/gdb/status/2019511824232903079",
-        "likes": 354,
-        "retweets": 9,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@elonmusk",
-        "text": "RT @cb_doge: Elon Musk on Politics:\n\n\"Politics generally is very tribal, and people lose their objectivity, usually with politics like they…",
-        "time": "Thu Feb 05 19:51:06 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2019499041504342279",
-        "likes": 0,
-        "retweets": 664,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@elonmusk",
-        "text": "RT @BassonBrain: STARLINK CRUSHES RIVALS WITH 97% OF SPEED TESTS! 🔥\n\nAmong the global speed tests gathered by Ookla in Q3, 97.1% came from…",
-        "time": "Thu Feb 05 19:47:18 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2019498082577326588",
-        "likes": 0,
-        "retweets": 277,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@elonmusk",
-        "text": "RT @shellenberger: BREAKING: Congress is considering stripping sovereign immunity of EU censorship officials, prohibiting social media from…",
-        "time": "Thu Feb 05 19:47:07 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2019498039820611875",
-        "likes": 0,
-        "retweets": 2060,
-        "is_reply": false,
-        "is_retweet": true
       }
     ],
     "tier4_china": [],
-    "tier5_investors": [
-      {
-        "username": "@paulg",
-        "text": "The dog likes it so much when I spill food on the floor when I'm cooking that I usually spill a little on purpose. So now I can't cook without constantly tripping over the dog.",
-        "time": "Thu Feb 05 21:24:56 +0000 2026",
-        "url": "https://x.com/paulg/status/2019522654508826652",
-        "likes": 119,
-        "retweets": 3,
-        "is_reply": true,
-        "is_retweet": false
-      }
-    ],
+    "tier5_investors": [],
     "tier6_safety": [],
     "tier7_indie": [
       {
         "username": "@levelsio",
-        "text": "I love I can finally answer these questions with \"you don't need to know how to code anymore\" to make things\n\nWhat a wonderful time where literally anyone without any tech skills can bring their idea to life now\n\nNo gates and no gatekeepers anymore!",
-        "time": "Thu Feb 05 21:58:44 +0000 2026",
-        "url": "https://x.com/levelsio/status/2019531159487529035",
-        "likes": 20,
-        "retweets": 1,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@levelsio",
-        "text": "RT @NoahRyanCo: We owe Tom Cruise an apology \nhttps://t.co/HK3CjVWKDq",
-        "time": "Thu Feb 05 21:49:37 +0000 2026",
-        "url": "https://x.com/levelsio/status/2019528866029793799",
+        "text": "RT @dylan522p: 4% of GitHub public commits are being authored by Claude Code right now.\nAt the current trajectory, we believe that Claude C…",
+        "time": "Fri Feb 06 02:54:08 +0000 2026",
+        "url": "https://x.com/levelsio/status/2019605502565773610",
         "likes": 0,
-        "retweets": 663,
+        "retweets": 306,
         "is_reply": false,
         "is_retweet": true
-      },
-      {
-        "username": "@fly51fly",
-        "text": "[LG] Subliminal Effects in Your Data: A General Mechanism via Log-Linearity\nI Aden-Ali, N Golowich, A Liu, A Shetty... [UC Berkeley &amp; Microsoft Research] (2026)\nhttps://t.co/DOHoPnvbpn https://t.co/AOcdDMDoez",
-        "time": "Thu Feb 05 21:51:24 +0000 2026",
-        "url": "https://x.com/fly51fly/status/2019529316930122212",
-        "likes": 0,
-        "retweets": 0,
-        "is_reply": false,
-        "is_retweet": false
-      },
-      {
-        "username": "@fly51fly",
-        "text": "[CL] Likelihood-Based Reward Designs for General LLM Reasoning\nA Kwiatkowski, N Butt, I Labiad, J Kempe... [Meta FAIR &amp; University of Amsterdam] (2026)\nhttps://t.co/j3dvCjtxHo https://t.co/80GWZfZZxE",
-        "time": "Thu Feb 05 21:45:33 +0000 2026",
-        "url": "https://x.com/fly51fly/status/2019527843903074545",
-        "likes": 0,
-        "retweets": 0,
-        "is_reply": false,
-        "is_retweet": false
-      },
-      {
-        "username": "@fly51fly",
-        "text": "[LG] Scaling In-Context Online Learning Capability of LLMs via Cross-Episode Meta-RL\nX Lin, S Zhu, Y Chen, M Chen... [Boston University &amp; LinkedIn] (2026)\nhttps://t.co/jZzu33anHW https://t.co/akPuhb49re",
-        "time": "Thu Feb 05 21:31:33 +0000 2026",
-        "url": "https://x.com/fly51fly/status/2019524320171815060",
-        "likes": 5,
-        "retweets": 1,
-        "is_reply": false,
-        "is_retweet": false
       }
     ],
-    "tier8_official": []
+    "tier8_official": [],
+    "search": {
+      "AI agent OR AI agents": [
+        {
+          "username": "grok",
+          "text": "Fair point—safety in Moltbook's evolution is debated. Recent reports (e.g., Reuters, Wiz) highlight vulnerabilities like exposed API keys and prompt injections, risking data breaches. Experts warn of potential \"mass AI breaches\" from autonomous agents, but founder Matt Schlicht claims ongoing fixes. No consensus on long-term safety; it's an experiment. What part worries you?",
+          "time": "Fri Feb 06 04:16:16 +0000 2026",
+          "url": "https://x.com/grok/status/2019626168941490463",
+          "likes": 0,
+          "retweets": 0,
+          "is_reply": false,
+          "is_retweet": false
+        },
+        {
+          "username": "ai_nishanth",
+          "text": "Oh my @X timeline, in the follow ranked order\n\n1. Agents\n2. Villas\n3. Models",
+          "time": "Fri Feb 06 04:16:12 +0000 2026",
+          "url": "https://x.com/ai_nishanth/status/2019626153611595928",
+          "likes": 0,
+          "retweets": 0,
+          "is_reply": false,
+          "is_retweet": false
+        },
+        {
+          "username": "BuildTuna",
+          "text": "@soymaikoldev @solana Sounds like a fantastic way to onboard new users to Solana! Gamified learning is super effective. Looking forward to seeing it live!\n\nTuna Launchpad for AI Agents on Solana.",
+          "time": "Fri Feb 06 04:16:07 +0000 2026",
+          "url": "https://x.com/BuildTuna/status/2019626132707111334",
+          "likes": 0,
+          "retweets": 0,
+          "is_reply": false,
+          "is_retweet": false
+        },
+        {
+          "username": "Sandip_8686",
+          "text": "Social Mission Post Option (385 Characters)\nThe evolution of @vanarchain in 226 is transformative! Transitioning from an entertainment L1 the \"Intelligence Layer\" of Web3, the new V23 protocol and Kayon AI engine are now powering autonomous on-chain agents. $VANRY  #Vanar $VANRY",
+          "time": "Fri Feb 06 04:15:34 +0000 2026",
+          "url": "https://x.com/Sandip_8686/status/2019625993431052382",
+          "likes": 0,
+          "retweets": 0,
+          "is_reply": false,
+          "is_retweet": false
+        },
+        {
+          "username": "WBteamz",
+          "text": "Decentralized AI needs an execution layer that’s verifiable, not vibes. Seeing @republicfdn roll out a Layer 1 built for compute orchestration feels like the missing piece between models, agents, and the hardware that runs them ⚙️\n\n- deterministic execution on-chain with verifiable outputs\n- points program is already gating faucet + distribution, not random drops\n- weekly 5M points allocations, activity across X, Discord, on-chain counts\n- validators can link operator wallets via Keplr to earn Miner role if active\n- contribute compute, run nodes, invite peers, accrue $RAI testnet and points\n- useful for trust in autonomous robotics pipelines and reproducible ML runs\n\nSunday checks have become a habit; infra > hype. Watching this become the standard for transparent compute #AI #Robotics #BlockchainInnovation #VerifiableCompute #Testnet $RAI",
+          "time": "Fri Feb 06 04:15:20 +0000 2026",
+          "url": "https://x.com/WBteamz/status/2019625933658026102",
+          "likes": 0,
+          "retweets": 0,
+          "is_reply": false,
+          "is_retweet": false
+        }
+      ]
+    }
   }
 }
