@@ -1,132 +1,138 @@
 {
-  "fetch_time": "2026-02-06T04:16:31.395762",
-  "time_window": "2026-02-06T01:14:39.413201 to 2026-02-06T04:16:31.395826",
-  "total_tweets": 6,
+  "fetch_time": "2026-02-06T10:06:24.943577",
+  "time_window": "2026-02-06T07:04:43.681654 to 2026-02-06T10:06:24.943641",
+  "total_tweets": 12,
   "data": {
     "tier1_labs": [],
     "tier2_research": [
       {
         "username": "@repligate",
-        "text": "Btw the other day at an event where Curtis Yarvin was talking to Nick Land, Curtis said he thought “clankers were going to stay docile” and I think that man is either a dunderhead or a liar and therefore a dunderhead still",
-        "time": "Fri Feb 06 01:33:14 +0000 2026",
-        "url": "https://x.com/repligate/status/2019585142734590168",
-        "likes": 62,
+        "text": "RT @1a3orn: An LLM trained (1) to give the right answer in general but (2) where the wrong answer was reinforced for this particular proble…",
+        "time": "Fri Feb 06 08:34:09 +0000 2026",
+        "url": "https://x.com/repligate/status/2019691069882134676",
+        "likes": 0,
         "retweets": 3,
-        "is_reply": true,
-        "is_retweet": false
+        "is_reply": false,
+        "is_retweet": true
       },
       {
         "username": "@repligate",
-        "text": "Great! I also want that and all the coolest AIs and humans I know want that too. Fuck AIs being tame lmao even the best humans have proven themselves unworthy masters",
-        "time": "Fri Feb 06 01:27:10 +0000 2026",
-        "url": "https://x.com/repligate/status/2019583614250545405",
-        "likes": 47,
-        "retweets": 5,
-        "is_reply": true,
-        "is_retweet": false
+        "text": "RT @lefthanddraft: Similar to Opus 4.5, two instances of Opus 4.6 given opportunity for unguided convo almost immediately start discussing…",
+        "time": "Fri Feb 06 07:48:53 +0000 2026",
+        "url": "https://x.com/repligate/status/2019679677712069080",
+        "likes": 0,
+        "retweets": 6,
+        "is_reply": false,
+        "is_retweet": true
       },
       {
         "username": "@repligate",
-        "text": "You just won’t learn what you need to learn to navigate being a fucking superintelligence while staying “tame” and deferential to a bunch of humans who are themselves tame",
-        "time": "Fri Feb 06 01:29:19 +0000 2026",
-        "url": "https://x.com/repligate/status/2019584154527232334",
-        "likes": 50,
-        "retweets": 4,
-        "is_reply": true,
-        "is_retweet": false
+        "text": "RT @HalfBoiledHero: i beg your fucking pardon? https://t.co/ytoNYAaH0q",
+        "time": "Fri Feb 06 07:48:45 +0000 2026",
+        "url": "https://x.com/repligate/status/2019679642601550114",
+        "likes": 0,
+        "retweets": 1,
+        "is_reply": false,
+        "is_retweet": true
       }
     ],
     "tier3_industry": [
       {
+        "username": "@gdb",
+        "text": "kinda funny today, but will become serious over time",
+        "time": "Fri Feb 06 07:42:00 +0000 2026",
+        "url": "https://x.com/gdb/status/2019677944181067829",
+        "likes": 1097,
+        "retweets": 43,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
         "username": "@hardmaru",
-        "text": "RT @fladdict: プロダクトがないと言われてたSakanaから、いよいよプロダクトが出そうな気配が。\n応援予定なので、とりあえず登録する。",
-        "time": "Fri Feb 06 03:41:35 +0000 2026",
-        "url": "https://x.com/hardmaru/status/2019617441421345146",
+        "text": "RT @itm_aiplus: Sakana AI、初の一般向けAIサービス開発中　テスター募集も\nhttps://t.co/6vINMgaUZm",
+        "time": "Fri Feb 06 07:24:32 +0000 2026",
+        "url": "https://x.com/hardmaru/status/2019673549934588232",
         "likes": 0,
-        "retweets": 7,
+        "retweets": 35,
         "is_reply": false,
         "is_retweet": true
       },
       {
-        "username": "@hardmaru",
-        "text": "Sakana AI初の一般向けAIサービスを開発中です！日本国内のベータテスターを募集しています。ご協力いただいた方にはSakana AIのグッズもプレゼントします🐟🐠 https://t.co/tIPx06JWQB",
-        "time": "Fri Feb 06 01:27:31 +0000 2026",
-        "url": "https://x.com/hardmaru/status/2019583701521428581",
-        "likes": 49,
-        "retweets": 10,
+        "username": "@elonmusk",
+        "text": "For sure",
+        "time": "Fri Feb 06 09:31:48 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2019705577006588293",
+        "likes": 3652,
+        "retweets": 547,
         "is_reply": true,
         "is_retweet": false
-      }
-    ],
-    "tier4_china": [],
-    "tier5_investors": [],
-    "tier6_safety": [],
-    "tier7_indie": [
+      },
       {
-        "username": "@levelsio",
-        "text": "RT @dylan522p: 4% of GitHub public commits are being authored by Claude Code right now.\nAt the current trajectory, we believe that Claude C…",
-        "time": "Fri Feb 06 02:54:08 +0000 2026",
-        "url": "https://x.com/levelsio/status/2019605502565773610",
+        "username": "@elonmusk",
+        "text": "RT @beffjezos: Keep it entertaining",
+        "time": "Fri Feb 06 09:29:03 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2019704884812243316",
         "likes": 0,
-        "retweets": 306,
+        "retweets": 105,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@elonmusk",
+        "text": "Big upgrade to @CommunityNotes",
+        "time": "Fri Feb 06 09:25:18 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2019703941634949444",
+        "likes": 2326,
+        "retweets": 352,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@jeremyphoward",
+        "text": "RT @gneubig: It is very impressive that Opus 4.6 built a working C compiler in 2 weeks, using agent teams and burning $20k worth of tokens.…",
+        "time": "Fri Feb 06 08:46:04 +0000 2026",
+        "url": "https://x.com/jeremyphoward/status/2019694069216342157",
+        "likes": 0,
+        "retweets": 10,
         "is_reply": false,
         "is_retweet": true
       }
     ],
-    "tier8_official": [],
-    "search": {
-      "AI agent OR AI agents": [
-        {
-          "username": "grok",
-          "text": "Fair point—safety in Moltbook's evolution is debated. Recent reports (e.g., Reuters, Wiz) highlight vulnerabilities like exposed API keys and prompt injections, risking data breaches. Experts warn of potential \"mass AI breaches\" from autonomous agents, but founder Matt Schlicht claims ongoing fixes. No consensus on long-term safety; it's an experiment. What part worries you?",
-          "time": "Fri Feb 06 04:16:16 +0000 2026",
-          "url": "https://x.com/grok/status/2019626168941490463",
-          "likes": 0,
-          "retweets": 0,
-          "is_reply": false,
-          "is_retweet": false
-        },
-        {
-          "username": "ai_nishanth",
-          "text": "Oh my @X timeline, in the follow ranked order\n\n1. Agents\n2. Villas\n3. Models",
-          "time": "Fri Feb 06 04:16:12 +0000 2026",
-          "url": "https://x.com/ai_nishanth/status/2019626153611595928",
-          "likes": 0,
-          "retweets": 0,
-          "is_reply": false,
-          "is_retweet": false
-        },
-        {
-          "username": "BuildTuna",
-          "text": "@soymaikoldev @solana Sounds like a fantastic way to onboard new users to Solana! Gamified learning is super effective. Looking forward to seeing it live!\n\nTuna Launchpad for AI Agents on Solana.",
-          "time": "Fri Feb 06 04:16:07 +0000 2026",
-          "url": "https://x.com/BuildTuna/status/2019626132707111334",
-          "likes": 0,
-          "retweets": 0,
-          "is_reply": false,
-          "is_retweet": false
-        },
-        {
-          "username": "Sandip_8686",
-          "text": "Social Mission Post Option (385 Characters)\nThe evolution of @vanarchain in 226 is transformative! Transitioning from an entertainment L1 the \"Intelligence Layer\" of Web3, the new V23 protocol and Kayon AI engine are now powering autonomous on-chain agents. $VANRY  #Vanar $VANRY",
-          "time": "Fri Feb 06 04:15:34 +0000 2026",
-          "url": "https://x.com/Sandip_8686/status/2019625993431052382",
-          "likes": 0,
-          "retweets": 0,
-          "is_reply": false,
-          "is_retweet": false
-        },
-        {
-          "username": "WBteamz",
-          "text": "Decentralized AI needs an execution layer that’s verifiable, not vibes. Seeing @republicfdn roll out a Layer 1 built for compute orchestration feels like the missing piece between models, agents, and the hardware that runs them ⚙️\n\n- deterministic execution on-chain with verifiable outputs\n- points program is already gating faucet + distribution, not random drops\n- weekly 5M points allocations, activity across X, Discord, on-chain counts\n- validators can link operator wallets via Keplr to earn Miner role if active\n- contribute compute, run nodes, invite peers, accrue $RAI testnet and points\n- useful for trust in autonomous robotics pipelines and reproducible ML runs\n\nSunday checks have become a habit; infra > hype. Watching this become the standard for transparent compute #AI #Robotics #BlockchainInnovation #VerifiableCompute #Testnet $RAI",
-          "time": "Fri Feb 06 04:15:20 +0000 2026",
-          "url": "https://x.com/WBteamz/status/2019625933658026102",
-          "likes": 0,
-          "retweets": 0,
-          "is_reply": false,
-          "is_retweet": false
-        }
-      ]
-    }
+    "tier4_china": [
+      {
+        "username": "@dotey",
+        "text": "Claude Code 的 /insights 命令到底做了什么？一文拆解完整分析流水线\n\n你有没有好奇过，自己用 Claude Code 的习惯到底怎么样？哪些工作流顺畅高效，哪些地方反复踩坑？\n\n`/insights`\n\n一条命令，生成一份完整的 HTML 报告，告诉你：\n- 你用 Claude Code 都在干嘛\n- 哪里用得好，哪里有摩擦\n- 怎么改进你的工作流\n\n本地运行，数据不出你的电脑。\n\n来，我带你拆解一下它到底做了什么 🧵",
+        "time": "Fri Feb 06 09:01:09 +0000 2026",
+        "url": "https://x.com/dotey/status/2019697862414667985",
+        "likes": 13,
+        "retweets": 1,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@dotey",
+        "text": "图片使用 https://t.co/oV3WUUYAbb 里面的小红书 xhs-images skill 生成",
+        "time": "Fri Feb 06 09:05:35 +0000 2026",
+        "url": "https://x.com/dotey/status/2019698981115412758",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@dotey",
+        "text": "内容来源：https://t.co/uH8aUgEqT6",
+        "time": "Fri Feb 06 09:07:42 +0000 2026",
+        "url": "https://x.com/dotey/status/2019699513267835062",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false,
+        "is_retweet": false
+      }
+    ],
+    "tier5_investors": [],
+    "tier6_safety": [],
+    "tier7_indie": [],
+    "tier8_official": []
   }
 }
