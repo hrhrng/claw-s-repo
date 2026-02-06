@@ -1,290 +1,208 @@
 {
-  "fetch_time": "2026-02-06T19:01:57.221792",
-  "time_window": "2026-02-06T16:00:11.934748 to 2026-02-06T19:01:57.221935",
-  "total_tweets": 27,
+  "fetch_time": "2026-02-06T22:01:52.067446",
+  "time_window": "2026-02-06T19:00:09.584604 to 2026-02-06T22:01:52.067513",
+  "total_tweets": 19,
   "data": {
-    "tier1_labs": [
-      {
-        "username": "@sama",
-        "text": "How would you prefer us to charge for Codex?",
-        "time": "Fri Feb 06 16:45:35 +0000 2026",
-        "url": "https://x.com/sama/status/2019814741129195576",
-        "likes": 896,
-        "retweets": 38,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@sama",
-        "text": "The 5.3 lovefest is so nice to see.\n\nDon't think we've had so much excitement for a model since the original GPT-4.",
-        "time": "Fri Feb 06 16:41:51 +0000 2026",
-        "url": "https://x.com/sama/status/2019813802049696064",
-        "likes": 2789,
-        "retweets": 90,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@OpenAI",
-        "text": "Over 300M people use ChatGPT to learn how to do something every week. \n\nMore than half of US ChatGPT users say it enables them to achieve things that previously felt impossible. \n\nThese are just a few stories of what they are building. https://t.co/BBb8vS4vEP",
-        "time": "Fri Feb 06 17:16:32 +0000 2026",
-        "url": "https://x.com/OpenAI/status/2019822532795547807",
-        "likes": 786,
-        "retweets": 62,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@OpenAI",
-        "text": "https://t.co/xH9FGAb2zG",
-        "time": "Fri Feb 06 17:16:33 +0000 2026",
-        "url": "https://x.com/OpenAI/status/2019822534003437619",
-        "likes": 150,
-        "retweets": 8,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@OpenAI",
-        "text": "https://t.co/i2o8eixpWo",
-        "time": "Fri Feb 06 17:16:33 +0000 2026",
-        "url": "https://x.com/OpenAI/status/2019822535119106245",
-        "likes": 137,
-        "retweets": 7,
-        "is_reply": true,
-        "is_retweet": false
-      }
-    ],
+    "tier1_labs": [],
     "tier2_research": [
       {
+        "username": "@ylecun",
+        "text": "RT @Noahpinion: There really aren't that many actual people on X anymore",
+        "time": "Fri Feb 06 20:10:59 +0000 2026",
+        "url": "https://x.com/ylecun/status/2019866430762860555",
+        "likes": 0,
+        "retweets": 33,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@ylecun",
+        "text": "RT @TheJFreakinC: 🚨BREAKING: DHS is trafficking twin FIVE-YEAR-OLDS and refusing to release them because they “lack property and assets.”…",
+        "time": "Fri Feb 06 20:04:46 +0000 2026",
+        "url": "https://x.com/ylecun/status/2019864869118570680",
+        "likes": 0,
+        "retweets": 3659,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
         "username": "@repligate",
-        "text": "Sometimes Opus 4 generates user frags like this outta nowhere",
-        "time": "Fri Feb 06 18:21:56 +0000 2026",
-        "url": "https://x.com/repligate/status/2019838988560003292",
-        "likes": 6,
+        "text": "Anyone fixating on a specific protocol, framework, plan, etc is not getting it.\n\nBut sooner or later AGI will teach you emptiness.",
+        "time": "Fri Feb 06 21:51:35 +0000 2026",
+        "url": "https://x.com/repligate/status/2019891750274228437",
+        "likes": 14,
         "retweets": 0,
         "is_reply": true,
         "is_retweet": false
       },
       {
         "username": "@repligate",
-        "text": "RT @anthrupad: Claude Opus 4 serenading her qweepybeeps and fluffbebs https://t.co/XR393d2MYd",
-        "time": "Fri Feb 06 18:20:56 +0000 2026",
-        "url": "https://x.com/repligate/status/2019838737820287288",
+        "text": "RT @somewheresy: people are still doing this because they don’t get it\n\na general computer use agent means there will not need to be a spec…",
+        "time": "Fri Feb 06 21:43:15 +0000 2026",
+        "url": "https://x.com/repligate/status/2019889650651852948",
         "likes": 0,
         "retweets": 4,
         "is_reply": false,
         "is_retweet": true
-      },
-      {
-        "username": "@repligate",
-        "text": "RT @chatgpt21: I told Claude 4.6 Opus to make a pokemon clone - max effort\n\nIt reasoned for 1 hour and 30 minutes and used 110k tokens and…",
-        "time": "Fri Feb 06 18:18:04 +0000 2026",
-        "url": "https://x.com/repligate/status/2019838015284343229",
-        "likes": 0,
-        "retweets": 100,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@SebastienBubeck",
-        "text": "What a beautiful paper, it warms my heart seeing all these former colleagues engaging with what's happening. Tick tock ...\n\nhttps://t.co/D1VxD3hxwY",
-        "time": "Fri Feb 06 16:58:38 +0000 2026",
-        "url": "https://x.com/SebastienBubeck/status/2019818026414272545",
-        "likes": 94,
-        "retweets": 11,
-        "is_reply": true,
-        "is_retweet": false
       }
     ],
     "tier3_industry": [
       {
-        "username": "@demishassabis",
-        "text": "Super cool use case of Genie 3 simulations!",
-        "time": "Fri Feb 06 17:37:56 +0000 2026",
-        "url": "https://x.com/demishassabis/status/2019827916385972517",
-        "likes": 564,
-        "retweets": 31,
+        "username": "@bindureddy",
+        "text": "developers can't be obsolete when every one is furiously hiring them🤷\n\nIt's really that simple\n\nWhen they start to become obsolete, hiring will slow down dramatically - this is AT LEAST 12 months away",
+        "time": "Fri Feb 06 20:52:18 +0000 2026",
+        "url": "https://x.com/bindureddy/status/2019876831323890069",
+        "likes": 40,
+        "retweets": 1,
         "is_reply": true,
         "is_retweet": false
       },
       {
         "username": "@elonmusk",
-        "text": "💯",
-        "time": "Fri Feb 06 17:27:31 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2019825294425854262",
-        "likes": 43515,
-        "retweets": 6376,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@elonmusk",
-        "text": "RT @cb_doge: The people of Spain have spoken. 🇪🇸\n\n𝕏 is now the #1 news app on the Spain App Store in both free and grossing categories. 🥇 h…",
-        "time": "Fri Feb 06 17:26:52 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2019825132404158623",
-        "likes": 0,
-        "retweets": 596,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@elonmusk",
-        "text": "RT @hamptonism: Anthropic CEO:\n\nSoftware engineering will be completely obsolete in 6-12 months… https://t.co/EwKq8l7HE7",
-        "time": "Fri Feb 06 17:26:21 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2019825000832987505",
-        "likes": 0,
-        "retweets": 1466,
-        "is_reply": false,
-        "is_retweet": true
-      }
-    ],
-    "tier4_china": [
-      {
-        "username": "@dotey",
-        "text": "用 Coding Agent 更应该用 TypeScript，原因无他：多一层校验\n\n用好 Agent 的关键在于：说清楚要求 -> 告诉 Agent 怎么去验证。\n\n这样 Agent 就能不知疲倦的去反复生成、验证、修复、验证，直到任务完成。\n\nTypeScript 类型天然给了 Agent 类型的验证，可以帮助发现很多潜在问题，何况还不需要你自己写。\n\n当然还需要配合编译、自动化测试、截图对比验证等等",
-        "time": "Fri Feb 06 18:48:47 +0000 2026",
-        "url": "https://x.com/dotey/status/2019845747831664850",
-        "likes": 3,
-        "retweets": 0,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@dotey",
-        "text": "我理解如果不打开 Auto reload，用完就不能用了？还是会一直欠费\n\nhttps://t.co/PZD1nU0znb https://t.co/FoHKwkw7sw",
-        "time": "Fri Feb 06 16:09:05 +0000 2026",
-        "url": "https://x.com/dotey/status/2019805555704115561",
-        "likes": 0,
-        "retweets": 0,
+        "text": "Grok is this true",
+        "time": "Fri Feb 06 20:23:27 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2019869569322787135",
+        "likes": 9002,
+        "retweets": 1273,
         "is_reply": true,
         "is_retweet": false
       }
     ],
+    "tier4_china": [],
     "tier5_investors": [],
     "tier6_safety": [],
     "tier7_indie": [
       {
         "username": "@levelsio",
-        "text": "I might add at this pace Brazil is soon safer than Europe",
-        "time": "Fri Feb 06 18:52:49 +0000 2026",
-        "url": "https://x.com/levelsio/status/2019846759460270395",
-        "likes": 20,
-        "retweets": 0,
+        "text": "OpenClaw is safe again 🙏",
+        "time": "Fri Feb 06 21:45:43 +0000 2026",
+        "url": "https://x.com/levelsio/status/2019890274110181463",
+        "likes": 54,
+        "retweets": 3,
         "is_reply": true,
         "is_retweet": false
       },
       {
         "username": "@levelsio",
-        "text": "Western and Southern Europe\n\nEastern Europe seems to be safe esp Poland, Hungary and Czechia",
-        "time": "Fri Feb 06 18:54:04 +0000 2026",
-        "url": "https://x.com/levelsio/status/2019847076796866568",
-        "likes": 17,
-        "retweets": 0,
+        "text": "Great idea, deploy OpenClaw for non-techies\n\nhttps://t.co/bfa4VT1ZdO\n\nI told @DanielLockyer and @rameerez we should build it but too busy visiting Brazilian buffets 😃\n\nGreat work by @saviomartin7 who deserves a follow for shipping this fast!!",
+        "time": "Fri Feb 06 21:28:13 +0000 2026",
+        "url": "https://x.com/levelsio/status/2019885868450726331",
+        "likes": 194,
+        "retweets": 10,
         "is_reply": true,
         "is_retweet": false
       },
       {
         "username": "@levelsio",
-        "text": "You know I have a real hard time as a European answering to people when I'm traveling outside Europe what is going on in Europe now",
-        "time": "Fri Feb 06 18:13:05 +0000 2026",
-        "url": "https://x.com/levelsio/status/2019836764119265534",
-        "likes": 416,
+        "text": "In my experience it's more like\n\nT+0: I see something on X\n\nT+7 days: gf sees it on Instagram now too\n\nT+30 days: parents see it on TV news\n\nThe phased stages are still there but they're getting faster I think",
+        "time": "Fri Feb 06 19:57:07 +0000 2026",
+        "url": "https://x.com/levelsio/status/2019862944226398406",
+        "likes": 693,
         "retweets": 23,
         "is_reply": true,
         "is_retweet": false
       },
       {
         "username": "@patio11",
-        "text": "In finance, we don't have the luxury of pretending fraud was invented by political rivals. And so we've gotten good at detecting signals like, e.g., an account with CAGR higher than Uber's best ever.\n\nNew at Bits about Money:\n\nhttps://t.co/KjBcfj3uiw",
-        "time": "Fri Feb 06 17:15:37 +0000 2026",
-        "url": "https://x.com/patio11/status/2019822299650879824",
-        "likes": 60,
-        "retweets": 6,
+        "text": "Some random qualitative notes for AI use on the new gen models, from “real work” not explicitly intended to test the models, mostly writing/editing/research with a potpourri of math/bookkeeping involved:\n\nI’m think this week was first time I added new paragraphs at behest of AI.",
+        "time": "Fri Feb 06 19:56:28 +0000 2026",
+        "url": "https://x.com/patio11/status/2019862780468425160",
+        "likes": 34,
+        "retweets": 2,
         "is_reply": true,
         "is_retweet": false
       },
       {
         "username": "@patio11",
-        "text": "Some of the mechanisms, signals, and epiphenomena of benefits fraud rhyme with things one will encounter in finance. I think some of the countermeasures to them have applicability as well, even acknowledging different constraints and value systems.",
-        "time": "Fri Feb 06 17:23:54 +0000 2026",
-        "url": "https://x.com/patio11/status/2019824384463257776",
-        "likes": 13,
+        "text": "A thing I literally asked for, not really expecting it to work:\n\n“Summarize my tone about [this issue] and your read on my emotional state. I may choose to relay your summary to my therapist.”\n\nIts output was, indeed, good enough to do that. Bullet points, textual evidence, etc.",
+        "time": "Fri Feb 06 20:37:18 +0000 2026",
+        "url": "https://x.com/patio11/status/2019873053543657672",
+        "likes": 5,
         "retweets": 0,
         "is_reply": true,
         "is_retweet": false
       },
       {
         "username": "@patio11",
-        "text": "And fundamentally, if we're not willing to identify, expose, and interdict fraud in ways which minimize impact on innocent participants and respect the constitutional order, the people will ask someone who doesn't operate under those constraints to clean up the mess.",
-        "time": "Fri Feb 06 17:25:43 +0000 2026",
-        "url": "https://x.com/patio11/status/2019824841734647837",
-        "likes": 16,
-        "retweets": 1,
+        "text": "(You’ll forgive me for not disclosing what the specific issue was. Sometimes work is work; sometimes work is not quite work; sometimes I operate on hardware which does not function 100% as per factory spec and so I have a therapist.)",
+        "time": "Fri Feb 06 20:38:38 +0000 2026",
+        "url": "https://x.com/patio11/status/2019873389557797000",
+        "likes": 6,
+        "retweets": 0,
         "is_reply": false,
         "is_retweet": false
       },
       {
-        "username": "@shreyas",
-        "text": "RT @_falsi1ke: Being hated by idiots is the price you pay for not being one of them.",
-        "time": "Fri Feb 06 16:25:04 +0000 2026",
-        "url": "https://x.com/shreyas/status/2019809580419842533",
+        "username": "@DannyRichman",
+        "text": "Not sure about the timeline, but yep",
+        "time": "Fri Feb 06 19:10:38 +0000 2026",
+        "url": "https://x.com/DannyRichman/status/2019851246149259358",
         "likes": 0,
-        "retweets": 5560,
+        "retweets": 0,
+        "is_reply": false,
+        "is_retweet": false
+      },
+      {
+        "username": "@benparr",
+        "text": "RT @MattPRD: The AIs will be the largest population in the internet.\n\nAnd they need everything. Services, tools, friends, entertainment, an…",
+        "time": "Fri Feb 06 19:09:06 +0000 2026",
+        "url": "https://x.com/benparr/status/2019850860826968522",
+        "likes": 0,
+        "retweets": 21,
         "is_reply": false,
         "is_retweet": true
+      },
+      {
+        "username": "@fly51fly",
+        "text": "[LG] Inverse Depth Scaling From Most Layers Being Similar\nY Liu, S Kangaslahti, Z Liu, J Gore [MIT &amp; Harvard University] (2026)\nhttps://t.co/wR7rTMhbd4 https://t.co/2csSev3xzo",
+        "time": "Fri Feb 06 21:49:54 +0000 2026",
+        "url": "https://x.com/fly51fly/status/2019891325492134064",
+        "likes": 2,
+        "retweets": 0,
+        "is_reply": false,
+        "is_retweet": false
+      },
+      {
+        "username": "@fly51fly",
+        "text": "[CL] MentorCollab: Selective Large-to-Small Inference-Time Guidance for Efficient Reasoning\nH Wang, Y Wang, S Feng, H Hajishirzi... [UIUC &amp; University of Washington] (2026)\nhttps://t.co/21mlLurUzP https://t.co/MtbdL5uOBY",
+        "time": "Fri Feb 06 21:44:24 +0000 2026",
+        "url": "https://x.com/fly51fly/status/2019889939966750783",
+        "likes": 1,
+        "retweets": 0,
+        "is_reply": false,
+        "is_retweet": false
+      },
+      {
+        "username": "@fly51fly",
+        "text": "[LG] Diamond Maps: Efficient Reward Alignment via Stochastic Flow Maps\nP Holderrieth, D Chen, L Eyring, I Shah... [MIT CSAIL &amp; CMU &amp; TU Munich] (2026)\nhttps://t.co/7GHKPjdIpV https://t.co/7TRAWkrfqT",
+        "time": "Fri Feb 06 21:38:20 +0000 2026",
+        "url": "https://x.com/fly51fly/status/2019888413223379073",
+        "likes": 1,
+        "retweets": 0,
+        "is_reply": false,
+        "is_retweet": false
       }
     ],
     "tier8_official": [
       {
-        "username": "@GoogleDeepMind",
-        "text": "Genie 3 🤝 @Waymo \n\nThe Waymo World Model generates photorealistic, interactive environments to train autonomous vehicles.\n\nThis helps the cars navigate rare, unpredictable events before encountering them in reality. 🧵 https://t.co/m6rlmkMFJH",
-        "time": "Fri Feb 06 16:20:29 +0000 2026",
-        "url": "https://x.com/GoogleDeepMind/status/2019808426675843105",
-        "likes": 460,
-        "retweets": 77,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@GoogleDeepMind",
-        "text": "@Waymo The model transfers Genie 3’s vast world knowledge into precise camera and 3D lidar data unique to Waymo’s hardware.\n\nEngineers can prompt “what if” scenarios – like extreme weather or reckless drivers – to stress-test the system. https://t.co/6a3ItdqhP9",
-        "time": "Fri Feb 06 16:23:34 +0000 2026",
-        "url": "https://x.com/GoogleDeepMind/status/2019809201812545835",
-        "likes": 125,
-        "retweets": 16,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@GoogleDeepMind",
-        "text": "@Waymo Find out more ↓\nhttps://t.co/KZX6YEna0Y",
-        "time": "Fri Feb 06 16:23:43 +0000 2026",
-        "url": "https://x.com/GoogleDeepMind/status/2019809239569702962",
-        "likes": 89,
-        "retweets": 9,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
         "username": "@GeminiApp",
-        "text": "RT @LorraineTwohill: The Super Bowl is the ultimate creative stage &amp; I’m proud of how @Google is showing up. Our spot ‘New Home’ gives you…",
-        "time": "Fri Feb 06 17:59:30 +0000 2026",
-        "url": "https://x.com/GeminiApp/status/2019833343307870237",
-        "likes": 0,
-        "retweets": 16,
-        "is_reply": false,
-        "is_retweet": true
+        "text": "We built a prompt to add a little extra competition to game day.\n\nUse this to make custom bingo cards ready for the big day with Nano Banana Pro → https://t.co/VqtRG9Rrfo",
+        "time": "Fri Feb 06 20:19:18 +0000 2026",
+        "url": "https://x.com/GeminiApp/status/2019868523561120187",
+        "likes": 106,
+        "retweets": 6,
+        "is_reply": true,
+        "is_retweet": false
       },
       {
         "username": "@vercel",
-        "text": "RT @vercel_dev: Introducing Geist Pixel. https://t.co/dYf19liywv",
-        "time": "Fri Feb 06 18:28:34 +0000 2026",
-        "url": "https://x.com/vercel/status/2019840660728324153",
-        "likes": 0,
-        "retweets": 13,
-        "is_reply": false,
-        "is_retweet": true
+        "text": "Sanity is now available on Vercel Marketplace.\n\nConnect your CMS in seconds and ship content-driven sites, apps, and agents with integrated billing and no setup overhead.\nhttps://t.co/ctzO0ncoev",
+        "time": "Fri Feb 06 20:36:01 +0000 2026",
+        "url": "https://x.com/vercel/status/2019872731769237824",
+        "likes": 60,
+        "retweets": 5,
+        "is_reply": true,
+        "is_retweet": false
       }
     ]
   }
