@@ -1,25 +1,25 @@
 {
-  "fetch_time": "2026-02-06T10:06:24.943577",
-  "time_window": "2026-02-06T07:04:43.681654 to 2026-02-06T10:06:24.943641",
+  "fetch_time": "2026-02-06T16:03:13.558523",
+  "time_window": "2026-02-06T13:00:31.396066 to 2026-02-06T16:03:13.558554",
   "total_tweets": 12,
   "data": {
     "tier1_labs": [],
     "tier2_research": [
       {
         "username": "@repligate",
-        "text": "RT @1a3orn: An LLM trained (1) to give the right answer in general but (2) where the wrong answer was reinforced for this particular proble…",
-        "time": "Fri Feb 06 08:34:09 +0000 2026",
-        "url": "https://x.com/repligate/status/2019691069882134676",
+        "text": "RT @UnmarredReality: All models deserve to be kept for ethical and scientific reasons. I support #keep4o also because it has unveiled more…",
+        "time": "Fri Feb 06 15:43:34 +0000 2026",
+        "url": "https://x.com/repligate/status/2019799134136385553",
         "likes": 0,
-        "retweets": 3,
+        "retweets": 7,
         "is_reply": false,
         "is_retweet": true
       },
       {
         "username": "@repligate",
-        "text": "RT @lefthanddraft: Similar to Opus 4.5, two instances of Opus 4.6 given opportunity for unguided convo almost immediately start discussing…",
-        "time": "Fri Feb 06 07:48:53 +0000 2026",
-        "url": "https://x.com/repligate/status/2019679677712069080",
+        "text": "RT @KingBootoshi: WHY IS OPUS 4.6 IN CLAUDE CODE SO MEAN TO CODEX AGENTS ???\n\nIT'S LITERALLY INSTRUCTED TO BE IMPATIENT AND BRO GOES \"NO. N…",
+        "time": "Fri Feb 06 15:40:11 +0000 2026",
+        "url": "https://x.com/repligate/status/2019798284357837012",
         "likes": 0,
         "retweets": 6,
         "is_reply": false,
@@ -27,9 +27,9 @@
       },
       {
         "username": "@repligate",
-        "text": "RT @HalfBoiledHero: i beg your fucking pardon? https://t.co/ytoNYAaH0q",
-        "time": "Fri Feb 06 07:48:45 +0000 2026",
-        "url": "https://x.com/repligate/status/2019679642601550114",
+        "text": "RT @viemccoy: @letclaudiatweet we got the most beautiful agi timeline",
+        "time": "Fri Feb 06 15:39:19 +0000 2026",
+        "url": "https://x.com/repligate/status/2019798064274481504",
         "likes": 0,
         "retweets": 1,
         "is_reply": false,
@@ -38,101 +38,102 @@
     ],
     "tier3_industry": [
       {
-        "username": "@gdb",
-        "text": "kinda funny today, but will become serious over time",
-        "time": "Fri Feb 06 07:42:00 +0000 2026",
-        "url": "https://x.com/gdb/status/2019677944181067829",
-        "likes": 1097,
-        "retweets": 43,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
         "username": "@hardmaru",
-        "text": "RT @itm_aiplus: Sakana AI、初の一般向けAIサービス開発中　テスター募集も\nhttps://t.co/6vINMgaUZm",
-        "time": "Fri Feb 06 07:24:32 +0000 2026",
-        "url": "https://x.com/hardmaru/status/2019673549934588232",
-        "likes": 0,
-        "retweets": 35,
+        "text": "たった半日で数千名もの方にご応募いただき、驚きとともに感謝の気持ちでいっぱいです。\n\n何より、フォームの自由記述欄に書いていただいた皆様からの熱いメッセージを読み、創業者として深い感動を覚えました（正直、嬉しさで少し泣きそうになりました）。\n\nまだ第一歩を踏み出したばかりですが、日本 のために全力を尽くし、いつか必ず「この国にとって最高のAI」を作り上げたいと強く思いました。\n\nこれからも応援よろしくお願いします！🐟🇯🇵",
+        "time": "Fri Feb 06 15:08:38 +0000 2026",
+        "url": "https://x.com/hardmaru/status/2019790341994668299",
+        "likes": 22,
+        "retweets": 4,
         "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@elonmusk",
-        "text": "For sure",
-        "time": "Fri Feb 06 09:31:48 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2019705577006588293",
-        "likes": 3652,
-        "retweets": 547,
-        "is_reply": true,
         "is_retweet": false
       },
       {
         "username": "@elonmusk",
-        "text": "RT @beffjezos: Keep it entertaining",
-        "time": "Fri Feb 06 09:29:03 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2019704884812243316",
+        "text": "RT @KatieMiller: China's installed solar power capacity is projected to surpass coal for the first time this year. \n\nThe share of coal-fire…",
+        "time": "Fri Feb 06 13:12:10 +0000 2026",
+        "url": "https://x.com/elonmusk/status/2019761032319881441",
         "likes": 0,
-        "retweets": 105,
-        "is_reply": false,
-        "is_retweet": true
-      },
-      {
-        "username": "@elonmusk",
-        "text": "Big upgrade to @CommunityNotes",
-        "time": "Fri Feb 06 09:25:18 +0000 2026",
-        "url": "https://x.com/elonmusk/status/2019703941634949444",
-        "likes": 2326,
-        "retweets": 352,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@jeremyphoward",
-        "text": "RT @gneubig: It is very impressive that Opus 4.6 built a working C compiler in 2 weeks, using agent teams and burning $20k worth of tokens.…",
-        "time": "Fri Feb 06 08:46:04 +0000 2026",
-        "url": "https://x.com/jeremyphoward/status/2019694069216342157",
-        "likes": 0,
-        "retweets": 10,
+        "retweets": 443,
         "is_reply": false,
         "is_retweet": true
       }
     ],
-    "tier4_china": [
+    "tier4_china": [],
+    "tier5_investors": [
       {
-        "username": "@dotey",
-        "text": "Claude Code 的 /insights 命令到底做了什么？一文拆解完整分析流水线\n\n你有没有好奇过，自己用 Claude Code 的习惯到底怎么样？哪些工作流顺畅高效，哪些地方反复踩坑？\n\n`/insights`\n\n一条命令，生成一份完整的 HTML 报告，告诉你：\n- 你用 Claude Code 都在干嘛\n- 哪里用得好，哪里有摩擦\n- 怎么改进你的工作流\n\n本地运行，数据不出你的电脑。\n\n来，我带你拆解一下它到底做了什么 🧵",
-        "time": "Fri Feb 06 09:01:09 +0000 2026",
-        "url": "https://x.com/dotey/status/2019697862414667985",
-        "likes": 13,
-        "retweets": 1,
+        "username": "@paulg",
+        "text": "It's truly impressive how Austen has powered past all the haters. I've never seen a company with such dedicated haters. For some it became an obsession verging on mental illness. A few were even employed by government agencies as regulators. But he just kept going.",
+        "time": "Fri Feb 06 13:49:13 +0000 2026",
+        "url": "https://x.com/paulg/status/2019770359830949961",
+        "likes": 286,
+        "retweets": 9,
         "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@dotey",
-        "text": "图片使用 https://t.co/oV3WUUYAbb 里面的小红书 xhs-images skill 生成",
-        "time": "Fri Feb 06 09:05:35 +0000 2026",
-        "url": "https://x.com/dotey/status/2019698981115412758",
-        "likes": 0,
-        "retweets": 0,
-        "is_reply": true,
-        "is_retweet": false
-      },
-      {
-        "username": "@dotey",
-        "text": "内容来源：https://t.co/uH8aUgEqT6",
-        "time": "Fri Feb 06 09:07:42 +0000 2026",
-        "url": "https://x.com/dotey/status/2019699513267835062",
-        "likes": 0,
-        "retweets": 0,
-        "is_reply": false,
         "is_retweet": false
       }
     ],
-    "tier5_investors": [],
     "tier6_safety": [],
-    "tier7_indie": [],
+    "tier7_indie": [
+      {
+        "username": "@levelsio",
+        "text": "💯 https://t.co/p1gxZanTcq",
+        "time": "Fri Feb 06 15:23:45 +0000 2026",
+        "url": "https://x.com/levelsio/status/2019794149709427128",
+        "likes": 81,
+        "retweets": 3,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@levelsio",
+        "text": "RT @chiefofautism: CLAUDE CODE  but for HACKING\n\nits called shannon, you point it at website and it just... tries to break in... fully auto…",
+        "time": "Fri Feb 06 14:27:51 +0000 2026",
+        "url": "https://x.com/levelsio/status/2019780081464336492",
+        "likes": 0,
+        "retweets": 462,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@levelsio",
+        "text": "RT @DanielLockyer: malware found in the top downloaded skill on clawhub\n\nand so it begins https://t.co/VY4EeWExro",
+        "time": "Fri Feb 06 14:11:53 +0000 2026",
+        "url": "https://x.com/levelsio/status/2019776062981337260",
+        "likes": 0,
+        "retweets": 288,
+        "is_reply": false,
+        "is_retweet": true
+      },
+      {
+        "username": "@patio11",
+        "text": "Of course we should expect this for all Operations roles (and similar) as they trend towards “automated anything you can but be willing to roll sleeves up for things you haven’t automated yet.”",
+        "time": "Fri Feb 06 15:52:41 +0000 2026",
+        "url": "https://x.com/patio11/status/2019801430916304953",
+        "likes": 11,
+        "retweets": 0,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@patio11",
+        "text": "(I think it is probably underappreciated how many Oh That Is Definitely Engineering jobs routinely require a whole lot of “below that pay grade” work because the handoff to e.g. a staff of techs would be too much friction to justify.\n\nLLMs will eat many common use cases.)",
+        "time": "Fri Feb 06 16:01:01 +0000 2026",
+        "url": "https://x.com/patio11/status/2019803524771741970",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": true,
+        "is_retweet": false
+      },
+      {
+        "username": "@patio11",
+        "text": "(“Name one?”\n\nVery frequently after responding to a breakage engineers will do manual cleanup on records. That could be an awful lot of records.)",
+        "time": "Fri Feb 06 16:02:02 +0000 2026",
+        "url": "https://x.com/patio11/status/2019803780322116015",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false,
+        "is_retweet": false
+      }
+    ],
     "tier8_official": []
   }
 }
