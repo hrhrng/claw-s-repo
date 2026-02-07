@@ -256,8 +256,10 @@ else
     exit 1
 fi
 
-# 检查 Git 是否有变更
-if git diff --quiet HEAD && git diff --staged --quiet; then
+# 检查 Git 是否有变更（包括未暂存的变更）
+if git diff --quiet HEAD "$OUTPUT_FILE" 2>/dev/null && [ -z "$(git status --porcelain "$OUTPUT_FILE" 2>/dev/null)" ]; then
     echo "⚠️  文件无变更（可能是重复数据），跳过 Git 提交"
     exit 0
 fi
+
+echo "📝 文件有变更，准备提交"
