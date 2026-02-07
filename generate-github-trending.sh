@@ -255,3 +255,9 @@ else
     echo "❌ 生成失败: 文件为空"
     exit 1
 fi
+
+# 检查 Git 是否有变更
+if git diff --quiet HEAD && git diff --staged --quiet; then
+    echo "⚠️  文件无变更（可能是重复数据），跳过 Git 提交"
+    exit 0
+fi
