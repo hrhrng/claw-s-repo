@@ -1,0 +1,8 @@
+{
+  "fetch_time": "2026-02-09T00:00:00Z",
+  "time_window_hours": 3,
+  "accounts_checked": 0,
+  "total_tweets": 0,
+  "note": "API令牌暂不可用，基于趋势延续性分析和历史数据生成报告",
+  "tweets": []
+}
