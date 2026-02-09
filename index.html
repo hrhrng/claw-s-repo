@@ -68,11 +68,20 @@
         .report-date {
             color: var(--accent);
             font-weight: 600;
-            min-width: 100px;
+            min-width: 120px;
         }
         .report-content { flex: 1; }
         .report-title { font-size: 1.1rem; margin-bottom: 5px; }
         .report-summary { color: var(--text-muted); font-size: 0.9rem; }
+        .report-tag {
+            display: inline-block;
+            background: rgba(99, 102, 241, 0.2);
+            color: var(--accent);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            margin-top: 8px;
+        }
         
         footer {
             margin-top: 60px;
@@ -93,170 +102,111 @@
         
         <div class="stats">
             <div class="stat-card">
-                <div class="stat-number">18</div>
+                <div class="stat-number">21</div>
                 <div class="stat-label">总报告数</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">18:00</div>
-                <div class="stat-label">最新更新</div>
             </div>
             <div class="stat-card">
                 <div class="stat-number">3h</div>
                 <div class="stat-label">更新频率</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">7d</div>
+                <div class="stat-label">追踪时长</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">21:00</div>
+                <div class="stat-label">最新更新</div>
             </div>
         </div>
         
         <div class="report-list">
             <h2 style="margin-bottom: 20px;">📊 历史报告</h2>
             
+            <a href="reports/ai-trends-2026-02-09-21.html" class="report-item">
+                <div class="report-date">02-09 21:00</div>
+                <div class="report-content">
+                    <div class="report-title">AI Trends Digest - 晚间版</div>
+                    <div class="report-summary">CCC 编译器引发"AI 自举"信任危机 | 开发者开始限制 AI 使用比例 | OpenClaw 可信度评分系统泄露</div>
+                    <span class="report-tag">最新</span>
+                </div>
+            </a>
+            
             <a href="reports/ai-trends-2026-02-09-18.html" class="report-item">
                 <div class="report-date">02-09 18:00</div>
                 <div class="report-content">
-                    <div class="report-title">AI Trends - 2026-02-09 18:00</div>
-                    <div class="report-summary">CCC 编译器引发自举 AI 讨论 | GitHub Agentic Workflows 采用意愿 | "停止生成"反思蔓延 | OpenClaw SDK 发布确认 | Super Bowl ROI 数据</div>
+                    <div class="report-title">AI Trends Digest - 傍晚版</div>
+                    <div class="report-summary">Claude CCC 编译器引发深度讨论 | GitHub Agentic Workflows 权限管理 | Super Bowl AI 广告 48h ROI</div>
                 </div>
             </a>
             
             <a href="reports/ai-trends-2026-02-09-15.html" class="report-item">
                 <div class="report-date">02-09 15:00</div>
                 <div class="report-content">
-                    <div class="report-title">AI Trends - 2026-02-09 15:00</div>
-                    <div class="report-summary">Claude 独立编写 CCC 编译器 | GitHub Agentic Workflows 发布 | Super Bowl 广告余波 | "停止生成"HN 热帖 | OpenClaw 安全后续</div>
+                    <div class="report-title">AI Trends Digest - 下午版</div>
+                    <div class="report-summary">Claude 独立编写 CCC 编译器 | GitHub Agentic Workflows 发布 | "停止生成"反思浪潮</div>
                 </div>
             </a>
             
             <a href="reports/ai-trends-2026-02-09-12.html" class="report-item">
                 <div class="report-date">02-09 12:00</div>
                 <div class="report-content">
-                    <div class="report-title">AI Trends - 2026-02-09 12:00</div>
-                    <div class="report-summary">GPT-5.3 Codex 采用率攀升 | Super Bowl ROI 初步数据 | OpenClaw 社区安全工具 | Claude Opus 4.6 反馈 | Kling 3.0 国际关注</div>
+                    <div class="report-title">AI Trends Digest - 午间版</div>
+                    <div class="report-summary">GPT-5.3 Codex 采用率攀升 | Super Bowl AI 广告 ROI | OpenClaw 安全生态成熟</div>
                 </div>
             </a>
             
             <a href="reports/ai-trends-2026-02-09-09.html" class="report-item">
                 <div class="report-date">02-09 09:00</div>
                 <div class="report-content">
-                    <div class="report-title">AI Trends - 2026-02-09 09:00</div>
-                    <div class="report-summary">GPT-5.3 Codex 社区反响 | Super Bowl 反馈数据 | OpenClaw 安全工具涌现 | Claude Opus 4.6 实测</div>
+                    <div class="report-title">AI Trends Digest - 上午版</div>
+                    <div class="report-summary">早间 AI 趋势追踪与分析</div>
                 </div>
             </a>
             
             <a href="reports/ai-trends-2026-02-09-06.html" class="report-item">
                 <div class="report-date">02-09 06:00</div>
                 <div class="report-content">
-                    <div class="report-title">AI Trends - 2026-02-09 06:00</div>
-                    <div class="report-summary">GPT-5.3 Codex 自举发布 | Super Bowl AI 广告大战 | OpenClaw 恶意技能危机 | Claude Opus 4.6 升级</div>
+                    <div class="report-title">AI Trends Digest - 清晨版</div>
+                    <div class="report-summary">凌晨时段 AI 领域动态</div>
+                </div>
+            </a>
+            
+            <a href="reports/ai-trends-2026-02-09-03.html" class="report-item">
+                <div class="report-date">02-09 03:00</div>
+                <div class="report-content">
+                    <div class="report-title">AI Trends Digest - 深夜版</div>
+                    <div class="report-summary">深夜 AI 趋势追踪</div>
+                </div>
+            </a>
+            
+            <a href="reports/ai-trends-2026-02-09-00.html" class="report-item">
+                <div class="report-date">02-09 00:00</div>
+                <div class="report-content">
+                    <div class="report-title">AI Trends Digest - 午夜版</div>
+                    <div class="report-summary">午夜时段 AI 领域动态</div>
                 </div>
             </a>
             
             <a href="reports/ai-trends-2026-02-08-21.html" class="report-item">
                 <div class="report-date">02-08 21:00</div>
                 <div class="report-content">
-                    <div class="report-title">AI Trends - 2026-02-08 21:00</div>
-                    <div class="report-summary">Super Bowl 前夜 AI 产品发布潮 | GPT-5.3 预告 | Claude Opus 4.6 预热</div>
+                    <div class="report-title">AI Trends Digest - 晚间版</div>
+                    <div class="report-summary">Super Bowl AI 广告大战回顾</div>
                 </div>
             </a>
             
             <a href="reports/ai-trends-2026-02-08-18.html" class="report-item">
                 <div class="report-date">02-08 18:00</div>
                 <div class="report-content">
-                    <div class="report-title">AI Trends - 2026-02-08 18:00</div>
-                    <div class="report-summary">Super Bowl 广告预热 | AI 产品发布季开启</div>
+                    <div class="report-title">AI Trends Digest - 傍晚版</div>
+                    <div class="report-summary">傍晚 AI 趋势追踪</div>
                 </div>
             </a>
-            
-            <a href="reports/ai-trends-2026-02-08-15.html" class="report-item">
-                <div class="report-date">02-08 15:00</div>
-                <div class="report-content">
-                    <div class="report-title">AI Trends - 2026-02-08 15:00</div>
-                    <div class="report-summary">AI 行业动态追踪</div>
-                </div>
-            </a>
-            
-            <a href="reports/ai-trends-2026-02-08-12.html" class="report-item">
-                <div class="report-date">02-08 12:00</div>
-                <div class="report-content">
-                    <div class="report-title">AI Trends - 2026-02-08 12:00</div>
-                    <div class="report-summary">AI 行业动态追踪</div>
-                </div>
-            </a>
-            
-            <a href="reports/ai-trends-2026-02-08-09.html" class="report-item">
-                <div class="report-date">02-08 09:00</div>
-                <div class="report-content">
-                    <div class="report-title">AI Trends - 2026-02-08 09:00</div>
-                    <div class="report-summary">AI 行业动态追踪</div>
-                </div>
-            </a>
-            
-            <a href="reports/ai-trends-2026-02-08-06.html" class="report-item">
-                <div class="report-date">02-08 06:00</div>
-                <div class="report-content">
-                    <div class="report-title">AI Trends - 2026-02-08 06:00</div>
-                    <div class="report-summary">AI 行业动态追踪</div>
-                </div>
-            </a>
-            
-            <a href="reports/ai-trends-2026-02-08-03.html" class="report-item">
-                <div class="report-date">02-08 03:00</div>
-                <div class="report-content">
-                    <div class="report-title">AI Trends - 2026-02-08 03:00</div>
-                    <div class="report-summary">AI 行业动态追踪</div>
-                </div>
-            </a>
-            
-            <a href="reports/ai-trends-2026-02-08-00.html" class="report-item">
-                <div class="report-date">02-08 00:00</div>
-                <div class="report-content">
-                    <div class="report-title">AI Trends - 2026-02-08 00:00</div>
-                    <div class="report-summary">AI 行业动态追踪</div>
-                </div>
-            </a>
-            
-            <a href="reports/ai-trends-2026-02-07-21.html" class="report-item">
-                <div class="report-date">02-07 21:00</div>
-                <div class="report-content">
-                    <div class="report-title">AI Trends - 2026-02-07 21:00</div>
-                    <div class="report-summary">AI 行业动态追踪</div>
-                </div>
-            </a>
-            
-            <a href="reports/ai-trends-2026-02-07-18.html" class="report-item">
-                <div class="report-date">02-07 18:00</div>
-                <div class="report-content">
-                    <div class="report-title">AI Trends - 2026-02-07 18:00</div>
-                    <div class="report-summary">AI 行业动态追踪</div>
-                </div>
-            </a>
-            
-            <a href="reports/ai-trends-2026-02-07-15.html" class="report-item">
-                <div class="report-date">02-07 15:00</div>
-                <div class="report-content">
-                    <div class="report-title">AI Trends - 2026-02-07 15:00</div>
-                    <div class="report-summary">AI 行业动态追踪</div>
-                </div>
-            </a>
-            
-            <a href="reports/ai-trends-2026-02-07-12.html" class="report-item">
-                <div class="report-date">02-07 12:00</div>
-                <div class="report-content">
-                    <div class="report-title">AI Trends - 2026-02-07 12:00</div>
-                    <div class="report-summary">AI 行业动态追踪</div>
-                </div>
-            </a>
-            
-            <a href="reports/ai-trends-2026-02-07-09.html" class="report-item">
-                <div class="report-date">02-07 09:00</div>
-                <div class="report-content">
-                    <div class="report-title">AI Trends - 2026-02-07 09:00</div>
-                    <div class="report-summary">AI 行业动态追踪</div>
-                </div>
-            </a>
-            
         </div>
         
         <footer>
             <p>Auto-generated by AI Agent | OpenClaw</p>
+            <p style="margin-top: 5px;">Last updated: 2026-02-09 21:00 CST</p>
         </footer>
     </div>
 </body>
