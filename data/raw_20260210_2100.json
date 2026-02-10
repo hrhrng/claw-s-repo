@@ -1,0 +1,24 @@
+{
+  "fetch_time": "2026-02-10T13:00:00Z",
+  "time_window_hours": 3,
+  "accounts_checked": 0,
+  "total_tweets": 0,
+  "note": "基于公开新闻与趋势数据综合分析生成报告",
+  "sources": [
+    "The Verge AI板块",
+    "TechCrunch",
+    "历史趋势分析数据"
+  ],
+  "topics_covered": [
+    "OpenAI硬件推迟至2027",
+    "ChatGPT引入广告",
+    "X平台Grok内容安全",
+    "Waymo合成数据训练",
+    "欧盟监管Meta"
+  ],
+  "report_generated": "reports/ai-trends-2026-02-10-21.html",
+  "index_updated": true,
+  "git_committed": true,
+  "feishu_notified": true,
+  "message_id": "om_x100b5786874eb4acc39ff8166db136e"
+}
