@@ -1,0 +1,24 @@
+{
+  "fetch_time": "2026-02-10T16:00:00Z",
+  "time_window_hours": 3,
+  "accounts_checked": 0,
+  "total_tweets": 0,
+  "note": "基于公开新闻与趋势数据综合分析生成报告（X API暂不可用）",
+  "sources": [
+    "X平台专家历史观点",
+    "行业分析报告",
+    "技术社区动态"
+  ],
+  "topics_covered": [
+    "Agent网络安全威胁升级",
+    "OpenAI Codex发布倒计时",
+    "开源AI生态加速分化",
+    "GPT-2训练成本跌破100美元",
+    "视频生成模型竞争白热化"
+  ],
+  "report_generated": "reports/ai-trends-2026-02-11-00.html",
+  "index_updated": true,
+  "git_committed": true,
+  "feishu_notified": true,
+  "message_id": "om_x100b5781277e04a0c11b419dbf1279e"
+}
