@@ -1,0 +1,14 @@
+{
+  "fetch_time": "2026-02-10T04:00:00Z",
+  "time_window_hours": 3,
+  "accounts_checked": 0,
+  "total_tweets": 0,
+  "note": "X API令牌暂不可用，基于趋势分析数据生成报告",
+  "tweets": [],
+  "analysis_source": "trend_analysis_20260210_0300.json",
+  "report_generated": "reports/ai-trends-2026-02-10-12.html",
+  "index_updated": true,
+  "git_committed": true,
+  "feishu_notified": true,
+  "message_id": "om_x100b579eae61d8b4c42bdeb22e0d3e0"
+}
