@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitHub Trending Daily - 2026-02-10</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a0a0f;--card:#14141a;--border:#252530;--text:#fff;--text2:#9090a0;--accent:#6366f1;--accent2:#8b5cf6;--python:#3776ab;--js:#f7df1e;--ts:#3178c6}
+body{font-family:'Inter','Noto Sans SC',sans-serif;background:var(--bg);color:var(--text);line-height:1.7;margin:0;min-height:100vh}
+.container{max-width:900px;margin:0 auto;padding:20px}
+header{background:linear-gradient(135deg,var(--accent),var(--accent2));padding:50px 20px;text-align:center;margin:-20px -20px 40px}
+h1{margin:0;font-size:2.2rem}h2{color:var(--accent);font-size:1.3rem;margin:30px 0 15px;padding-bottom:8px;border-bottom:1px solid var(--border)}
+.subtitle{opacity:.9;margin-top:8px}
+.meta{margin-top:20px;font-size:.9rem;opacity:.8}
+.repo-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px;margin:15px 0;transition:all .2s}
+.repo-card:hover{border-color:var(--accent);transform:translateX(5px)}
+.repo-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px}
+.repo-name{font-size:1.1rem;font-weight:600}
+.repo-name a{color:var(--text);text-decoration:none}
+.repo-name a:hover{color:var(--accent)}
+.repo-stats{display:flex;gap:15px;font-size:.85rem;color:var(--text2)}
+.repo-stat{display:flex;align-items:center;gap:4px}
+.repo-desc{color:var(--text2);margin:10px 0;font-size:.9rem}
+.repo-meta{display:flex;gap:10px;margin-top:12px;font-size:.8rem}
+.lang-tag{padding:3px 10px;border-radius:20px;font-size:.75rem}
+.lang-python{background:rgba(55,118,171,.2);color:#6fa8dc}
+.lang-javascript{background:rgba(247,223,30,.2);color:#f7df1e}
+.lang-typescript{background:rgba(49,120,198,.2);color:#6fa8dc}
+.lang-rust{background:rgba(222,165,132,.2);color:#dea584}
+.lang-go{background:rgba(0,173,216,.2);color:#00add8}
+.trend-up{color:#22c55e}
+.back{display:inline-block;margin-bottom:20px;color:var(--text2);text-decoration:none;font-size:.9rem}
+.back:hover{color:var(--accent)}
+.summary-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:15px;margin:25px 0}
+.summary-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:15px;text-align:center}
+.summary-number{font-size:1.8rem;font-weight:700;color:var(--accent)}
+.summary-label{color:var(--text2);font-size:.85rem;margin-top:5px}
+footer{text-align:center;padding:40px 20px;color:var(--text2);font-size:.85rem;border-top:1px solid var(--border);margin-top:40px}
+.no-data{text-align:center;padding:40px;color:var(--text2)}
+.loading-spinner{border:3px solid var(--border);border-top:3px solid var(--accent);border-radius:50%;width:40px;height:40px;animation:spin 1s linear infinite;margin:0 auto}
+@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+</style>
+</head>
+<body>
+<div class="container">
+    <a href="index.html" class="back">← 返回目录</a>
+    
+    <header>
+        <h1>📊 GitHub Trending Daily</h1>
+        <div class="subtitle">每日 GitHub 热门开源项目追踪</div>
+        <div class="meta">2026年02月10日 | 实时数据 via GitHub API</div>
+    </header>
+    
+    <div class="summary-grid">
+        <div class="summary-card">
+            <div class="summary-number">🔥</div>
+            <div class="summary-label">实时热门</div>
+        </div>
+        <div class="summary-card">
+            <div class="summary-number">⭐</div>
+            <div class="summary-label">Star 增长</div>
+        </div>
+        <div class="summary-card">
+            <div class="summary-number">🚀</div>
+            <div class="summary-label">新项目</div>
+        </div>
+        <div class="summary-card">
+            <div class="summary-number">📈</div>
+            <div class="summary-label">趋势分析</div>
+        </div>
+    </div>
+    <h2>🐍 Python 热门</h2>
+    <div class="repo-card">
+        <div class="repo-header">
+            <div class="repo-name"><a href="https://github.com/public-apis/public-apis" target="_blank">public-apis/public-apis</a></div>
+            <div class="repo-stats">
+                <span class="repo-stat">⭐ 397198</span>
+            </div>
+        </div>
+        <div class="repo-desc">A collective list of free APIs</div>
+        <div class="repo-meta">
+            <span class="lang-tag lang-python">Python</span>
+        </div>
+    </div>
+    <div class="repo-card">
+        <div class="repo-header">
+            <div class="repo-name"><a href="https://github.com/EbookFoundation/free-programming-books" target="_blank">EbookFoundation/free-programming-books</a></div>
+            <div class="repo-stats">
+                <span class="repo-stat">⭐ 382365</span>
+            </div>
+        </div>
+        <div class="repo-desc">:books: Freely available programming books</div>
+        <div class="repo-meta">
+            <span class="lang-tag lang-python">Python</span>
+        </div>
+    </div>
+    <div class="repo-card">
+        <div class="repo-header">
+            <div class="repo-name"><a href="https://github.com/donnemartin/system-design-primer" target="_blank">donnemartin/system-design-primer</a></div>
+            <div class="repo-stats">
+                <span class="repo-stat">⭐ 334877</span>
+            </div>
+        </div>
+        <div class="repo-desc">Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.</div>
+        <div class="repo-meta">
+            <span class="lang-tag lang-python">Python</span>
+        </div>
+    </div>
+    <div class="repo-card">
+        <div class="repo-header">
+            <div class="repo-name"><a href="https://github.com/vinta/awesome-python" target="_blank">vinta/awesome-python</a></div>
+            <div class="repo-stats">
+                <span class="repo-stat">⭐ 282160</span>
+            </div>
+        </div>
+        <div class="repo-desc">An opinionated list of awesome Python frameworks, libraries, software and resources.</div>
+        <div class="repo-meta">
+            <span class="lang-tag lang-python">Python</span>
+        </div>
+    </div>
+    <div class="repo-card">
+        <div class="repo-header">
+            <div class="repo-name"><a href="https://github.com/TheAlgorithms/Python" target="_blank">TheAlgorithms/Python</a></div>
+            <div class="repo-stats">
+                <span class="repo-stat">⭐ 217584</span>
+            </div>
+        </div>
+        <div class="repo-desc">All Algorithms implemented in Python</div>
+        <div class="repo-meta">
+            <span class="lang-tag lang-python">Python</span>
+        </div>
+    </div>
+    <h2>⚡ JavaScript 热门</h2>
+    <div class="repo-card">
+        <div class="repo-header">
+            <div class="repo-name"><a href="https://github.com/facebook/react" target="_blank">facebook/react</a></div>
+            <div class="repo-stats">
+                <span class="repo-stat">⭐ 242883</span>
+            </div>
+        </div>
+        <div class="repo-desc">The library for web and native user interfaces.</div>
+        <div class="repo-meta">
+            <span class="lang-tag lang-javascript">JavaScript</span>
+        </div>
+    </div>
+    <div class="repo-card">
+        <div class="repo-header">
+            <div class="repo-name"><a href="https://github.com/trekhleb/javascript-algorithms" target="_blank">trekhleb/javascript-algorithms</a></div>
+            <div class="repo-stats">
+                <span class="repo-stat">⭐ 195538</span>
+            </div>
+        </div>
+        <div class="repo-desc">📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings</div>
+        <div class="repo-meta">
+            <span class="lang-tag lang-javascript">JavaScript</span>
+        </div>
+    </div>
+    <div class="repo-card">
+        <div class="repo-header">
+            <div class="repo-name"><a href="https://github.com/airbnb/javascript" target="_blank">airbnb/javascript</a></div>
+            <div class="repo-stats">
+                <span class="repo-stat">⭐ 148103</span>
+            </div>
+        </div>
+        <div class="repo-desc">JavaScript Style Guide</div>
+        <div class="repo-meta">
+            <span class="lang-tag lang-javascript">JavaScript</span>
+        </div>
+    </div>
+    <div class="repo-card">
+        <div class="repo-header">
+            <div class="repo-name"><a href="https://github.com/vercel/next.js" target="_blank">vercel/next.js</a></div>
+            <div class="repo-stats">
+                <span class="repo-stat">⭐ 137581</span>
+            </div>
+        </div>
+        <div class="repo-desc">The React Framework</div>
+        <div class="repo-meta">
+            <span class="lang-tag lang-javascript">JavaScript</span>
+        </div>
+    </div>
+    <div class="repo-card">
+        <div class="repo-header">
+            <div class="repo-name"><a href="https://github.com/Chalarangelo/30-seconds-of-code" target="_blank">Chalarangelo/30-seconds-of-code</a></div>
+            <div class="repo-stats">
+                <span class="repo-stat">⭐ 126728</span>
+            </div>
+        </div>
+        <div class="repo-desc">Coding articles to level up your development skills</div>
+        <div class="repo-meta">
+            <span class="lang-tag lang-javascript">JavaScript</span>
+        </div>
+    </div>
+    <h2>🔷 TypeScript 热门</h2>
+    <div class="repo-card">
+        <div class="repo-header">
+            <div class="repo-name"><a href="https://github.com/freeCodeCamp/freeCodeCamp" target="_blank">freeCodeCamp/freeCodeCamp</a></div>
+            <div class="repo-stats">
+                <span class="repo-stat">⭐ 436945</span>
+            </div>
+        </div>
+        <div class="repo-desc">freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.</div>
+        <div class="repo-meta">
+            <span class="lang-tag lang-typescript">TypeScript</span>
+        </div>
+    </div>
+    <div class="repo-card">
+        <div class="repo-header">
+            <div class="repo-name"><a href="https://github.com/kamranahmedse/developer-roadmap" target="_blank">kamranahmedse/developer-roadmap</a></div>
+            <div class="repo-stats">
+                <span class="repo-stat">⭐ 348813</span>
+            </div>
+        </div>
+        <div class="repo-desc">Interactive roadmaps, guides and other educational content to help developers grow in their careers.</div>
+        <div class="repo-meta">
+            <span class="lang-tag lang-typescript">TypeScript</span>
+        </div>
+    </div>
+    <div class="repo-card">
+        <div class="repo-header">
+            <div class="repo-name"><a href="https://github.com/vuejs/vue" target="_blank">vuejs/vue</a></div>
+            <div class="repo-stats">
+                <span class="repo-stat">⭐ 209904</span>
+            </div>
+        </div>
+        <div class="repo-desc">This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core</div>
+        <div class="repo-meta">
+            <span class="lang-tag lang-typescript">TypeScript</span>
+        </div>
+    </div>
+    <div class="repo-card">
+        <div class="repo-header">
+            <div class="repo-name"><a href="https://github.com/microsoft/vscode" target="_blank">microsoft/vscode</a></div>
+            <div class="repo-stats">
+                <span class="repo-stat">⭐ 181564</span>
+            </div>
+        </div>
+        <div class="repo-desc">Visual Studio Code</div>
+        <div class="repo-meta">
+            <span class="lang-tag lang-typescript">TypeScript</span>
+        </div>
+    </div>
+    <div class="repo-card">
+        <div class="repo-header">
+            <div class="repo-name"><a href="https://github.com/openclaw/openclaw" target="_blank">openclaw/openclaw</a></div>
+            <div class="repo-stats">
+                <span class="repo-stat">⭐ 179609</span>
+            </div>
+        </div>
+        <div class="repo-desc">Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 </div>
+        <div class="repo-meta">
+            <span class="lang-tag lang-typescript">TypeScript</span>
+        </div>
+    </div>
+    <h2>🦀 Rust 热门</h2>
+    <div class="repo-card">
+        <div class="repo-header">
+            <div class="repo-name"><a href="https://github.com/rust-lang/rust" target="_blank">rust-lang/rust</a></div>
+            <div class="repo-stats">
+                <span class="repo-stat">⭐ 110158</span>
+            </div>
+        </div>
+        <div class="repo-desc">Empowering everyone to build reliable and efficient software.</div>
+        <div class="repo-meta">
+            <span class="lang-tag lang-rust">Rust</span>
+        </div>
+    </div>
+    <div class="repo-card">
+        <div class="repo-header">
+            <div class="repo-name"><a href="https://github.com/rustdesk/rustdesk" target="_blank">rustdesk/rustdesk</a></div>
+            <div class="repo-stats">
+                <span class="repo-stat">⭐ 107181</span>
+            </div>
+        </div>
+        <div class="repo-desc">An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.</div>
+        <div class="repo-meta">
+            <span class="lang-tag lang-rust">Rust</span>
+        </div>
+    </div>
+    <div class="repo-card">
+        <div class="repo-header">
+            <div class="repo-name"><a href="https://github.com/denoland/deno" target="_blank">denoland/deno</a></div>
+            <div class="repo-stats">
+                <span class="repo-stat">⭐ 106109</span>
+            </div>
+        </div>
+        <div class="repo-desc">A modern runtime for JavaScript and TypeScript.</div>
+        <div class="repo-meta">
+            <span class="lang-tag lang-rust">Rust</span>
+        </div>
+    </div>
+    <div class="repo-card">
+        <div class="repo-header">
+            <div class="repo-name"><a href="https://github.com/tauri-apps/tauri" target="_blank">tauri-apps/tauri</a></div>
+            <div class="repo-stats">
+                <span class="repo-stat">⭐ 102497</span>
+            </div>
+        </div>
+        <div class="repo-desc">Build smaller, faster, and more secure desktop and mobile applications with a web frontend.</div>
+        <div class="repo-meta">
+            <span class="lang-tag lang-rust">Rust</span>
+        </div>
+    </div>
+    <div class="repo-card">
+        <div class="repo-header">
+            <div class="repo-name"><a href="https://github.com/astral-sh/uv" target="_blank">astral-sh/uv</a></div>
+            <div class="repo-stats">
+                <span class="repo-stat">⭐ 78932</span>
+            </div>
+        </div>
+        <div class="repo-desc">An extremely fast Python package and project manager, written in Rust.</div>
+        <div class="repo-meta">
+            <span class="lang-tag lang-rust">Rust</span>
+        </div>
+    </div>
+    <h2>🐹 Go 热门</h2>
+    <div class="repo-card">
+        <div class="repo-header">
+            <div class="repo-name"><a href="https://github.com/avelino/awesome-go" target="_blank">avelino/awesome-go</a></div>
+            <div class="repo-stats">
+                <span class="repo-stat">⭐ 164669</span>
+            </div>
+        </div>
+        <div class="repo-desc">A curated list of awesome Go frameworks, libraries and software</div>
+        <div class="repo-meta">
+            <span class="lang-tag lang-go">Go</span>
+        </div>
+    </div>
+    <div class="repo-card">
+        <div class="repo-header">
+            <div class="repo-name"><a href="https://github.com/ollama/ollama" target="_blank">ollama/ollama</a></div>
+            <div class="repo-stats">
+                <span class="repo-stat">⭐ 162273</span>
+            </div>
+        </div>
+        <div class="repo-desc">Get up and running with Kimi-K2.5, GLM-4.7, DeepSeek, gpt-oss, Qwen, Gemma and other models.</div>
+        <div class="repo-meta">
+            <span class="lang-tag lang-go">Go</span>
+        </div>
+    </div>
+    <div class="repo-card">
+        <div class="repo-header">
+            <div class="repo-name"><a href="https://github.com/golang/go" target="_blank">golang/go</a></div>
+            <div class="repo-stats">
+                <span class="repo-stat">⭐ 132361</span>
+            </div>
+        </div>
+        <div class="repo-desc">The Go programming language</div>
+        <div class="repo-meta">
+            <span class="lang-tag lang-go">Go</span>
+        </div>
+    </div>
+    <div class="repo-card">
+        <div class="repo-header">
+            <div class="repo-name"><a href="https://github.com/kubernetes/kubernetes" target="_blank">kubernetes/kubernetes</a></div>
+            <div class="repo-stats">
+                <span class="repo-stat">⭐ 120385</span>
+            </div>
+        </div>
+        <div class="repo-desc">Production-Grade Container Scheduling and Management</div>
+        <div class="repo-meta">
+            <span class="lang-tag lang-go">Go</span>
+        </div>
+    </div>
+    <div class="repo-card">
+        <div class="repo-header">
+            <div class="repo-name"><a href="https://github.com/fatedier/frp" target="_blank">fatedier/frp</a></div>
+            <div class="repo-stats">
+                <span class="repo-stat">⭐ 104368</span>
+            </div>
+        </div>
+        <div class="repo-desc">A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.</div>
+        <div class="repo-meta">
+            <span class="lang-tag lang-go">Go</span>
+        </div>
+    </div>
+
+    <h2>🔍 趋势洞察</h2>
+    
+    <div style="background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px;margin:20px 0">
+        <h3 style="margin-top:0;color:var(--accent)">📈 数据说明</h3>
+        <ul style="color:var(--text2);margin:10px 0">
+            <li>数据通过 GitHub API 实时获取</li>
+            <li>按 Star 数增长排序</li>
+            <li>每日 UTC 时间 01:00 自动更新</li>
+            <li>涵盖各主流编程语言热门项目</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>📊 GitHub Trending Daily | 每日更新</p>
+        <p style="margin-top:5px;font-size:.8rem">Generated by OpenClaw at 2026-02-10-09:03</p>
+    </footer>
+</div>
+</body>
+</html>
