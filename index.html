@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Trends Digest - 索引</title>
+    <title>AI Trends Digest - Index</title>
     <style>
         :root {
             --bg: #0a0a0f;
@@ -12,7 +12,6 @@
             --text: #e0e0e0;
             --text-muted: #888;
             --accent: #6366f1;
-            --accent-light: #818cf8;
         }
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -24,64 +23,57 @@
         }
         .container { max-width: 900px; margin: 0 auto; }
         header {
-            border-bottom: 1px solid var(--border);
-            padding-bottom: 30px;
-            margin-bottom: 40px;
             text-align: center;
+            padding: 40px 0;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 40px;
         }
         h1 { font-size: 2.5rem; margin-bottom: 10px; }
-        .subtitle { color: var(--text-muted); font-size: 1.1rem; }
+        .subtitle { color: var(--text-muted); }
         
-        .report-grid {
+        .stats {
             display: grid;
-            gap: 16px;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
         }
-        .report-card {
+        .stat-card {
             background: var(--card);
             border: 1px solid var(--border);
             border-radius: 12px;
             padding: 20px;
+            text-align: center;
+        }
+        .stat-number { font-size: 2rem; font-weight: 700; color: var(--accent); }
+        .stat-label { color: var(--text-muted); margin-top: 5px; }
+        
+        .report-list { margin-top: 30px; }
+        .report-item {
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-            transition: all 0.2s;
-        }
-        .report-card:hover {
-            border-color: var(--accent);
-        }
-        .report-info h3 {
-            font-size: 1.1rem;
-            margin-bottom: 8px;
-        }
-        .report-meta {
-            color: var(--text-muted);
-            font-size: 0.9rem;
-        }
-        .report-link {
-            color: var(--accent-light);
-            text-decoration: none;
-            padding: 8px 16px;
-            border: 1px solid var(--accent);
-            border-radius: 6px;
-            transition: all 0.2s;
-        }
-        .report-link:hover {
-            background: var(--accent);
-            color: var(--text);
-        }
-        .latest {
-            border-color: var(--accent);
-            background: rgba(99, 102, 241, 0.1);
-        }
-        .latest-badge {
-            display: inline-block;
-            background: var(--accent);
-            color: white;
-            padding: 2px 8px;
+            align-items: flex-start;
+            gap: 20px;
+            padding: 20px;
+            background: var(--card);
+            border: 1px solid var(--border);
             border-radius: 12px;
-            font-size: 0.75rem;
-            margin-left: 8px;
+            margin-bottom: 12px;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.2s;
         }
+        .report-item:hover {
+            border-color: var(--accent);
+            transform: translateX(5px);
+        }
+        .report-date {
+            color: var(--accent);
+            font-weight: 600;
+            min-width: 100px;
+        }
+        .report-content { flex: 1; }
+        .report-title { font-size: 1.1rem; margin-bottom: 5px; }
+        .report-summary { color: var(--text-muted); font-size: 0.9rem; }
+        
         footer {
             margin-top: 60px;
             padding-top: 20px;
@@ -96,85 +88,99 @@
     <div class="container">
         <header>
             <h1>🤖 AI Trends Digest</h1>
-            <div class="subtitle">AI 领域趋势追踪与深度分析报告</div>
+            <p class="subtitle">AI 领域趋势追踪与深度分析</p>
         </header>
-
-        <div class="report-grid">
-            <div class="report-card latest">
-                <div class="report-info">
-                    <h3>2026年2月11日 12:00 <span class="latest-badge">最新</span></h3>
-                    <div class="report-meta">Grok 3 发布前夕 | MCP 协议 | 自适应推理</div>
-                </div>
-                <a href="reports/ai-trends-2026-02-11-12.html" class="report-link">阅读报告</a>
+        
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number">35</div>
+                <div class="stat-label">总报告数</div>
             </div>
-            <div class="report-card">
-                <div class="report-info">
-                    <h3>2026年2月11日 09:00</h3>
-                    <div class="report-meta">Grok 3 预热 | AI 原生 IDE | 中国模型出海</div>
-                </div>
-                <a href="reports/ai-trends-2026-02-11-09.html" class="report-link">阅读报告</a>
+            <div class="stat-card">
+                <div class="stat-number">15:00</div>
+                <div class="stat-label">最新更新</div>
             </div>
-            <div class="report-card">
-                <div class="report-info">
-                    <h3>2026年2月11日 06:00</h3>
-                    <div class="report-meta">AI Agent 工具链 | 推理模型竞争</div>
-                </div>
-                <a href="reports/ai-trends-2026-02-11-06.html" class="report-link">阅读报告</a>
+            <div class="stat-card">
+                <div class="stat-number">3h</div>
+                <div class="stat-label">更新频率</div>
             </div>
-            <div class="report-card">
-                <div class="report-info">
-                    <h3>2026年2月11日 03:00</h3>
-                    <div class="report-meta">多模态趋势 | 开源生态 | 应用落地</div>
-                </div>
-                <a href="reports/ai-trends-2026-02-11-03.html" class="report-link">阅读报告</a>
-            </div>
-            <div class="report-card">
-                <div class="report-info">
-                    <h3>2026年2月11日 00:00</h3>
-                    <div class="report-meta">模型发布动态 | 基础设施投资</div>
-                </div>
-                <a href="reports/ai-trends-2026-02-11-00.html" class="report-link">阅读报告</a>
-            </div>
-            <div class="report-card">
-                <div class="report-info">
-                    <h3>2026年2月10日 21:00</h3>
-                    <div class="report-meta">编程助手竞争 | 安全对齐</div>
-                </div>
-                <a href="reports/ai-trends-2026-02-10-21.html" class="report-link">阅读报告</a>
-            </div>
-            <div class="report-card">
-                <div class="report-info">
-                    <h3>2026年2月10日 18:00</h3>
-                    <div class="report-meta">Agent 框架 | 开发者工具</div>
-                </div>
-                <a href="reports/ai-trends-2026-02-10-18.html" class="report-link">阅读报告</a>
-            </div>
-            <div class="report-card">
-                <div class="report-info">
-                    <h3>2026年2月10日 15:00</h3>
-                    <div class="report-meta">模型能力对比 | 市场格局</div>
-                </div>
-                <a href="reports/ai-trends-2026-02-10-15.html" class="report-link">阅读报告</a>
-            </div>
-            <div class="report-card">
-                <div class="report-info">
-                    <h3>2026年2月10日 12:00</h3>
-                    <div class="report-meta">技术突破 | 商业动态</div>
-                </div>
-                <a href="reports/ai-trends-2026-02-10-12.html" class="report-link">阅读报告</a>
-            </div>
-            <div class="report-card">
-                <div class="report-info">
-                    <h3>2026年2月10日 09:00</h3>
-                    <div class="report-meta">行业趋势 | 产品发布</div>
-                </div>
-                <a href="reports/ai-trends-2026-02-10-09.html" class="report-link">阅读报告</a>
+            <div class="stat-card">
+                <div class="stat-number">多源</div>
+                <div class="stat-label">数据来源</div>
             </div>
         </div>
-
+        
+        <div class="report-list">
+            <h2 style="margin-bottom: 20px;">📊 历史报告</h2>
+            
+            <a href="reports/ai-trends-2026-02-11-15.html" class="report-item">
+                <div class="report-date">02-11 15:00</div>
+                <div class="report-content">
+                    <div class="report-title">Super Bowl AI 广告大战、GPT-5.3 Codex 发布、6700 亿美元投资</div>
+                    <div class="report-summary">OpenAI 首次超级碗广告投放 Codex；GPT-5.3 Codex 成为首个参与自身开发的模型；科技巨头 6700 亿美元 AI 投资超登月计划</div>
+                </div>
+            </a>
+            
+            <a href="reports/ai-trends-2026-02-11-12.html" class="report-item">
+                <div class="report-date">02-11 12:00</div>
+                <div class="report-content">
+                    <div class="report-title">Grok 3 发布前夕、MCP 协议生态、AI 原生开发工具革命</div>
+                    <div class="report-summary">Grok 3 发布前的期待与质疑；MCP 协议与 Agent 生态标准化；AI 原生开发工具革命深化</div>
+                </div>
+            </a>
+            
+            <a href="reports/ai-trends-2026-02-11-09.html" class="report-item">
+                <div class="report-date">02-11 09:00</div>
+                <div class="report-content">
+                    <div class="report-title">推理模型自适应、AI 安全对齐新挑战、开源模型竞争</div>
+                    <div class="report-summary">推理模型进入自适应阶段；AI 安全与对齐面临新挑战；开源与闭源模型竞争加剧</div>
+                </div>
+            </a>
+            
+            <a href="reports/ai-trends-2026-02-11-06.html" class="report-item">
+                <div class="report-date">02-11 06:00</div>
+                <div class="report-content">
+                    <div class="report-title">Agent 框架演进、多模态突破、边缘 AI 部署</div>
+                    <div class="report-summary">AI Agent 框架持续演进；多模态模型取得新突破；边缘 AI 部署成为新焦点</div>
+                </div>
+            </a>
+            
+            <a href="reports/ai-trends-2026-02-11-03.html" class="report-item">
+                <div class="report-date">02-11 03:00</div>
+                <div class="report-content">
+                    <div class="report-title">DeepSeek 影响持续、企业 AI 采用、开发者工具创新</div>
+                    <div class="report-summary">DeepSeek 对行业的深远影响；企业级 AI 采用加速；AI 开发者工具创新涌现</div>
+                </div>
+            </a>
+            
+            <a href="reports/ai-trends-2026-02-10-21.html" class="report-item">
+                <div class="report-date">02-10 21:00</div>
+                <div class="report-content">
+                    <div class="report-title">中国 AI 竞争、模型效率优化、AI 编程助手普及</div>
+                    <div class="report-summary">中国 AI 公司在国际市场的竞争策略；大模型效率优化新进展；AI 编程助手在开发者中的普及</div>
+                </div>
+            </a>
+            
+            <a href="reports/ai-trends-2026-02-10-18.html" class="report-item">
+                <div class="report-date">02-10 18:00</div>
+                <div class="report-content">
+                    <div class="report-title">AI 投资趋势、创业公司动态、技术突破</div>
+                    <div class="report-summary">全球 AI 投资流向分析；AI 创业公司最新动态；模型架构技术突破</div>
+                </div>
+            </a>
+            
+            <a href="reports/ai-trends-2026-02-10-15.html" class="report-item">
+                <div class="report-date">02-10 15:00</div>
+                <div class="report-content">
+                    <div class="report-title">模型安全研究、AI 伦理讨论、产品发布</div>
+                    <div class="report-summary">前沿模型安全研究进展；AI 伦理与社会影响讨论；新产品和功能发布</div>
+                </div>
+            </a>
+            
+        </div>
+        
         <footer>
-            <p>Generated by AI Agent | 每3小时更新</p>
-            <p style="margin-top: 5px;">最后更新: 2026-02-11 12:00 CST</p>
+            <p>Auto-generated by AI Agent | OpenClaw</p>
         </footer>
     </div>
 </body>

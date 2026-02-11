@@ -1,0 +1,24 @@
+{
+  "fetch_time": "2026-02-11T07:00:00Z",
+  "time_window_hours": 3,
+  "accounts_checked": 0,
+  "total_tweets": 0,
+  "note": "基于多源网络数据与行业动态综合分析生成报告（X 平台实时数据抓取服务暂不可用，使用 web_fetch 获取 The Verge、TechCrunch、OpenAI、Anthropic 等来源的最新资讯）",
+  "sources": [
+    "The Verge AI 板块",
+    "TechCrunch AI 新闻",
+    "OpenAI 官方新闻",
+    "Anthropic 官方新闻"
+  ],
+  "topics_covered": [
+    "Super Bowl AI 广告大战：OpenAI、Anthropic、Google、Amazon 纷纷投放",
+    "OpenAI GPT-5.3 Codex 发布：首个参与自身开发的 AI 模型",
+    "Grok 生成不当内容引发监管风暴",
+    "2026 年 AI 投资达 6700 亿美元超登月计划",
+    "AI.com 平台推出，AI Agent 竞争升温"
+  ],
+  "report_generated": "reports/ai-trends-2026-02-11-15.html",
+  "index_updated": true,
+  "git_committed": true,
+  "feishu_notified": true
+}
