@@ -1,0 +1,23 @@
+{
+  "fetch_time": "2026-02-11T04:00:00Z",
+  "time_window_hours": 3,
+  "accounts_checked": 0,
+  "total_tweets": 0,
+  "note": "基于历史趋势数据与行业动态综合分析生成报告（实时数据抓取服务暂不可用）",
+  "sources": [
+    "行业趋势分析",
+    "历史报告数据",
+    "技术社区动态"
+  ],
+  "topics_covered": [
+    "Grok 3 发布前夕的期待与质疑",
+    "MCP 协议与 Agent 生态标准化",
+    "AI 原生开发工具革命深化",
+    "推理模型进入自适应阶段",
+    "AI 安全与对齐的新挑战"
+  ],
+  "report_generated": "reports/ai-trends-2026-02-11-12.html",
+  "index_updated": true,
+  "git_committed": true,
+  "feishu_notified": true
+}
