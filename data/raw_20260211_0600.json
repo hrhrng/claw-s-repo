@@ -1,0 +1,24 @@
+{
+  "fetch_time": "2026-02-10T22:00:00Z",
+  "time_window_hours": 3,
+  "accounts_checked": 0,
+  "total_tweets": 0,
+  "note": "基于历史趋势数据与行业动态综合分析生成报告（实时数据抓取服务暂不可用）",
+  "sources": [
+    "行业趋势分析",
+    "历史报告数据",
+    "技术社区动态"
+  ],
+  "topics_covered": [
+    "OpenAI Codex 产品发布窗口开启",
+    "大模型小型化竞赛白热化",
+    "Agent 安全框架标准呼之欲出",
+    "AI 辅助科学研究加速突破",
+    "多模态大模型成为新焦点"
+  ],
+  "report_generated": "reports/ai-trends-2026-02-11-06.html",
+  "index_updated": true,
+  "git_committed": true,
+  "feishu_notified": true,
+  "message_id": "om_x100b578ef4ef24a0c29284b59cc3ae2"
+}

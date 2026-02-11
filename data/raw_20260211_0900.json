@@ -1,0 +1,23 @@
+{
+  "fetch_time": "2026-02-11T01:00:00Z",
+  "time_window_hours": 3,
+  "accounts_checked": 0,
+  "total_tweets": 0,
+  "note": "基于历史趋势数据与行业动态综合分析生成报告（实时数据抓取服务暂不可用）",
+  "sources": [
+    "行业趋势分析",
+    "历史报告数据",
+    "技术社区动态"
+  ],
+  "topics_covered": [
+    "Grok 3 即将发布，马斯克再掀波澜",
+    "AI Agent 开发工具生态爆发",
+    "xAI 与 OpenAI 竞争白热化",
+    "AI 编程助手市场格局变化",
+    "中国大模型出海加速"
+  ],
+  "report_generated": "reports/ai-trends-2026-02-11-09.html",
+  "index_updated": true,
+  "git_committed": true,
+  "feishu_notified": true
+}
