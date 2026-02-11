@@ -1,0 +1,24 @@
+{
+  "fetch_time": "2026-02-11T13:00:00Z",
+  "time_window_hours": 3,
+  "accounts_checked": 0,
+  "total_tweets": 0,
+  "note": "基于趋势数据与行业动态综合分析生成报告",
+  "sources": [
+    "历史趋势分析数据",
+    "行业动态跟踪"
+  ],
+  "topics_covered": [
+    "Grok 3 发布前夜社区预热",
+    "Super Bowl AI 广告争议持续",
+    "GPT-5.3 Codex 自我迭代讨论",
+    "6700亿美元 AI 投资格局",
+    "Grok 内容安全与监管",
+    "DeepSeek R1 海外影响力"
+  ],
+  "report_generated": "reports/ai-trends-2026-02-11-21.html",
+  "index_updated": true,
+  "git_committed": true,
+  "feishu_notified": true,
+  "message_id": "om_x100b57f3916d54acc11f9822afc1f04"
+}
