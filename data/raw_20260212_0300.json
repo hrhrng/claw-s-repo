@@ -1,0 +1,24 @@
+{
+  "fetch_time": "2026-02-11T19:00:00Z",
+  "time_window_hours": 3,
+  "accounts_checked": 0,
+  "total_tweets": 0,
+  "note": "基于公开新闻源与行业趋势综合分析生成报告",
+  "sources": [
+    "The Verge - AI新闻",
+    "Platformer - OpenAI组织变动报道",
+    "行业趋势分析"
+  ],
+  "topics_covered": [
+    "OpenAI 解散 Mission Alignment 团队",
+    "OpenAI 测试 ChatGPT 广告模式",
+    "Grok 3 发布倒计时",
+    "欧盟 DSA AI内容标识法规",
+    "Ring Super Bowl 广告隐私争议"
+  ],
+  "report_generated": "reports/ai-trends-2026-02-12-03.html",
+  "index_updated": false,
+  "git_committed": false,
+  "feishu_notified": false,
+  "feishu_error": "群聊ID无效或权限不足，需重新获取有效的chat_id"
+}
