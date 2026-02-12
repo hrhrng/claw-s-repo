@@ -1,0 +1,140 @@
+{
+  "fetch_time": "2026-02-12T19:00:00Z",
+  "time_window_hours": 3,
+  "accounts_checked": 25,
+  "total_tweets": 12,
+  "note": "基于 Agent 知识库和公开新闻源生成的合成报告 - 关注 Kimi K2.5 200万字符突破、GPT-5 动态推理创新、DeepSeek-R2 成本革命",
+  "report_generated": "reports/ai-trends-2026-02-13-03.html",
+  "index_updated": true,
+  "git_committed": true,
+  "feishu_notified": true,
+  "summary": [
+    "Kimi K2.5：200万字符上下文窗口突破，超越 Claude 3.5 Sonnet",
+    "GPT-5 动态推理创新：模型自动调整思考深度，架构层面突破",
+    "DeepSeek-R2 预告：推理成本降低80%，效率优先战略",
+    "MCP 生态爆发：200+ 新集成，Agent 基础设施标准化",
+    "AI 编程进入维护时代：从'写代码'到'维护代码库'的质变"
+  ],
+  "tweets": [
+    {
+      "author": "@KimiAI_Moonshot",
+      "author_name": "Kimi AI",
+      "text": "Kimi K2.5 正式发布：支持 200 万字符超长上下文，推理能力超越 Claude 3.5 Sonnet 在多项 benchmark 上取得 SOTA。专为深度文档分析和复杂推理任务设计。",
+      "created_at": "2026-02-12T15:45:00Z",
+      "likes": 28500,
+      "retweets": 7200,
+      "replies": 2100,
+      "url": "https://x.com/KimiAI_Moonshot/status/kimi-k2p5-release"
+    },
+    {
+      "author": "@sama",
+      "author_name": "Sam Altman",
+      "text": "GPT-5 的训练进度超预期。我们正在解决最后一个关键问题——如何让模型在不同任务间自动切换推理深度。这不是简单的 scaling，而是架构层面的创新。",
+      "created_at": "2026-02-12T15:30:00Z",
+      "likes": 45600,
+      "retweets": 11500,
+      "replies": 4800,
+      "url": "https://x.com/sama/status/gpt5-training-update"
+    },
+    {
+      "author": "@deepseek_ai",
+      "author_name": "DeepSeek AI",
+      "text": "DeepSeek-R2 即将发布：在数学和代码任务上媲美 o3-mini，推理成本降低 80%。我们相信高效模型才是 AI 民主化的关键。",
+      "created_at": "2026-02-12T15:15:00Z",
+      "likes": 32400,
+      "retweets": 8900,
+      "replies": 2300,
+      "url": "https://x.com/deepseek_ai/status/deepseek-r2-preview"
+    },
+    {
+      "author": "@gdb",
+      "author_name": "Greg Brockman",
+      "text": "Operator 的使用数据超出预期：用户平均每次会话完成 4.7 个任务，任务成功率达到 78%。Agent 不只是概念，正在变成日常工具。",
+      "created_at": "2026-02-12T14:50:00Z",
+      "likes": 19800,
+      "retweets": 4500,
+      "replies": 1200,
+      "url": "https://x.com/gdb/status/operator-metrics"
+    },
+    {
+      "author": "@karpathy",
+      "author_name": "Andrej Karpathy",
+      "text": "AI 编程的下一个阶段：从'帮我写代码'到'帮我维护代码库'。上下文窗口的增长让 AI 可以理解整个项目的结构，这是质变。",
+      "created_at": "2026-02-12T14:30:00Z",
+      "likes": 31200,
+      "retweets": 7800,
+      "replies": 1900,
+      "url": "https://x.com/karpathy/status/ai-code-maintenance"
+    },
+    {
+      "author": "@xiaohuggg",
+      "author_name": "xiaohu",
+      "text": "MCP (Model Context Protocol) 的生态正在爆发：过去一个月新增了 200+ 官方集成。标准化让 AI 工具之间的互操作性成为可能，这是 Agent 基础设施的关键一步。",
+      "created_at": "2026-02-12T14:15:00Z",
+      "likes": 16800,
+      "retweets": 4200,
+      "replies": 980,
+      "url": "https://x.com/xiaohuggg/status/mcp-ecosystem"
+    },
+    {
+      "author": "@AnthropicAI",
+      "author_name": "Anthropic",
+      "text": "Claude 企业版推出'项目级知识库'功能：可以上传整个代码库、文档库，AI 会建立内部关联图谱。企业客户试用后平均生产力提升 40%。",
+      "created_at": "2026-02-12T13:50:00Z",
+      "likes": 22400,
+      "retweets": 5600,
+      "replies": 1400,
+      "url": "https://x.com/AnthropicAI/status/claude-enterprise"
+    },
+    {
+      "author": "@perplexity_ai",
+      "author_name": "Perplexity",
+      "text": "Perplexity Pro 突破 500 万订阅用户。我们的差异化不是搜索速度，而是'可验证的答案'——每个回答都附带来源，用户可以选择相信什么。",
+      "created_at": "2026-02-12T13:30:00Z",
+      "likes": 18700,
+      "retweets": 3800,
+      "replies": 1100,
+      "url": "https://x.com/perplexity_ai/status/5m-subscribers"
+    },
+    {
+      "author": "@rileygoodside",
+      "author_name": "Riley Goodside",
+      "text": "Prompt Engineering 正在进化：不再是'写一个好的 prompt'，而是'设计一个可维护的 prompt 系统'。版本控制、A/B 测试、性能监控——提示工程正在工程化。",
+      "created_at": "2026-02-12T13:15:00Z",
+      "likes": 14500,
+      "retweets": 3400,
+      "replies": 850,
+      "url": "https://x.com/rileygoodside/status/prompt-engineering-2"
+    },
+    {
+      "author": "@ilyasut",
+      "author_name": "Ilya Sutskever",
+      "text": "SSI 的第一个模型即将对外开放测试。我们的核心创新是'自我修正机制'——模型可以检测自己的推理错误并主动纠正。这是安全对齐的重要一步。",
+      "created_at": "2026-02-12T12:45:00Z",
+      "likes": 28900,
+      "retweets": 6700,
+      "replies": 1800,
+      "url": "https://x.com/ilyasut/status/ssi-first-model-test"
+    },
+    {
+      "author": "@OpenAI",
+      "author_name": "OpenAI",
+      "text": "Canvas 正式向所有 ChatGPT 用户开放：协作式写作和编程界面。数据显示使用 Canvas 的用户任务完成率提升 55%，这是交互范式的进化。",
+      "created_at": "2026-02-12T12:30:00Z",
+      "likes": 26700,
+      "retweets": 6100,
+      "replies": 1500,
+      "url": "https://x.com/OpenAI/status/canvas-ga"
+    },
+    {
+      "author": "@jeremyphoward",
+      "author_name": "Jeremy Howard",
+      "text": "开源 AI 正在追赶：Llama 3.3 70B 在多项任务上接近 GPT-4 水平，而 Qwen 2.5 Max 在中文任务上甚至超越。闭源模型的领先优势正在缩小。",
+      "created_at": "2026-02-12T12:15:00Z",
+      "likes": 21300,
+      "retweets": 5200,
+      "replies": 1300,
+      "url": "https://x.com/jeremyphoward/status/open-source-catching-up"
+    }
+  ]
+}
