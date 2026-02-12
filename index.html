@@ -30,6 +30,7 @@
         }
         h1 { font-size: 2.5rem; margin-bottom: 10px; }
         .subtitle { color: var(--text-muted); }
+        
         .stats {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -45,6 +46,7 @@
         }
         .stat-number { font-size: 2rem; font-weight: 700; color: var(--accent); }
         .stat-label { color: var(--text-muted); margin-top: 5px; }
+        
         .report-list { margin-top: 30px; }
         .report-item {
             display: flex;
@@ -71,6 +73,7 @@
         .report-content { flex: 1; }
         .report-title { font-size: 1.1rem; margin-bottom: 5px; }
         .report-summary { color: var(--text-muted); font-size: 0.9rem; }
+        
         footer {
             margin-top: 60px;
             padding-top: 20px;
@@ -90,86 +93,110 @@
         
         <div class="stats">
             <div class="stat-card">
-                <div class="stat-number">40</div>
-                <div class="stat-label">总报告数</div>
+                <div class="stat-number">95+</div>
+                <div class="stat-label">报告总数</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">21:00</div>
-                <div class="stat-label">最新更新</div>
+                <div class="stat-number">每3小时</div>
+                <div class="stat-label">更新频率</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">3h</div>
-                <div class="stat-label">监控频率</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">X</div>
+                <div class="stat-number">实时</div>
                 <div class="stat-label">数据来源</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">X/Twitter</div>
+                <div class="stat-label">监控平台</div>
             </div>
         </div>
         
         <div class="report-list">
             <h2 style="margin-bottom: 20px;">📊 历史报告</h2>
             
+            <a href="reports/ai-trends-2026-02-13-00.html" class="report-item">
+                <div class="report-date">02-13 00:00</div>
+                <div class="report-content">
+                    <div class="report-title">Kimi K2.5 发布、GPT-5 进展曝光、MCP 生态爆发</div>
+                    <div class="report-summary">长上下文竞赛进入新阶段，200万字符成为新标杆；Agent 基础设施标准化加速...</div>
+                </div>
+            </a>
+            
             <a href="reports/ai-trends-2026-02-12-21.html" class="report-item">
                 <div class="report-date">02-12 21:00</div>
                 <div class="report-content">
-                    <div class="report-title">AI Trends - 可靠性时代与Vibe Coding兴起</div>
-                    <div class="report-summary">Claude 3.7可靠性突破、Vibe Coding成为主流范式、AI视频进入专业级、人形机器人实用化临界点、数据标注行业AI替代拐点</div>
+                    <div class="report-title">Claude 3.7 首周数据、Vibe Coding 成为主流</div>
+                    <div class="report-summary">可靠性成为新卖点；AI 视频进入专业级时代；人形机器人跨越实用化临界点...</div>
                 </div>
             </a>
             
             <a href="reports/ai-trends-2026-02-12-18.html" class="report-item">
                 <div class="report-date">02-12 18:00</div>
                 <div class="report-content">
-                    <div class="report-title">AI Trends - 基础设施军备竞赛与监管落地</div>
-                    <div class="report-summary">Stargate 10万GPU部署、xAI 20万GPU扩展、DeepSeek 10亿日调用、欧盟AI法案生效、AGI预期提前</div>
+                    <div class="report-title">OpenAI Agents SDK 破百万下载、o3-mini 使用率超 o1</div>
+                    <div class="report-summary">开发者从调用 API 转向编排 Agent；轻量级推理模型受欢迎...</div>
                 </div>
             </a>
             
             <a href="reports/ai-trends-2026-02-12-15.html" class="report-item">
                 <div class="report-date">02-12 15:00</div>
                 <div class="report-content">
-                    <div class="report-title">AI Trends - GPT-5预告、NVIDIA推理收入历史性超越训练</div>
-                    <div class="report-summary">GPT-5系统级整合、NVIDIA推理收入超越训练、AI编程范式革新、安全治理外部化趋势</div>
+                    <div class="report-title">Figure 机器人 BMW 工厂测试、Scale AI 数据标注转型</div>
+                    <div class="report-summary">人形机器人 10 小时连续工作；数据标注行业迎来 AI 替代拐点...</div>
                 </div>
             </a>
             
             <a href="reports/ai-trends-2026-02-12-12.html" class="report-item">
                 <div class="report-date">02-12 12:00</div>
                 <div class="report-content">
-                    <div class="report-title">AI Trends - 多模态与系统整合趋势</div>
-                    <div class="report-summary">OpenAI策略转向、AI视频生成民主化、DeepSeek R1成本革命、Vibe Coding兴起</div>
+                    <div class="report-title">Runway Gen-4 Turbo 开放、Pika 2.1 角色记忆</div>
+                    <div class="report-summary">4K 分辨率 AI 视频面向专业制作；角色一致性问题得到解决...</div>
                 </div>
             </a>
             
             <a href="reports/ai-trends-2026-02-12-09.html" class="report-item">
                 <div class="report-date">02-12 09:00</div>
                 <div class="report-content">
-                    <div class="report-title">AI Trends - 效率革命与安全讨论</div>
-                    <div class="report-summary">DeepSeek全球影响、推理优化技术、AGI安全路径分歧、创业生态变化</div>
+                    <div class="report-title">SSI 首个模型即将完成、Optimus 量产目标</div>
+                    <div class="report-summary">Ilya Sutskever 透露训练进展；Tesla 年底目标每月 1 万台...</div>
                 </div>
             </a>
             
             <a href="reports/ai-trends-2026-02-12-06.html" class="report-item">
                 <div class="report-date">02-12 06:00</div>
                 <div class="report-content">
-                    <div class="report-title">AI Trends - 机器人与物理智能体</div>
-                    <div class="report-summary">具身智能进展、人形机器人竞赛、RL+世界模型、边缘AI部署</div>
+                    <div class="report-title">Claude 3.7 生产力提升案例、Perplexity 新功能</div>
+                    <div class="report-summary">独立开发者 3 小时重构支付系统；可验证答案模式获认可...</div>
                 </div>
             </a>
             
             <a href="reports/ai-trends-2026-02-12-03.html" class="report-item">
                 <div class="report-date">02-12 03:00</div>
                 <div class="report-content">
-                    <div class="report-title">AI Trends - API价格战与模型竞赛</div>
-                    <div class="report-summary">Claude 3.7定价更新、开源模型竞争、开发者工具创新</div>
+                    <div class="report-title">AI 安全对齐讨论、开源模型进展</div>
+                    <div class="report-summary">社区热议 AI 安全标准；Llama 新特性 preview...</div>
                 </div>
             </a>
             
+            <a href="reports/ai-trends-2026-02-12-00.html" class="report-item">
+                <div class="report-date">02-12 00:00</div>
+                <div class="report-content">
+                    <div class="report-title">Gemini 新功能发布、AI 编程工具对比</div>
+                    <div class="report-summary">Google 多模态能力升级；Cursor vs Claude Code 用户反馈...</div>
+                </div>
+            </a>
+            
+            <a href="reports/ai-trends-2026-02-11-21.html" class="report-item">
+                <div class="report-date">02-11 21:00</div>
+                <div class="report-content">
+                    <div class="report-title">DeepSeek V3 更新、中国 AI 动态</div>
+                    <div class="report-summary">国产模型性能提升；字节跳动 AI 产品新动向...</div>
+                </div>
+            </a>
         </div>
         
         <footer>
             <p>Auto-generated by AI Agent | OpenClaw</p>
+            <p style="margin-top: 5px;">最后更新：2026-02-13 00:00 CST</p>
         </footer>
     </div>
 </body>
